@@ -1,0 +1,794 @@
+[
+ [
+  "[MASK]/4/PFXNUM_EXCD_WARN6:The number of prefixes inIPv6 [vpn-instance-name]was [current-number], which exceeded\nthe alarm threshold [threshold-value].(InstanceId=[ULONG], MaxPrefixLimit=[ULONG])",
+  "RM"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_REMOVE:OID [oid] AP optical remove. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/NSSA_STATE_DISABLE:The status of the NSSA translator is set to Disabled. (ProcessId=[USHORT], AreaId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/STUB_RT_ONBT_TM_CRT: OSPF [Process-Id] creates TIMER of [Timer-Value] seconds to measure stub router state.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/AP_IOT_SERVER_START_FAIL_RESTORE:OID [oid] Successfully started the server used by the IoT card. (Cause: The UDP port is idle.) (APMAC=[OPAQUE], APName=[STRING],  ApIotCardId=[INTEGER], Port=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_FAN_INVALID_RESTORE:OID [oid] The fan module recovered from a complete function failure. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/2/IFAUTFAIL:OID [oid] A packet is received on a non-virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/MCBC_EXCEED:OID [oid] The number of multicast and broadcast packets received on the AP exceeds the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/OSPF_RCV_VERIFICATION: OSPF-INFO:OSPF receives verification request. (LocalComp=[LocalComp], PeerComp=[PeerComp], ProducerName=[ProducerName], Event=[Event])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/GRLSA_INVALID_PERIOD:OSPF [process-id] received invalid grace LSA, so TLV parsing period failed. (LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkId=[IPADDR], GracePeriod=[ULONG], LSAAge=[USHORT])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/BAD_IP_PACKET: OSPF Recv Bad packet (Process=[Process-Id], Type=[Type], SourceAddr=[SourceAddr], DestAddr=[DestAddr], IP len=[IPLen], OSPF Header-Len=[OspfLen], Area=[AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/IPPOOLUSEDOUTRESUME: OID [OID] The number of used addresses descends to alarm threshold. (PoolName=[OCTET], Threshold=[OCTET])",
+  "AM"
+ ],
+ [
+  "[MASK]/4/AP_COLD_BOOT:OID [oid] The AP cold boot. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/STA_INTERFERENCE_RESTORE: OID [oid] Jam of station is cleared notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/DEL_NBR_NO_NODE:OSPF [process-id] node is not found when the neighbor is deleted from pre-restart neighbor list. (RouterId=[IPADDR], IpAddress=[IPADDR], IfnetIndex=[IPADDR], IfnetType=[IPADDR], TransitAreaId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/RTRID_CONFLCT:OID [oid] Router IDs conflict in an intra area. (ProcessId=[integer], AreaId=[ipaddr], SelfIfnetIndex=[integer], NbrIpAddr=[ipaddr], RouterId=[ipaddr], NbrRtrId=[ipaddr])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_TX_POWER_TOO_LOW:OID [oid] AP optical module transfer power is too low notify. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/NSR_AMB_EXWARM_INFO: RM was notified that process [USHORT] exited the NSR-WarmUp phase.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/TRAP_AGE_LSA:Notify LSA aged out. (ProcessId=[USHORT],\nRouterId=[IPADDR], LsdbAreaId=[IPADDR], LsdbType=[ULONG], LsdbLsId=[IPADDR],\nLsdbRouterId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/NBR_LOSS_NORMAL: The PIM neighbor was lost. (NbrIntIndex=[NbrIntIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime] seconds)",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/PIM_ROUTE_THRESHOLD_active: The number of existed routing entries exceeded the global upper threshold. (LimitType=[LimitType], AddressFamily=[AddressFamily], CurrentCount=[CurrentCount], LimitCount=[LimitCount], ThresholdCount=[ThresholdCount], ReasonType=[ReasonType])",
+  "PIM"
+ ],
+ [
+  "[MASK]/2/AP_POWER_INVALID: OID [oid] Power is invalid for some reason. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/STUB_RT_TM_FIRE: OSPF [Process-Id] quits stub router state for overtime.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/RM_GETROUTERID:Invoking the RM GetRouterID failed. (FID=[STRING], LN=[ULONG], ReturnValue=[STRING])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/OGNLSA:OID [oid] An LSA is generated. (LsdbAreaId=[area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/RECV_ROUT_LIMIT_MSG: OSPF received route limit message from route management. (Instance ID=[InstanceId], TableId=[TableId], Message Type=[MsgTypeString])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/RESTORE_BEFORE_CFM:OSPF restored data in batches before CFM.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/NSSA_INTRVL_START:The timer of the NSSA translator is started. (ProcessId=[USHORT], AreaId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/WAPI_CERT_NEARLY_EXPIRED: OID [oid] The WAPI certificate is nearly expired. (SecurityProfileName=[STRING], CertType=[STRING], CertFileName=[STRING], CertStartTime=[STRING], CertEndTime=[STRING])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/DIS_IGPFA:Disable ASBR IGP forwarding address capability based on license.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/NBBRCHG:OID [oid] The status of the virtual neighbor changes. (VirtNbrArea=[area-id], VirtNbrRtrId=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], VirtNbrState=[neighbor-state], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/RM_CALL_ERROR:RM returned the value. (ProcessId=[USHORT], RmReturn=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AGELSA(OID)[1.3.6.1.2.1.14.16.2.13]: An LSA is aged. (LsdbAreaId=[area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/RCV_ERR_PACKET: OSPFv2 received error packet and dropped it.(ProcessId=[ProcessId], PktType=[PktType], ErrPktCnt=[ErrPktCnt], LocalComp=[LocalComp], PeerComp=[PeerComp], IfName=[IfName], AreaId=[AreaId], ErrPktReason=[ErrPktReason])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/ISSU_SMB_CMD_ERR:The SMB failed to run Command ([command]).",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/VINTF_NSR_OVERTIME_LIMIT: The virtual link interface go on process, as slave's ack didn't come for [ULONG] seconds. (NbrID=[STRING], IpAddr=[IPADDR], ProcessId=[USHORT], TransitAreaId=[STRING])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/AP_POWER_LIMITED_RESUME:OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_TEMPERATURE_TOO_HIGH:OID [oid] AP optical module temperature is too high notify. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/2/APPDATA_NOT_SYN_clear: Consistency between application configuration data and master main board configuration data.",
+  "CONFIGURATION"
+ ],
+ [
+  "[MASK]/4/HW_INVALID_JP: PIM receives an Invalid Join/Prune message. (GroupMappingOrigin=[GroupMappingOrigin], GroupMappingAddrType=[GroupMappingAddrType], GrpAddr=[GrpAddr], GrpPfxLen=[GrpPfxLen], GroupMappingRPAddrType=[GroupMappingRPAddrType], RPAddr=[RPAddr], GroupMappingPimMode=[GroupMappingPimMode], InvJPAddrType=[InvJPAddrType], InvJPOriginAddr=[InvJPOriginAddr], InvJPGrpAddr=[InvJPGrpAddr], InvJPRpAddr=[InvJPRpAddr], NbrIfIndex=[NbrIfIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime], NbrName=[NbrName], PimInstanceID=[PimInstanceID], PimInstanceName=[PimInstanceName])",
+  "PIM"
+ ],
+ [
+  "[MASK]/2/OSPF_ROUTE_BE_DEL_BY_PURGE_INEXACT_clear: OSPF routes advertised by the local device were not deleted by another device. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/NSSA_INTRVL_RESTART:The timer of the NSSA translator is restarted with newly configured value. (ProcessId=[USHORT], AreaId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_VERSION_CONFLICT_RESTORE:OID [oid] AP-version-not-recommended alarm Restore.",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_ADJACENT_CHANNEL_INTERFERENCE: OID [oid] The adjacent-channel interference exceeds the alarm threshold.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER], RSSI threshold percent=[INTEGER]%)",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/SMB_NSR_PROC_INFO: The SMB notified the AMB to activate or free process [process-id]. (InstanceId=[USHORT])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/OSPF_IF_STATE_CHANGE: The status of the non-virtual interface changes. (RouterId=[RouterId], IfIpAddress=[IfIpAddress], AddressLessIf=[AddressLessIf], IfState=[IfState], ProcessId=[ProcessId], AreaId=[AreaId], IfnetIndex=[IfnetIndex], LocalIfIpAddress=[LocalIfIpAddress], IfName=[IfName], InstanceName=[InstanceName], IfChgReason=[IfChgReason])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/OSPF_SMOOTH: OSPF-INFO:Smooth event happen between components. (LocalComp=[LocalComp], PeerComp=[PeerComp], ProducerName=[ProducerName], SmoothLevel=[SmoothLevel], ProcessId=[ProcessId], AreaTableId=[AreaTableId], SmoothEvent=[SmoothEvent])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/NBR_RES_HELPER_STAT_CHG: The neighbor exits from the restart helper state. (RouterId=[RouterId], NbrIpAddr=[NbrIpAddr], NbrAddressLessIndex=[NbrAddressLessIndex], NbrRtrId=[NbrRtrId], NbrRestartHelperStatus=[NbrRestartHelperStatus], NbrRestartHelperAge=[NbrRestartHelperAge], NbrRestartHelperExitReason=[NbrRestartHelperExitReason], AreaId=[AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/BSR_GRPLOC: In VPN instance \"[vpn-instance-name]\", the BSR packet whose group address [group-address]/[mask] was the local multicast address was ignored.",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/VAP_CREATE_FAIL: OID [oid] VAP create fail.(Reason=[STRING])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/hwAllocatedIpThresholdReachAlarm_active: The number of allocated IP addresses reached the threshold.(AlarmThreshold=[Threshold])",
+  "AM"
+ ],
+ [
+  "[MASK]/6/FLUSH_STAL_AREA_LSA:Flush stale area LSAs. (ProcessId=[USHORT])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/RADIO_CHANNEL_CHANGE:OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], Channel1=[OCTET], Channel2=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[OCTET], PreC-hannel2=[OCTET], APID=[INTEGER], NewChannelHasRadarChannel=[OCTET])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/OGNLSA(OID)[1.3.6.1.2.1.14.16.2.12]: An LSA is generated. (LsdbAreaId=[area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/IPCONFLICTDTC: The device detected an IP address conflict. (PoolName=[STRING], MacAddress=[STRING], IpAddress=[IPADDR])",
+  "AM"
+ ],
+ [
+  "[MASK]/3/PIM_RPF_RT_FLAPPING_active: The RPF route is flapping. (AddressFamily=[AddressFamily], SrcAddr=[SrcAddr], InstanceName=[InstanceName])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/AP_TYPE_MISMATCH:OID [oid] The configured and reported AP types are different. (APMAC=[OPAQUE], APName=[STRING], APActualType=[STRING], APConfigType=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/IPALLOCFAIL: Failed to allocate an IP address. (PoolName=[STRING], ClientId=[STRING], Reason=[STRING], UserType=[STRING])",
+  "AM"
+ ],
+ [
+  "[MASK]/6/DFT_ROUTE_RM_MODIFY:Modify the default route. (ProcessId=[USHORT], PreviousRouteEntryCost=[ULONG], PreviousNexthopIpAddress=[IPADDR], PreviousExitInterfaceIndex=[ULONG], CurrentRouteEntryCost=[ULONG], CurrentNexthopIpAddress=[IPADDR], CurrentExitInterfaceIndex=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/LEAVE_MULGRP_SUCCESS:Succeeded in leaving the multicast group. (MulticastGroupAddress=[IPADDR], InterfaceNetworkIndex=[ULONG], PhysicalIndex=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/RCV_1WAY_QUIT_HLPER:Received 1-Way event from neighbor, so exit the helper mode. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/PREFRENEWOK: An IPv6 prefix was renewed. (PoolName=[STRING], ClientId=[STRING], Prefix=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  "AM"
+ ],
+ [
+  "[MASK]/2/TNLGROUP_DOWN:OID [oid] The status of the tunnel group changed to Down. (Destination=[IPADDR], TunnelPolicy=[STRING])",
+  "RM"
+ ],
+ [
+  "[MASK]/4/VIFBADRX:OID [oid] An OSPF packet that is received on a virtual interface cannot be parsed. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], PacketType=[packet-type], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/INNER_BLE_BROKEN: OID [oid] The AP's internal BLE module fails. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_POE_PD_CONNECTED:OID [oid] A port detects connection of a PD. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/GET_MAX_EXT_ROUTE:Get the maximum route number per process [license-value] based on license.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/EN_ABR_FILTER:Enable ABR filter capability based on PAF.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/BAD_OPQID:Wrong opaque ID is configured for the interface. (ProcessId=[USHORT], InterfaceAddress=[IPADDR], OpaqueId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/ISSU_SMOOTH_ACROSS:The OSPF backup module received the ISSU_SMOOTH_ACROSS event from the ISSU management module.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/HANDLE_DELED_IPMSG:RM IM processed the event of deleting an IP address successfully. (IpAddress=[string], Mask=[string], Interface=[string])",
+  "RM"
+ ],
+ [
+  "[MASK]/3/NO_ELECT_E:The router was neither a DR nor a BDR, but received the packet to ALLDrouters. (ProcessId=[USHORT], PacketType=[USHORT], SourceAddress=[IPADDR], DestinationAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/GR_IF_CHANGE:OSPF [process-id] exited GR mode as interface status changed. (InterfaceName=[STRING], IpAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/FID_NBR_P2PLINK_RLSA:OSPF [process-id] found that the pre-restart neighbor [neighbor-router-id] is in p2p link in router LSA, on interface [interface-ip-address].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/LR_NOT_SET:LSDB resynchronization bit in neighbor's extended option TLV is off, quit GR or helper. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/LMTNUM_BGER_MAXPAF:RM rejected the setting\nof routing table limit for instance (ID) [instance-id] because the\nlimit number [limit-route-number] was greater than the maximum route\nlimit defined in PAF [paf-route-limit].",
+  "RM"
+ ],
+ [
+  "[MASK]/6/DFT_LSA_RCV_MAXAGE:Receive default LSA of maxage. (ProcessId=[USHORT], LsaType=[USHORT], AdvertisingRouter=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/FAIL_BFD_SERACH_IF_E:The associated interface to be deleted after the BFD session is Down is not found. (Instance=[USHORT], BFD associate interface=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/BACKUPJP_NORP:In VPN instance \"[vpn-instance-name]\",\nwhen trying to send a (*, [group-address]) Join message, PIM cannot\nobtain the RP. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/5/LSA_CHANGE_FREQUENT: LSAs change frequently\nnow. (ProcessId=[USHORT], AdvertiseRouterId=[IPADDR], TotalCount=[ULONG],\nBeginTime=[STRING], EndTime=[STRING], Type-1LsaCount=[ULONG], Type-2LsaCount=[ULONG],\nType-3LsaCount=[ULONG], Type-4LsaCount=[ULONG], Type-5LsaCount=[ULONG],\nType-7LsaCount=[ULONG], Type-9LsaCount=[ULONG], Type-10LsaCount=[ULONG],\nType-11LsaCount=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/IOT_CARD_CONNECT_SERVER:OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/DEL_NBR_PRLIST_VLINK:OSPF [process-id] deletes\nvirtual neighbor from pre-restart neighbor list. (RouterId=[IPADDR],\nTransitAreaId=[IPADDR], HelperVirtNbrCount=[ULONG], HelperShamLinkNbrCount=[ULONG],\nHelperNormalNbrCount=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/GET_MAX_PEER:Get the maximum peer number [PAF-value] per process based on PAF.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/WIDS_DETECT_NON_WIFI:OID [oid] Detected non-Wi-Fi devices. (Device count=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AC_SYSTEM_SWITCH: OID [oid] AC has system switched notify.(APMAC=[OPAQUE], APName=[STRING], APSN=[OCTET], SwitchType=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_FAN_INVALID:OID [oid] All functions of the fan module failed. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/2/AP_FAULT:OID [oid] AP changes to fault. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], APFAULTTIME=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/HELPER_TIMER_FIRED: OSPF exit helper mode because grace period timer for neighbor expired. (ProcessId=[ProcessId], InterfaceName=[InterfaceName], NbrIpAddr=[NbrIpAddr], AreaId=[AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/WLAN_SECURITY_PARA_SETTED: OID [oid] The alarm indicating no WLAN security parameter setting is cleared. (Parameter=[STRING])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/EN_TE:Enable TE capability based on PAF.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/GR_DELETE_HLP_TIMER:OSPF [process-id] helper waits for timer to be deleted for interface [interface-name].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/RST_NBR_IN_PTIAL_GR:OSPF [process-id] entered the partial GR mode and exited GR for neighbor [neighbor-information] on [network-type] interface [interface-name].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/HANDLE_DEL_IPMSG:RM IM received the event of deleting an IP address. (IpAddress=[string], Mask=[string], Interface=[string])",
+  "RM"
+ ],
+ [
+  "[MASK]/4/CFG_BACKUPSERVER_TRANS_FAILED: Failed to upload the current configurations to the backup server [server-ip] because [reason].",
+  "CONFIGURATION"
+ ],
+ [
+  "[MASK]/4/AP_UBOOT_MISMATCH:OID [oid] AP uboot is not match AP version.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/INVLID_SRC_HELLO:OSPF [process-id] received a hello packet with an invalid source address [source-address] from interface [interface-ip-address].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/IPV4_PREFIX_EXCEED:OID [oid] The number of IPv4 prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+  "RM"
+ ],
+ [
+  "[MASK]/1/MRTLIMIT:OID [oid] PIM entries cannot be created because the upper limit is crossed. (GrpAddrType=[integer], SrcAddr=[binary], GrpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/ASTPKT_GADD_ERR2:In VPN instance \"[vpn-instance-name]\", the received Assert packet with an incorrect group address [group-address] was ignored. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/6/BAD_LSA: OSPF Received bad LSA. (ErrorType=[ErrType], ErrorInformation=[ErrInfo], ProcessId=[ProcessId], InterfaceName=[IfName], LsaType=[LsaType], AdvertisingRouter=[AdvRtr], LinkStateId=[LSID], Count=[Counter], AreaId=[AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/PIM_VRF_ROUTE_THRESHOLD_active: The number of existed routing entries exceeded the vpn upper threshold. (LimitType=[LimitType], AddressFamily=[AddressFamily], VpnName=[VpnName], CurrentCount=[CurrentCount], LimitCount=[LimitCount], ThresholdCount=[ThresholdCount])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/GR_DRELECTION_UNSU:OSPF [process-id] Interface [interface-name] is under [gr-status], it can't keep DR and BDR consistent, so it will elect normally .",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/EEM_ROUTEINFO_CHG: The routing item changed. (detectorId=[DetectorId], network=[Network], mask=[Mask], type=[Type], protocol=[Protocol], nexthop=[Nexthop], interface=[Interface], preference=[Perf], cost=[Cost])",
+  "RM"
+ ],
+ [
+  "[MASK]/6/RCV_SHORT_DD_PKT:The DD packet received from neighbor is too short. (ProcessId=[USHORT], LengthOfDdPacket=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_REACH_WARNING:OID [oid] The number of online APs reaches 80% of the maximum specifications.(APMaxNum=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/STA_IP_CONFLIC_GATEWAY: OID [oid] The IP address of the user conflicts with that of the gateway. (APMAC=[OPAQUE], StaMac=[OPAQUE], APName=[STRING], IPAddress=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/STA_TAMPER_ATTACK: OID [oid] Tamper attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/VLINK_ID_CHANGE:Router ID changed, so reconfigure the virtual link on the peer. (ProcessId=[USHORT])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/B2S_BACKUP_FAILED: Failed to transfer the configuration file to server [server-ip] through [transport-type] when automatically backing up the configuration.",
+  "CONFIGURATION"
+ ],
+ [
+  "[MASK]/6/RCV_RM_EVNT:OSPF(AMB) backup process receive [RM-backup-event] event from RM. (SlaveHsbState=[slave-hsb-state])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/DFT_ROUTE_RM_CHANGE:Receive information from RM that default route has changed. (ProcessId=[USHORT], RouteEntryCost=[ULONG], NexthopIpAddress=[IPADDR], ExitInterfaceIndex=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AUTO_CHG_RTRID: OSPF automatically changes the router ID when detecting router ID conflict in the area. (ProcessId=[ProcessId], NewRouterId=[ConflictRtId], OldRouterId=[RouterId], ConflictRtrIdNum=[ConflictCount])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/ROAM_STA_NUM_EXCEED_THRESHOLD:OID [oid] AP roam user number exceed threshold notify. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/BLE_DETACHED_RESTORE:OID [oid] The BLE site detached restore. (BLEMAC=[OPAQUE(hex)])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/MP_JOINED_ON_ETHERNET:OID [oid] MP reached AC through the Ethernet port,and this MP doesn't setup mesh link in avoid of loopback.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_TEMPERATURE_TOO_LOW:OID [oid] AP optical module temperature is too low notify. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/QUIT_GR_LR_NSET:Neighbor's LSDB resynchronization bit is off, quit GR. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/SNR_DETECT_NOTSUPPORT:OID [OID] The port is Down, resulting in a failure to detect the network cable quality. (APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/DIS_IGP_TNL_EQ_CST:Disable IGP and tunnel equal-cost routes based on PAF.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/OSPF_3RD_ROUTE_BE_DEL_BY_PURGE_active: OSPF routes advertised by another device were deleted. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], TotalNodeNum=[hwOspfv2TotalNodeNum], Log in to the following devices to locate the faulty device: (1) HostName=[hwOspfv2PurgeHostName1], HostIpAddress=[hwOspfv2PurgeIpAddress1], RouterID=[hwOspfv2PurgeRouterId1] (2) HostName=[hwOspfv2PurgeHostName2], HostIpAddress=[hwOspfv2PurgeIpAddress2], RouterID=[hwOspfv2PurgeRouterId2] (3) HostName=[hwOspfv2PurgeHostName3], HostIpAddress=[hwOspfv2PurgeIpAddress3], RouterID=[hwOspfv2PurgeRouterId3])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_RX_POWER_TOO_LOW:OID [oid] AP optical module received power is too low notify. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical RxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/TRAP_NSSA_TRANS_CHG:Notify the change in NSSA translator role. (ProcessId=[USHORT], RouterId=[IPADDR], AreaId=[IPADDR], NssaTranslatorState=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/VAP_NUM_EXCEEDED: OID [oid] The number of VAP instances has exceeded the maximum. (Vap = [INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/GR_CRAT_LSA_TIMER:OSPF [process-id] interface [interface-name] creates timer to send grace LSA.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/VAP_NUM_EXCEEDED_CARD_SPEC_RESTORE: OID [oid] The number of VAP on the card is less than the maximum specifications. (Slot=[STRING], VAPCardSpec=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/RPF_SUPPRESS: In the VPN instance '[vpn-instance-name]', the rpf route to source ([source-address]) process was suppressed [Suppress-time] due to frequent change, and CpuUsage = [CpuUsage].",
+  "PIM"
+ ],
+ [
+  "[MASK]/2/NSSATRANCHG:OID [oid] The status of the NSSA translator changes. (AreaId=[area-id], ProcessId=[process-id], RouterId=[router-id], NSSATranslatorState=[translator-state], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/MCBC_EXCEED_RESTORE:OID [oid] The number of multicast and broadcast packets received on the AP does not exceed the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/PFX_MAX_NUM_CLEARED:The number of [table_name]\nprefixes in public instance reduced to [current_prefix_number], which\nwas below the maximum value [maximum_prefix_number].",
+  "RM"
+ ],
+ [
+  "[MASK]/6/BAKUP_IF:Backup interface. (InterfaceName=[STRING], InterfaceConfigInformation=[STRING])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/3/OVERFLOW:OID [oid] The LSDB overflows. (ProcessId=[process-id], RouterId=[router-id], ExtLsdbLimit=[lsa-limit], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/GR_FID_NBR_HELLO:OSPF [process-id] found that neighbor [neighbor-address] to restart is on the pseudo link source [sham-link-neighbor-address] and destination [destination-ip-address] and received hello packets from this neighbor.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_POWER_LIMITED:OID[oid] The AP works in Limited mode due to insufficient power supply.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_FAN_INSERT:OID [oid] Fan has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/PHY_IF_INFO:OSPF physical interface information (InterfaceName=[STRING], PhysicalInterfaceIndex=[STRING], RM physicalInterfaceIndex=[STRING], RmInterfaceType=[ULONG], RmInterfaceBandwidth=[ULONG], RmInterfaceMtu=[ULONG], ChangeType=[STRING])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/RECV_GRACE_INGR:OSPF [process-id] receives grace LSA on interface [interface-ip-address] during GR.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/IFBADRX(OID)[1.3.6.1.2.1.14.16.2.8]: An OSPF packet that is received on a non-virtual interface cannot be parsed. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address],PacketType=[packet-type], InstanceName=[instance-name])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/NBRLOSS:OID [oid] PIM neighbor loss. (NbrIntIndex=[integer], NbrAddrType=[integer], NbrAddr=[binary], NbrUpTime=[timetick], NbrIntName=[string], InstanceID=[integer], InstanceName=[string], NeighborLossReason=[integer])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/INV_PKT_TP:In VPN instance \"[vpn-instance-name]\", PIM received a PIM packet from [source-address] with unsupported packet type [packet-type]. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/6/BAD_LSU_PKT: OSPF Recv Bad packet (Process=[Process-Id], Type=[Type], SourceAddr=[SourceAddr], DestAddr=[DestAddr], IP len=[IPLen], OSPF Header-Len=[OspfLen], LSA count=[LsaCount], Area=[AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_OPTICAL_TX_POWER_TOO_HIGH:OID [oid] AP optical module transfer power is too high notify. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/BLE_LOW_POWER_RESTORE: OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/hwPublicIpv6PrefixThresholdExceed_active: The number of public IPv6 prefixes exceeded the threshold. (PrefixCount=[PrefixCount], Threshold=[Threshold])",
+  "RM"
+ ],
+ [
+  "[MASK]/2/OSPF_3RD_ROUTE_BE_DEL_BY_PURGE_INEXACT_active: OSPF routes advertised by another device were deleted, and the possibly faulty device did not support OSPF flush LSA source trace. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. Neither of the devices displayed in the display ospf flush-source-trace analysis-info command output is the faulty device. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], FlushLsaNum=[hwOspfv2FlushLsaNum], AffectedNodeNum=[hwOspfv2AffectedNodeNum], TotalNodeNum=[hwOspfv2TotalNodeNum], RuledOutDeviceNum=[hwOspfv2RuledOutDeviceNum], Interval=[hwOspfv2PurgeStatPeriod])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/SMB_GETSESSION_ERR: The SMB failed to get the destination of backup information.  (SessionType=[USHORT], DataLen=[USHORT], Key1=[ULONG], Key2=[ULONG], Key3=[ULONG], Key4=[ULONG], Key5=[ULONG], ErrCode=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/IPPOOLUSEDOUT: OID [OID] The number of used addresses exceeds alarm threshold. (PoolName=[OCTET], Threshold=[OCTET])",
+  "AM"
+ ],
+ [
+  "[MASK]/6/OSPFV2_PEER_FLAPPING_SUPPRESS_STATUS: The status of peer flapping suppress is changed.(ProcessId=[ProcessId], AreaId=[AreaId], ifAreaId=[ifAreaId], ifIndex=[ifIndex], ifName=[ifName], SuppressStatus=[SuppressStatus], SuppressReason=[SuppressReason])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/RCV_RSET_NBR_QUIT:Received neighbor reset event, so exit GR or helper. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/PIM_VRF_ROUTE_EXCEED_clear: The number of existed routing entries fell below the vpn upper limit.(LimitType=[LimitType], AddressFamily=[AddressFamily], VpnName=[VpnName], CurrentCount=[CurrentCount], LimitCount=[LimitCount],SrcAddr=[SrcAddr], GrpAddr=[GrpAddr], ReasonType=[ReasonType])",
+  "PIM"
+ ],
+ [
+  "[MASK]/6/BFD_ADD_DELETE_LIST:OSPF [process-id] neighbor [neighbor-address] is added to the deletion list.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/2/hwPublicIpv6PrefixExceed_active: The number of public IPv6 prefixes exceeded the maximum value. (PrefixCount=[PrefixCount], MaxValue=[MaxValue])",
+  "RM"
+ ],
+ [
+  "[MASK]/3/OSPF_SEQ_MIS_RESMOOTH: OSPF-INFO:The communication components started transmitting data again from the first piece because of the incorrect sequence number. (CurSeq=[CurSeq], RecvSeq=[RecvSeq], LocalComp=[LocalComp], PeerComp=[PeerComp])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/LOCK_CONFIGURATION: The system configuration was locked.(UserName=[UserName], Identifier=[Identifier], LockTime=[LockTime])",
+  "CONFIGURATION"
+ ],
+ [
+  "[MASK]/3/IM_PHY_IDX_NOMACH:RM obtained the address of the physical interface table from DB according to physical index [logical-index], and the returned value was [return-value] and the IFNET index was [ifnet-index].",
+  "RM"
+ ],
+ [
+  "[MASK]/6/RM_JOB:Invoking the RM JOB failed. (FID=[STRING], LN=[ULONG], ReturnValue=[STRING])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/HW_UPSTREAM_NOPIM: In the VPN instance, PIM is not enabled on the upstream interface. (VPNName=[VPNName], IfName=[IfName], DestAddr=[DestAddr])",
+  "PIM"
+ ],
+ [
+  "[MASK]/2/hwPublicIpv6PrefixExceed_clear: The number of public IPv6 prefixes falls below the maximum value. (PrefixCount=[PrefixCount], MaxValue=[MaxValue])",
+  "RM"
+ ],
+ [
+  "[MASK]/4/CHANNEL_UTIL_EXCEED_THRESHOLD:OID [oid] AP access channelutilization exceed threshold notify. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],ChannelUtil=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/POOL_LICENSE_AGE_RESTORE: OID [oid] The license resource pool stops aging. (Total number of licenses=[INTEGER], Number of local Shared licenses=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/AUTH_FAIL_PTP_E:Numbered P2P interface authentication failed. (ProcessId=[process-id], InterfaceAddress=[interface-ip-address], NeighborAddress=[neighbor-address], NeighborInterfacePhysicalIndex=[neighbor-interface-physical-index],\nAuthenticationFailureType=[authentication-failure-type])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_SERVICE_ALERT: OID [oid] The AP service will be unavailable after a period of time. (Reason=[OCTET], RemainTime=[OCTET])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/NOT_MULADD:In VPN instance \"[vpn-instance-name]\", the group address was not a multicast address. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/AP_POE_POWER_ON:OID [oid] A port is powered on. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/VAP_NUM_EXCEEDED_CARD_SPEC: OID [oid] The number of VAP on the card reaches the maximum specifications. (Slot=[STRING], VAPCardSpec=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_ADJACENT_CHANNEL_INTERFERENCE_RESTORE: OID [oid] The adjacent-channel interference alarm is cleared.(APMAC=[OPAQUE],  RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/GR_GRLSA_PLCY_FAIL:OSPF [process-id] received invalid grace LSA, so TLV parsing policy checking failed. (LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/PUBLIC_IPV4_PREFIX_THRESHOLD_EXCEED:OID [oid] The number of public IPv4 prefixes exceeded the threshold. (PrefixCount=[Integer], Threshold=[Integer])",
+  "RM"
+ ],
+ [
+  "[MASK]/6/ONE_IF_EXIT_WAITING:OSPF [process-id] Interface [interface-name] exits waiting state, interface in waiting state count is [waiting-state-count].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/hwCfgB2SOperate: Begin to back up the current configuration to the server.",
+  "CONFIGURATION"
+ ],
+ [
+  "[MASK]/4/STA_REACH_WARNING_RESTORE: OID [oid] The number of stations is less than 80% of the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/RCH_ALLVRF_RT_LMT:The number of VPN-Instances routes reached the upper limit [paf-vpn-route-limit] in the system when the upper limit of routes in the routing table\nin all instances was checked.",
+  "RM"
+ ],
+ [
+  "[MASK]/6/GRP_ADDR_IS_LOCAL:In VPN instance [vpn-instance-name], because the group address [group-address]/[group-mask-length] is a link/node local address, the [message-type] message received from the interface [interface-name] was ignored.\n(FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/6/CONFIRM_TIMEOUT:The operation of [STRING]:\nA user did not input any word in [ULONG]s, and the system automatically\nexited from the operation.",
+  "RM"
+ ],
+ [
+  "[MASK]/6/LSA_SEQ_WRAP: LSA's sequence number wraps. (ProcessId=[ProcessId], LsaType=[LsaType], AdvertisingRouter=[RouterId], LinkId=[LinkId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/LSA_ELMNT_NLL:OSPF external LSA match element is NULL.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/PIMPKT_CHKSUM_ERR: In VPN instance \"[vpn-instance-name]\", the PIM packet received from [source-address] was discarded because the checksum of this packet was incorrect.",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/IF_NO_RES_NBR_EXIT:OSPF [process-id] cannot exit the helper mode on interface [interface-ip-address] as no restarting neighbor is found on this interface.",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AE_VIA_AC_ABNORMAL: OID [oid] An exception occurred in the AeroScout location function (via AC). (Reason=[OCTET])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_SIPFPM_FLOW_OVERLOAD: OID [oid] The iPCA flow usage on the AP is high. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], CurSipfpmFlowRate=[INTEGER]%, UpperSipfpmFlowThreshold=[INTEGER]%, LoweSipfpmFlowThreshold=[INTEGER]%)",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/PPTIM_ERR2:In VPN instance [vpn-instance-name], setting the Prune Timer of the entry ([source-address], [group-address]) on the interface [interface-name] to [time] failed. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/4/AP_POWER_LIMITED_RESUME:OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/RCV_1WAY_QUIT_GR:Receive 1-Way event from neighbor, so quit GR. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/PREFALLOCFAIL: Failed to allocate an IPv6 prefix. (PoolName=[STRING1], ClientId=[STRING2], Reason=[STRING3], UserType=[STRING4])",
+  "AM"
+ ],
+ [
+  "[MASK]/4/BAD_MASK_LEN:In VPN instance \"[vpn-instance-name]\", this mask length was [mask-length], but PIM-SSM supported only the source address with the 32-bit host mask. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/2/WAPI_CERT_INVALID: OID [oid]  The WAPI certificate is invalid. (SecurityProfileName=[STRING], CertType=[STRING], CertFileName=[STRING], CertStartTime=[STRING], CertEndTime=[STRING])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/AP_POWER_INVALID_RESUME: OID [oid] Power resume from invalid situation. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/RS_HELLO_RECV_E:OSPF [process-id] quit GR hello with RS-bit set received when UNDER_GR for neighbour [neighbor-address].",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/JPPKT_SADDR_ERR:In VPN instance \"[vpn-instance-name]\", PIM-SM ignored the received Join/Prune packet with an incorrect source address. (FlCode=[STRING][ULONG])",
+  "PIM"
+ ],
+ [
+  "[MASK]/5/WLAN_DETECT_ROUGE_DEVICE: Detected rogue device. (Device MAC=[OPAQUE], Device type=[INTEGER], Device channel=[INTEGER], Device RSSI =[LONG], Device SSID=[OCTET], Monitor AP name=[OCTET], Monitor AP MAC=[OPAQUE], Monitor AP radio =[INTEGER], Monitor AP IP=[OCTET], Monitor AP channel=[INTEGER], Monitor AP ID =[INTEGER])By default, this log is not recorded. If it needs to be recorded, run therogue-device log enablecommand in the WLAN view.",
+  "WLAN"
+ ],
+ [
+  "[MASK]/6/GET_RM_ROUTERID:OSPF got router ID from RM. (RouterId=[IPADDR])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/AP_FMEA_FAULT_IIC_CHANNEL:OID [oid] AP IIC channel fault. (AP MAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/RADIO_POWER_CHANGE:OID [oid] Power of radio is changed.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], ACTUAL POWER=[INTEGER], APID=[INTEGER])",
+  "WLAN"
+ ],
+ [
+  "[MASK]/4/WLAN_LOG_USER_WARN: %s, the user choose %c",
+  "WLAN"
+ ],
+ [
+  "[MASK]/3/HSB_SILENT_IF_ERR:RM did not find the interface. (ProcessId=[USHORT], InterfaceName=[STRING], SilentInterfaceCount=[ULONG])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/4/CRPADV_GRPINV: In VPN instance \"[vpn-instance-name]\", the group whose group address [group-address]/[mask] was not the multicast address was ignored.",
+  "PIM"
+ ],
+ [
+  "[MASK]/6/NSR_AREARECV_INFO: The SMB received the notification from the AMB. Now area [ULONG]'s data is acceptable. (InstanceId=[USHORT], ProcId=[USHORT])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/1/OSPF_3RD_ROUTE_BE_DEL_BY_PURGE_EXACT_clear: OSPF routes advertised by another device were not deleted. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId])",
+  "OSPF"
+ ],
+ [
+  "[MASK]/6/SUM_ADV_DEL_TM_CRT:OSPF [process-id] create TIMER to delay to advertising the summary LSA of range [summary-ip-address]/[summary-ip-address-mask] for [delay-interval] seconds.",
+  "OSPF"
+ ]
+]
