@@ -1,0 +1,450 @@
+[
+ [
+  [
+   "TRILL/[MASK]/TRILL_LSDB_OVERFLOW: TRILL-INFO: TRILL LSDB was overflow.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the TRILL Link State Database (LSDB) has overflowed, which can lead to routing issues and potential network instability. This is a serious problem that can impact the normal operation of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PIM/[MASK]/SOCK_ERR1:In VPN instance [vpn-instance-name], PIM failed to set socket option that multicast joined the PIM group. The error code was [error-code], the interface was [interface]. (FlCode=[STRING][ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in setting a socket option for multicast joining the PIM group within a specific VPN instance. This failure could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "MCMD/[MASK]/LHB_OVER90S: The multicore process [STRING] is killed because it has lost the heartbeat for more than 90s.(Slot=[STRING], Vcpu=[ULONG], Pid=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a multicore process has been killed due to losing the heartbeat signal for more than 90 seconds. This signifies a critical issue where a core process has failed to communicate with the system within a specified time frame, potentially leading to system instability or failure. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/GRINTFDWNERR: Interface [STRING] state changed in restarting router, so prematurely exit graceful restart and reset OSPFv3 [ULONG] process.",
+   "Error"
+  ],
+  "Reason: The log entry indicates an error in the OSPFv3 protocol where the interface state changed in a restarting router, causing a premature exit of the graceful restart process and a reset of the OSPFv3 process. This issue could potentially disrupt the normal operation of the OSPFv3 protocol and impact network connectivity. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BGP/[MASK]/RTID_NULL: Failed to establish the BGP connection because the router ID was unavailable. (VpnInstance=[VpnInstance])",
+   "Info"
+  ],
+  "Error-prone case: BGP/[MASK]/RTID_NULL: Failed to establish the BGP connection because the router ID was unavailable. (VpnInstance=[VpnInstance]), Ground-Truth Label: Info. Reason: The log entry indicates a failure to establish a BGP connection due to the unavailability of the router ID. This message is informative about the specific reason for the connection failure and does not indicate a serious problem that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/ISIS_DATABASE_OVERLOAD: The overload state of IS-IS LSDB changed. (isisSysInstance=[isisSysInstance], isisSysLevelIndex=[isisSysLevelIndex], isisSysLevelOverloadState=[isisSysLevelOverloadState])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the overload state of the IS-IS Link State Database (LSDB), which is a critical component of the IS-IS routing protocol. An overload state in the LSDB can lead to routing issues and network instability, impacting the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RIP/[MASK]/GR_SND_ABORT: Sending abort notification to neighbor [IPADDR] on interface [InterfaceName]. (ProcessId=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that an abort notification is being sent to a neighbor on a specific interface in the context of the RIP (Routing Information Protocol). Sending an abort notification typically signifies a serious issue or problem in the routing process, such as a failure or disruption in communication with the neighbor router. This action is crucial for maintaining the stability and consistency of the routing table. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SYSTEM/[MASK]/HAF_SWITCH_SUCCESS: Succeeded to run slave switch with SlvSwitchIndex [SlvSwitchIndex], ChassisNum[ChassisNum], SlaveSwitchSrc[SlaveSwitchSrc], SlaveSwitchDst[SlaveSwitchDst].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a successful switch operation in the system, specifically running a slave switch with certain parameters. This message does not indicate any serious problems or errors that could affect the normal operation of the system. It is simply an informative message about the successful execution of a switch operation. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "L2IFPPI/[MASK]/MAC_CFG_ERROR:The system MAC address [STRING] has been configured as a static or blackhole MAC address.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a configuration error related to the MAC address on the system. Specifically, it mentions that the MAC address has been configured as a static or blackhole MAC address, which could lead to network connectivity issues or security vulnerabilities. This type of misconfiguration can cause serious problems and impact the normal operation of the system, hence the severity of this log is high and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "WLAN/[MASK]/AP_POWER_LIMITED_RESUME:OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   "Info"
+  ],
+  "Error-prone case: WLAN/[MASK]/AP_POWER_LIMITED_RESUME:OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER]), Ground-Truth Label: Info. Reason: The log entry describes the AP (Access Point) resuming from a limited power mode, providing detailed information about the AP's power management process and configuration parameters. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/LSA_RX_VIRTPTP_E:OSPF [process-id] RetransmitLSAType [lsa-type], LinkId [link-id], AdvertisingRouter [advertising-router-id], NeighborAddress [neighbor-address] PhysicalIndex [physical-index].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a retransmission of a Link State Advertisement (LSA) in OSPF, specifically for a virtual point-to-point link. This retransmission could be due to a communication issue or inconsistency in the LSDB. It signifies a potential problem in the network topology or routing information, which could impact the stability and correctness of OSPF routing. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BGP/[MASK]/MEMORY_RESTORE:The message that memory was restored was received from the RM.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that memory was restored, which could potentially indicate a serious problem related to memory management or system stability. Memory restoration could be a critical operation that may impact the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/GR_IF_CHANGE:OSPF [process-id] exited GR mode as interface status changed. (InterfaceName=[STRING], IpAddress=[IPADDR])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that OSPF (Open Shortest Path First) has exited Graceful Restart (GR) mode due to a change in interface status. This change in interface status could potentially disrupt the routing operations and stability of the network. As GR mode is a mechanism used to maintain routing information during a planned restart, exiting this mode unexpectedly could lead to routing inconsistencies and network instability. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/GR_EXIT_GR_UNSU:OSPF [process-id] exited GR Unsuccessfully.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the OSPF process exited Graceful Restart (GR) unsuccessfully. Graceful Restart is a mechanism used in OSPF to minimize the impact of a restart on network traffic. A failed GR could potentially disrupt network operations and lead to routing issues. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RSVP/[MASK]/LOOP_RESV:There is a loop in resv message (IngressLsrId=[IPADDR], TunnelId=[USHORT], EgressLsrId=[IPADDR]), the IP address [LoopAddress] conflicted with other router.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a loop in the reservation (resv) message, which can lead to network instability and potential routing issues. The conflict with the IP address [LoopAddress] suggests a serious problem in the network communication, which could disrupt the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RRPP/[MASK]/ISSUSTATE:The ISSU working status of RRPP is [status]. (Time=[ULONG])",
+   "Info"
+  ],
+  "Reason: The log entry provides information about the In-Service Software Upgrade (ISSU) working status of RRPP (Resilient Ring Protection Protocol). It indicates the current status of the ISSU process without indicating any serious problems or errors. This message is informative about the operational status of the system and does not suggest any critical issues that could impact the normal operation of the network device. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/GRSLFORGNTWKMSSERR: Exited graceful restart as self originated Network-LSAs were not received from the neighbor [STRING] on interface [STRING] during database synchronization for OSPFv3 process [ULONG].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the system exited graceful restart due to the absence of self-originated Network-LSAs from a neighbor during database synchronization for the OSPFv3 process. This situation can lead to network instability or incorrect routing information, which are serious problems affecting the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RIP/[MASK]/RIP_INVALID_MTU: RIP could not run on interface [Interface] with the MTU as [MTU].",
+   "Info"
+  ],
+  "Error-prone case: RIP/[MASK]/RIP_INVALID_MTU: RIP could not run on interface [Interface] with the MTU as [MTU]., Ground-Truth Label: Info. Reason: The log entry indicates that RIP (Routing Information Protocol) could not run on a specific interface due to an invalid MTU (Maximum Transmission Unit) value. This message is informative about the configuration issue related to the MTU setting on the interface, but it does not indicate a serious problem that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ACLE/[MASK]/RESOURCE_APPLY:\"[STRING]\"",
+   "Error"
+  ],
+  "Reason: The log entry indicates a resource apply operation related to Access Control List Entries (ACLE). This operation is critical for controlling access to resources and ensuring security within the network. Any issues or failures in applying these ACL entries could potentially lead to security vulnerabilities or unauthorized access. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SRM/[MASK]/POWON:Power supply in slot [ULONG] works normally.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the power supply in a specific slot is working normally. This message is an informative message about the status of the power supply unit, indicating that it is functioning as expected. It does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/EXT_STUB_E:As-external-LSAs received from neighbor in stub area. (ProcessId=[USHORT], NeighborRouterId=[IPADDR], LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkId=[IPADDR])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that external LSAs are being received from a neighbor in a stub area in OSPF. This is a serious problem as stub areas are not supposed to receive external LSAs according to OSPF protocol rules. This situation could lead to routing issues and potential network instability. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/HSB_SILENT_IF_ERR:RM did not find the interface. (ProcessId=[USHORT], InterfaceName=[STRING], SilentInterfaceCount=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the Routing Manager (RM) did not find the specified interface, which could potentially lead to routing issues or connectivity problems. This is a serious problem that could impact the normal operation of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/RCV_ERR_PACKET: OSPFv2 received error packet and dropped it.(ProcessId=[ProcessId], PktType=[PktType], ErrPktCnt=[ErrPktCnt], LocalComp=[LocalComp], PeerComp=[PeerComp], IfName=[IfName], AreaId=[AreaId], ErrPktReason=[ErrPktReason])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that OSPFv2 received an error packet and dropped it, which could potentially indicate a serious problem with the OSPF routing protocol. Dropping error packets can lead to network instability or routing issues. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ISIS/[MASK]/ISIS_SYS_ID_CONFLICT: System ID may conflict.(hwisisSysInstance=[hwisisSysInstance], hwisisSysLevelIndex=[hwisisSysLevelIndex], OwnSystemId=[OwnSystemId], sysProcIndexofDyname=[sysProcIndexofDyname], OwnDynamicName=[OwnDynamicName], AdjSystemId=[AdjSystemId], AdjDynamicName=[AdjDynamicName], LocalIP=[hwIsisLocalIP], AdjIP=[hwIsisAdjIP], RemoteIP=[hwIsisRemoteIP])",
+   "Info"
+  ],
+  "Reason: The log entry indicates a potential conflict in the System ID within the ISIS protocol. It provides detailed information about the system IDs, dynamic names, and IP addresses involved in the conflict. However, it does not explicitly state any serious problems or errors that could impact the normal operation of the system. Instead, it serves as an informative message about a possible conflict that may need to be addressed. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PIM/[MASK]/ERR_UNIADD:In VPN instance \"[vpn-instance-name]\", the unicast address in the received PIM packet could not be decoded. (FlCode=[STRING][ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a problem with decoding the unicast address in a received PIM packet within a VPN instance. This issue could potentially disrupt the communication within the VPN network and cause connectivity problems. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SRM/[MASK]/TXPOWER_EXCEEDMINORR:Optical module in interface [STRING] exception, TX power is too low.",
+   "Error"
+  ],
+  "Reason: The log entry indicates an exception with the optical module in the interface, specifically stating that the transmit (TX) power is too low. This issue can lead to communication failures or degraded performance, impacting the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DEFD/[MASK]/HOSTCAR_DROP:Rate of packets to cpu exceeded the HOSTCAR limit. (CarID=[ULONG], ExceededPacketCount=[STRING], PacketInfo=[STRING])",
+   "Info"
+  ],
+  "Error-prone case: DEFD/[MASK]/HOSTCAR_DROP:Rate of packets to CPU exceeded the HOSTCAR limit. (CarID=[ULONG], ExceededPacketCount=[STRING], PacketInfo=[STRING]), Ground-Truth Label: Info. Reason: The log entry indicates that the rate of packets sent to the CPU has exceeded the HOSTCAR limit. This is an informative message about the network traffic exceeding a specific threshold, which may impact the performance of the system but does not indicate a serious problem or error that would disrupt the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/RETURN_ERROR:Function returned an incorrect value. (ErrorValue=[USHORT])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a function returned an incorrect value, specifically an ErrorValue of type USHORT. This message is informative about the internal operations of the system and does not indicate a serious problem that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "IKE/[MASK]/MODECFG_ADDR_ALLOC_FAILED:IP address allocation for the IKE peer named [peer-name] at the server side failed during negotiation.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in IP address allocation for an IKE peer during negotiation. This failure could potentially disrupt the establishment of secure communication channels between peers, leading to security vulnerabilities or connectivity issues. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ISSU/[MASK]/FSM_SETFASTREBOOOT:The upgrade mode of slot [slot-id] was set to fast reboot because [reason].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the upgrade mode of a specific slot was set to fast reboot due to a certain reason. Fast reboot is typically used during an In-Service Software Upgrade (ISSU) process to minimize downtime and maintain service availability. However, setting the upgrade mode to fast reboot can be risky as it may lead to service disruptions or potential issues if not handled properly. Therefore, this log entry is related to a critical operation that could impact the system's stability and functionality, making it appropriate to label it as an Error."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/RLMT_NTFY_RT_DELFAIL: Route-Limit: OSPFv3 failed to notify RM after uninstalling all the routes. (VpnInstanceName=[STRING])",
+   "Info"
+  ],
+  "Error-prone case: OSPFV3/[MASK]/RLMT_NTFY_RT_DELFAIL: Route-Limit: OSPFv3 failed to notify RM after uninstalling all the routes. (VpnInstanceName=[STRING]), Ground-Truth Label: Info. Reason: The log entry describes a situation where OSPFv3 failed to notify the Route Manager (RM) after uninstalling all routes, which is an informative message about the internal operations of the system. It does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/LSA_ELMNT_NLL:OSPF external LSA match element is NULL.",
+   "Info"
+  ],
+  "Reason: The log entry indicates a situation where the OSPF external LSA match element is NULL. This message is informative about a specific element being NULL in the OSPF external LSA, but it does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/ISSU_SMB_CMD_ERR:The SMB failed to run Command ([command]).",
+   "Info"
+  ],
+  "Reason: The log entry indicates an issue with the SMB (Server Message Block) failing to run a command. This message is informative about a specific command failure within the system, but it does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "MSDP/[MASK]/msdpBackwardTransition_active: MSDP peer exit the established state. (RemoteAddr=[RemoteAddr], PeerState=[PeerState], InstanceName=[InstanceName], ExitReason=[ExitReason])",
+   "Error"
+  ],
+  "Error-prone case: MSDP/[MASK]/msdpBackwardTransition_active: MSDP peer exit the established state. (RemoteAddr=[RemoteAddr], PeerState=[PeerState], InstanceName=[InstanceName], ExitReason=[ExitReason]), Ground-Truth Label: Error. Reason: The log entry indicates that an MSDP peer has exited the established state, which could potentially disrupt the normal operation of the MSDP protocol. This event signifies a serious problem in the network communication, as it may lead to connectivity issues or data inconsistency. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RSVP/[MASK]/REACH_PSB_MAXNUM:Reached the maximum of PSBs. (MaxNumber=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the system has reached the maximum number of Path State Blocks (PSBs), which are used in RSVP (Resource Reservation Protocol) for managing resource reservations in a network. This situation can lead to potential issues with resource allocation and could impact the proper functioning of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DHCP/[MASK]/DHCPV6_SERVER_DETECT: A NEW SERVER IS FOUND. (SERVER INFO: IP Address=[STRING], MAC Address=[STRING], Interface=[STRING])",
+   "Error"
+  ],
+  "Reason: The log entry indicates the detection of a new DHCPv6 server, which could potentially lead to conflicts or unauthorized access to network resources. This situation poses a security risk and could disrupt the normal operation of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/LSA_RX_E:Retransmitted LSA . (ProcessId=[USHORT], LSAType=[USHORT], LinkId=[IPADDR], AdvertisingRouter=[IPADDR], NeighborAddress=[IPADDR])",
+   "Error"
+  ],
+  "Reason: The log entry indicates the receipt of a retransmitted Link State Advertisement (LSA) in the OSPF protocol. Retransmitted LSAs can indicate network instability or communication issues, which can potentially lead to routing problems or network outages. This is a serious problem that can impact the normal operation of the system, hence the severity of this log is high and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "FEI/[MASK]/hwTrunkMemberChange: Eth-Trunk member interface change. (Type=[hwType], TrunkIfIndex=[hwEthTrunkIfIndex], TrunkName=[hwTrunkName], PortIfIndex=([hwPortIfIndexList]), PortName=([hwPortNameList]))",
+   "Info"
+  ],
+  "Reason: The log entry describes a change in the member interfaces of an Ethernet trunk (Eth-Trunk). It provides details such as the type of interface, trunk index, trunk name, port index, and port name. This message is informative about the configuration changes in the Ethernet trunk setup, without indicating any serious problems or errors. It is a normal operation message that does not impact the system's functionality. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/IS_CFG_ERR: ISIS-INFO: The component configuration failed. (Comp=[Comp], MsgType=[MsgType], OperCode=[OperCode], ClassId=[ClassId], ErrCode=[ErrCode], Reason=[Reason])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a configuration error in the ISIS component, which is a critical networking protocol. The failure in component configuration could lead to network instability or connectivity issues. The log provides detailed information about the failed configuration, including component, message type, operation code, class ID, error code, and reason for the failure. This log entry is related to a serious problem that could impact the normal operation of the system, hence it is appropriately labeled as Error."
+ ],
+ [
+  [
+   "ALML/[MASK]/CANBUSNODERESUME: The CANbus node of [STRING] resumed the normal state.",
+   "Info"
+  ],
+  "Error-prone case: ALML/[MASK]/CANBUSNODERESUME: The CANbus node of [STRING] resumed the normal state., Ground-Truth Label: Info. Reason: The log entry indicates that the CANbus node has resumed its normal state, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could affect the system's functionality. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BFD/[MASK]/DELSESS_SYS:BFD session is deleted because of [delete-reason]. (Discriminator=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a BFD (Bidirectional Forwarding Detection) session is being deleted due to a specific reason provided in the log message. The deletion of a BFD session can indicate a serious problem or issue with the network connectivity or stability. BFD sessions are crucial for detecting link failures quickly in network environments, and the deletion of a session could impact the network's ability to detect and respond to failures effectively. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "CSSM/[MASK]/FASTUPGRADEROLLBACK: CSS fast upgrade fails, causing chassis[SLOT] to roll back. The reason is: [STRING].",
+   "Info"
+  ],
+  "Error-prone case: CSSM/[MASK]/FASTUPGRADEROLLBACK: CSS fast upgrade fails, causing chassis[SLOT] to roll back. The reason is: [STRING]. Ground-Truth Label: Info. Reason: The log entry describes a fast upgrade failure in the CSS module, resulting in a rollback of the chassis. While this event may indicate a disruption in the system, it is more of an informative message about the upgrade process and its consequences rather than a serious problem affecting the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/IS_ADD_NEIGHBOR_TLV_FAILURE: ISIS [ProcessId] failed to add Level-[level] neighbor TLV. (NeighborID=[NeighborId], InterfaceName=[InterfaceName], MTID=[MTID])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in adding a neighbor TLV in the ISIS protocol, which is crucial for establishing and maintaining neighbor relationships. This failure could potentially disrupt the communication and routing within the network, leading to serious problems. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/RCV_LSU_SHORT_LSA:The LSU packet received from neighbor is too short. (ProcessId=[USHORT], LengthOfLsuPacket=[ULONG], LengthOfLsaData=[ULONG])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the LSU packet received from a neighbor is too short, which could potentially indicate a problem with the transmission of data. However, this message is informative about the specific details of the received packet and does not directly indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ENGINE/[MASK]/SESSLMT_LESS:The number of sessions fell below the upper limit.(SyslogId=[ULONG], Sessions=[ULONG], Threshold=[ULONG], slot=[ULONG], cpu=[ULONG])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the number of sessions has fallen below the upper limit, which is an informative message about the system's session management. It does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/IN_BAD_VER_E:Receive bad OSPF version number. (ProcessId=[USHORT], PacketType=[USHORT], NeighborAddress=[IPADDR], DestinationAddress=[IPADDR], ReceivedVersionNumber=[USHORT], CurrentVersionNumber=[INTEGER])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical issue where the system received a bad OSPF version number, which could potentially lead to communication errors or inconsistencies in the OSPF network. This type of error can disrupt the routing protocol operation and cause network instability. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OPSA/[MASK]/SCRIPT_LOG: OPS: [message] (user=\"[script-name]\", session=[session-id])This log is a user-defined log.",
+   "Info"
+  ],
+  "Reason: The log entry indicates a user-defined log message related to a script execution in the system. It includes information about the script name and session ID. This message is informative and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "UPDATE/[MASK]/LOAD_FAIL:Failed to load the signature database. (SyslogId=[ULONG], Module=[STRING], Slot=[ULONG], CPU=[ULONG], LoadVersion=[STRING], Duration(s)=[ULONG], Reason=\"[STRING]\")",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical failure in loading the signature database, which is essential for the proper functioning of the system. This failure could potentially lead to security vulnerabilities or operational issues. The message explicitly states that the loading process has failed, highlighting a serious problem that needs immediate attention. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PIM/[MASK]/HOLDTIME_LESS_INL: In the VPN instance, after the BSR holdtime and sending interval were configured, the BSR holdtime was less than the sending interval. (VPNName=[VPNName], HoldTime=[HoldTime], SendInt=[SendInt])",
+   "Error"
+  ],
+  "Reason: The log entry describes a configuration issue in the VPN instance where the BSR holdtime is set to be less than the sending interval. This misconfiguration can lead to instability in the network and potential disruptions in the communication between devices. It indicates a serious problem that could impact the normal operation of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SRM/[MASK]/LSWTEMP_RESUME: The [STRING1] temperature of [STRING2] fell below the upper limit. (Value=[ULONG1], UpperThreshold=[ULONG2], LowerThreshold=[ULONG3])",
+   "Info"
+  ],
+  "Error-prone case: SRM/[MASK]/LSWTEMP_RESUME: The [STRING1] temperature of [STRING2] fell below the upper limit. (Value=[ULONG1], UpperThreshold=[ULONG2], LowerThreshold=[ULONG3]), Ground-Truth Label: Info. Reason: The log entry provides information about the temperature of a specific component falling below the upper limit. It includes details such as the actual value, upper threshold, and lower threshold. This message is informative about the temperature monitoring system and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SOCKET/[MASK]/SOCKNOTEXIST:The current socket did not exist. (TaskName=[STRING], Socket=[STRING], ProtocolName=[STRING])",
+   "Info"
+  ],
+  "Error-prone case: SOCKET/[MASK]/SOCKNOTEXIST:The current socket did not exist. (TaskName=[STRING], Socket=[STRING], ProtocolName=[STRING]), Ground-Truth Label: Info. Reason: The log entry indicates that the current socket does not exist, which is an informative message about the state of the system. It does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "TRILL/[MASK]/TRILL_RECV_SMALL_RLT_LSP: TRILL receive LSP with small Remaining Lifetime. (trillSysInstance=[hwTrillInstanceID], ifIndex=[ifIndex], ifName=[IfName], trillAdjSysID=[hwTrillSysID], trillPduLSPid=[hwTrillPduLspId], trillRemainingLifetime=[hwTrillRemainingLifetime])",
+   "Info"
+  ],
+  "Error-prone case: TRILL/[MASK]/TRILL_RECV_SMALL_RLT_LSP: TRILL receive LSP with small Remaining Lifetime. (trillSysInstance=[hwTrillInstanceID], ifIndex=[ifIndex], ifName=[IfName], trillAdjSysID=[hwTrillSysID], trillPduLSPid=[hwTrillPduLspId], trillRemainingLifetime=[hwTrillRemainingLifetime]), Ground-Truth Label: Info. Reason: The log entry describes a situation where a TRILL (Transparent Interconnection of Lots of Links) node receives an LSP (Link State PDU) with a small Remaining Lifetime. This message provides information about the state of the TRILL network and does not indicate a serious problem or error that could impact the system's normal operation. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DHCP/[MASK]/DHCP_SERVER_DETECT:A NEW SERVER IS FOUND. (SERVER INFO : IP Address = [IPADDR], MAC Address = [STRING1], Interface = [STRING2], PeVlan = [STRING3], CeVlan = [STRING4])",
+   "Error"
+  ],
+  "Reason: The log entry indicates the detection of a new DHCP server, which could potentially lead to conflicts or unauthorized DHCP server usage in the network. This situation poses a serious risk to the network's stability and security, as it may result in incorrect IP address assignments or network disruptions. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SVXLAN/[MASK]/SVXLAN_PORT_OCCUPIED: VXLAN port [STRING] has been occupied by other services.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a VXLAN port has been occupied by other services, which can potentially lead to network connectivity issues or conflicts. This situation represents a serious problem that can impact the normal operation of the system, making it appropriate to label this log entry as an Error."
+ ],
+ [
+  [
+   "RSVP/[MASK]/NBR_NO_GR_REC_PATH:Received a recovery-path message from neighbor [neighbor-address], but the neighbor was not enabled GR.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a situation where a recovery-path message was received from a neighbor, but the neighbor was not enabled for graceful restart (GR). This could potentially lead to disruptions in the network's stability and reliability, as graceful restart is a mechanism used to minimize downtime during routing protocol restarts. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OPS/[MASK]/OPS_LOG_USERDEFINED_CRITICAL: [content] (user=\"[userName]\", session=[sessionId])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical user-defined operation with the user's name and session ID. The term \"user-defined critical\" suggests that this operation is crucial and potentially impactful to the system. Any issues or failures in this critical operation could have serious consequences for the system's functionality or security. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/SENDPACKETERR:OSPFv3 [process-id] is unable to send OSPFv3 packet on interface [interface-name].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that OSPFv3 is unable to send a packet on a specific interface. This failure to send a packet can potentially disrupt the routing process and communication within the network, indicating a serious problem. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SRM/[MASK]/BATUPGSUCCESSSTAT: [STRING](SlotID=[ULONG], CardID=[ULONG]).",
+   "Info"
+  ],
+  "Error-prone case: SRM/[MASK]/BATUPGSUCCESSSTAT: [STRING](SlotID=[ULONG], CardID=[ULONG]).\nGround-Truth Label: Info.\nReason: The log entry indicates a successful status update for a batch upgrade operation on a specific slot and card in the system. This message is informative about the upgrade process and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/AUTH_FAIL_INTERFACE:Receive packet with a mismatched authentication type. (ProcessId=[USHORT], AuthenticationErrorType=[USHORT])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a security-related issue where a packet with a mismatched authentication type is received on the OSPF interface. This authentication failure could potentially lead to unauthorized access or compromise the integrity of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "LSPM/[MASK]/SLOTPLUGINOUTEVENT:Received slot event [event-id] from slot [slot-id].",
+   "Info"
+  ],
+  "Error-prone case: LSPM/[MASK]/SLOTPLUGINOUTEVENT:Received slot event [event-id] from slot [slot-id]., Ground-Truth Label: Info. Reason: The log entry simply states that a slot event was received from a specific slot, without indicating any serious problems or errors. This message is informative about the event handling process within the system and does not suggest any critical issues that could impact the system's normal operation. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ALML/[MASK]/INDICATOR_RESUME: The indicator in slot [STRING] becomes normal.",
+   "Info"
+  ],
+  "Reason: The log entry indicates that an indicator in a specific slot has resumed normal operation. This message is informative and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LINE/[MASK]/CLR_ONELINE:The user chose [STRING] when deciding whether to disconnect the specified user interface.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a decision made by the user to disconnect a specified user interface. This decision could potentially lead to disruptions in network connectivity or other issues related to the user interface. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RIP/[MASK]/GR_TOPO_CHANGE: Detected topology change for restarting neighbor [IPADDR]. (ProcessId=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a detected topology change for a restarting neighbor in the RIP (Routing Information Protocol) process. This type of event can potentially disrupt the routing information and cause network instability or connectivity issues. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "MCMD/[MASK]/PROC_EXIT: The multicore process [STRING] exited, system will reboot.(Slot=[STRING], Vcpu=[ULONG], Pid=[ULONG])",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a multicore process has exited, leading to a system reboot. This situation suggests a critical issue where a core process has unexpectedly terminated, potentially causing system instability or downtime. The severity of this log is high as it indicates a serious problem affecting the normal operation of the system, hence it is appropriately labeled as Error."
+ ]
+]

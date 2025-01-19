@@ -11,7 +11,7 @@ To maximize the strengths and mitigate the weaknesses of both models effectively
 Specifically, we propose an adaptive selection strategy to query LLM based on the uncertainty estimation of the SLM, where the LLM is invoked only when the SLM is uncertain.
 In addition,  to enhance the reasoning ability of the LLM in log analysis tasks, we propose a novel prompt strategy by retrieving similar error-prone cases as the reference, enabling the model to leverage past error experiences and learn solutions from these cases.
 We evaluate AdaptiveLog on different log analysis tasks, extensive experiments demonstrate that AdaptiveLog achieves state-of-the-art results across different tasks, elevating the overall accuracy of log analysis while maintaining cost efficiency.
-![intro](fig/adaptive_framwork.png)
+![intro](fig/adaptive_framework.png)
 
 ## Usage
 

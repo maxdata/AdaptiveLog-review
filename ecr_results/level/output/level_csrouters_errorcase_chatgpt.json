@@ -1,0 +1,506 @@
+[
+ [
+  [
+   "SYS-[MASK]-READ_BOOTFILE_FAIL:[chars] [chars].\\n",
+   "Info"
+  ],
+  "Error-prone case: SYS-[MASK]-READ_BOOTFILE_FAIL:[chars] [chars].\\n, Ground-Truth Label: Info. Reason: The log entry indicates a failure to read a boot file, which is a common occurrence during system startup. This message is informative about the system's attempt to read a specific file during boot-up, but it does not indicate a serious problem or error that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "IPC-[MASK]-STATEFUL:[chars]",
+   "Info"
+  ],
+  "Reason: The log entry \"IPC-[MASK]-STATEFUL:[chars]\" does not indicate any serious problems or errors. It simply mentions a stateful operation related to IPC (Inter-Process Communication) with some unspecified details represented by \"[chars]\". This message is likely providing information about the stateful nature of the IPC process, which is a normal operation within the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PKI-[MASK]-PKI_EVENT_LOG:PKI Event : [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a PKI (Public Key Infrastructure) event, which is crucial for managing digital certificates and encryption keys. Any issues or events related to PKI can have serious security implications, such as certificate expiration, revocation, or compromise. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SMART_LIC-[MASK]-CONFIG_NOT_SAVED_TSCLEAR:The smart agent for Licensing will now be disabled because the config was not saved before the reload",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical issue where the smart agent for Licensing will be disabled due to the configuration not being saved before the reload. This could potentially lead to licensing issues and disruptions in the system's operation. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "HA_EM-[MASK]-FMPD_UPDATE_POLICY_UNREGISTER_FAIL:Policy update has failed to unregister policy [chars] [chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a policy update has failed to unregister a specific policy. This message is informative about the failure in the policy update process, but it does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PIM_PROT-[MASK]-IDB_ENABLE:Interface [chars] does not support multicast not enabled",
+   "Info"
+  ],
+  "Error-prone case: PIM_PROT-[MASK]-IDB_ENABLE:Interface [chars] does not support multicast not enabled, Ground-Truth Label: Info. Reason: The log entry indicates that the interface does not support multicast and is not enabled for multicast traffic. This message is informative about the configuration of multicast support on the interface and does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "HPI-[MASK]-NACK_LOW:DSP to IOS Nack message with severity [chars] [chars] [chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates a Nack message from DSP to IOS with severity information. This message is informative about the communication between DSP and IOS, and it does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "NETWORK_RF_API-[MASK]-IDB_TRANSITIONS_PENDING:Switchover terminated with [dec] transitions pending after  there was no transition activity for [dec] seconds",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a switchover process was terminated with a certain number of transitions pending after a period of inactivity. This message is informative about the status of the switchover process and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DIAG-[MASK]-NO_TEST:[chars]: No test to run",
+   "Info"
+  ],
+  "Reason: The log entry states that there is no test to run, which indicates that there is no critical issue or error being reported. This message is simply informing that there is no test scheduled or available to be executed. It does not indicate any serious problems that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SMART_LIC-[MASK]-RESERVE_HA_MISMATCH:The reserved licenses on the active and standby do not match.  Use the 'show license status' command to see the exact error.",
+   "Info"
+  ],
+  "Reason: The log entry indicates a mismatch in reserved licenses between the active and standby devices in a high availability (HA) setup. The message provides a solution by suggesting the use of a specific command to view the exact error. This is an informative message about the licensing status and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "NHRP-[MASK]-PAKERROR:Received [chars] from [chars] code: [chars][dec] trigger src: [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates an error related to NHRP (Next Hop Resolution Protocol) where a packet error was received from a specific source with a certain code. This error could potentially disrupt the normal operation of the network by failing to resolve the next hop for routing. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BGP_LMM-[MASK]-AUTOGEN1:[chars] interface: [chars]",
+   "Info"
+  ],
+  "Error-prone case: BGP_LMM-[MASK]-AUTOGEN1:[chars] interface: [chars], Ground-Truth Label: Info. Reason: The log entry indicates an automatic generation process related to a specific interface in the BGP protocol. This message is informative about the system's automated processes and does not suggest any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SMART_LIC-[MASK]-DEPRECATED_API:The Deprecated function [chars] has been called.This call should be replaced by [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a deprecated API function has been called, which means that the function is no longer supported or recommended for use. Calling deprecated functions can lead to compatibility issues, security vulnerabilities, or unexpected behavior in the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PKI-[MASK]-CERTIFSSEND:Could not send Certificate enrollment request to file system.",
+   "Info"
+  ],
+  "Error-prone case: PKI-[MASK]-CERTIFSSEND:Could not send Certificate enrollment request to file system., Ground-Truth Label: Info. Reason: The log entry indicates a failure to send a certificate enrollment request to the file system. This message is informative about the specific action that could not be completed, but it does not indicate a serious problem or error that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CTS-[MASK]-PORT_UNAUTHORIZED:Port unauthorized for int[chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a port is unauthorized for a specific interface. This message is informative about the security policy enforcement on the network device, rather than indicating a serious problem or error. It does not suggest any immediate threat or impact on the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BDOMAIN_BE_SW-[MASK]-PORT_MACS_NOT_ZERO:The port [chars] is being removed while MAC entries still exist",
+   "Error"
+  ],
+  "Reason: The log entry indicates that MAC entries still exist for a port that is being removed in the network. This situation can lead to potential network connectivity issues or security vulnerabilities, as the MAC entries may not be properly managed or updated after the port removal. Therefore, the severity of this log is high, indicating a serious problem in the network operation, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "GK-[MASK]-GKTMP_SERVER_OFFLINE:GKTMP Server: [chars][chars] is disconnected with Gatekeeper: [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a GKTMP server is offline and disconnected from the Gatekeeper. This situation can lead to disruptions in communication and potentially impact the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "VPN_HW-[MASK]-SHUTDOWN:[chars] shutting down",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a VPN hardware component is shutting down. This message is informative about the normal operation of the system, specifically about the shutdown process of a hardware component. It does not indicate any serious problems or errors that could affect the system's functionality. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SPA_OIR-[MASK]-INSCARD:Card inserted in [chars]",
+   "Info"
+  ],
+  "Error-prone case: SPA_OIR-[MASK]-INSCARD:Card inserted in [chars], Ground-Truth Label: Info. Reason: The log entry simply states that a card has been inserted into the system, which is a normal operation and does not indicate any serious problems or errors. It is an informative message about the hardware change in the system, rather than a critical issue that would require an Error severity level. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DIAG-[MASK]-TEST_SKIPPED:[chars]: [chars]{ID=[dec]} is skipped",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a diagnostic test with a specific ID is being skipped. Skipping a diagnostic test could potentially lead to undetected issues or problems within the system, impacting its overall performance and reliability. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "IPV6_ADDRESS-[MASK]-NO_UNIQUE_IDENTIFIER:Cannot determine an unique IPv6 identifier for the system. IPv6 will not be started.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical issue where the system is unable to determine a unique IPv6 identifier, which prevents the system from starting IPv6. This could lead to network connectivity issues and impact the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PM_AGENT-[MASK]-ESON_UP:\\n",
+   "Error"
+  ],
+  "Reason: The log entry indicates the status of the ESON (Ethernet Service over SONET) being up for the PM_AGENT. This status is critical for the proper functioning of the network service. If the ESON is not up, it could lead to disruptions in the network service, affecting the overall network performance. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "CONFIGURATION-[MASK]-CONFD_DISCONNECTED:Cannot connect to ConfD. Configuration changes will be  processed when the connection is established.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical issue where the system cannot connect to ConfD, which is essential for processing configuration changes. This connectivity issue can potentially disrupt the system's normal operation and prevent necessary configuration updates. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SYS-[MASK]-SELFLINKED:Buffer [hec] linked to itself in free pool [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical issue where a buffer is linked to itself in the free pool. This self-linking could potentially lead to memory corruption or other system instability, posing a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ETHER_CFM-[MASK]-FORWARDING_LOOP:Continuity Check message is received with same source MAC [enet] and  mpid [dec] [chars] of its own in the [chars].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a potential forwarding loop in the Ethernet Connectivity Fault Management (CFM) protocol. A Continuity Check message is received with the same source MAC address and maintenance point identifier (mpid) of its own in the network. This situation can lead to network instability, packet loss, and potential network outages. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "HA_EM-[MASK]-FMPD_REGCOMP:Error compiling regular expression: [chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates an error compiling a regular expression, which is a common operation in software development. While this error may impact the functionality of the system, it does not indicate a serious problem that would affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BGP-[MASK]-ATTR_FLAG:BGP update error:   [chars] Wrong flag 0x[hec] received for [chars] attribute fixed by error  handling",
+   "Info"
+  ],
+  "Reason: The log entry indicates an error in a BGP update where a wrong flag value was received for a specific attribute. The error was fixed by error handling, indicating that the system was able to recover from the issue without any serious impact on its operation. This message is informative about the error handling process in BGP updates and does not indicate a critical problem that would affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "COLLECTOR-[MASK]-EXISTING_COLLECTOR:Collector [chars] already exists\\n",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a collector with a specific name already exists, which could potentially lead to conflicts or issues with data collection and processing. This situation can cause serious problems in the system's operation, making it appropriate to label this log as an Error."
+ ],
+ [
+  [
+   "SYS-[MASK]-STACKLOW:Stack for [chars] [chars] running low [dec]/[dec]",
+   "Info"
+  ],
+  "Error-prone case: SYS-[MASK]-STACKLOW:Stack for [chars] [chars] running low [dec]/[dec], Ground-Truth Label: Info. Reason: The log entry indicates that the stack for a specific component is running low on resources. While this may be a concern for the performance of the system, it does not indicate a serious problem or error that could lead to system failure or data loss. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ARCHIVE_CONFIG-[MASK]-ARCHIVE_CREATE_FAILED_STANDBY:Could not create an archive of the router configuration on the standby RP.",
+   "Info"
+  ],
+  "Reason: The log entry indicates a failure to create an archive of the router configuration on the standby RP. While this may be an issue in the system, it does not indicate a serious problem that would impact the normal operation of the system. It is more of an informative message about the specific operation that failed. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CRYPTO-[MASK]-IKMP_AUTH_FAIL:Authentication method [dec] failed with host [chars]",
+   "Info"
+  ],
+  "Error-prone case: CRYPTO-[MASK]-IKMP_AUTH_FAIL:Authentication method [dec] failed with host [chars], Ground-Truth Label: Info. Reason: The log entry indicates a failed authentication method with a specific host. While authentication failures can be concerning, this message does not specify any serious problems or security breaches that would classify it as an Error. It is simply informing about an authentication failure, which is a normal part of system operation. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DUAL-[MASK]-LINKSTILLUP:Link [dec] [chars] still exists on [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a link that was expected to be down or removed is still up and active. This situation can lead to network instability, routing issues, or potential security vulnerabilities. Therefore, the severity of this log is high, as it indicates a potential problem that could impact the normal operation of the system, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "CTS-[MASK]-SXP_SRC_IP:Source IP address [chars] [inet] does not belong to this device.",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the source IP address does not belong to the device, which is an informative message about the source IP address validation process. This does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BGP-[MASK]-MALFORMEDATTR:Malformed attribute in [chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates a malformed attribute in the BGP protocol, which is a common occurrence in network communication. This message is informative about the specific issue with the attribute and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SMART_LIC-[MASK]-RESERVE_HA_FAILURE:The license reservation information on the active and standby  does not match. Licensing HA will not work properly: [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in license reservation for High Availability (HA) functionality, which is critical for ensuring proper operation and redundancy in the system. The mismatch in license reservation information between the active and standby devices could lead to HA not functioning properly, potentially causing service disruptions or failures. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "HA_EM-[MASK]-FMPD_DIVIDE_ZERO:Invalid operand in arithmetic division cannot divide by zero",
+   "Info"
+  ],
+  "Reason: The log entry indicates an invalid operand in an arithmetic division operation, specifically attempting to divide by zero. This message is informative about the error in the arithmetic operation and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "MROUTE-[MASK]-LARGE_TWHEEL_DELAY:Exceeded maximum delay [dec] ms requested: [dec]",
+   "Info"
+  ],
+  "Error-prone case: MROUTE-[MASK]-LARGE_TWHEEL_DELAY:Exceeded maximum delay [dec] ms requested: [dec], Ground-Truth Label: Info. Reason: The log entry indicates that a maximum delay threshold has been exceeded in the context of multicast routing. This message is informative about the delay values and does not suggest any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "COMMON_FIB-[MASK]-FIB_GSB_TEST_MSG:Test subblock error: [chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates a test subblock error in the FIB (Forwarding Information Base) GSB (Generic Switch Block) test message. This message is likely part of a testing process within the system and does not indicate a serious problem affecting the normal operation of the system. It is providing information about a specific test error and does not suggest any critical issues. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DUAL-[MASK]-LINKSTILLUP:Link [dec] [chars] still exists on [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a link that was expected to be down or removed is still active or present. This situation can lead to network instability, routing issues, or potential data transmission problems. Therefore, the severity of this log is high, as it indicates a potential problem that could impact the normal operation of the system, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "IOS_LICENSE_IMAGE_APPLICATION-[MASK]-NO_LICENSE:[chars] [chars].",
+   "Info"
+  ],
+  "Error-prone case: IOS_LICENSE_IMAGE_APPLICATION-[MASK]-NO_LICENSE:[chars] [chars].\nGround-Truth Label: Info.\nReason: The log entry indicates that there is no license available for a specific application or image. This message is informative about the licensing status of the system and does not indicate a serious problem that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LICENSE-[MASK]-UDI_CHANGED:UDI of this instance changed from OLD: [chars]:[chars] to New: [chars]:[chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the Unique Device Identifier (UDI) of a license instance from an old value to a new value. This change in UDI could potentially impact the licensing status of the device or software, leading to licensing issues or restrictions. Therefore, the severity of this log is high as it pertains to a critical aspect of the system's operation, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "QOS-[MASK]-UNASSIGNED:A [chars] event resulted in an unassigned index for [chars] [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates an issue with Quality of Service (QoS) where an event resulted in an unassigned index for certain parameters. This could potentially lead to disruptions in network traffic prioritization and quality, impacting the overall performance of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ETHER_CFM-[MASK]-MEP_NOT_CONFIGURED:received CC from unconfigured remote MEP.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a Continuity Check (CC) message was received from an unconfigured remote Maintenance End Point (MEP) in an Ethernet Connectivity Fault Management (CFM) context. This situation can lead to connectivity issues and potential network disruptions due to the lack of proper configuration for the remote MEP. Therefore, the severity of this log is high, as it signifies a serious problem that can impact the normal operation of the network, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "CLB-[MASK]-CLB_SLAVE_CONNECTED:[chars]",
+   "Info"
+  ],
+  "Error-prone case: CLB-[MASK]-CLB_SLAVE_CONNECTED:[chars], Ground-Truth Label: Info. Reason: The log entry indicates that a CLB slave has connected, which is a normal operation in the system. This message is informative about the status of the CLB system and does not indicate any serious problems or errors. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SIP-[MASK]-IGNORE:Unexpected [chars] [dec] [chars] in state [dec] [chars] substate [dec] [chars]",
+   "Info"
+  ],
+  "Error-prone case: SIP-[MASK]-IGNORE:Unexpected [chars] [dec] [chars] in state [dec] [chars] substate [dec] [chars], Ground-Truth Label: Info. Reason: The log entry describes an unexpected event in the SIP protocol state machine, indicating a deviation from the normal flow of operations. However, the message does not specify any serious problems or errors that could impact the system's functionality. Instead, it provides information about the current state and substate of the SIP protocol, serving as an informative message rather than indicating a critical issue. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "EAP-[MASK]-MPPE_KEY:IP=[chars]| MPPE_RECV_KEY_LENGTH=[dec]",
+   "Info"
+  ],
+  "Reason: The log entry indicates the configuration of an MPPE key for EAP authentication. This message is informative about the key configuration for the authentication process and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPFv3-[MASK]-UNPROCESSED_IPV4_CALLBACK:IPv4 process call ignored.",
+   "Info"
+  ],
+  "Error-prone case: OSPFv3-[MASK]-UNPROCESSED_IPV4_CALLBACK:IPv4 process call ignored., Ground-Truth Label: Info. Reason: The log entry indicates that an IPv4 process call was ignored by the OSPFv3 protocol. This message is informative about the internal operations of the system and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DSMIBPROV-[MASK]-UNSUPPORTED:[chars]",
+   "Info"
+  ],
+  "Error-prone case: DSMIBPROV-[MASK]-UNSUPPORTED:[chars], Ground-Truth Label: Info. Reason: The log entry indicates that a certain feature or functionality is unsupported, which is an informative message about the system's capabilities. It does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CTS-[MASK]-IFC_LICENSE_ERR_STATE:Interface Controller in LICENSE ERR state for int[chars]",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the Interface Controller is in a LICENSE ERR state for a specific interface. This message is informative about the current state of the interface controller and does not indicate a serious problem that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CTS-[MASK]-SXP_MSG_PARSE:Connection [chars]<[inet] [inet]> [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a problem with parsing a message related to the Connection Template Service (CTS) and the Security Exchange Protocol (SXP). This issue could potentially disrupt the communication between devices or compromise the security of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "CCPROXY-[MASK]-UNREGISTERED_BY_GK:\\ H.323 Proxy registration is being removed by Gatekeeper [chars]\\n Check \\show proxy h323 status\\ for details.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a H.323 Proxy registration is being removed by a Gatekeeper, which could potentially disrupt communication between H.323 devices. This action could lead to a loss of connectivity or other serious problems in the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SPA_OIR-[MASK]-RECOVERY_RELOAD:[chars]: Attempting recovery by reloading SPA",
+   "Error"
+  ],
+  "Reason: The log entry indicates an attempt to recover from a failure by reloading a Service Processor Module (SPA). This action suggests that there was a serious issue or failure that required the SPA to be reloaded in order to restore normal operation. Reloading a SPA is a drastic measure typically taken in response to critical errors or malfunctions, indicating a high severity level. Therefore, the log is appropriately labeled as Error."
+ ],
+ [
+  [
+   "PPP-[MASK]-MLPFSREENTERED:Multilink fastsend reentered bundle [chars] [chars] packet discarded",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the Multilink fastsend feature has reentered a bundle, causing a packet to be discarded. This situation suggests a potential issue with the Multilink Protocol (MLP) fastsend feature, which could lead to packet loss or network instability. As packet loss can impact the normal operation of the system and potentially cause network disruptions, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ATM-[MASK]-ILMINOAUTOCFGALREADY:ILMI[chars]: Auto configuration already disabled.",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the ILMI auto configuration is already disabled. This message is informative about the current state of the ILMI auto configuration feature and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "MFIB_DB-[MASK]-INVALID_TABLEID:Table %p %p/[chars] : [chars]",
+   "Info"
+  ],
+  "Error-prone case: MFIB_DB-[MASK]-INVALID_TABLEID:Table %p %p/[chars] : [chars], Ground-Truth Label: Info. Reason: The log entry indicates an invalid table ID in the MFIB database. While this may seem like an error at first glance, the message itself does not suggest any serious problems or issues that could impact the normal operation of the system. It is more of an informative message about the state of the MFIB database and does not indicate any critical issues that require immediate attention. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "EVENT_TRACE-[MASK]-CONTINUOUS:Enable trace before setting continuous display",
+   "Error"
+  ],
+  "Reason: The log entry indicates a potential issue with enabling trace before setting continuous display, which could lead to unexpected behavior or errors in the system. This action may disrupt the normal operation of the system and cause problems. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PKI-[MASK]-AUTOCERTFAIL:Certificate reenrollment failed. Delaying before retry",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the certificate reenrollment process failed and that there will be a delay before retrying. This message is informative about the certificate management process and does not indicate a serious problem that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CMEXML-[MASK]-STARTEXEC:\\ CME XML Client Request Start request [chars]\\n",
+   "Info"
+  ],
+  "Reason: The log entry indicates the start of a CME XML Client Request, which is a normal operation of the system. It does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LICENSE-[MASK]-EXPIRED:License for feature [chars] [chars] has expired [chars]. UDI=[chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a license for a specific feature has expired, which could potentially lead to the loss of functionality or access to certain features within the system. This is a serious problem that can impact the normal operation of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "IPX-[MASK]-NOVACCESSLOG:[chars] [chars] [chars] [chars] [hec].[enet] [chars] [hec].[enet] [dec] pkt[chars]",
+   "Info"
+  ],
+  "Error-prone case: IPX-[MASK]-NOVACCESSLOG:[chars] [chars] [chars] [chars] [hec].[enet] [chars] [hec].[enet] [dec] pkt[chars], Ground-Truth Label: Info. Reason: The log entry is describing access logs related to IPX protocol, including information about packets and network addresses. It does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BUNDLES-[MASK]-TYPENOTISSUAWARE:Bundle type [chars] must be ISSU aware to send to slots [chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a bundle type must be ISSU (In-Service Software Upgrade) aware in order to send data to specific slots. This requirement suggests that there may be compatibility issues or potential failures if the bundle type is not ISSU aware. This could lead to disruptions in the system's operation or data transmission. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "FNF-[MASK]- CONFIGURATION:Invalid FNF configuration: [chars]",
+   "Info"
+  ],
+  "Error-prone case: FNF-[MASK]- CONFIGURATION:Invalid FNF configuration: [chars], Ground-Truth Label: Info. Reason: The log entry indicates an invalid configuration for Flexible NetFlow (FNF), which is used for network traffic monitoring and analysis. While the configuration may be incorrect, it does not necessarily indicate a serious problem that would impact the normal operation of the system. Instead, it is more of an informative message about a configuration issue that can be corrected without causing major disruptions. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ATM-[MASK]-AUTOPPP:ATM[chars]: VCVCD=[dec] VPI=[dec] VCI=[dec] Auto Detected Encap Type is [chars].",
+   "Info"
+  ],
+  "Reason: The log entry indicates the automatic detection of the encapsulation type for an ATM connection, based on the Virtual Circuit Virtual Channel Descriptor (VCVCD), Virtual Path Identifier (VPI), and Virtual Channel Identifier (VCI) values. This message is informative about the configuration and operation of the ATM connection, without indicating any serious problems or errors. It simply describes the automatic detection process, which is part of the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "GK-[MASK]-PARTIAL_STATIC_ALIAS:\\ Not all aliases were successfully created.  Use the \\show gatekeeper endpt\\ command to check on successful aliases.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that not all aliases were successfully created, which could potentially lead to issues with routing or communication within the network. The message advises the user to check on the successful aliases using a specific command, indicating a problem that needs attention. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "MEMSCAN-[MASK]-SPLIT:Error0x[hec] block0x[hec] split bad block0x[hec] linked size 0x[hec]",
+   "Info"
+  ],
+  "Error-prone case: MEMSCAN-[MASK]-SPLIT:Error0x[hec] block0x[hec] split bad block0x[hec] linked size 0x[hec], Ground-Truth Label: Info. Reason: The log entry describes a memory scan operation where a bad block is split and linked with a specific size. While the log mentions an error code and a bad block, it does not indicate any serious problems or issues that could impact the normal operation of the system. Instead, it provides information about the memory scan process and the specific actions taken. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PARSER-[MASK]-WMLRETRY:Write memory lock currently held by pid '[dec]' automatic retry.",
+   "Info"
+  ],
+  "Reason: The log entry indicates an automatic retry for a write memory lock held by a specific process ID. This message is informative about the system's memory management process and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BGP-[MASK]-BIGCHUNK:Big chunk pool request [dec] for [chars]. Replenishing with malloc",
+   "Info"
+  ],
+  "Reason: The log entry describes a routine operation of replenishing the big chunk pool by allocating memory using the malloc function. It does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SYS-[MASK]-CERF_RECOVER:[chars]",
+   "Error"
+  ],
+  "Reason: The log entry indicates a recovery process for a critical system error. The presence of \"CERF_RECOVER\" suggests that the system encountered a serious issue that required recovery actions to be taken. This type of log typically indicates a significant problem that could impact the system's stability or functionality. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BGP-[MASK]-ATTR_WRONG_LEN:BGP update error:   [chars] Wrong length [dec] for [chars] dropped by error handling",
+   "Info"
+  ],
+  "Error-prone case: BGP-[MASK]-ATTR_WRONG_LEN:BGP update error: [chars] Wrong length [dec] for [chars] dropped by error handling, Ground-Truth Label: Info. Reason: The log entry indicates an error in a BGP update where a specific attribute has the wrong length, causing it to be dropped by error handling. This message is informative about the error handling process within the BGP protocol, but it does not indicate a serious problem that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LISP-[MASK]-TCP_AO_KEYCHAIN_CHANGED:TCP Authentication Option keychain [chars] no longer valid",
+   "Error"
+  ],
+  "Reason: The log entry indicates a security-related issue where the TCP Authentication Option (TCP-AO) keychain, which is used to authenticate TCP connections, is no longer valid. This invalidation could potentially lead to unauthorized access or other security breaches. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "E_CFM-[MASK]-CROSS_CONNECTED_SERVICE:Continuity Check message is received from remote MEP mpid [dec] with  service MA name [chars] [chars] MAC: [enet] for service                               MA name [chars] of domain [chars]  level [dec].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a continuity check message received from a remote Maintenance End Point (MEP) with specific service MA name and MAC address. This message suggests a potential issue with the cross-connected service, which could impact the continuity and integrity of the network service. The severity of this log is high as it indicates a potential service disruption or misconfiguration, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "TCP-[MASK]-LISP_TCP_REJECT:Incoming TCP connection rejected",
+   "Info"
+  ],
+  "Reason: The log entry indicates that an incoming TCP connection has been rejected. This message is informative about the rejection of a specific TCP connection, which does not necessarily indicate a serious problem or error. It is a normal operation of the system to reject certain connections for various reasons such as security policies or network configurations. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ]
+]

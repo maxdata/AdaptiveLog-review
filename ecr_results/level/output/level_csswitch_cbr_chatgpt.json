@@ -1,0 +1,682 @@
+[
+ [
+  0,
+  "Error",
+  "Reason: The log entry indicates a problem with the SLOG_LINE_TB in the BEEP module, which could potentially impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  1,
+  "Info",
+  "Reason: The log entry indicates that a Power Entry Module (PEM) has been removed from a specific slot. This action is likely a normal maintenance operation and does not indicate a serious problem or error that would impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  2,
+  "Error",
+  "Reason: The log entry indicates an issue with the adjacency distribution client in the RPXDR (Routing Protocol eXtensible Data Representation) system. This could potentially lead to problems with distributing routing information and affect network connectivity. Therefore, the severity of this log is high, and it is likely to be labeled as an Error.\n\nLabel: Error"
+ ],
+ [
+  3,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"FLEXVPN-[MASK]-FLEXVPN_CONNECTION_DOWN:%s\" indicates that a FlexVPN connection is down. FlexVPN is a flexible VPN solution that provides secure communication between network devices. The log message suggests that there is an issue with the FlexVPN connection, which could potentially affect the normal operation of the system.\n\nConsidering the similarity with the error-prone case \"BIPC-[MASK]-SESSION_DOWN:IPCCL Session to %s%d is DOWN,\" where the IPCCL session being down is labeled as Info, we can infer that the severity of the given log should be low.\n\nReasoning: The log \"FLEXVPN-[MASK]-FLEXVPN_CONNECTION_DOWN:%s\" indicates a specific issue with the FlexVPN connection, which is informative about the status of the connection but does not necessarily indicate a serious problem that could impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  4,
+  "Error",
+  "Reason: The log entry indicates that the IPSEC is triggering registration for a group too frequently, and the request is being ignored as registration has already been scheduled. This could potentially indicate a recurring issue with the registration process, which may impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  5,
+  "Info",
+  "Reason: The log entry indicates that a certain number of packets from a capture point have been dropped due to rate limiting. This suggests that there may be congestion or high traffic at the capture point, leading to the need for rate limiting to manage the flow of packets. This could potentially impact the network performance and data capture process.\nLabel: Error"
+ ],
+ [
+  6,
+  "Info",
+  "Reason: The log entry indicates that VLANs are not configured at a specific location, but they are included in a CEVLAN/EVC map. This message is informative about the configuration mismatch between VLANs and the CEVLAN/EVC map, which may not necessarily indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  7,
+  "Error",
+  "Reason: The log entry indicates an issue with the FEC ISSU client session. This could potentially lead to problems with the Forward Error Correction (FEC) mechanism, affecting the reliability of data transmission. \nLabel: Error"
+ ],
+ [
+  8,
+  "Error",
+  "Reason: The log entry indicates that a certain number of linecards have not been quiesced, exceeding a specified limit, which will result in all slots being reloaded. This situation could potentially lead to disruptions in the system's operation and cause a significant impact on network availability and stability.\nLabel: Error"
+ ],
+ [
+  9,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"CFGMGR-[MASK]-SPURIOUS_SLAVE_ADD:CFG MGR Recvd Spurious New Member Notification: %u\" indicates that the configuration manager received a spurious new member notification. This suggests that there is an unexpected or erroneous addition of a new member in the system, which could potentially lead to configuration inconsistencies or unexpected behavior.\n\nConsidering the similarity with the error-prone case \"HA_EM-[MASK]-FMPD_CONTEXT_RETRIEVE:Failed to retrieve context for key %s: %s,\" where there is a failure to retrieve a specific context, we can infer that the severity of the given log should be low.\n\nReasoning: The log \"CFGMGR-[MASK]-SPURIOUS_SLAVE_ADD:CFG MGR Recvd Spurious New Member Notification: %u\" indicates a spurious or erroneous new member notification received by the configuration manager. While this can indicate a potential issue in the system's configuration, it does not necessarily indicate a serious problem that would impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  10,
+  "Error",
+  "Reason: The log entry indicates a failure in connecting out to a processing unit, which could potentially impact the normal operation of the system. This failure suggests a serious problem or issue with the connectivity between components in the system.\nLabel: Error"
+ ],
+ [
+  11,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"DIAG-[MASK]-TEST_SKIPPED_FROM_ACTIVE:%s: %s cannot be executed from active supervisor\" indicates that a specific test cannot be executed from the active supervisor. This suggests that there are limitations or restrictions in executing certain tests from the active supervisor, which may be part of the normal operation or design of the system.\n\nConsidering the similarity with the error-prone case \"CRYPTO-[MASK]-IKMP_SA_NOT_AUTH:Cannot accept Quick Mode exchange from %s if SA is not authenticated!\" where certain operations are not accepted if the Security Association (SA) is not authenticated, we can infer that the severity of the given log should be low.\n\nReasoning: The log \"DIAG-[MASK]-TEST_SKIPPED_FROM_ACTIVE:%s: %s cannot be executed from active supervisor\" indicates that a specific test cannot be executed from the active supervisor. While this log indicates a limitation or restriction in executing certain tests, it does not indicate a serious problem or error that would impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  12,
+  "Info",
+  "Reason: The log entry indicates that an AppleTalk path has been deleted, which is a normal operation in the system and does not indicate any serious problems or errors that could impact the system's normal operation. This message is informative about the deletion of a specific path in the AppleTalk network.\nLabel: Info"
+ ],
+ [
+  13,
+  "Info",
+  "Reason: The log entry indicates a timer for refreshing environment data, which is an informative message about a routine operation in the system. This message does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  14,
+  "Error",
+  "Reason: The log entry indicates that a VLAN access map configured on a specific interface has been removed. This action does not necessarily indicate a serious problem that could impact the normal operation of the system, as it is a routine configuration change. \nLabel: Info"
+ ],
+ [
+  15,
+  "Error",
+  "Reason: The log entry indicates that the system is unable to reset configuration settings, which could potentially lead to configuration errors or inconsistencies. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  16,
+  "Info",
+  "Reason: The log entry indicates that the packet to be dumped is bigger than the buffer size of the capture buffer, resulting in the dropping of the packet. This message is informative about the limitations of the capture buffer size and the consequences of exceeding it, rather than indicating a serious problem that would impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  17,
+  "Error",
+  "Reason: The log entry indicates that an LSP (Label Switched Path) is too big for the interface's MTU (Maximum Transmission Unit), resulting in the LSP being dropped. This issue could potentially disrupt network communication and cause problems with routing. \nLabel: Error"
+ ],
+ [
+  18,
+  "Error",
+  "Reason: The log entry indicates that a new entry could not be added to the FPD Management Upgrade List, resulting in no upgrade being performed for a specific card in a certain location. This could potentially impact the performance or functionality of the card and may lead to issues in the system.\nLabel: Error"
+ ],
+ [
+  19,
+  "Error",
+  "Reason: The log entry indicates that the system failed to post RPS (Redundant Power Supply) data, which could potentially lead to power supply issues and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  20,
+  "Info",
+  "Reason: The log entry indicates that a specific interface has enabled RACL (Router Access Control List) for routing traffic, which is a normal operation in network devices. This message is informative about the configuration and operation of the interface, and it does not suggest any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  21,
+  "Error",
+  "Reason: The log entry indicates that the front end controller Tx queue has reached the watermark level, which could potentially lead to packet loss or delays in data transmission. This issue may impact the normal operation of the system and cause disruptions in network communication.\nLabel: Error"
+ ],
+ [
+  22,
+  "Error",
+  "Reason: The log entry indicates a critical environmental measurement being taken, which could potentially indicate a serious problem with the system's environment. This type of log is typically associated with monitoring and alerting systems to notify administrators of critical environmental conditions that could impact the operation of the network device.\nLabel: Error"
+ ],
+ [
+  23,
+  "Error",
+  "Reason: The log entry indicates that an H.323 Proxy registration is being removed by a Gatekeeper, which could potentially lead to disruptions in communication or network stability. This action suggests a significant change in the network configuration or operation, which could impact the normal functioning of the system.\nLabel: Error"
+ ],
+ [
+  24,
+  "Error",
+  "Reason: The log entry indicates a flow alert related to performance traffic, which could potentially impact the network's performance and stability. This type of alert is typically associated with critical network issues that require immediate attention.\nLabel: Error"
+ ],
+ [
+  25,
+  "Error",
+  "Reason: The log entry indicates a high total number of calls, which could potentially indicate a problem with call handling or capacity. High call volume could lead to performance issues or call drops, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  26,
+  "Info",
+  "Reason: The log entry indicates that the called number numbering type did not match, resulting in the event for the call ID being discarded. This message is informative about the call handling process and does not indicate a serious problem that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  27,
+  "Error",
+  "Reason: The log entry indicates that an unknown vendor SFP has been inserted into the system. This could potentially lead to compatibility issues or unknown risks associated with using hardware from an unidentified vendor. This situation could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  28,
+  "Error",
+  "Reason: The log entry indicates a change in state of a GSN (Gateway GPRS Support Node) service, which is a critical component in a mobile network infrastructure. Changes in the state of such services could potentially impact the normal operation of the network, leading to disruptions in service delivery. Therefore, this log is likely to be associated with a serious problem or fault in the system.\nLabel: Error"
+ ],
+ [
+  29,
+  "Error",
+  "Reason: The log entry indicates an issue with the path information in the BGP (Border Gateway Protocol) protocol, which is crucial for routing decisions and network connectivity. Any errors or problems in the path information could potentially disrupt network communication and cause routing issues.\nLabel: Error"
+ ],
+ [
+  30,
+  "Info",
+  "Reason: The log entry indicates a change in the operating mode on a specific interface. This message is informative about the configuration changes on the interface and does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  31,
+  "Error",
+  "Reason: The log entry indicates an invalid request while a feature is being brought up. This could potentially lead to issues with the configuration of software features, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  32,
+  "Error",
+  "Reason: The log entry indicates a fatal transmit error on an Ethernet interface, which could potentially disrupt network communication and lead to serious problems. This type of error is likely to impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  33,
+  "Info",
+  "Reason: The log entry indicates a successful bulk configuration synchronization, which is an informative message about the synchronization process in the system. This message does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  34,
+  "Error",
+  "Reason: The log entry indicates that an invalid CTS mode has been specified, which could potentially lead to misconfigurations or unexpected behavior in the network device, impacting its normal operation.\nLabel: Error"
+ ],
+ [
+  35,
+  "Error",
+  "Reason: The log entry indicates that a Continuity Check (CC) message was received from an unconfigured remote Maintenance End Point (MEP) in the Connectivity Fault Management (CFM) domain. This could potentially indicate a misconfiguration or a fault in the network connectivity, which could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  36,
+  "Error",
+  "Reason: The log entry indicates that the deletion of an interface for an ACR group has failed, which could potentially lead to issues with network connectivity or functionality. This failure in deleting the interface for the ACR group suggests a problem that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  37,
+  "Error",
+  "Reason: The log entry indicates the rewriting of VPN information in the context of BGP/MPLS, which is critical for routing and forwarding packets in a network. Any issues with VPN rewriting could potentially disrupt the network's operation.\nLabel: Error"
+ ],
+ [
+  38,
+  "Error",
+  "Reason: The log entry indicates the acquisition and release of a CCB (Common Control Board) semaphore, which is a critical resource management mechanism in network devices. Issues with semaphore management could potentially lead to resource contention or deadlock situations, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  39,
+  "Error",
+  "Reason: The log entry indicates that a fault has occurred in the network for the local Maintenance End Point (MEP) with a specific MEP ID, service MA name, and event code. This suggests a serious issue or fault in the network connectivity, which could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  40,
+  "Error",
+  "Reason: The log entry indicates that a consoleless access mode has been entered, which could potentially indicate a change in system access privileges. This change in access mode may have security implications and could potentially lead to unauthorized access to the system. Therefore, the severity of this log is high.\nLabel: Error"
+ ],
+ [
+  41,
+  "Error",
+  "Reason: The log entry indicates the last accounting attribute in the AAAA module, which is crucial for tracking user activities and network security. Any issues with accounting attributes could potentially impact the accuracy of data logging and monitoring user activities, leading to serious problems in network management.\nLabel: Error"
+ ],
+ [
+  42,
+  "Error",
+  "Reason: The log entry indicates that a specific OID has become unavailable, which could potentially impact the monitoring or management of network devices. This issue could lead to missing or inaccurate data, affecting the overall functionality of the system.\nLabel: Error"
+ ],
+ [
+  43,
+  "Error",
+  "Reason: The log entry indicates an error related to receiving packets of an unknown type on an AAL5 interface. This could potentially lead to issues with data transmission and network connectivity. Therefore, the severity of this log is high.\nLabel: Error"
+ ],
+ [
+  44,
+  "Error",
+  "Reason: The log entry indicates that an unauthorized registration attempt was made to join a group. This unauthorized access attempt could potentially pose a security risk or impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  45,
+  "Error",
+  "Reason: The log entry indicates a process of terminating an adjacency in the context of CFC LISP. This could potentially be a critical operation that may impact the stability or functionality of the system.\nLabel: Error"
+ ],
+ [
+  46,
+  "Error",
+  "Reason: The log entry indicates an unexpected state transition in the context of ADJ (Adjacency) processing. State transitions are critical in network device operations and an unexpected transition could potentially lead to instability or errors in the system.\nLabel: Error"
+ ],
+ [
+  47,
+  "Error",
+  "Reason: The log entry indicates an interrupt related to the RAPTOR_ESI_INGRESS_SCH_HI module, which could potentially impact the normal operation of the system if not handled properly. This type of interrupt could lead to disruptions in network communication or performance issues.\nLabel: Error"
+ ],
+ [
+  48,
+  "Info",
+  "Reason: The log entry indicates that a command has no change in the policy, which is an informative message about the status of the policy configuration. This message does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  49,
+  "Error",
+  "Reason: The log entry indicates that the call setup has failed, which could potentially impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  50,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"AN-[MASK]-MY_DOMAIN_CERT_EXPIRED:My Domain certificate udi %s has expired\" indicates that the certificate for the My Domain feature has expired. This suggests that the certificate used for secure communication and authentication within the My Domain feature has reached its expiration date. While this is an important event for security reasons, it does not indicate an immediate serious problem or error that would impact the normal operation of the system.\n\nConsidering the similarity with the error-prone case \"HA_EM-[MASK]-FMPD_CONTEXT_RETRIEVE:Failed to retrieve context for key %s: %s,\" where there is a failure to retrieve a context for a specific key, we can infer that the severity of the given log should be low.\n\nReasoning: The log \"AN-[MASK]-MY_DOMAIN_CERT_EXPIRED:My Domain certificate udi %s has expired\" indicates that the certificate for the My Domain feature has expired. While this log indicates an important event for security reasons, it does not indicate an immediate serious problem or error that would impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  51,
+  "Info",
+  "Reason: The log entry indicates that a VRF (Virtual Routing and Forwarding) has been removed globally in the AN (Access Node) network. This action is a normal operation in network management and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  52,
+  "Info",
+  "Reason: The log entry indicates the saving of a configuration revision received from a Mobility Controller, which is a normal operation in the configuration synchronization process. This message does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  53,
+  "Error",
+  "Reason: The log entry indicates an action related to MAC accounting in the FIB (Forwarding Information Base). Issues with MAC accounting could potentially impact network forwarding and connectivity, making it a critical operation. \nLabel: Error"
+ ],
+ [
+  54,
+  "Info",
+  "Reason: The log entry indicates that the IGMP limit has been exceeded for a specific group on a particular host. This message is informative about the IGMP group limit being reached, but it does not suggest any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low.\nLabel: Info"
+ ],
+ [
+  55,
+  "Error",
+  "Reason: The log entry indicates that the license for the database and transaction connection is expired, which could potentially lead to serious problems in accessing and managing the database. This situation may result in disruptions to critical services and operations that rely on database connectivity. Therefore, the severity of this log is high.\nLabel: Error"
+ ],
+ [
+  56,
+  "Error",
+  "Reason: The log entry indicates an update process for the ATOM_HA module, which could potentially involve critical changes or configurations in a high availability setup. This update process is essential for maintaining the stability and reliability of the system, and any issues or errors during this process could lead to serious problems.\nLabel: Error"
+ ],
+ [
+  57,
+  "Error",
+  "Reason: The log entry indicates that there is no peer configured to route a frame with a specific destination address in the BSTUN group. This lack of configuration could potentially lead to routing problems or disruptions in network connectivity, similar to the error-prone case involving neighbor route information in the BGP protocol.\nLabel: Error"
+ ],
+ [
+  58,
+  "Error",
+  "Reason: The log entry indicates that an invalid operation was attempted on an active capture point, which could potentially lead to disruptions in network monitoring or data capture. This suggests a critical issue that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  59,
+  "Info",
+  "Reason: The log entry indicates an event related to DUAL (Cisco's EIGRP routing protocol) with placeholders for variables. This message is likely to be an informative message about the routing process or events occurring in the system, rather than indicating a serious problem or error. \nLabel: Info"
+ ],
+ [
+  60,
+  "Error",
+  "Reason: The log entry indicates an issue with the adjacency distribution client in the ADJ module. This could potentially lead to problems with distributing adjacency information, which is crucial for routing and network connectivity. Therefore, the severity of this log is high, and it is likely to be labeled as an Error.\n\nLabel: Error"
+ ],
+ [
+  61,
+  "Error",
+  "Reason: The log entry indicates a switching event for a Virtual Interface Processor (VIP) on a Frame Relay network, with placeholders for variables such as DLCI and a description. Switching events in networking can be critical for maintaining connectivity and proper data transmission, so any issues or errors in this process could potentially disrupt network communication and cause serious problems.\nLabel: Error"
+ ],
+ [
+  62,
+  "Info",
+  "Reason: The log entry indicates a failure in setting up the server, which is a common occurrence in network operations. This message is informative about the specific event of a failed server setup and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  63,
+  "Error",
+  "Reason: The log entry indicates a configuration synchronization event in the EHSA system. Configuration synchronization is a critical process for ensuring consistency and accuracy across network devices. Any issues with configuration synchronization could lead to misconfigurations and potential network failures. Therefore, the severity of this log is likely high.\nLabel: Error"
+ ],
+ [
+  64,
+  "Error",
+  "Reason: The log entry indicates a change in the SXP (Security Group Tag Exchange Protocol) Node ID, which is a critical component for secure communication and access control in network devices. Any unexpected changes in the Node ID could potentially disrupt security policies and access control mechanisms, leading to security vulnerabilities or unauthorized access.\nLabel: Error"
+ ],
+ [
+  65,
+  "Error",
+  "Reason: The log entry indicates a remap range overflow for a specific domain, which could potentially indicate a critical issue with the remapping process. This overflow could lead to data loss or system instability, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  66,
+  "Error",
+  "Reason: The log entry indicates a failed connection from a processing unit (pu) with a remote address. This failure in establishing a connection could potentially impact the normal operation of the system, indicating a serious problem.\nLabel: Error"
+ ],
+ [
+  67,
+  "Error",
+  "Reason: The log entry indicates a failure in storing a cryptographic key on a cryptographic token, which is a critical operation for secure communication. This failure could potentially lead to security vulnerabilities and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  68,
+  "Error",
+  "Reason: The log entry indicates a duplicate MAC address on a specific LAN segment. Duplicate MAC addresses can cause network connectivity issues and disrupt normal operation. \nLabel: Error"
+ ],
+ [
+  69,
+  "Error",
+  "Reason: The log entry indicates that a data queue (dqueue) has an active collection just prior to destruction. This could potentially lead to issues with data processing or memory management, which may impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  70,
+  "Info",
+  "Reason: The log entry indicates that a MacIP server is operational, which is an informative message about the status of the server. This message does not indicate a serious problem that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  71,
+  "Error",
+  "Reason: The log entry indicates a critical event related to CEF (Common Event Format). Critical events are typically associated with serious problems or issues that could impact the normal operation of the system. Therefore, the severity of this log is likely high.\nLabel: Error"
+ ],
+ [
+  72,
+  "Error",
+  "Reason: The log entry indicates that no event spec id was found, which could potentially impact the functionality of the system. However, this issue does not indicate a serious problem that would affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  73,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"BFD-[MASK]-TX_ON_STANDBY:BFD transmit detected on standby\" indicates that a BFD (Bidirectional Forwarding Detection) transmit event has been detected on the standby system. This suggests that there is BFD activity occurring on the standby system, which may not be the expected behavior. While this log indicates a deviation from the normal operation of the system, it does not indicate a serious problem or error that would significantly impact the system's functionality.\n\nConsidering the similarity with the error-prone case \"ARCHIVE_CONFIG-[MASK]-ARCHIVE_DELETE_FAILED_STANDBY:Delete of a previously saved archive of the router configuration could not be completed on the standby RP,\" where the deletion of a previously saved archive could not be completed on the standby RP, we can infer that the severity of the given log should be low.\n\nReasoning: The log \"BFD-[MASK]-TX_ON_STANDBY:BFD transmit detected on standby\" indicates that a BFD transmit event has been detected on the standby system. This log suggests a deviation from the expected behavior but does not indicate a serious problem or error that would significantly impact the system's functionality.\n\nLabel: Info"
+ ],
+ [
+  74,
+  "Info",
+  "Reason: The log entry indicates an administrative message with placeholders for variables. This message is likely to be an informative message about the administrative operation of the system, rather than indicating a serious problem or error. Therefore, the severity of this log is low.\nLabel: Info"
+ ],
+ [
+  75,
+  "Error",
+  "Reason: The log entry \"CNS-[MASK]-XML_SEMANTIC:%s\" indicates a semantic issue related to XML processing in the CNS module. XML semantic errors can potentially lead to data parsing issues or incorrect interpretation of data, which could impact the functionality of the system. This type of issue is critical as it can result in incorrect data processing or system behavior.\nLabel: Error"
+ ],
+ [
+  76,
+  "Error",
+  "Reason: The log entry indicates that the AAA accounting process is not performing periodic updates, but the timer is set. This situation could potentially lead to issues with data logging and tracking user activities, which are critical for network security and monitoring. \nLabel: Error"
+ ],
+ [
+  77,
+  "Info",
+  "Reason: The log entry indicates that the interface is not valid and a certain number of bindings are ignored. This message is informative about a specific issue with the interface in the context of DHCP snooping, detailing that bindings are being ignored due to the invalid interface. It does not indicate a critical issue or serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  78,
+  "Info",
+  "Reason: The log entry indicates a change in the running configuration on a CPU, which could potentially impact the normal operation of the system. This change may lead to misconfigurations or unexpected behavior, affecting the overall performance of the network device.\nLabel: Error"
+ ],
+ [
+  79,
+  "Error",
+  "Reason: The log entry \"CTS-[MASK]-CTS_CRIT:%s\" indicates a critical issue or problem related to the CTS system. The term \"CTS_CRIT\" suggests that this log entry is reporting on a critical event that could potentially impact the functionality or security of the system. Therefore, the severity of this log is likely high and should be labeled as an Error.\nLabel: Error"
+ ],
+ [
+  80,
+  "Error",
+  "Reason: The log entry indicates that a test cannot be used as a health monitoring test, which could potentially impact the monitoring and health status of the system. This could lead to inaccurate monitoring data and potentially affect the system's stability and performance.\nLabel: Error"
+ ],
+ [
+  81,
+  "Error",
+  "Reason: The log entry indicates that the AAA authentication startup failed, which could potentially lead to authentication issues and impact the normal operation of the system. This failure in authentication could result in users being unable to access network resources, causing disruptions in network operations.\nLabel: Error"
+ ],
+ [
+  82,
+  "Error",
+  "Reason: The log entry indicates a failed connection from a remote address, which could potentially indicate a network connectivity issue or a problem with the connection establishment process. This type of issue could impact the normal operation of the system, making it a serious problem.\nLabel: Error"
+ ],
+ [
+  83,
+  "Error",
+  "Reason: The log entry \"HA_CONFIG_SYNC -[MASK]-GENERAL:%s\" indicates a general configuration synchronization process in a high availability setup. This process is crucial for ensuring that configuration settings are synchronized between redundant systems to maintain system availability and reliability. Any issues or errors in this synchronization process could potentially lead to configuration discrepancies and system failures, impacting the normal operation of the system.\n\nLabel: Error"
+ ],
+ [
+  84,
+  "Error",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"BSTUN-[MASK]-CONNILLSTATE:CONN: Peer %s illegal state %d\" indicates an illegal state of a peer in the BSTUN context. This log suggests a deviation from the expected state and could potentially indicate a problem or error in the network communication. Illegal states can disrupt the normal operation of the system and may require investigation or resolution.\n\nConsidering the similarity with the error-prone case \"CLNS-[MASK]-TERRRERR:%s called on standby,\" where an error message is called on a standby system, we can infer that the severity of the given log should be high.\n\nReasoning: The log \"BSTUN-[MASK]-CONNILLSTATE:CONN: Peer %s illegal state %d\" indicates an illegal state of a peer in the BSTUN context. This suggests a problem or error in the network communication, potentially disrupting the normal operation of the system.\n\nLabel: Error"
+ ],
+ [
+  85,
+  "Error",
+  "Reason: The log entry indicates that a label was obtained for a specific item. This message is informative about the labeling process and does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  86,
+  "Info",
+  "Reason: The log entry indicates that the IGMP limit has been exceeded for a specific channel on a host. This message is informative about the IGMP channel limit being reached and does not suggest any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  87,
+  "Info",
+  "Reason: Based on the provided error-prone cases and domain knowledge, we can analyze the reasoning process for the given test data:\n\nThe log entry \"ERP_G8032-[MASK]-STATE_CHANGED:Ethernet ring %s instance %d changed state to %s\" indicates a state change in an Ethernet ring instance within the ERP_G8032 module. This message is informative about the status change of the Ethernet ring and does not explicitly indicate a serious problem or error. However, the significance of the state change depends on the specific context and requirements of the network. Further analysis may be necessary to determine the severity of this log.\n\nReasoning: The log \"ERP_G8032-[MASK]-STATE_CHANGED:Ethernet ring %s instance %d changed state to %s\" indicates a state change in an Ethernet ring instance within the ERP_G8032 module. While this message is informative about the status change, it does not explicitly indicate a serious problem or error that could impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  88,
+  "Error",
+  "Reason: The log entry indicates a timeout event for a specific slot after a certain amount of time in a particular state. This message is informative about the system's operation and does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  89,
+  "Error",
+  "Reason: The log entry indicates a failure in storing call history in the CCH323 module, which could potentially lead to data loss or inconsistencies in call records. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  90,
+  "Error",
+  "Reason: The log entry indicates that users are not allowed to change the monitoring interval of a specific test. This restriction on changing the monitoring interval could potentially impact the monitoring and diagnostic capabilities of the system, suggesting a limitation or configuration constraint. This issue does not indicate a serious problem that could disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  91,
+  "Error",
+  "Reason: The log entry indicates that no statistics were returned, which could potentially indicate a problem with data retrieval or processing. This issue may impact the normal operation of the system and cause disruptions in monitoring or analysis processes.\nLabel: Error"
+ ],
+ [
+  92,
+  "Info",
+  "Reason: The log entry indicates an \"ACCTWATCH\" message from the \"AAAA\" module, which suggests it is related to accounting or monitoring activities. This message is likely to be an informative message about the monitoring or accounting process, rather than indicating a serious problem or error.\nLabel: Info"
+ ],
+ [
+  93,
+  "Error",
+  "Reason: The log entry indicates that L2VPN WS registration has failed for a specific entity. This failure could potentially impact the normal operation of the system, as it indicates a problem with the registration process. This aligns with the error-prone cases where serious problems or faults in the system are highlighted.\nLabel: Error"
+ ],
+ [
+  94,
+  "Error",
+  "Reason: The log entry \"CTS-[MASK]-CTS_EMERG:%s\" indicates an emergency situation related to CTS. Emergency situations typically indicate serious problems that require immediate attention to prevent system failure or data loss. Therefore, the severity of this log is likely high.\nLabel: Error"
+ ],
+ [
+  95,
+  "Error",
+  "Reason: The log entry indicates that there are no free lists available for a certain resource, which could potentially lead to resource allocation issues or constraints in the system. This could impact the normal operation of the system and cause performance degradation.\nLabel: Error"
+ ],
+ [
+  96,
+  "Error",
+  "Reason: The log entry indicates that the function str_create overwrote its internal buffer, which could potentially lead to memory corruption or unexpected behavior in the system. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  97,
+  "Error",
+  "Reason: The log entry indicates a DHCP operation in the GPRSFLTMG system, which is crucial for assigning IP addresses to devices in a GPRS network. Any issues with DHCP could potentially disrupt network connectivity and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  98,
+  "Error",
+  "Reason: The log entry indicates that a Virtual Path Identifier (VPI) disable operation has failed on a specific ACR interface. This failure could potentially impact the normal operation of the system, as it indicates a problem with the configuration or functionality of the ACR interface.\nLabel: Error"
+ ],
+ [
+  99,
+  "Error",
+  "Reason: The log entry indicates that the IPSEC registration for a specific group is being triggered too frequently, leading to a postponement of the registration process. This situation suggests a potential issue with the IPSEC initiation process, which could impact the normal operation of the system if not addressed. Therefore, the severity of this log is high, and it is appropriately labeled as an Error.\n\nLabel: Error"
+ ],
+ [
+  100,
+  "Info",
+  "Reason: The log entry indicates a modem call record related to the CALLTRKR system. This could potentially indicate a problem with recording modem calls, which is crucial for tracking communication through modems. Any issues with call recording could lead to data loss or compliance issues. Therefore, the severity of this log is high, and it should be labeled as Error.\nLabel: Error"
+ ],
+ [
+  101,
+  "Error",
+  "Reason: The log entry indicates a warning message from the CUDD Library, which suggests a potential issue or concern related to the event in question. Warning messages typically indicate potential problems that may need attention to prevent further issues. Therefore, the severity of this log is moderate, leaning towards being labeled as an Info rather than an Error.\nLabel: Info"
+ ],
+ [
+  102,
+  "Info",
+  "Reason: The log entry indicates the result of reading from an authorization cache, which is an informative message about the cache operation within the system. This message does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  103,
+  "Error",
+  "Reason: The log entry indicates that the COOP Key Server (KS) has reached its window limit for peer addresses, which suggests a limitation or issue with the communication between key servers. This could potentially lead to connectivity issues and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  104,
+  "Error",
+  "Reason: The log entry \"HA-[MASK]-CUTOVER_NOTICE:%s\" indicates a cutover notice in the HA system. A cutover notice typically signifies a planned transition or change in the system, which is a normal operation in the HA system. This message is informative about the cutover process and does not suggest any critical issues that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  105,
+  "Error",
+  "Reason: The log entry indicates that the interface %s%d is already in use, which could potentially lead to conflicts or errors in the network configuration. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  106,
+  "Info",
+  "Reason: The log entry indicates that a diagnostic schedule has been removed. This message is informative about the scheduling of diagnostic tasks and does not indicate any serious problems or errors that could impact the normal operation of the system. \nLabel: Info"
+ ],
+ [
+  107,
+  "Info",
+  "Reason: The log entry indicates a configuration synchronization issue where the configuration recovery for a specific HCCP and LC rplc_cfgsync configuration has failed. This message provides information about the failure in the configuration synchronization process but does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  108,
+  "Error",
+  "Reason: The log entry indicates that the CPU redundancy system has encountered an interrupt hogging issue, which could potentially impact the system's performance and stability.\nLabel: Error"
+ ],
+ [
+  109,
+  "Info",
+  "Reason: The log entry \"DP83815-[MASK]-EXCESSCOLL:%s\" indicates an excess collision event related to the DP83815 network device. Excess collisions can occur when multiple devices on a network attempt to transmit data at the same time, leading to packet collisions and potential performance issues. This message is likely informative about network traffic behavior and does not necessarily indicate a serious problem that could impact the normal operation of the network.\n\nLabel: Info"
+ ],
+ [
+  110,
+  "Error",
+  "Reason: The log entry indicates an interrupt related to the RAPTOR_ESI_PROCBUS_MASTER_HI, which could potentially indicate a problem with the interrupt handling process. This could lead to disruptions in the communication between devices or processing delays. \nLabel: Error"
+ ],
+ [
+  111,
+  "Info",
+  "Reason: The log entry indicates that the CAC (Call Admission Control) is already functioning and that the configuration of a specific flow will restart the CAC, invalidating the CAC status for all flows. This message is informative about a specific operation that will impact the CAC functionality but does not indicate a critical error that would affect the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  112,
+  "Info",
+  "Reason: The log entry indicates the status of MAC learning on a specific VLAN. MAC learning is a fundamental process in network devices for building and maintaining MAC address tables, which are essential for forwarding frames within a VLAN. Any issues or errors in MAC learning could potentially disrupt network connectivity and cause problems. \nLabel: Error"
+ ],
+ [
+  113,
+  "Error",
+  "Reason: The log entry indicates that a FPD upgrade sequence has been canceled due to upgrade failure, which could potentially lead to issues with the functionality of the card and impact the normal operation of the system. This situation may result in inconsistencies or errors in the system, posing a risk to the system's stability and functionality.\nLabel: Error"
+ ],
+ [
+  114,
+  "Error",
+  "Reason: The log entry indicates that there is a revertive configuration existing for interfaces on a specific slot. Revertive configurations are typically used in network devices to automatically revert back to a previous state in case of failure or abnormal behavior. This configuration is critical for maintaining network stability and ensuring seamless operation. Therefore, any issues or errors in this revertive configuration could potentially impact the normal operation of the system.\n\nLabel: Error"
+ ],
+ [
+  115,
+  "Error",
+  "Reason: The log entry indicates a failure to create a callback handler process for a specific entity ID (eid). This failure could potentially impact the functionality or operation of the system, as the callback handler process is an important component for handling callbacks and executing appropriate actions. Therefore, based on the error-prone case \"HA_EM-[MASK]-FMPD_CONTEXT_RETRIEVE\" where a failure to retrieve context indicates an informative message rather than a serious problem, we can conclude that the severity of this log is Error.\n\nLabel: Error"
+ ],
+ [
+  116,
+  "Info",
+  "Reason: The log entry indicates that a power supply module is present, which is an informative message about the status of the system components. The presence of a power supply module is a normal operation of the system and does not indicate a serious problem or error that would cause immediate harm or disruption.\nLabel: Info"
+ ],
+ [
+  117,
+  "Error",
+  "Reason: The log entry indicates a tent operation in the CLNS module, which could potentially be a critical operation that may impact the stability or functionality of the system. The message does not specify any serious problems or issues that could impact the normal operation of the system, but it does involve a specific operation within the module.\nLabel: Error"
+ ],
+ [
+  118,
+  "Error",
+  "Reason: The log entry indicates an error related to ownership in the ILACC system. Ownership errors can potentially lead to data access issues or security vulnerabilities, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  119,
+  "Error",
+  "Reason: The log entry indicates that the ATMSIG system failed to delete a CUG (Closed User Group), which could potentially lead to issues with user access control and communication within the network. This failure could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  120,
+  "Info",
+  "Reason: The log entry indicates a change in the power supply status, with details about the previous and current status. This message is likely to be an informative message about the power supply changes in the environment, rather than indicating a serious problem or error. It does not indicate any critical issues that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  121,
+  "Error",
+  "Reason: The log entry indicates that there is an issue with creating the gatekeeper process, which could potentially lead to the failure of the gatekeeper bringup process. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  122,
+  "Info",
+  "Reason: The log entry indicates that the LDP (Label Distribution Protocol) is shutting down via deconfiguration. This message is informative about the shutdown process of the LDP and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  123,
+  "Error",
+  "Reason: The log entry indicates that a modem has been marked as bad by the router software. This could potentially lead to connectivity issues or failures in the network, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  124,
+  "Error",
+  "Reason: The log entry indicates that the ACL manager has been reloaded, which could potentially impact the access control list configurations and security policies in the network. Reloading the ACL manager is a critical operation that could lead to disruptions in network traffic or security vulnerabilities if not done properly.\nLabel: Error"
+ ],
+ [
+  125,
+  "Info",
+  "Reason: The log entry indicates a Nack message from DSP to IOS, which is likely an informative message about the communication between different components in the system. This message does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  126,
+  "Info",
+  "Reason: The log entry indicates a fax connect event in the FTSP system. This event is a normal operation in fax transmission and does not indicate any serious problems or errors that could affect the system's functionality. Therefore, the severity of this log is low, and it should be labeled as Info.\nLabel: Info"
+ ],
+ [
+  127,
+  "Error",
+  "Reason: The log entry indicates that there was an issue opening a file, which could potentially lead to problems accessing necessary files for the system to function properly. This issue could impact the normal operation of the system and cause serious problems.\nLabel: Error"
+ ],
+ [
+  128,
+  "Error",
+  "Reason: The log entry indicates that the database initialization process has failed. This suggests a serious problem with the system as the database is a critical component for storing and retrieving data. A failure in the initialization process could lead to data loss or system instability, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  129,
+  "Info",
+  "Reason: The log entry indicates an event related to CPU redundancy services, which could potentially impact the normal operation of the system if not handled properly. This type of event is critical for system stability and performance, indicating a potential serious problem.\nLabel: Error"
+ ],
+ [
+  130,
+  "Info",
+  "Reason: The log entry indicates that the system could not elect an active EMP switch and had to set the active switch to 0. This suggests a failure in the election process for the EMP switch, which could potentially lead to disruptions in the system's operation.\nLabel: Error"
+ ],
+ [
+  131,
+  "Error",
+  "Reason: The log entry indicates that a data center has been disabled, which could potentially impact the normal operation of the network devices. This issue could lead to service disruptions or downtime, making it a serious problem.\nLabel: Error"
+ ],
+ [
+  132,
+  "Error",
+  "Reason: The log entry indicates that an interface failed to respond during a polling process. This could indicate a potential issue with the interface or communication on the network. If the interface is critical for the normal operation of the system, this could impact the overall network performance.\nLabel: Error"
+ ],
+ [
+  133,
+  "Error",
+  "Reason: The log entry indicates a SLOG line in the BEEP module, which is typically used for logging system messages. SLOG lines are commonly used for recording informative messages about the normal operation of the system, rather than indicating serious problems.\nLabel: Info"
+ ],
+ [
+  134,
+  "Error",
+  "Reason: The log entry indicates an emergency event in the CGC system. Emergency events typically indicate serious problems that require immediate attention. This could potentially disrupt the normal operation of the system and cause significant issues.\nLabel: Error"
+ ],
+ [
+  135,
+  "Info",
+  "Reason: The log entry indicates that the maximum session creation limit for a specific type of session has been reached. This message is informative about the current status of session creation and does not indicate a serious problem that could affect the normal operation of the system.\nLabel: Info"
+ ]
+]

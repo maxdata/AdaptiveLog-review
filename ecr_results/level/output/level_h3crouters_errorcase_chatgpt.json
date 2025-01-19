@@ -1,0 +1,121 @@
+[
+ [
+  [
+   "LIF/[MASK]/EPOLL:Not enough resources for [STRING].",
+   "Info"
+  ],
+  "Error-prone case: LIF/[MASK]/EPOLL:Not enough resources for [STRING]., Ground-Truth Label: Info. Reason: The log entry indicates that there are not enough resources available for a specific operation related to EPOLL. This message is informative about the resource constraints in the system and does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LLDP/[MASK]/LLDP_REACH_NEIGHBOR_LIMIT:The number of [STRING] agent neighbors maintained by the port [STRING] (IfIndex [UINT32]) has reached [UINT32], and no more neighbors can be added.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the number of LLDP (Link Layer Discovery Protocol) agent neighbors maintained by a port has reached its limit, and no more neighbors can be added. This situation can potentially lead to network connectivity issues or failures due to the inability to discover and communicate with additional network devices. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ETHOAM/[MASK]/ETHOAM_CONNECTION_FAIL_UNSATISF:Interface [string] failed to establish an OAM connection because the peer doesn\u2019t match the capacity of the local interface.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure to establish an OAM (Operations, Administration, and Maintenance) connection on an interface due to a mismatch in capacity between the local interface and the peer. This issue can potentially impact the network's performance and reliability, making it a serious problem. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "EVB/[MASK]/EVB_LICENSE_EXPIRE:The EVB feature's license will expire in [UINT32] days.",
+   "Info"
+  ],
+  "Error-prone case: EVB/[MASK]/EVB_LICENSE_EXPIRE:The EVB feature's license will expire in [UINT32] days., Ground-Truth Label: Info. Reason: The log entry is providing information about the expiration of the EVB feature's license in a certain number of days. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PWDCTL/[MASK]/FAILEDTOWRITEPWD:Failed to write the password records to file.",
+   "Info"
+  ],
+  "Error-prone case: PWDCTL/[MASK]/FAILEDTOWRITEPWD:Failed to write the password records to file., Ground-Truth Label: Info. Reason: The log entry indicates a failure to write password records to a file. While this may be an issue, it does not indicate a serious problem that could impact the normal operation of the system. It is more of an informative message about a specific operation within the system, rather than a critical error. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/OSPF_RTRID_CONFILICT_INTER:OSPF [UINT16] Received newer   self-originated ase-LSAs. Possible conflict of router ID [STRING].",
+   "Info"
+  ],
+  "Error-prone case: OSPF/[MASK]/OSPF_RTRID_CONFILICT_INTER:OSPF [UINT16] Received newer self-originated ase-LSAs. Possible conflict of router ID [STRING].\nGround-Truth Label: Info.\nReason: The log entry describes a situation where OSPF has received newer self-originated ase-LSAs and there is a possible conflict of router ID. This message is informative about the internal operations of OSPF and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "LAGG/[MASK]/LAGG_AUTO_AGGREGATON:Failed to assign automatic assignment-enabled interface [STRING]   to an aggregation group. Please check the configuration on the interface.",
+   "Info"
+  ],
+  "Reason: The log entry indicates a failure to assign an automatic assignment-enabled interface to an aggregation group. The message instructs the user to check the configuration on the interface, suggesting a configuration issue rather than a serious problem. This log is providing informative guidance on troubleshooting the configuration, indicating that it is an Info level message."
+ ],
+ [
+  [
+   "RIP/[MASK]/RIP_RT_LMT:RIP [UINT32] Route limit reached",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the RIP (Routing Information Protocol) route limit has been reached, which can potentially lead to routing issues and network instability. This is a serious problem that can impact the normal operation of the system, hence it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "APMGR/[MASK]/SWAC_DRV_FAILED:Failed to install WLAN feature package. Reason: Insufficient    hardware resources.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in installing a WLAN feature package due to insufficient hardware resources. This issue can potentially impact the functionality of the system, specifically in relation to wireless network capabilities. Therefore, the severity of this log is high, as it represents a serious problem that could affect the normal operation of the system, and it is appropriately labeled as Error."
+ ],
+ [
+  [
+   "LAGG/[MASK]/LAGG_INACTIVE_RESOURCE_INSUFICIE:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because all aggregate resources are occupied.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a member port of an aggregation group has changed to an inactive state due to insufficient resources. This situation can lead to a degradation in network performance or connectivity issues, which are serious problems affecting the normal operation of the system. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BRIPRO/[MASK]/API:PVST is not supported on this board.",
+   "Info"
+  ],
+  "Error-prone case: BRIPRO/[MASK]/API:PVST is not supported on this board., Ground-Truth Label: Info. Reason: The log entry states that PVST (Per-VLAN Spanning Tree) is not supported on the current board. This is an informative message indicating a limitation or lack of support for a specific feature on the hardware. It does not indicate a serious problem or error that would impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PWDCTL/[MASK]/PWDCTL_FAILED_TO_WRITEPWD:Failed to write the password records to file.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure to write password records to a file, which could potentially lead to security vulnerabilities or unauthorized access. This failure is a serious problem that could impact the security and functionality of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "L3/[MASK]/L3_TUNNEL:No enough resource",
+   "Info"
+  ],
+  "Error-prone case: L3/[MASK]/L3_TUNNEL:No enough resource, Ground-Truth Label: Info. Reason: The log entry indicates that there is not enough resource available for a Layer 3 tunnel operation. While this may impact the functionality of the system, it does not indicate a serious problem or error that would cause a system failure or compromise security. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ARP/[MASK]/ARP_DYNAMIC_IF:The maximum number of dynamic ARP entries for interface [STRING] reached.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the maximum number of dynamic ARP entries for a specific interface has been reached. This could potentially lead to network connectivity issues or disruptions as the system may not be able to resolve IP addresses to MAC addresses efficiently. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RPR/[MASK]/RPR_JUMBO_INCONSISTENT:A jumbo configuration defect is present on the ring corresponding to RPR logical interface [STRING].",
+   "Info"
+  ],
+  "Error-prone case: RPR/[MASK]/RPR_JUMBO_INCONSISTENT:A jumbo configuration defect is present on the ring corresponding to RPR logical interface [STRING].\nGround-Truth Label: Info.\nReason: The log entry describes a jumbo configuration defect on a specific logical interface in the RPR system. This message is informative about the configuration issue and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "BRIPRO/[MASK]/TRUNK:Link aggregation load sharing not supported.",
+   "Info"
+  ],
+  "Error-prone case: BRIPRO/[MASK]/TRUNK:Link aggregation load sharing not supported., Ground-Truth Label: Info. Reason: The log entry indicates that link aggregation load sharing is not supported in the system. This is an informative message about a limitation or lack of support for a specific feature, rather than indicating a serious problem or error. It does not impact the normal operation of the system, therefore the severity of this log is low and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/OSPF_VLINKID_CHG:OSPF [UINT32] Router ID changed, reconfigure Vlink on peer",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the OSPF Router ID, which requires reconfiguring the virtual link on the peer. This change could potentially disrupt the OSPF network connectivity and routing, leading to serious problems in the network operation. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ]
+]

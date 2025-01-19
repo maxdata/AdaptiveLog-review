@@ -1,0 +1,205 @@
+[
+ [
+  [
+   "OPSA/[MASK]/OPS_RESULT_EXCEPTION: Scriptis [script-name], current event is [event-name], instance is [instance-id],exception reason is [reason].",
+   "Error"
+  ],
+  "Reason: The log entry indicates an exception in the script execution, with details about the script name, current event, instance ID, and the reason for the exception. This suggests a serious problem in the operation of the system, as an exception in the script execution could lead to unexpected behavior or system failures. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/GRNOTENBL: OSPFv3 [ULONG] graceful restart is not enabled.",
+   "Info"
+  ],
+  "Error-prone case: OSPFV3/[MASK]/GRNOTENBL: OSPFv3 [ULONG] graceful restart is not enabled., Ground-Truth Label: Info. Reason: The log entry indicates that the graceful restart feature for OSPFv3 is not enabled. This is an informative message about a specific configuration setting in the OSPFv3 protocol. It does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "PKI/[MASK]/TIMEBEFORE_LOCAL_ERR: LOCAL certificate ([localCertName]) will be valid in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a potential issue with the validity period of a local certificate, stating that it will be valid in a certain number of days. This could indicate a problem with the certificate's expiration date or other issues related to its validity. Since certificates are crucial for secure communication and authentication in a network environment, any issues with their validity could lead to security vulnerabilities or disruptions in normal operations. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ISIS/[MASK]/ISIS_DATABASE_OVERLOAD: The overload state of IS-IS LSDB changed. (isisSysInstance=[isisSysInstance], isisSysLevelIndex=[isisSysLevelIndex], isisSysLevelOverloadState=[isisSysLevelOverloadState])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the overload state of the IS-IS Link State Database (LSDB), which is a critical component of the IS-IS routing protocol. This change in overload state could potentially impact the routing functionality and stability of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OPS/[MASK]/OPS_LOG_USERDEFINED_CRITICAL: [content] (user=\"[userName]\", session=[sessionId])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a critical user-defined operation with the user's name and session ID. The term \"user-defined critical\" suggests that this operation is crucial for the system and any failure or issue in this operation could have serious consequences. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DRIVER/[MASK]/BOARDPWDCHANGE: ChassisID:[chassisid], slotID:[slotid], [description] password has been changed. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Info"
+  ],
+  "Error-prone case: DRIVER/[MASK]/BOARDPWDCHANGE: ChassisID:[chassisid], slotID:[slotid], [description] password has been changed. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs., Ground-Truth Label: Info. Reason: The log entry simply indicates that a password has been changed for a specific component in the system. It provides information about the change in password and the supported modes for this operation. This message does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/SELF_PURGE_CLEAR: OID [oid] The local device did not delete IS-IS routes advertised by other devices. (SysInstance=[integer], HostName=[string], HostIpAddress=[string], SystemID=[opaque], SysLevel=[integer])",
+   "Info"
+  ],
+  "Reason: The log entry describes a situation where the local device did not delete IS-IS routes advertised by other devices. This message is informative about the system's behavior regarding IS-IS route management and does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/IS_REMOTE_SYS_ID_CONFLICT: ISIS-INFO: The system IDs of two remote ISs may conflicted. (InstanceId = [InstanceId], Level = [Level], ConflictSystemId = [SystemId], DynamicName = [DynamicName], TheOtherDynamicName = [OtherDynamicName], OneIPAddress = [LocalIPAdd], TheOtherIPAddress= [ConfIPAdd])",
+   "Info"
+  ],
+  "Error-prone case: ISIS/[MASK]/IS_REMOTE_SYS_ID_CONFLICT: ISIS-INFO: The system IDs of two remote ISs may conflicted. (InstanceId = [InstanceId], Level = [Level], ConflictSystemId = [SystemId], DynamicName = [DynamicName], TheOtherDynamicName = [OtherDynamicName], OneIPAddress = [LocalIPAdd], TheOtherIPAddress= [ConfIPAdd]), Ground-Truth Label: Info. Reason: The log entry describes a potential conflict in system IDs between two remote ISs. While this situation may indicate a configuration issue or inconsistency, it does not directly imply a serious problem that would impact the normal operation of the system. The message provides information about a possible conflict and does not suggest any immediate threat or critical error. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "TNLM/[MASK]/FAIL_ALLOCTOKEN:The number of tunnel ID(s)exceeds the maximum value defined in the PAF file. (AllocationSpace=[STRING])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the number of tunnel IDs exceeds the maximum value defined in the PAF file, leading to a failure in allocating tokens. This message is informative about the system's limitation in handling tunnel IDs and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "SSLA/[MASK]/SSL_SYSLOG_CONNECT_FAIL:SSL client failed to be connected to the syslog server.(Error code=[ULONG], Last error code=[ULONG], Verify result=[ULONG], Socket ID=[ULONG], Error string=[STRING], TaskName=[taskname], TaskId=[taskid], PolicyName=[policyname])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure in establishing a connection between the SSL client and the syslog server, which is a critical component for logging and monitoring network activities. The presence of error codes, last error codes, and other parameters suggests that this issue is related to a serious problem in the SSL connection process. This failure could potentially impact the security and reliability of the network communication. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DEVM/[MASK]/DEVM_HEARTCHECK_ABNORMAL: The timer scheduling is abnormal. (The cycle= [Cycle]s. The actual interval= [Time]s)",
+   "Info"
+  ],
+  "Error-prone case: DEVM/[MASK]/DEVM_HEARTCHECK_ABNORMAL: The timer scheduling is abnormal. (The cycle= [Cycle]s. The actual interval= [Time]s), Ground-Truth Label: Info. Reason: The log entry provides information about the abnormality in timer scheduling, specifically the cycle and actual interval values. This message is informative about the system's internal operations and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "CM/[MASK]/CM_DYN_IPGROUP_EXC_MAX: [STRING]",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the dynamic IP group exceeded the maximum limit. This situation can lead to potential issues such as IP address conflicts, network instability, or unauthorized access. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "BFD/[MASK]/CREATE_SESS_ERR:Failed to create BFD session.It will be created again later. (ConfigurationName=[STRING])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that there was a failure to create a BFD (Bidirectional Forwarding Detection) session, but it also states that the session will be created again later. This message is informative about the process of creating BFD sessions and does not indicate a serious problem that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "OSPFV3/[MASK]/GRINTFDWNERR: Interface [STRING] state changed in restarting router, so prematurely exit graceful restart and reset OSPFv3 [ULONG] process.",
+   "Error"
+  ],
+  "Reason: The log entry indicates an error in the OSPFv3 protocol where the interface state changed in a restarting router, causing a premature exit of the graceful restart process and a reset of the OSPFv3 process. This issue could potentially disrupt the normal operation of the OSPFv3 routing protocol and lead to network instability. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/VLINK_NBR_CHG_DOWN:Virtual link peer event: neighbor state changed to Down. (ProcessId=[USHORT], NeighborAddress=[IPADDR], NeighborEvent=[STRING], NeighborPreviousState=[STRING], NeighborCurrentState=[STRING])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a significant event in the virtual link peer communication, where the neighbor state has changed to Down. This change in state could potentially disrupt the normal operation of the virtual link and impact the overall network connectivity. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PKI/[MASK]/TIMEBEFORE_CA_ERR: CA certificate ([caCertName]) will be valid in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a potential issue with the CA certificate, stating that it will be valid in a certain number of days. This could imply a problem with the validity or expiration of the certificate, which is crucial for ensuring secure communication within the network. As the validity of the CA certificate is a critical aspect of network security, any potential issues related to it are considered serious. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "LINE/[MASK]/SND_ALL:The user chose [STRING] when deciding whether to send messages to all the users.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a decision made by the user regarding sending messages to all users. This decision could potentially impact the communication and messaging system, which is a critical aspect of system operation. Therefore, the severity of this log is high, as it involves user actions that could lead to system-wide issues if not handled correctly. It is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "OSPF/[MASK]/ISSU_SMOOTH_INSIDE:The OSPF backup module received the ISSU_SMOOTH_INSIDE event from the ISSU management module.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the OSPF backup module received the ISSU_SMOOTH_INSIDE event from the ISSU management module. ISSU (In-Service Software Upgrade) events are critical for maintaining network availability during software upgrades. The ISSU_SMOOTH_INSIDE event suggests a smooth transition process during the upgrade, which is crucial for minimizing downtime and ensuring network stability. Any issues or errors related to ISSU events can potentially impact the network's operation and availability, making this log entry a serious problem. Therefore, the severity of this log is high, and it is appropriately labeled as Error."
+ ],
+ [
+  [
+   "TDM/[MASK]/TDM_ADP_CREATEPWFAIL:Interface [STRING] failed to create tdm PWE3  ,Create reason is [ULONG].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure to create a TDM PWE3 interface, which is a critical component for transporting TDM traffic over packet-switched networks. This failure could potentially disrupt the TDM traffic flow, leading to service outages or connectivity issues. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DHCP/[MASK]/DHCP_SERVER_DETECT:A NEW SERVER IS FOUND.(SERVER INFO : IP Address = [IPADDR], MAC Address = [STRING1], Interface = [STRING2])",
+   "Error"
+  ],
+  "Reason: The log entry indicates the detection of a new DHCP server on the network. This could potentially lead to conflicts or unauthorized DHCP server configurations, causing network connectivity issues or security risks. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PSSP_KMS/[MASK]/KMS_ENTROPY_CHECK: The health check result of the entropy source was recorded. (SlotId=[slot],CPUId=[CPU-Id],Result=[checkResult])",
+   "Error"
+  ],
+  "Error-prone case: PSSP_KMS/[MASK]/KMS_ENTROPY_CHECK: The health check result of the entropy source was recorded. (SlotId=[slot],CPUId=[CPU-Id],Result=[checkResult]), Ground-Truth Label: Error. Reason: The log entry indicates a critical health check of the entropy source in the Key Management Service (KMS). The result of this check is crucial for ensuring the security and proper functioning of cryptographic operations. Any issues with the entropy source could compromise the security of cryptographic keys and operations, making it a serious problem that warrants an Error severity level."
+ ],
+ [
+  [
+   "ENTITYTRAP/[MASK]/STORAGEINSUFFICIENTRESUME:OID [oid] Storage utilization resumed from exceeding the alarm threshold.(Index=[INTEGER], PhysicalName=\"[OCTET]\", StorageName=\"[OCTET]\", ThresholdValue=[INTEGER](KB), CurrentValue=[INTEGER](KB))",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the storage utilization has resumed from exceeding the alarm threshold. It provides detailed information about the OID, index, physical name, storage name, threshold value, and current value in kilobytes. This message is informative about the storage utilization status and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "ISIS/[MASK]/ISIS_SYS_ID_CONFLICT: System ID may conflict. (hwisisSysInstance=[hwisisSysInstance], hwisisSysLevelIndex=[hwisisSysLevelIndex], OwnSystemId=[OwnSystemId], sysProcIndexofDyname=[sysProcIndexofDyname], OwnDynamicName=[OwnDynamicName], AdjSystemId=[AdjSystemId], AdjDynamicName=[AdjDynamicName], LocalIP=[hwIsisLocalIP], AdjIP=[hwIsisAdjIP], RemoteIP=[hwIsisRemoteIP])",
+   "Info"
+  ],
+  "Error-prone case: ISIS/[MASK]/ISIS_SYS_ID_CONFLICT: System ID may conflict. (hwisisSysInstance=[hwisisSysInstance], hwisisSysLevelIndex=[hwisisSysLevelIndex], OwnSystemId=[OwnSystemId], sysProcIndexofDyname=[sysProcIndexofDyname], OwnDynamicName=[OwnDynamicName], AdjSystemId=[AdjSystemId], AdjDynamicName=[AdjDynamicName], LocalIP=[hwIsisLocalIP], AdjIP=[hwIsisAdjIP], RemoteIP=[hwIsisRemoteIP]), Ground-Truth Label: Info. Reason: The log entry indicates a potential conflict in the System ID within the ISIS protocol. While this situation may require attention and resolution, it does not represent a critical error that would impact the normal operation of the system. It is more of an informative message about a possible configuration issue rather than a serious problem. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DRIVER/[MASK]/hwPortModeChangeTrap: The speed of port mode is changed.(InterfaceIndex=[InterfaceIndex], InterfaceName=[InterfaceName], PortMode=[PortMode]) In LS mode, this log is supported only by the service LSs.",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the speed of the port mode, which could potentially impact the network connectivity and performance. In LS mode, this log is supported only by the service LSs, indicating that it is a critical operation related to the network services. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "RIP/[MASK]/GR_ABORT: Aborted Graceful Restart. (AbortReason=[STRING], ProcessId=[ULONG])",
+   "Info"
+  ],
+  "Reason: The log entry indicates that a Graceful Restart process was aborted, providing additional information such as the reason for the abort and the ProcessId. This message is informative about the specific event that occurred during the Graceful Restart process and does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "3G/[MASK]/SEARCH_PLMNS_FAILURE:Searching for available PLMNS failed!",
+   "Info"
+  ],
+  "Error-prone case: 3G/[MASK]/SEARCH_PLMNS_FAILURE:Searching for available PLMNS failed!, Ground-Truth Label: Info. Reason: The log entry indicates a failure in searching for available PLMNS (Public Land Mobile Networks), which is an informative message about the normal operation of the system. While the failure may impact network connectivity, it does not indicate a serious problem or security issue that would classify it as an Error. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "DRIVER/[MASK]/IUnitOfCardStsChanged: Slot [BoardSlotID] [BoardType] [CardType] [CardSlotID] [StatusChanged] In LS mode, this log is supported only by the service LSs.",
+   "Info"
+  ],
+  "Error-prone case: DRIVER/[MASK]/IUnitOfCardStsChanged: Slot [BoardSlotID] [BoardType] [CardType] [CardSlotID] [StatusChanged] In LS mode, this log is supported only by the service LSs., Ground-Truth Label: Info. Reason: The log entry provides information about a status change in a specific card slot in LS mode. It mentions that this log is supported only by the service LSs, indicating that it is a normal operation message related to the system's functionality. There is no indication of a serious problem or error that could impact the system's operation, making it appropriate to label this log as Info."
+ ],
+ [
+  [
+   "OSPF/[MASK]/SHAMLINK_NBR_DOWN:Shamlink neighbor event: neighbor state changed to Down. (ProcessId=[USHORT], NeighborAddress=[IPADDR], NeighborEvent=[STRING], NeighborPreviousState=[STRING], NeighborCurrentState=[STRING])",
+   "Error"
+  ],
+  "Reason: The log entry indicates a significant event in the OSPF protocol where a Shamlink neighbor has transitioned to the \"Down\" state. This event signifies a disruption in the network connectivity between the OSPF routers. Such a state change can impact the routing functionality and potentially lead to network instability or downtime. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "WLAN/[MASK]/IWAP_LOG_CLIENT_INFO_ROAM_OR_OFFLINE_INFO:APMAC:[STRING];RADIO:[ULONG];USER:[STRING];MAC:[STRING];TIME:[ULONG];ZONE:UTC-[STRING];DAYLIGHT:[BOOL];ERRCODE:[ULONG];RESULT:[STRING];OnlineTime(s):[ULONG];UpPacketNum:[ULONG];UpByte:[ULONG];DownPacketNum:[ULONG];DownByte:[ULONG].Thedevice supports this log only when it functions as a FAT AP.",
+   "Error"
+  ],
+  "Error-prone case: WLAN/[MASK]/IWAP_LOG_CLIENT_INFO_ROAM_OR_OFFLINE_INFO:APMAC:[STRING];RADIO:[ULONG];USER:[STRING];MAC:[STRING];TIME:[ULONG];ZONE:UTC-[STRING];DAYLIGHT:[BOOL];ERRCODE:[ULONG];RESULT:[STRING];OnlineTime(s):[ULONG];UpPacketNum:[ULONG];UpByte:[ULONG];DownPacketNum:[ULONG];DownByte:[ULONG].Thedevice supports this log only when it functions as a FAT AP., Ground-Truth Label: Error. Reason: The log entry indicates information about client roaming or offline status in a wireless LAN environment. It specifies various parameters such as MAC address, user information, error codes, and network statistics. However, the crucial point is that the device only supports this log when it functions as a FAT AP (Access Point). If the device is not operating in this mode, it implies a configuration or operational issue that could impact the network's performance or connectivity. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ]
+]

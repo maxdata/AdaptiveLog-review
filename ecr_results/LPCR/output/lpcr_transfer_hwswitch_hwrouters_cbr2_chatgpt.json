@@ -1,0 +1,770 @@
+[
+ [
+  0,
+  "Reason: The log message indicates that the dynamic label count fell from the upper limit, resulting in unwanted LSPs being torn down and the system reclaiming some dynamic labels. The key features to consider are the dynamic label count falling from the upper limit and unwanted LSPs being torn down.\nConsidering the provided possible causes:\n- Cause A directly aligns with the details mentioned in the log message, indicating a clear relationship between the log and the possible cause.\n- Cause B does not directly relate to the issue of dynamic label count falling from the upper limit and unwanted LSPs being torn down.\n- Cause C does not mention anything related to dynamic labels or unwanted LSPs, so it is not directly relevant.\n- Cause D talks about key pair destruction, which is not related to the log message about dynamic label count falling.\n- Cause E mentions static and dynamic mode docking, which is not directly related to the issue described in the log message.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  1,
+  "Reason: The log message indicates a user going offline with specific details such as username, IP address, MAC address, and error code. The provided causes should align with the context of a user going offline in a web service environment.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  2,
+  "Reason: The log message indicates a failure in NCP (Network Control Protocol) negotiation on the local interface, specifically mentioning parameters such as IfName, hwPppNcpName, and hwPppNegotiationFailReason. The log also specifies that this event is supported only in LS mode. Based on domain knowledge, the possible causes should be related to interface configuration, network quality, or system control commands.\n\nOutput: A: 90, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  3,
+  "Reason: The log message indicates that a module upgrade was successful on specific series of devices. The key information includes the successful upgrade of a module on AR6700 series and AR8100 series devices.\nBased on the provided log and possible causes, Cause A seems to be the most relevant as it directly aligns with the successful module upgrade mentioned in the log message. Cause B, C, D, and E do not directly relate to the successful module upgrade mentioned in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  4,
+  "Reason: The log message indicates that there was a report of IPSG (IP Source Guard) dropping packets, specifying parameters such as SourceInterface, DropPacketNumber, and DroptTime. The possible causes should align with issues related to IPSG and packet dropping.\n\nOutput: A: 100, B: 5, C: 80, D: 10, E: 0"
+ ],
+ [
+  5,
+  "Reason: The log message indicates that the (S, G) entries on the host side fell below the lower threshold in the MGMD (Multicast Group Management Protocol) environment. The provided causes should be evaluated based on their relevance to this specific scenario.\n\nOutput: A: 100, B: 10, C: 0, D: 5, E: 0"
+ ],
+ [
+  6,
+  "Reason: The log message indicates that TWAMP does not support service alarm clearing on the bound interface, specifically mentioning that in LS mode, this log is supported only by the service LSs. The key details include TWAMP service alarm clearing and LS mode restrictions.\nConsidering the provided possible causes, Cause A seems to be the most relevant as it directly addresses the issue of TWAMP reflector configuration being removed or the interface using supported VLL services, which could impact service alarm clearing.\nCause B, C, D, and E do not directly relate to the specific issue mentioned in the log message.\n\nOutput: A: 90, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  7,
+  "Reason: The log message indicates that the deletion of a whitelist was successful, providing details about the file name involved in the operation. The possible causes provided relate to different scenarios such as certificate deletion, network rejection, backup failure, socket control block not found, and a timer expiration during a graceful restart. It is important to consider the direct relevance of each cause to the successful deletion of the whitelist mentioned in the log.\n\nOutput: A: 80, B: 20, C: 10, D: 5, E: 0"
+ ],
+ [
+  8,
+  "Reason: The log message indicates a QoS (Quality of Service) event related to Security Access Control Lists (SACL), specifying details such as IPv, ACL, rule numbers, actions, and packet counts. The provided causes should be evaluated based on their relevance to QoS events and SACL logs.\n\nOutput: A: 80, B: 10, C: 20, D: 5, E: 50"
+ ],
+ [
+  9,
+  "Reason: The log message indicates that the tunnel has not been locked in LS mode, providing details such as SessionTunnelId, LocalLspId, IngressLsrId, EgressLsrId, TunnelName, SignalingProtocol, and SignalledTunnelName. The log message also mentions that this log is supported only by the service LSs. Based on domain knowledge, the focus is on MPLS tunnel locking and service LSs.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  10,
+  "Reason: The log message indicates that a memory card event occurred, with the card being plugged in and then plugged out. This suggests a physical action related to the memory card. From the provided possible causes, we can eliminate causes related to network synchronization, link selection, and TTSI consistency as they are not relevant to memory card events. The cause related to hot-swapping storage devices aligns with the action of plugging in and out a memory card, indicating a high level of relevance.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  11,
+  "Reason: The log message indicates that the external Time Port status has resumed, specifying the status and type of the external Time Port. It also mentions the support conditions in VS and LS modes. The possible causes should be related to the resumption of the external Time Port status or factors influencing it.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  12,
+  "Reason: The log message indicates a new event occurrence with details such as start time, duration, instance type, instance ID, instance name, measure ID, and measure name. It also mentions that the log is supported by both admin LS and service LS in LS mode. Based on domain knowledge, the event seems to be related to performance monitoring.\n\nPossible Cause A: The CSES count exceeded the preset threshold. - This cause seems relevant as it mentions exceeding a preset threshold, which could be related to performance monitoring metrics. \nPossible Cause B: Failed to match an interface address. - This cause does not directly relate to the details provided in the log message about a new event occurrence and performance monitoring.\nPossible Cause C: The shutdown command was run on the interface. Abnormality occurred on the interface. - These causes seem more related to interface operations rather than the event mentioned in the log message.\nPossible Cause D: The operation log is recorded. - This cause does not provide a clear connection to the new event occurrence and performance monitoring.\nPossible Cause E: The signature database was successfully updated. - This cause does not seem directly related to the event mentioned in the log message.\n\nOutput: A: 90, B: 10, C: 20, D: 5, E: 0"
+ ],
+ [
+  13,
+  "Reason: The log message indicates that data synchronization is restored in a specific mode (VS or LS) and specifies the supported configurations for this event. The possible cause should align with the restoration of data synchronization and potential reasons for this event.\nOutput: A: 100, B: 70, C: 10, D: 30, E: 0"
+ ],
+ [
+  14,
+  "Reason: The log message indicates that a log file was deleted due to aging, which suggests that the file was removed because it was old or no longer needed. Therefore, the possible cause should be related to file deletion or aging.\n\nOutput: A: 80, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  15,
+  "Reason: The log message indicates that OSPF added a virtual neighbor to the pre-restart neighbor list, providing details about the Router ID, Transit Area ID, Helper Virtual Neighbor Count, Helper Sham Link Neighbor Count, and Helper Normal Neighbor Count. The possible cause should align with this action related to OSPF and neighbor list manipulation.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  16,
+  "Reason: The log message indicates that an End-Of-Rib marker was sent to the peer in the context of BGP (Border Gateway Protocol). The log provides details about the peer address, source interface, VPN instance, and address family involved in the event.\n\nOutput: A: 100, B: 5, C: 10, D: 0, E: 0"
+ ],
+ [
+  17,
+  "Reason: The log message indicates that configurations failed to be delivered to VS interconnection interfaces, specifically mentioning hwPhysicalPortIfIndex and hwPhysicalPortName. It also states that in VS mode, this log is supported only by the admin VS, and in LS mode, it is not supported. Based on this information, we need to find a cause related to configuration delivery failure in VS interconnection interfaces.\n\nOutput: A: 90, B: 5, C: 10, D: 80, E: 20"
+ ],
+ [
+  18,
+  "Reason: The log message indicates that there was a change in the Entity MIB on the device, similar to the error-prone case where an entity on the device was installed, removed, reset, or registered. This suggests a direct correlation between the log message and the possible cause A.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  19,
+  "Reason: The log message indicates that a device reset was unsuccessful and provides the reset reason. The possible causes provided should align with potential reasons for the unsuccessful reset.\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  20,
+  "Reason: The log message indicates that the SIM card test detects continuous failures, leading to a modem reboot. This suggests a problem with the SIM card or related components.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  21,
+  "Reason: The input log indicates a time-related event, but does not provide specific details about the nature of the event. It simply states that a log related to time was recorded. Therefore, the possible causes should be evaluated based on general time-related activities or configurations.\n\nOutput: A: 50, B: 10, C: 30, D: 20, E: 40"
+ ],
+ [
+  22,
+  "Reason: The log message indicates that the OSPF backup module received the ISSU_SMOOTH_ACROSS event from the ISSU management module, suggesting a smooth transition during an In-Service Software Upgrade (ISSU).\nPossible Cause A: 100\nPossible Cause B: 10\nPossible Cause C: 0\nPossible Cause D: 0\nPossible Cause E: 0\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  23,
+  "Reason: The log message indicates that LDP data smooth began, suggesting a smooth data transmission process. The possible causes should align with events related to data transmission, smooth operation, or network quality.\nPossible Cause A: 10\nPossible Cause B: 5\nPossible Cause C: 0\nPossible Cause D: 20\nPossible Cause E: 30\n\nOutput: A: 10, B: 5, C: 0, D: 20, E: 30"
+ ],
+ [
+  24,
+  "Reason: The log message indicates that the Cap CPU utilization exceeded the pre-alarm threshold, with details about the CPU threshold type, current value, and threshold value. The possible cause should be related to CPU utilization or threshold exceeding.\nOutput: A: 10, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  25,
+  "Reason: The log message indicates that board(s) excluded during software upgrading were retrieved. It also mentions the supported modes for this log message. The possible cause should be related to issues or actions during software upgrading or board exclusion.\n\nOutput: A: 90, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  26,
+  "Reason: The log message indicates that an alarm of a certain type on a specific interface has aged. This suggests that the alarm has been active for a certain period and has now aged.\nPossible Cause A: 100 - The alarm was aged directly aligns with the situation described in the log message.\nPossible Cause B: 0 - Receiving a BIER route is not directly related to the aging of an alarm on an interface.\nPossible Cause C: 0 - The number of ASE LSAs generated in OSPF is not relevant to the aging of an alarm on an interface.\nPossible Cause D: 0 - Starting a session with a peer is not related to the aging of an alarm on an interface.\nPossible Cause E: 0 - Line signals being locked for testing is not directly related to the aging of an alarm on an interface.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  27,
+  "Reason: The log message indicates that the OSPFv3 process is undergoing a reset. This suggests an issue within the OSPFv3 protocol that requires a reset of the process. Based on this context, we can evaluate the relevance of each possible cause by determining if it aligns with the concept of a process reset in OSPFv3.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  28,
+  "Reason: The log message indicates that an NHRP hub is down, mentioning protocol address, NBMA address, and interface index. The possible causes should be related to network connectivity issues, NHRP protocol failures, or hardware failures that could lead to the hub being down.\n\nOutput: A: 0, B: 0, C: 0, D: 80, E: 0"
+ ],
+ [
+  29,
+  "Reason: The log message indicates that a command failed to be committed in the CLI (Command Line Interface). The possible causes should be related to command execution, user actions, or system configurations that could lead to such a failure.\nBased on the provided error-prone cases and domain knowledge, Cause A seems to directly relate to the failure of committing a command, as it mentions a user entering a command that failed to be committed. Cause B, C, D, and E do not seem to be directly related to the specific failure mentioned in the log message.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  30,
+  "Reason: The log message indicates that the protocol rate is being recovered by dynamic cpcar. This suggests that there was a problem with the protocol rate that required recovery. Looking at the provided possible causes, we can analyze which one is most relevant based on the context of the log message.\n\nOutput: A: 80, B: 90, C: 10, D: 0, E: 20"
+ ],
+ [
+  31,
+  "Reason: The log message indicates a mismatch between the software versions of an Access Point (AP) and an Access Controller (AC). The provided cause A correctly addresses this software version mismatch, while causes B, C, D, and E are unrelated to the issue described in the log.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  32,
+  "Reason: The log message indicates that an intrusion was detected, providing details about the event, source, destination, protocol, severity, etc. The possible causes should be related to potential reasons for the intrusion detection event.\nPossible Cause A: The packet matches a signature - This cause is highly relevant as it directly relates to the detection of an intrusion based on matching a signature.\nPossible Cause B: The AP received invalid WPI frames - This cause is not directly related to the intrusion detection event described in the log message.\nPossible Cause C: The number of VPLS VC created fell below 95% of the maximum number of VPLS VCs allowed - This cause is not directly related to the intrusion detection event described in the log message.\nPossible Cause D: Memory allocation failed when a new address mapping table was generated - This cause is not directly related to the intrusion detection event described in the log message.\nPossible Cause E: The number of imported routes in the IS-IS area fell below the maximum limit - This cause is not directly related to the intrusion detection event described in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  33,
+  "Reason: The log message indicates that the port has been set to the discarding state in the MSTP process, with details about the InstanceID, PortIndex, IfIndex, PortName, and PwName. Based on the error-prone cases provided, relevant causes should directly align with the details mentioned in the log message to be considered highly relevant.\n\nOutput: A: 10, B: 0, C: 0, D: 0, E: 5"
+ ],
+ [
+  34,
+  "Reason: The log message indicates that the SPR (Service Provider Router) detects a site link degrade, which suggests a degradation in the link quality between sites. The key features in this log include information about the destination site, VPN instance, application policy, and various link metrics such as loss, delay, and jitter.\nConsidering the domain knowledge of network operations, a site link degrade event can be caused by various factors such as deteriorating link quality, network device issues, software upgrades, security configurations, or ARP table limitations.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  35,
+  "Reason: The log message indicates a CRC error alarm on a physical port, with details about the interface index, port name, CRC error statistics, thresholds, and interval. The log also mentions that this alarm is supported only by specific VS and LS modes. Based on this information, we can infer that the possible causes should be related to hardware or network issues that could trigger a CRC error alarm on a physical port.\n\nOutput: A: 90, B: 5, C: 10, D: 0, E: 85"
+ ],
+ [
+  36,
+  "Reason: The log message indicates LR (Link Recovery) information related to a specific Osnode. LR information is typically generated after a link failure or recovery event. The provided cause A accurately describes that the log was automatically generated after the system was started, which aligns with the nature of LR information being triggered upon system startup.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  37,
+  "Reason: The log message indicates that the number of users has reached the maximum limit for MAC address authentication, specifically mentioning the interface index, port name, and process name. The log is supported only on AR6700 series, AR5700 series, which indicates a specific device context.\nPossible Cause A directly relates to the situation described in the log message by stating that the number of MAC address authentication users reaches the upper limit, aligning with the details provided in the log.\nPossible Cause B is unrelated to the issue of user limit reached for MAC address authentication.\nPossible Cause C and D are also unrelated to the log message as they talk about optical module failure, fiber failure, power cable removal, and faulty power module, which do not correspond to the user limit issue.\nPossible Cause E is also unrelated as it talks about the ordinary LSP of the tunnel changing to Up, which is not relevant to the user limit reached for MAC address authentication.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  38,
+  "Reason: The log message indicates that a NETCONF server session ended, providing details such as the username, session ID, IP address, etc. The possible causes provided should directly relate to scenarios that could lead to the termination of a NETCONF session.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  39,
+  "Reason: The log message indicates that there was a failure in encrypting the private key in PKCS private key structure. The provided causes should directly relate to encryption failures or internal errors, rather than unrelated issues like deleting a CRL file or route loops detection.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  40,
+  "Reason: The log message indicates that a file was successfully downloaded. The possible causes should be related to successful download operations or file management.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  41,
+  "Reason: The log message indicates that internal communication processing failed in the context of DOPHI mesh security logs, with details about slot, CPU ID, process name, and error reason. The provided causes should be evaluated based on their relevance to this specific scenario.\n\nPossible Cause A: This cause mentions security-related operation exception logs being generated when mesh IPC is invoked, which aligns with the security aspect of the log message. However, it does not directly address the internal communication processing failure mentioned in the log.\nPossible Cause B: This cause talks about different in-labels for the same FEC, which seems unrelated to the internal communication processing failure described in the log message.\nPossible Cause C: This cause mentions the fault triggering the alarm being rectified, which could potentially be relevant if the fault rectification is related to the internal communication processing failure.\nPossible Cause D: This cause discusses the NQA test and potential reasons for the trap occurrence, such as a small threshold or a busy network. While this cause does not directly address the internal communication processing failure, it could be relevant if the NQA test is somehow related to the failure.\nPossible Cause E: This cause mentions a topology change, which may or may not be related to the internal communication processing failure depending on the specific context.\n\nOutput: A: 30, B: 5, C: 20, D: 15, E: 10"
+ ],
+ [
+  42,
+  "Reason: The log message clearly indicates a failure to create a TCP connection, which is a network connectivity issue. The provided cause A accurately mentions that the routes at both ends are unreachable and the IP address and port number configurations are incorrect, which directly relates to the issue described in the log.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  43,
+  "Reason: The log message indicates that the host access interface no longer experiences frequent changes, suggesting that the issue of host conflict has been resolved. The mention of the service LSs also provides context within the domain of LS mode. \n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  44,
+  "Reason: The log message indicates that the ND VLAN CAR (Committed Access Rate) became ineffective on an interface, specifically mentioning protocol type, logical interface, physical interface, PE-VLAN, CE-VLAN, and sample rate. The log also mentions that this log is supported only by the service LSs. Based on this information, we need to look for causes related to VLAN configuration, interface settings, and service support.\nOutput: A: 10, B: 80, C: 5, D: 0, E: 0"
+ ],
+ [
+  45,
+  "Reason: The log message indicates that the IO board is run out of ACL, with specific mention of the error code. The possible cause should be related to delivering ACLs on the interface card, as it directly addresses the issue of ACL runout on the IO board.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  46,
+  "Reason: The log message indicates that the CPU utilization has recovered to the normal range in the VOSCPU system. Based on domain knowledge, this could be related to the CPU usage of the forwarding plane returning to normal levels.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  47,
+  "Reason: The log message indicates that a station successfully authenticated, mentioning the Station MAC address and authentication method. The relevant cause should align with the successful authentication event.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  48,
+  "Reason: The log message indicates that the number of TCP or UDP sessions starting from a domain is too large, suggesting a potential issue with network connectivity or resource utilization. Looking at the error-prone cases, we can see that the relevance score is high when the provided cause directly aligns with the details mentioned in the log message. In this case, we need to identify the cause that best relates to the excessive number of TCP or UDP sessions.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  49,
+  "Reason: The log message indicates that an invalid PD (Power Device) is connected to the port, leading to an invalid PD detection. The possible cause should directly relate to the issue of an invalid PD connection.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  50,
+  "Reason: The log message indicates a change in the status of a unit in a chassis, specifying the chassis ID, type of unit, and the status change. It also mentions the log support conditions for different modes (VS and LS). The possible causes should be related to issues that could lead to such status changes or log support conditions.\n\nOutput: A: 70, B: 20, C: 50, D: 80, E: 30"
+ ],
+ [
+  51,
+  "Reason: The log message indicates that the SIM card is not present in a specific slot on AR6700 series or AR8100 series devices. This issue is related to hardware and SIM card installation.\nPossible Cause A: The SIM card is not properly installed - This cause directly aligns with the issue mentioned in the log message, indicating a high relevance.\nPossible Cause B: Failed to obtain the LSR ID from RRO and CSPF during the processing of the Path message - This cause does not directly relate to the issue of a missing SIM card, resulting in a low relevance score.\nPossible Cause C: The schedule reboot command was run to restart scheduled reboot, and the configured time arrived - This cause is not related to the issue of a missing SIM card, resulting in a low relevance score.\nPossible Cause D: The BFD session changed from Down to Up. This event was notified to MPLS TE - This cause is not related to the issue of a missing SIM card, resulting in a low relevance score.\nPossible Cause E: Cause 1: Incorrect message interfaces were used. Cause 2: The time sequence of messages was incorrect - These causes are not related to the issue of a missing SIM card, resulting in a low relevance score.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  52,
+  "Reason: The input log indicates an error in editing configuration through NETCONF, with details about the user, command executed, and IP address involved. The possible causes provided range from system recording failure information to memory alarm thresholds and service overload, as well as CA certificate validity and blacklist log entries. \n\nOutput: A: 70, B: 10, C: 20, D: 30, E: 50"
+ ],
+ [
+  53,
+  "Reason: The log message indicates that the storage utilization exceeded the alarm threshold, suggesting a storage-related issue. The details provided in the log message include Index, PhysicalName, StorageName, ThresholdValue, and CurrentValue, indicating a specific storage problem. Therefore, the relevant cause should directly address a storage-related issue.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  54,
+  "Reason: The log message indicates that the interface reverse configuration was canceled, and it mentions the IfName and AlarmName parameters. It also specifies that this log is supported by both the admin LS and service LSs. Based on this information, we can infer that the cancellation of the alarm reversion configuration is related to some specific conditions or events.\n\nOutput: A: 90, B: 10, C: 5, D: 0, E: 5"
+ ],
+ [
+  55,
+  "Reason: The log message clearly states that an aged user was activated, indicating that the user account was reactivated. The possible cause A directly matches the details mentioned in the log message, showing a direct relationship between the log and the cause.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  56,
+  "Reason: The input log indicates an ASPF session with specific session content being logged. This suggests that the log is related to ASPF session activities.\nConsidering the error-prone cases and domain knowledge, Cause A seems to be the most relevant as it directly relates to the logging of ASPF session information.\nCause B is less relevant as it involves MAC address binding, which is not mentioned in the log.\nCause C is also less relevant as it pertains to VPLS VCs, which are not mentioned in the log.\nCause D is somewhat relevant as it mentions the rectification of faults and alarm clearance, which could be related to the log message.\nCause E is not relevant as it discusses the OSPFv3 process and neighbors, which are not mentioned in the log.\n\nOutput: A: 100, B: 10, C: 5, D: 50, E: 0"
+ ],
+ [
+  57,
+  "Reason: The log message indicates that packets on the PPE are lost due to insufficient buffer in a specific slot, suggesting a hardware-related issue. Possible Cause A directly addresses the lack of available buffer in a specific slot, which aligns with the situation described in the log message. Possible Cause B talks about the transmission rate of TCP or UDP packets, which is not directly related to the buffer issue mentioned in the log. Possible Cause C discusses server connection and PKI configuration, which are not relevant to the hardware buffer problem. Possible Cause D mentions interface status and link recovery, which may not be directly related to the buffer insufficiency. Possible Cause E talks about memory space insufficiency, which could potentially lead to issues with policy acceleration but may not directly address the buffer problem mentioned in the log.\n\nOutput: A: 100, B: 10, C: 0, D: 5, E: 20"
+ ],
+ [
+  58,
+  "Reason: The log message indicates that the SM incoming alignment error was resumed, providing details such as IfIndex, SlotId, CardId, PortId, and InterfaceName. It also mentions that in VS mode, the log is supported only by the admin VS, and in LS mode, it is supported only by the service LSs. From the domain knowledge, it is known that SM incoming alignment errors are critical in transmission systems and can be caused by various factors related to hardware, configuration, or network issues.\n\nOutput: A: 100, B: 5, C: 0, D: 0, E: 100"
+ ],
+ [
+  59,
+  "Reason: The log message indicates that a Signal Degraded threshold1 far-end alarm started in TPOAM, with details about various parameters related to the alarm. The log also mentions that this alarm is supported only by the service LSs. Based on this information, we can infer that the possible causes should be related to signal degradation, loss of frames, network connectivity issues, or device failures.\n\nOutput: A: 90, B: 5, C: 10, D: 5, E: 80"
+ ],
+ [
+  60,
+  "Reason: The log message indicates that the OSPF (Open Shortest Path First) process exited Graceful Restart (GR) unsuccessfully. The possible cause should directly relate to the failure of the OSPF process to exit from GR.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  61,
+  "Reason: The log message indicates that an IPSec policy is applied to an interface, providing details such as the interface index, policy name, vsys name, and interface name. The key event is the application of the IPSec policy to the interface.\nPossible Cause A: When an IPsec policy is applied to an interface, the alarm is generated.\nPossible Cause B: Delivering messages to the interface card fails.\nPossible Cause C: The bootloader menu password is set.\nPossible Cause D: Possible Causes The MEP received an LCK packet sent by a MEP in the inner layer MA.\nPossible Cause E: Messages from the new DHCPv6 server are received.\n\nOutput: A: 100, B: 10, C: 0, D: 5, E: 0"
+ ],
+ [
+  62,
+  "Reason: The log message indicates a registration limit issue with specific details about the IP address and port. From the provided error-prone cases, we can see that the relevance score is high when the possible cause directly aligns with the details mentioned in the log message.\n\nOutput: A: 100, B: 20, C: 10, D: 30, E: 5"
+ ],
+ [
+  63,
+  "Reason: The log message indicates that an interface configuration error has occurred in OSPF (Open Shortest Path First), with details such as process ID, router ID, IP address, etc. Based on the provided error-prone cases, relevant causes should directly relate to the interface configuration error mentioned in the log message.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  64,
+  "Reason: The log message indicates that the PPP link was closed due to the rejection of the PAP protocol on the interface. The relevant cause should directly relate to PAP protocol rejection or interface closure.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  65,
+  "Reason: The log message indicates that the device session resources were resumed, without specifying the exact reason for the resource lack. From the error-prone cases, we can see that relevant causes directly address the issue mentioned in the log message.\nConsidering the input log and the possible causes, Cause A seems to be the most relevant as it directly relates to the reduction in SPR forwarding flow tables on the device, which could lead to session resource lack. Cause B, C, D, and E do not directly address the issue of session resource lack being resumed.\n\nOutput: A: 90, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  66,
+  "Reason: The log message is related to ensuring efficient heat dissipation by covering unoccupied slots with a filler panel. This indicates a concern for environmental monitoring and heat management within the device.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  67,
+  "Reason: The log message indicates that a topology change was detected on an interface in RIP (Routing Information Protocol). Based on the error-prone cases provided, the relevant cause should directly relate to the detected topology change.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  68,
+  "Reason: The log message indicates that the download of a new version was successful, with details such as SyslogId, User, IP, Module, Pre-UpdateVersion, DownloadVersion, Status, and Duration. The key information is the successful download of a new version.\nConsidering the provided possible causes:\nPossible Cause A: Succeeded in downloading the new version of the signature database - Relevant as it directly aligns with the successful download of a new version mentioned in the log.\nPossible Cause B: Succeeded in loading the remote attestation CA certificate file - Not directly related to the successful download of a new version mentioned in the log.\nPossible Cause C: The license file is activated - Not directly related to the successful download of a new version mentioned in the log.\nPossible Cause D: The CPU usage of the forwarding plane returned to the normal range - Not directly related to the successful download of a new version mentioned in the log.\nPossible Cause E: The percentage of used addresses in the IP address pool fell below the alert threshold - Not directly related to the successful download of a new version mentioned in the log.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  69,
+  "Reason: The log message indicates that an IGMP packet with an unsupported type was received. This suggests an issue with the type of IGMP packets being received.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  70,
+  "Reason: The log message indicates that the STP topology of the local device stopped flapping, with details about ProcessID and InstanceID. The possible causes should align with this specific scenario mentioned in the log message.\n\nOutput: A: 80, B: 10, C: 60, D: 90, E: 20"
+ ],
+ [
+  71,
+  "Reason: The log message indicates a user access result with details such as username, IP address, MAC address, and error code. From the provided log, it is clear that the log is related to user access and authentication.\nConsidering the domain knowledge of input logs, the possible causes related to authentication, network connectivity, and resource usage are more likely to be relevant.\n\nOutput: A: 70, B: 50, C: 20, D: 10, E: 80"
+ ],
+ [
+  72,
+  "Reason: The log message indicates that the PSE chip resumed from an invalid situation, suggesting a fault in the PoE chip. Therefore, causes related to chip faults or resolutions would be more relevant.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  73,
+  "Reason: The log message indicates that the upgrade failed for a device, specifying details such as the device, system software, and patch involved in the upgrade process. The possible causes provided relate to network communication failures, storage space issues, OSPF LSDB route limits, IS-IS LSP purging, IPv6 CGA address conflicts, and PW bound to APS instances over non-TE tunnels.\n\nOutput: A: 80, B: 20, C: 10, D: 5, E: 0"
+ ],
+ [
+  74,
+  "Reason: The log message indicates that in a specific VPN instance, a session with a peer was closed due to the peer holding time expiring. This suggests a timeout issue related to the session with the peer.\nConsidering the domain knowledge of MSDP (Multicast Source Discovery Protocol) and peer sessions, the possible cause related to a timeout or connection issue would be more relevant.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  75,
+  "Reason: The log message indicates that the OAM Mismatch alarm was cleared in the L2VPN system, with details about the service type, protocol type, VC ID, peer address, interface index, and other parameters. The log also mentions that this log is supported only by the service LSs. \n\nConsidering the domain knowledge of L2VPN systems, the possible cause should be related to issues that could lead to an OAM Mismatch alarm or its clearing.\n\nPossible Cause A: The local and remote TTSIs becoming consistent could potentially resolve the mismatch and clear the alarm.\nPossible Cause B: A BGP VC switching from the Working state to the Protecting state may not directly relate to the clearing of the OAM Mismatch alarm.\nPossible Cause C: Configuring an interface loopback may not directly impact the OAM Mismatch alarm clearing.\nPossible Cause D: Generating an errored packet on the remote end interface may not be directly related to the clearing of the OAM Mismatch alarm.\nPossible Cause E: The number of IPv6 routes reaching the maximum value defined in the paf may not directly affect the clearing of the OAM Mismatch alarm.\n\nOutput: A: 90, B: 10, C: 5, D: 10, E: 5"
+ ],
+ [
+  76,
+  "Reason: The log message indicates a warm start of the device, but does not provide specific details about the cause of the warm start.\nBased on the provided possible causes:\n- Cause A: The alarm is generated if the device is manually restarted, which aligns with the concept of a warm start.\n- Cause B: An internal error of the system could potentially lead to a warm start.\n- Cause C: The last active key ID in the keychain expiring may not directly relate to a warm start.\n- Cause D: Far-end fault detected by TP OAM being rectified does not directly relate to a warm start.\n- Cause E: Failed to check resources in the ISSU check phase may lead to issues but not specifically a warm start.\n\nOutput: A: 80, B: 70, C: 10, D: 20, E: 30"
+ ],
+ [
+  77,
+  "Reason: The log message indicates that internal communication processing failed, which could be related to security issues, abnormal shell behavior, network interface problems, unpredictable reasons, or MEG name discrepancies.\nOutput: A: 70, B: 80, C: 50, D: 30, E: 40"
+ ],
+ [
+  78,
+  "Reason: The log message indicates that there was a failure in encoding the private key to PEM format. The possible cause should directly address this encoding failure.\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  79,
+  "Reason: The log message indicates that the license file is valid, suggesting that there was no issue with the license file itself. Therefore, we need to consider causes related to successful validation or usage of the license file.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  80,
+  "Reason: The log message indicates that the ND VLAN CAR (Neighbor Discovery VLAN Control and Reporting) became effective on an interface, possibly due to an attack on the interface. It also mentions that this log is supported only by the service LSs (Line Services). Based on this information, we can infer that the issue is related to network security and potentially malicious activity targeting the interface.\n\nOutput: A: 100, B: 5, C: 0, D: 0, E: 10"
+ ],
+ [
+  81,
+  "Reason: The log message indicates that user information was generated when the Committed Access Rate (CAR) was changed to Single Queue (SQ), providing details about the parameters involved. It also mentions that this log is supported by both the admin LS and service LSs. The possible causes should be related to the change from CAR to SQ and any associated events or actions.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  82,
+  "Reason: The log message indicates that a MAC-FCS-EXC signal alarm has occurred on a physical port, with details about the interface index, name, current value, alarm threshold, and resume threshold. The log also mentions that this alarm is supported only in LS mode. \n\nConsidering the provided possible causes:\n- Possible Cause A directly relates to the log message by mentioning link faults causing the CRC error packet ratio to exceed an upper limit, which aligns with the MAC-FCS-EXC alarm.\n- Possible Cause B is not relevant as there is no mention of IPv4 public network routes in the log message.\n- Possible Cause C, Command change, does not seem to be directly related to the MAC-FCS-EXC alarm on the physical port.\n- Possible Cause D, MEP receiving a CCM with RDI flag set, is not mentioned in the log message and does not seem to be directly related to the alarm.\n- Possible Cause E, an internal error, is a generic cause that does not provide specific details related to the MAC-FCS-EXC alarm.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 10"
+ ],
+ [
+  83,
+  "Reason: The log message indicates a warning related to a DSP (Digital Signal Processor) being faulty. The possible causes should be related to DSP status or functionality issues.\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  84,
+  "Reason: The log message indicates a change in the state of the control channel between the access and control devices, mentioning both a failure and a successful setup. This suggests a potential issue with the communication between these devices.\nConsidering the provided possible causes, Cause A directly relates to the establishment or failure of the CAPWAP tunnel between the access and control devices, aligning with the log message.\nCause B mentions receiving an RPR message from the RM, which may help in locating problems between modules but does not directly address the control channel state change mentioned in the log.\nCause C talks about OSPFv3 packet impact or some action impact leading to a neighbor state change, which is not directly related to the control channel issue.\nCause D involves a script or user-triggered OPS connection, which may not be directly linked to the control channel state change.\nCause E mentions the input optical power being too high, which is unrelated to the control channel issue described in the log.\n\nOutput: A: 100, B: 20, C: 10, D: 5, E: 0"
+ ],
+ [
+  85,
+  "Reason: The log message indicates a report of AP name conflict, suggesting that there is a conflict in the names configured on the Access Point (AP). The possible causes should address issues related to conflicting names on APs.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  86,
+  "Reason: The log message indicates that in a specific VPN instance, a session with a peer was initiated. This suggests a networking-related event involving the establishment of a connection. Therefore, causes related to networking events or configurations are more likely to be relevant.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  87,
+  "Reason: The log message indicates that command information was recorded, including details such as the task, IP, VPN name, user, authentication method, and command executed.\nBased on the provided log and domain knowledge, Cause A seems to be the most relevant as it directly relates to the recording of user commands mentioned in the log message.\nCause B, C, D, and E do not directly correspond to the information provided in the log message, making them less relevant.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  88,
+  "Reason: The log message indicates that the interface failed to start loopback, suggesting a failure in the loopback process. The provided causes mention issues related to CCM priorities, MSTP port status, CRL expiration, and worm signatures, which do not directly address the loopback failure mentioned in the log. Therefore, these causes may not be directly relevant to the situation described in the log.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  89,
+  "Reason: The log message indicates that the BFD for TE LSP down alarm was cleared, providing details such as SessionTunnelId, LocalLspId, IngressLsrId, EgressLsrId, TunnelName, and LspRole. The possible causes should be related to events that could lead to the clearing of the BFD alarm for the TE LSP.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  90,
+  "Reason: The log message indicates that the user chose whether to replace existing keys. This suggests a potential issue related to key management or security. The provided causes should be evaluated based on their relevance to key management or security issues.\n\nOutput: A: 80, B: 10, C: 20, D: 5, E: 50"
+ ],
+ [
+  91,
+  "Reason: The log message indicates that a CRL (Certificate Revocation List) will be valid in a certain number of days, without mentioning any specific issues or failures. The possible causes provided should align with the process of CRL validation or related configurations.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  92,
+  "Reason: The log message indicates that both wired and wireless users are going offline, with detailed information about the user, device, time, zone, error code, result, user group, authentication place, etc. The log message does not mention any specific error or failure, but rather reports the offline status of users in both wired and wireless scenarios. Therefore, the possible cause should be related to users going offline rather than internal errors or specific technical issues.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  93,
+  "Reason: The log message indicates that OAM reported a LCK alarm in the L2VPN system, specifying various parameters such as ServiceType, ProtocolType, VcID, PeerAddr, IfIndex, etc. The log also mentions that this log is supported only by the service LSs. Therefore, the possible cause should be related to issues in the L2VPN system and service LSs.\n\nOutput: A: 80, B: 0, C: 10, D: 0, E: 90"
+ ],
+ [
+  94,
+  "Reason: The log message indicates that a policy file has been activated in the HIPS system. The possible causes provided should be related to the activation of policy files and any potential issues that could arise during this process. Causes related to optical modules, fibers, CCM intervals, physical interface status, and router ID changes may not be directly relevant to the activation of a policy file in the HIPS system.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  95,
+  "Reason: The log message indicates that a group member successfully registers with the Key Server (KS), providing details such as the group name, source IP, destination IP, and the count of group members. The possible causes should be related to the successful registration process or factors that could impact it.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  96,
+  "Reason: The log message indicates a failure in sending IPC messages, which could be related to issues in the IPC message or channel.\nOutput: A: 100, B: 10, C: 20, D: 5, E: 0"
+ ],
+ [
+  97,
+  "Reason: The log message indicates that the SPR link-state has changed and that the state of a specific link is not eligible. This suggests an issue with the link's eligibility status.\nConsidering the provided possible causes:\nA: The link quality not meeting requirements could potentially lead to the link being deemed ineligible.\nB: A network topology change could impact the eligibility of the link.\nC: A mismatch in the actual bandwidth of two FlexE interfaces may affect the link's eligibility.\nD: The expiration of the SnS of a cloud-based license sales item may not directly relate to the link's eligibility status.\nE: The FTP client executing certain commands successfully or unsuccessfully may not be directly related to the link's eligibility status.\n\nOutput: A: 70, B: 50, C: 80, D: 20, E: 30"
+ ],
+ [
+  98,
+  "Reason: The log message indicates a user timeout event with specific details such as username and IP address. The possible cause should align with the context of a user timeout scenario.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  99,
+  "Reason: The log message indicates that the port speed has been changed, providing details such as the PhysicalIndex, PhysicalName, OldSpeed, and NewSpeed. Based on domain knowledge, possible causes could be related to interface states, remote interface changes, user account reactivation, Router-LSA link limits, or MSTP edge port receiving BPDUs.\n\nOutput: A: 80, B: 10, C: 5, D: 5, E: 0"
+ ],
+ [
+  100,
+  "Reason: The log message indicates that a NEIP confliction has been resolved, specifying that in VS mode, it is supported only by the admin VS, and in LS mode, it is supported only by the service LSs. This suggests that the conflict was related to the NEIP configuration in different modes.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  101,
+  "Reason: The log message indicates that the number of MACs in the EVPN instance fell below the maximum value, specifically mentioning the EVPN instance name, MAC count, and maximum MAC value. The log also mentions that this event is supported only in LS mode. \n\nBased on the provided possible causes, Cause A seems to be the most relevant as it directly relates to the decrease in MAC addresses in the EVPN instance due to deletions or network changes, aligning with the context of the log message. Cause B, C, D, and E do not directly address the issue described in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  102,
+  "Reason: The log message indicates a specific scenario related to PIM (Protocol Independent Multicast) where a PIM JOIN was received in a certain VPN instance when the assert state is loser. The provided causes should be evaluated based on their relevance to this specific PIM scenario.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  103,
+  "Reason: The log message indicates a failure in delivering configurations to a peer device, mentioning specific details such as peer name, address type, address, and feature name. The possible causes should align with network configuration issues, peer device communication problems, or certificate expiration issues.\n\nOutput: A: 80, B: 10, C: 60, D: 40, E: 30"
+ ],
+ [
+  104,
+  "Reason: The log message indicates that an NHRP (Next Hop Resolution Protocol) peer has been deleted, providing details such as the interface, protocol address, mask, next-hop address, NBMA address, peer type, and delete reason. The possible causes should be evaluated based on these details and the context of NHRP peer deletion.\n\nPossible Cause A: This cause refers to the delete-reason parameter, which could provide specific details about why the NHRP peer was deleted. It is directly related to the information provided in the log message.\nPossible Cause B: This cause is about failing to create a stale interface, which may not directly align with the deletion of an NHRP peer as described in the log message.\nPossible Cause C: This cause suggests that the topology changed, which could potentially lead to the deletion of an NHRP peer, depending on the specific circumstances mentioned in the log.\nPossible Cause D: This cause mentions a connection failure, which could be a possible reason for deleting an NHRP peer, especially if the connection was no longer valid.\nPossible Cause E: This cause relates to the number of firewall forwarding flow tables reaching a certain threshold, which may not be directly linked to the deletion of an NHRP peer unless there is a specific correlation mentioned in the log message.\n\nOutput: A: 100, B: 20, C: 80, D: 70, E: 30"
+ ],
+ [
+  105,
+  "Reason: The log message indicates that PKI was notified to clear all keys in the device. The possible causes should be related to key management, certificate handling, or authentication issues.\nOutput: A: 80, B: 20, C: 10, D: 5, E: 50"
+ ],
+ [
+  106,
+  "Reason: The log message indicates that in a specific VPN instance, the group address family was invalid, resulting in the group address being ignored. The possible cause should be related to issues with the group address family or configuration.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  107,
+  "Reason: The log message indicates that the user triggered the upgrade process through USB deployment, suggesting a user-initiated action involving USB. Possible Cause A directly correlates with this user-triggered USB operation.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  108,
+  "Reason: The log message indicates that the current license value is default and provides information about the mainboard name. There is no mention of authentication failure, OCSP certificates, memory allocation failure, ACL rules, or language mode changes in the log message.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  109,
+  "Reason: The log message indicates that the connection policy was applied successfully in the SDWAN-EVPN system, specifically mentioning parameters such as ConnectionID, DestSiteID, SrcSiteID, DestTNPID, and SrcTNPID. The log also specifies that this message is supported only on AR8100 series devices. \n\nBased on this information, we can infer that the possible cause related to the successful application of the policy (Cause A) is highly relevant as it directly aligns with the successful outcome mentioned in the log message. \n\nCause B, regarding the protocol packet rate exceeding CPCAR values, may not be directly related to the successful policy application described in the log message. \n\nCause C, mentioning network transmission quality improvement, does not directly correlate with the successful policy application event. \n\nCause D, related to address pool size and session setup, may not be directly linked to the successful policy application mentioned in the log. \n\nCause E, regarding interface card temperature restoration, is unlikely to be relevant to the successful policy application event.\n\nOutput: A: 100, B: 10, C: 5, D: 10, E: 0"
+ ],
+ [
+  110,
+  "Reason: The log message indicates that an OSPFv3 routerID conflict is detected on the interface, providing details about the process ID, router ID, area ID, interface name, instance ID, IP address, and packet source IP.\nConsidering the provided possible causes, Cause A seems to align most closely with the situation described in the log message, as it directly relates to conflicting router IDs on directly connected interfaces.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  111,
+  "Reason: The log message indicates that the mismatch phy-number parameters for two connected FlexE physical interfaces have recovered. It also mentions that this log is supported only by the admin VS in VS mode and by the service LSs in LS mode. Based on this information, we can infer that the issue was related to the phy-number parameters mismatch between the connected FlexE physical interfaces and has been resolved.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  112,
+  "Reason: The log message indicates a change in the IPv6 status, providing details such as the interface name, administrative status, operational status, and reason for the change. Based on domain knowledge, possible causes related to IPv6 address availability, interface deletion, attack detection, protocol messages, and system specifications may be relevant.\n\nOutput: A: 80, B: 60, C: 40, D: 20, E: 10"
+ ],
+ [
+  113,
+  "Reason: The log message indicates that an unknown prefix type was encountered during the configuration of prefixes in NATPT (Network Address Translation Protocol Translation). Possible causes should be related to configuration errors, prefix types, or network protocol issues.\n\nOutput: A: 100, B: 5, C: 0, D: 10, E: 20"
+ ],
+ [
+  114,
+  "Reason: The log message indicates that an interface is being notified to recover from an error-down state. This suggests that there was a fault or issue with the interface that caused it to be in an error-down state.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  115,
+  "Reason: The log message indicates a failure in configuring an upgrade, with a mention of a command. The possible causes provided include changes in command, entry creation, configuration changes, scheduled reboot, device connectivity to the bill server, and user command recording.\n\nOutput: A: 10, B: 5, C: 5, D: 0, E: 5"
+ ],
+ [
+  116,
+  "Reason: The log message indicates that there are packets being dropped on the interface, which could be due to various reasons such as traffic congestion, system errors, interface configuration issues, or PKI inconsistencies. Based on the domain knowledge of input logs, the most relevant causes would be related to interface bandwidth, system errors, and PKI configurations.\n\nOutput: A: 80, B: 5, C: 70, D: 10, E: 50"
+ ],
+ [
+  117,
+  "Reason: The log message indicates a change in the status of the virtual interface in OSPFv3. The key features include AreaId, NbrRouterId, RouterId, VIfState, and ChgReason. The possible causes should be related to changes in the physical interface, router ID, OSPF process, or network conditions that could lead to such a status change.\n\nOutput: A: 90, B: 5, C: 80, D: 10, E: 20"
+ ],
+ [
+  118,
+  "Reason: The log message indicates a failure in sending an RPC message to a specific slot. The key feature is the RPC failure related to communication between devices.\nOutput: A: 100, B: 5, C: 0, D: 0, E: 80"
+ ],
+ [
+  119,
+  "Reason: The log message indicates that the tunnel receives an SD2 alarm in MPLS LSPM, providing details such as SessionTunnelId, LocalLspId, IngressLsrId, EgressLsrId, TunnelName, SignalingProtocol, and SignalledTunnelName. The log message also mentions that this log is supported only by the service LSs, indicating a specific context related to MPLS operations.\n\nOutput: A: 80, B: 10, C: 5, D: 0, E: 20"
+ ],
+ [
+  120,
+  "Reason: The log message indicates that the user failed to transfer data through FTP, suggesting an issue with data transfer. The possible causes should directly relate to potential reasons for the data transfer failure.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  121,
+  "Reason: The log message indicates that command information was recorded, including details such as Task, RemoteIp, VpnName, User, AuthenticationMethod, Command, and LocalIp. The key feature is the recording of commands entered by a user, which is the primary focus of the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  122,
+  "Reason: The log message indicates that the BGP session authentication failed, providing details such as Peer ID, TCP connection socket, return code, and source interface. Based on domain knowledge, BGP session authentication failure can be caused by issues related to authentication configurations, manual power off, RM IM invocation failure, CCM priority differences, or CSPF limitations.\n\nOutput: A: 90, B: 5, C: 10, D: 80, E: 20"
+ ],
+ [
+  123,
+  "Reason: The log message indicates that the modem is removed on specific series of devices. The possible cause should align with events related to modem removal on AR6700 series and AR8100 series.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  124,
+  "Reason: The log message indicates that a device restart for PNP (Plug and Play) failed in a specific mode (VS mode or LS mode) with restrictions on which VS or LS can support this log. The possible causes provided should align with potential reasons for the PNP restart failure in the specified modes, considering user configuration, certificate imports, loopback tests, interface configuration, and network quality.\n\nOutput: A: 70, B: 20, C: 10, D: 50, E: 30"
+ ],
+ [
+  125,
+  "Reason: The log message indicates that the type of port was configured as copper in LS mode, which is only supported by the service LSs. The key information includes the port type, LS mode, and support by service LSs.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  126,
+  "Reason: The log message indicates a failure to connect to the TCP server, suggesting a network connectivity issue. The provided causes should be evaluated based on their relevance to network connectivity problems and potential reasons for the failure to establish the connection.\n\nOutput: A: 10, B: 5, C: 0, D: 0, E: 0"
+ ],
+ [
+  127,
+  "Reason: The log message indicates that the speed of TCP or UDP sessions starting from a zone is too fast. This suggests a potential issue with the transmission rate of packets or network traffic. Based on the provided causes, Cause A seems to directly relate to the high speed of TCP or UDP sessions, while Causes B, C, D, and E do not directly address the issue mentioned in the log message.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  128,
+  "Reason: The log message indicates that an illegal MAC address was received on the L2 interface. This suggests a potential security issue or misconfiguration. Looking at the error-prone cases, we can see that the relevance score is higher when the possible cause directly relates to the event mentioned in the log message.\n\nOutput: A: 90, B: 20, C: 10, D: 5, E: 15"
+ ],
+ [
+  129,
+  "Reason: The log message indicates that OSPF (Open Shortest Path First) backed up data in batches before CFM (Connectivity Fault Management). The key feature here is the backup process before CFM, which suggests a proactive data backup operation. Therefore, causes related to OSPF backup operations, data management, or network protocols would be more relevant.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  130,
+  "Reason: The log message indicates that a card was plugged in, which typically refers to a hardware event. Possible causes related to hardware installation, resource usage, network communication, session management, or IPC errors may be relevant.\n\nOutput: A: 80, B: 60, C: 20, D: 50, E: 70"
+ ],
+ [
+  131,
+  "Reason: The log message indicates that a log file was deleted due to aging, which suggests a routine cleanup process based on file age. The possible causes should be related to storage capacity, file management, or system maintenance.\n\nOutput: A: 80, B: 5, C: 10, D: 100, E: 0"
+ ],
+ [
+  132,
+  "Reason: The log message indicates a change in the NTP sync source peer with specific details about the syspeer and offset. From the domain knowledge, we know that NTP (Network Time Protocol) is used for time synchronization in network devices.\nPossible Cause A: 100 - Information about NTP server change is recorded, which aligns with the context of the log message.\nPossible Cause B: 0 - The signature database being loaded is not relevant to the NTP sync source change.\nPossible Cause C: 0 - Sending a test trap successfully does not relate to the NTP sync source change.\nPossible Cause D: 0 - The hard pipe bandwidth usage falling below 90% is not related to the NTP sync source change.\nPossible Cause E: 0 - The AP's IIC channel failing is not relevant to the NTP sync source change.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  133,
+  "Reason: The log message indicates that the NAT conflict rate of a pool in the system fell below a lower threshold. It mentions details such as the pool name, vsys name, threshold values, slot ID, and CPU ID. The key event is the conflict rate falling below the lower threshold.\nConsidering this context, we can evaluate the relevance of each possible cause based on whether it aligns with the event described in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  134,
+  "Reason: The log message indicates a failure in creating a local account, without specifying the exact reason for the failure. The possible causes provided are related to different aspects such as user creation result recording, incorrect request commands from LPU, alarm threshold for TX PAUSE frames, NQA test trap thresholds, and high transmission rates of TCP or UDP packets.\n\nOutput: A: 30, B: 10, C: 20, D: 15, E: 25"
+ ],
+ [
+  135,
+  "Reason: The log message indicates that the one-way delay of an IPFPM test instance was under the lower threshold in continuous five test intervals, specifically mentioning parameters such as TestInstanceId, AchId, SeqNoHigh, SeqNoLow, FlowType, ForDelayValue, BackDelayValue, and InstDesc. The log also specifies that this is supported only by the service LSs. \n\nBased on the provided error-prone cases and domain knowledge, we can infer that the relevant cause should directly relate to the IPFPM test instance's one-way delay being under the lower threshold. Causes related to network transmission quality, logical interfacetable address retrieval, dynamic BGP peer sessions, memory usage, and license file status may or may not be directly related to the issue described in the log.\n\nOutput: A: 80, B: 10, C: 20, D: 5, E: 0"
+ ],
+ [
+  136,
+  "Reason: The log message indicates that the AP's memory overload has been restored, providing details such as APMAC, APName, ApMemRate, and APID. Based on the provided error-prone cases, relevant causes directly address the issue mentioned in the log message, showing a clear relationship between the log and the possible cause.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  137,
+  "Reason: The log message indicates that there was an issue with deleting an IPv4 dynamic address mapping due to an unknown mapping type. The possible cause should directly relate to this specific issue mentioned in the log.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  138,
+  "Reason: The log message indicates a change in the trunk group link status, without specifying whether it is up or down. It is important to consider the context of trunk group operations and network connectivity issues.\nOutput: A: 80, B: 20, C: 10, D: 5, E: 0"
+ ],
+ [
+  139,
+  "Reason: The log message indicates that a script named [script-name] fails to subscribe to a route event [event-name], providing details such as network, maskLen, minLen, maxLen, neLen, optype, and protocol. The key features include script failure and route event subscription failure.\nConsidering the provided possible causes:\n- Cause A directly relates to the failure to subscribe to the route event using a user script, aligning with the details in the log message.\n- Cause B is not relevant to the script failure and route event subscription described in the log message.\n- Cause C is not related to the script failure and route event subscription issue.\n- Cause D does not address the script failure and route event subscription problem.\n- Cause E is not directly related to the script failure and route event subscription mentioned in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  140,
+  "Reason: The log message indicates that the SIM card is present in a specific slot on AR6700 series and AR8100 series devices. The possible causes should be related to issues with the SIM card installation or presence.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 100"
+ ],
+ [
+  141,
+  "Reason: The log message indicates an automatic handshake related to a configuration change. It does not provide specific details about the cause of the handshake, but it implies a successful configuration change process.\nBased on the provided error-prone cases and domain knowledge, Cause B seems to be the most relevant as it directly relates to recording information about MIB configuration success, which aligns with the nature of a configuration change handshake.\nCause A may also be relevant as it involves communication with the NMS, which could be related to configuration changes and handshakes.\nCause C, D, and E do not directly align with the content of the log message and are therefore less relevant.\n\nOutput: A: 50, B: 100, C: 10, D: 5, E: 0"
+ ],
+ [
+  142,
+  "Reason: The log message indicates that the device's TM queue has been broken off, which is a hardware-related issue. The log also specifies that this issue is supported only by specific device models. Therefore, the possible cause should be related to hardware failures or specific device compatibility issues.\n\nOutput: A: 90, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  143,
+  "Reason: The input log indicates an error in the FEFSM action due to a specific cause, mentioning different modes in which the log is supported. The log message provides details about the error in the FEFSM action, indicating specific conditions for support in different modes. The possible causes should directly relate to the FEFSM action error and the conditions mentioned in the log message.\n\nOutput: A: 80, B: 60, C: 20, D: 10, E: 0"
+ ],
+ [
+  144,
+  "Reason: The log message indicates that the VM CPU utilization exceeded the pre-alarm threshold, suggesting an issue related to CPU usage in a virtual machine context. Therefore, causes related to VM specifications, IPSec tunnel, forwarding core CPU usage, IKE SA reset, and VRRP authentication inconsistency should be considered.\n\nOutput: A: 80, B: 20, C: 90, D: 10, E: 70"
+ ],
+ [
+  145,
+  "Reason: The log message indicates a configuration change event, providing details such as internal change, user name, session ID, command source address, storage type, and terminal type. The key features include changes in configuration settings and user actions related to configuration. Possible Cause A aligns with the concept of configuration changes made by a user or system, making it relevant. Possible Cause B, C, D, and E do not directly relate to configuration changes or user actions, making them less relevant.\n\nOutput: A: 100, B: 5, C: 0, D: 0, E: 0"
+ ],
+ [
+  146,
+  "Reason: The log message indicates that a user was deleted from the quiet-table on AR6700 series and AR5700 series devices. The possible causes should be related to user authentication, device configuration, network loops, fault rectification, or high CPU usage in the forwarding plane.\n\nOutput: A: 80, B: 0, C: 10, D: 70, E: 5"
+ ],
+ [
+  147,
+  "Reason: The input log indicates a diagnostic log information related to a string. The log does not provide specific details about the error or issue, making it challenging to determine the exact cause. However, based on the provided error-prone cases and domain knowledge, we can infer that the possible cause should directly relate to diagnostic log information or file downloading processes.\n\nOutput: A: 0, B: 0, C: 100, D: 0, E: 0"
+ ],
+ [
+  148,
+  "Reason: The log message indicates that the portal server is up with specific IP and VPN instance details. The possible cause should align with the action of the portal server transitioning from a down state to an up state or any related events that could lead to this state.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  149,
+  "Reason: The log message indicates the end of a loss of continuity alarm in the TPOAM system, with details about various parameters such as MegId, MeIndex, IfName, PeerIP, VcId, and LspName. The log also mentions that this mode is supported only by the service LSs. Based on this information, we can infer that the possible causes should be related to connectivity issues, service LSs, and network protocols.\n\nOutput: A: 80, B: 10, C: 5, D: 0, E: 15"
+ ],
+ [
+  150,
+  "Reason: The log message indicates that RRPP informed VPLS of a topology change, specifically mentioning DomainID, RingID, Reason, and PortName. The log also specifies that this is supported only in LS mode. Therefore, the possible cause should be related to RRPP topology changes, LS mode, or network configurations.\n\nOutput: A: 90, B: 5, C: 10, D: 20, E: 0"
+ ],
+ [
+  151,
+  "Reason: The log message indicates that the local log system rebooted, specifying the syslog ID and the reason for the reboot. The possible causes provided should directly relate to issues that could lead to a system reboot in the context of the NLOG system.\n\nOutput: A: 80, B: 10, C: 5, D: 0, E: 5"
+ ],
+ [
+  152,
+  "Reason: The log message indicates that a botnet was detected, providing detailed information about the event, including source and destination IPs, ports, zones, user, protocol, application, severity, operating system, category, role, and more. The key feature here is the detection of a botnet.\nConsidering the domain knowledge of network security and botnet detection, the relevant causes should be related to botnet activities, network anomalies, or security events.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  153,
+  "Reason: The log message indicates an abnormal event related to AD packets. The possible cause should directly relate to issues with AD packets or packet records.\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  154,
+  "Reason: The log message indicates that the SR Policy went down, which could be due to various reasons related to policy configuration, network issues, or system failures. The possible causes should be evaluated based on their relevance to the event of the SR Policy going down.\n\nOutput: A: 80, B: 60, C: 20, D: 5, E: 40"
+ ],
+ [
+  155,
+  "Reason: The log message indicates that the AP CRC error rate is normal, suggesting that there was a previous issue with the CRC error rate that has now been resolved. The possible causes should address the resolution of the high CRC error rate.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  156,
+  "Reason: The log message indicates a decision-making process regarding saving the server's public key in an SSH context, with the user choosing either 'Y' or 'N'. This decision directly impacts the execution of a command.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  157,
+  "Reason: The log message indicates that OSPF (Open Shortest Path First) exits GR (Graceful Restart) mode due to backlink checking failure on a specific neighbor on a particular interface. The possible cause should align with this issue mentioned in the log.\n\nOutput: A: 10, B: 0, C: 5, D: 0, E: 0"
+ ],
+ [
+  158,
+  "Reason: The log message indicates that an FT (Fault Tolerance) message was received from a peer in the context of LDP (Label Distribution Protocol). The possible causes should be related to FT messages, peer communication, or LDP operations.\nOutput: A: 80, B: 10, C: 5, D: 0, E: 10"
+ ],
+ [
+  159,
+  "Reason: The log message indicates a change in the Graceful Restart (GR) status in OSPF, with specific details such as ProcessId, RouterId, RestartStatus, RestartInterval, RestartExitReason, and InstanceName. The provided causes should be related to the GR status change.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  160,
+  "Reason: The log message indicates that a port physical rate degrade alarm has been cleared, providing details such as the interface index, interface name, and current physical rate. The log also mentions that in VS mode, it is supported only by the admin VS, and in LS mode, it is supported only by the service LSs. Based on this information, we can infer that the alarm was related to a degradation in the physical rate of a port in the network.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  161,
+  "Reason: The log message indicates that interface authentication has failed, providing details such as the process ID, router ID, IP address, etc. Based on the error-prone cases provided, relevant causes should directly align with the details mentioned in the log message to be considered highly relevant.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  162,
+  "Reason: The log message indicates that authenticating the peer E-Trunk failed, specifically mentioning the E-TrunkId and AuthenticationMode. The log also specifies that this issue is supported only by the service LSs. Therefore, the possible cause should be related to authentication failures or inconsistencies in authentication modes or keys.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  163,
+  "Reason: The log message indicates that an invalid message was received from the BGP peer, with details about the packet type, peer address, source interface, VPN instance, and reason for the error. Based on domain knowledge, this type of error often occurs due to misconfigurations, protocol mismatches, or communication issues between BGP peers.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  164,
+  "Reason: The log message indicates that an alarm information related to a specific Osnode was generated, which aligns with the nature of alarm information being triggered upon system startup. The provided cause A accurately describes that the log was automatically generated after the system was started, indicating a clear connection between the log message and the cause.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  165,
+  "Reason: The log message indicates that the user made a choice regarding running VCT (Virtual Circuit Testing). The key feature is the user's decision-making process related to VCT.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  166,
+  "Reason: The log message indicates that the interface successfully joined the multicast group after retrying a certain number of times. This suggests a temporary issue that was resolved after multiple attempts.\nConsidering the provided possible causes, Cause A aligns closely with the situation described in the log message, indicating that the interface successfully added to the multicast group. Cause B, C, D, and E do not directly relate to the successful joining of the multicast group after retrying, making them less relevant.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  167,
+  "Reason: The log message indicates that an SNMP command was received to suspend the peer session for a specific peer address in the BGP (Border Gateway Protocol) context. The possible causes should be related to SNMP commands, peer session suspension, and BGP operations.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  168,
+  "Reason: The log message indicates that the NR signal has become weak in the context of a WWAN network, specifically mentioning the interface name, SIM ID, and RSRP value. This suggests a network-related issue related to signal strength.\nPossible Cause A: The reference signal received power (RSRP) of the 5G network becoming weak directly aligns with the issue mentioned in the log, indicating a high relevance.\nPossible Cause B: Succeeding in obtaining the next MIB object OID using a user script does not directly relate to the weak NR signal mentioned in the log, resulting in a low relevance score.\nPossible Cause C: The alarm clearance signal sent by the lower layer being received is not directly related to the weak NR signal issue, leading to a low relevance score.\nPossible Cause D: The number of connections in the system exceeding the threshold is not directly related to the weak NR signal problem, resulting in a low relevance score.\nPossible Cause E: A user successfully logging in using HTTP is unrelated to the weak NR signal in the WWAN network, resulting in a low relevance score.\n\nOutput: A: 100, B: 10, C: 0, D: 0, E: 0"
+ ],
+ [
+  169,
+  "Reason: The log message indicates that the dynamic label usage fell from the threshold in an MPLS environment, with details about the dynamic label total count, current count, upper limit threshold, and lower limit threshold. Based on domain knowledge, the issue seems to be related to MPLS label management and resource utilization.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  170,
+  "Reason: The log message indicates an issue with an invalid IFNET structure when enabling NATPT on an IO board, which suggests a problem with the interface board configuration.\nBased on the provided possible causes:\nA: The IFNET was invalid when the interface board was enabled with NAT-PT in a distributed system - This cause directly aligns with the issue described in the log message, indicating a high relevance.\nB: The LSP sequence number less than the upper alarm threshold - This cause does not seem to be related to the issue mentioned in the log message, making it irrelevant.\nC: Saving an RSA key pair failed - This cause is unrelated to the log message about an invalid IFNET structure, resulting in low relevance.\nD: Possible Causes CSPF receives malformed ISIS LSP - This cause does not directly address the issue with the IFNET structure, making it less relevant.\nE: Possible Causes The unicast routing information used to implement multicast routing was incomplete or incorrect - This cause is also unrelated to the specific issue mentioned in the log message.\nOutput: A: 100, B: 0, C: 10, D: 5, E: 0"
+ ],
+ [
+  171,
+  "Reason: The log message indicates that an IGMPv1 query packet was received on an IGMPv1 port. The possible cause should be related to IGMPv1 functionality or network protocols, not unrelated operations or resources.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  172,
+  "Reason: The log message indicates that the IPSec tunnel is deleted, providing details such as Ifindex, SeqNum, TunnelIndex, RuleNum, DstIP, InsideIP, RemotePort, CpuID, SrcIP, FlowInfo, OfflineReason, VsysName, InterfaceName, and SlotID. The possible causes should be related to issues that could lead to the deletion of an IPSec tunnel.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  173,
+  "Reason: The log message indicates that the buildrun restore command failed to execute, providing details such as the command, prompt info, user input, and result. The possible causes should be related to the failure of executing the command during configuration restoration.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  174,
+  "Reason: The log message indicates that a CLI event was recorded, including details such as Task, IP, VPN name, User, Authentication Method, Command, and Result. The possible cause should directly relate to the recording of CLI events or the execution of commands by users.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  175,
+  "Reason: The log message indicates that OSPF added a neighbor to the pre-restart neighbor list, providing details about the Router ID, IP Address, and counts of different types of neighbors. The key features include OSPF process, neighbor addition, and pre-restart neighbor list.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  176,
+  "Reason: The log message indicates that the IP address of a request message was unlocked due to a timeout. This suggests that there was a lock period for the IP address that expired, leading to its unlocking.\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  177,
+  "Reason: The log message indicates that the system configuration has been restored to default settings, specifying different support scenarios for admin VS (Virtual System) and admin LS (Logical System) in VS mode and LS mode, respectively. The key information revolves around system configuration restoration and the supported modes for this action.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  178,
+  "Reason: The log message indicates that the port extension AP outbound interface got online, specifying parameters such as APId, PwIfName, and PwIfIndex. The log also mentions that in VS mode, this log is supported only by the admin VS, and in LS mode, it is supported only by the service LSs. Therefore, the possible cause should be related to the successful online status of the AP's external communication interface in the port extension system.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  179,
+  "Reason: The log message indicates that a port on the device is being attacked by ARP packets, leading to the ARP VLAN CAR (Committed Access Rate) becoming effective. This suggests a security-related issue with ARP traffic on the specified port.\n\nConsidering the input log and possible causes, Cause A seems to be the most relevant as it directly relates to the port being attacked by a large number of ARP packets, which aligns with the security issue mentioned in the log message. Cause E could also be relevant if the device is experiencing a high number of IKE peers, potentially indicating a security concern.\n\nOutput: A: 90, B: 5, C: 10, D: 5, E: 80"
+ ],
+ [
+  180,
+  "Reason: The log message indicates that the user left, without specifying the reason for the departure. It does not mention any file transfer failure or network-related issues. Therefore, causes related to file transfer, network ports, user input, MEG levels, or MPLS resources may not be directly relevant to the context of the log message.\n\nOutput: A: 0, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  181,
+  "Reason: The log message indicates a specific scenario related to PIM-SSM (Protocol Independent Multicast - Source-Specific Multicast) where the upstream neighbor could not be found for a joined state. The log also mentions that this issue is supported only by the service LSs. Based on this information, we can infer that the possible cause should be related to multicast routing, neighbor discovery, or service LSs.\nOutput: A: 90, B: 5, C: 20, D: 0, E: 0"
+ ],
+ [
+  182,
+  "Reason: The log message indicates that the ETU (Electronic Toll Unit) is near the deadline with a specific remaining time in days. The possible cause should directly relate to the ETU usage or deadline mentioned in the log.\nOutput: A: 100, B: 0, C: 10, D: 0, E: 0"
+ ],
+ [
+  183,
+  "Reason: The log message indicates that the OSPFv3 process is restarting due to being full with all the neighbors during Graceful Restart (GR).\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  184,
+  "Reason: The log message indicates that the user performed a configuration to change the encapsulation protocol of the link. This action is directly related to network configuration changes and protocols.\nPossible Cause A: 100 - The user intends to change the link layer protocol, which aligns perfectly with the details mentioned in the log message.\nPossible Cause B: 10 - The total PoE power consumption being restored to the normal range does not directly relate to the log message about changing the encapsulation protocol.\nPossible Cause C: 5 - The DHCPv6 server recording the log when a client renews its IPv6 address is not directly related to the user changing the encapsulation protocol.\nPossible Cause D: 0 - The system master key translating unsuccessfully is not mentioned in the log message and does not align with the context of changing the encapsulation protocol.\nPossible Cause E: 0 - The NQA test alarm with threshold value and network busyness causes is not relevant to the log message about changing the encapsulation protocol.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  185,
+  "Reason: The log message indicates that there is an issue with auto binding due to ports existing in the CO mode, and suggests modifying the mode to CPE and reactivating the mainport. This implies a specific configuration or mode mismatch causing the problem.\n\nOutput: A: 90, B: 5, C: 70, D: 20, E: 10"
+ ],
+ [
+  186,
+  "Reason: The log message indicates a decision-making process regarding saving the server's public key with the user choosing 'Y' or 'N'. This aligns with the error-prone cases where a confirmation is required for user actions. Possible Cause A seems to directly relate to the situation described in the log message.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  187,
+  "Reason: The log message indicates that data synchronization is abnormal in VS mode, supported only by the admin VS, and in LS mode, supported by both the admin LS and service LSs. The possible causes should directly relate to issues with data synchronization or VS/LS mode operations.\n\nOutput: A: 100, B: 10, C: 5, D: 0, E: 0"
+ ],
+ [
+  188,
+  "Reason: The log message indicates that OSPF cannot exit the helper mode on a specific interface due to the absence of a restarting neighbor. This suggests a technical issue related to neighbor relationships in OSPF.\nConsidering the error-prone cases, we can see that the relevance score is high when the provided cause directly addresses the technical issue mentioned in the log message.\nPossible Cause A directly aligns with the situation described in the log message, indicating that no neighbor needing restart help was found on the interface, which correlates well with the details provided.\nPossible Cause B, C, D, and E do not directly address the specific technical issue related to the absence of a restarting neighbor in OSPF, making them less relevant.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  189,
+  "Reason: The log message indicates that an alarm related to a duplicate IPv6 address received from a specific interface is resolved. It provides details about the packet type, target IPv6 address, target interface name, source/destination MAC addresses, source/destination IPv6 addresses, PE-VLAN, CE-VLAN, self-loop, and DAD attempts. The resolution of the alarm suggests that the issue has been resolved successfully.\n\nBased on the provided log message, the most relevant possible cause would be Cause A, as it directly aligns with the resolution of the alarm mentioned in the log.\n\nOutput: A: 100, B: 0, C: 0, D: 0, E: 0"
+ ],
+ [
+  190,
+  "Reason: The log message indicates the existence of a CSRF (Cross-Site Request Forgery) attack through the gateway, with details about the VGName and reason.\nConsidering the domain knowledge of CSRF attacks and the log details, Cause A seems to be the most relevant as it directly relates to the launched CSRF attack mentioned in the log message.\n\nOutput: A: 100, B: 10, C: 5, D: 5, E: 0"
+ ],
+ [
+  191,
+  "Reason: The log message indicates that the device session resources were resumed in the FORWARD module. The key information is about the device session resources being resumed.\nConsidering the provided possible causes:\n- Cause A talks about the reduction in the number of SAC forwarding flow tables on the device, which could potentially impact session resources. This cause seems relevant.\n- Cause B mentions a specific configuration command related to MPLS TE protect-switch, which does not directly relate to the device session resources being resumed. This cause is not directly relevant.\n- Cause C provides generic causes related to entry creation and configuration changes, which do not specifically address the device session resources being resumed. This cause is not directly relevant.\n- Cause D talks about a failure to find a neighbor record in the DNDB, which does not directly relate to the device session resources being resumed. This cause is not directly relevant.\n- Cause E mentions the replacement of an SSL certificate, which is not directly related to the device session resources being resumed. This cause is not directly relevant.\n\nOutput: A: 90, B: 10, C: 5, D: 0, E: 5"
+ ]
+]

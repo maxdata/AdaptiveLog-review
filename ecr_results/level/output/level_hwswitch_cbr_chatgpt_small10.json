@@ -1,0 +1,1232 @@
+[
+ [
+  0,
+  "Info",
+  "Reason: The log entry indicates the processing of a slot plug-out event has ended, which is an informative message about the event handling in the system. It does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  1,
+  "Error",
+  "Reason: The log entry indicates a failure in checking the hardware compatibility during the ISSU check phase. This failure could potentially lead to issues during the upgrade process, impacting the stability and functionality of the system.\nLabel: Error"
+ ],
+ [
+  2,
+  "Info",
+  "Reason: The log entry describes the router receiving a NOTIFICATION from the peer in the BGP protocol, indicating a potential issue with the BGP session. This type of message is critical for monitoring the BGP protocol's operation and can impact the routing information exchange between peers.\nLabel: Error"
+ ],
+ [
+  3,
+  "Error",
+  "Reason: The log entry indicates a physical fault alarm for a specific component, which could potentially lead to disruptions in the network's stability and reliability.\nLabel: Error"
+ ],
+ [
+  4,
+  "Error",
+  "Reason: The log entry indicates a failure in creating a source-specific multicast group entry in the multicast routing table within a specific VPN instance. This failure could potentially disrupt multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  5,
+  "Info",
+  "Reason: The log entry indicates a change in the GR (graceful restart) neighbor state from normal to maybe-restarting on the supporting node. This change in state could potentially impact the stability and reliability of the network, as graceful restart is a critical mechanism for minimizing downtime during routing protocol restarts.\nLabel: Error"
+ ],
+ [
+  6,
+  "Error",
+  "Reason: The log entry indicates a failure to retrieve the cr-lsp when executing a display command, which is an informative message about a specific command failure within the system. This does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  7,
+  "Info",
+  "Reason: The log entry indicates that MLD discarded a received report due to reaching the limit of MLD group memberships on a specific interface within a VPN instance. This could potentially disrupt multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  8,
+  "Info",
+  "Reason: The log entry indicates the successful release of an IPv6 prefix, which is a normal operation in network management and does not indicate any serious problems or errors that could impact the system's stability or security.\nLabel: Info"
+ ],
+ [
+  9,
+  "Error",
+  "Reason: The log entry indicates a failure in saving the pre-shared key, which is a critical component of securing communication channels. This failure could potentially lead to security vulnerabilities or connectivity issues, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  10,
+  "Error",
+  "Reason: The log entry indicates a situation where the version number carried in the OPEN message received from a BGP peer is not supported. This could potentially lead to a failure in establishing a BGP connection, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  11,
+  "Error",
+  "Reason: The log entry indicates that the LSDB (Link State Database) has overflowed in OSPF, which can lead to issues with routing information storage and retrieval. This overflow could potentially impact the stability and correctness of OSPF routing, similar to other error-prone cases where issues with OSPF routing information have been highlighted.\nLabel: Error"
+ ],
+ [
+  12,
+  "Error",
+  "Reason: The log entry indicates a critical issue where the system cannot obtain the LSR ID from both the RRO and CSPF, which could potentially lead to failures in setting up RSVP LSPs. This type of error can disrupt the MPLS network operation and cause connectivity issues. Therefore, the severity of this log is high, and it should be labeled as Error.\n\nLabel: Error"
+ ],
+ [
+  13,
+  "Error",
+  "Reason: The log entry indicates a problem with the tunnel-id of a work tunnel, which could potentially lead to issues with the tunnel's functionality and connectivity.\nLabel: Error"
+ ],
+ [
+  14,
+  "Info",
+  "Reason: The log entry indicates that a specific interface board is restarted in common-reboot mode during an ISSU process. Common-reboot mode is typically used during an In-Service Software Upgrade (ISSU) to restart components without disrupting service. However, restarting a critical component like an interface board could potentially impact the system's stability and functionality if not handled properly.\nLabel: Error"
+ ],
+ [
+  15,
+  "Info",
+  "Reason: The log entry describes a situation where OSPF has found a virtual neighbor in a transit area based on the hello packet. This is an informative message about the discovery of a virtual neighbor in the network, but it does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  16,
+  "Info",
+  "Reason: The log entry indicates a failure in obtaining the VPN name for the current socket. This failure could potentially disrupt the normal operation of the system, as the VPN name is crucial for network communication within specific instances. \nLabel: Error"
+ ],
+ [
+  17,
+  "Info",
+  "Reason: The log entry indicates that there is a deny configuration in the VLAN channel for an unspecified channel, which could potentially impact the network configuration. However, this message is informative about the specific configuration issue and does not directly indicate a serious problem that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  18,
+  "Error",
+  "Reason: The log entry indicates that the LSDB (Link State Database) in OSPF is approaching overflow, which could potentially lead to routing information loss or inconsistencies. This situation signifies a critical problem in the OSPF network that could impact the stability and correctness of routing operations.\nLabel: Error"
+ ],
+ [
+  19,
+  "Info",
+  "Reason: The log entry describes the successful subscription of a timer event using a script, providing details about the script name, timer type, event name, and period. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  20,
+  "Info",
+  "Reason: The log entry indicates a discrepancy in the in-labels for the same FEC in the LDP GR process, which could potentially lead to routing issues or inconsistencies in the system. This signifies a critical issue related to the routing process, which could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  21,
+  "Error",
+  "Reason: The log entry indicates that the ISIS process has purged a large number of LSPs, resulting in the board not functioning properly and requiring a reset. This could potentially indicate a serious problem affecting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  22,
+  "Info",
+  "Reason: The log entry indicates a change in the state of an OSPF interface, which could potentially impact the routing operations and stability of the network. This change in interface state is a critical event in the OSPF protocol and could lead to routing inconsistencies if not handled properly.\nLabel: Error"
+ ],
+ [
+  23,
+  "Error",
+  "Reason: The log entry indicates a failure in calculating the path due to a specific error, which could potentially impact the routing decisions and network stability.\nLabel: Error"
+ ],
+ [
+  24,
+  "Info",
+  "Reason: The log entry indicates that a log file has been successfully deleted, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could affect the system's functionality.\nLabel: Info"
+ ],
+ [
+  25,
+  "Info",
+  "Reason: The log entry describes a situation where OSPF is finding a pre-restart neighbor on a sham-link, and successfully finding a route to the destination. This is an informative message about the routing process within the system and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  26,
+  "Info",
+  "Reason: The log entry indicates that the system is performing a check on hardware compatibility, which is a routine operation to ensure that the system can function properly with the hardware components. This message is informative about the system's health check process and does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  27,
+  "Info",
+  "Reason: The log entry indicates that the IP packet received from a neighbor, containing an OSPF data field, is too short. This could potentially indicate a problem with the transmission of data, similar to the LSU packet length issue in the error-prone case. However, the message provides specific details about the received packet and does not directly indicate a serious problem that could disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  28,
+  "Error",
+  "Reason: The log entry indicates a failure in setting the forwarding table for multicast traffic, which is crucial for proper network operation. This failure could potentially lead to multicast traffic not being properly forwarded, causing network disruptions or communication issues.\nLabel: Error"
+ ],
+ [
+  29,
+  "Info",
+  "Reason: The log entry indicates a lack of resources for a web ACL (Access Control List) in a specific slot, which could potentially impact the functionality of web services. This message is informative about the resource shortage issue, but it does not indicate a serious problem that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  30,
+  "Error",
+  "Reason: The log entry indicates that a packet received from a BGP peer contained an unknown SAFI (Sub Address Family Identifier). This could potentially lead to issues with routing and communication between BGP peers, impacting the stability and reliability of the network.\nLabel: Error"
+ ],
+ [
+  31,
+  "Error",
+  "Reason: The log entry indicates a failure to register a packet filter handler, which could potentially impact the filtering of network traffic and lead to security vulnerabilities or unexpected behavior in the system.\nLabel: Error"
+ ],
+ [
+  32,
+  "Info",
+  "Reason: The log entry describes a situation where the system exited from an operation automatically due to a timeout when the user did not input any word. This is an informative message about the system behavior and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  33,
+  "Info",
+  "Reason: The log entry indicates that PIM discarded a received Join message due to reaching the total limit of PIM route entries on a specific interface within a VPN instance. This situation could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  34,
+  "Info",
+  "Reason: The log entry indicates the release of an IP address, which is a normal operation in network management. Releasing an IP address does not pose a serious problem or error that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  35,
+  "Info",
+  "Reason: The log entry indicates a user-defined information message with the user's name and session ID. The term \"user-defined information\" suggests that this operation is informative and does not indicate any serious problems or errors that could affect the normal operation of the system. Therefore, the severity of this log is low.\nLabel: Info"
+ ],
+ [
+  36,
+  "Error",
+  "Reason: The log entry indicates a failure in retrieving the variable value using a script, which is essential for the proper execution of the context retrieval process. This failure could potentially lead to issues in executing the script and retrieving the necessary information. The message explicitly states that the retrieval process has failed, highlighting a serious problem that needs immediate attention.\nLabel: Error"
+ ],
+ [
+  37,
+  "Info",
+  "Reason: The log entry provides information about the start and end times notified by OSPF, which is an informative message about the timing notifications within the OSPF protocol. It does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  38,
+  "Info",
+  "Reason: The log entry indicates that an IGMP query of an invalid version was received on an IGMPv3 interface within a specific VPN instance. This could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  39,
+  "Info",
+  "Reason: The log entry describes a situation where OSPF received a route limit message from route management, which is an informative message about the communication between OSPF and the route management system. This message does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  40,
+  "Info",
+  "Reason: The log entry indicates that PIM has been terminated successfully within a VPN instance, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  41,
+  "Info",
+  "Reason: The log entry describes a situation where a virtual link in OSPFv3 obtained a local address, which is an informative message about the configuration of the virtual link. It does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  42,
+  "Error",
+  "Reason: The log entry indicates that all channels from slot [STRING1] to slot [STRING2] are faulty, which could potentially disrupt communication within the system. This situation represents a serious problem that can impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  43,
+  "Info",
+  "Reason: The log entry indicates a situation where a stack lost a master SPDU packet, which could potentially lead to disruptions in the network's stability and reliability.\nLabel: Error"
+ ],
+ [
+  44,
+  "Error",
+  "Reason: The log entry indicates a failure to send a message to the mainboard for the event of undo bind port, which could potentially lead to communication issues or disruptions in the network. This failure in sending the message is a serious problem that could impact the normal operation of the system, making it appropriately labeled as an Error.\n\nLabel: Error"
+ ],
+ [
+  45,
+  "Info",
+  "Reason: The log entry indicates that a Query received with an incorrect version of MLD was ignored within a specific VPN instance. This could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  46,
+  "Info",
+  "Reason: The log entry indicates that the current socket was closed, which is an informative message about the state of the system. It does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  47,
+  "Info",
+  "Reason: The log entry describes a situation where a route imported is changed, leading to the exit of a helper. This indicates a change in the routing configuration, which could potentially impact the routing behavior of the system. This is a serious problem that could disrupt the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  48,
+  "Info",
+  "Reason: The log entry indicates that the number or bandwidth of existing PIM routing entries using a specific interface as OIF and belonging to a channel has exceeded the channel's limit. This situation may impact the routing functionality within the VPN instance, potentially causing network issues.\nLabel: Error"
+ ],
+ [
+  49,
+  "Info",
+  "Reason: The log entry indicates a failure to create a BFD (Bidirectional Forwarding Detection) session, which is a critical component for detecting link failures in network environments. The failure to create a BFD session could indicate a potential issue with network connectivity or stability.\nLabel: Error"
+ ],
+ [
+  50,
+  "Info",
+  "Reason: The log entry indicates that a report packet is being suppressed, which could potentially impact the multicast functionality in the network. This could lead to issues with group communication and data transmission, making it a serious problem that could disrupt the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  51,
+  "Error",
+  "Reason: The log entry indicates that a CANbus node failed a self-test, which could potentially indicate a problem with the node's functionality. This failure could impact the normal operation of the system, similar to other error-prone cases where failures or errors disrupt the network operation.\nLabel: Error"
+ ],
+ [
+  52,
+  "Error",
+  "Reason: The log entry indicates an error in receiving a packet due to the length of the LSA header being less than the required 20 bytes. This issue could potentially disrupt the OSPF communication and cause connectivity problems within the network.\nLabel: Error"
+ ],
+ [
+  53,
+  "Error",
+  "Reason: The log entry indicates a failure to login through FTP a certain number of times within a specific time frame. This failure could potentially indicate a security issue or authentication problem, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  54,
+  "Info",
+  "Reason: The log entry indicates enabling IGP and tunnel equi-cost routes based on PAF, which is a configuration change related to the routing protocol OSPF. This message does not indicate a serious problem that could affect the normal operation of the system but rather a normal operational change.\nLabel: Info"
+ ],
+ [
+  55,
+  "Error",
+  "Reason: The log entry indicates that a specific slot has run out of ACL (Access Control List). Running out of ACL could potentially lead to security vulnerabilities and access control issues in the network, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  56,
+  "Info",
+  "Reason: The log entry describes a NETCONF operation switching information, including user information, source and destination addresses, VPN name, channel ID, session ID, and proxy target. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  57,
+  "Info",
+  "Reason: The log entry indicates that an application has successfully unregistered from a keychain using a specific MID and PID. This action does not indicate any serious problems or errors that could impact the normal operation of the system. It is an informative message about the successful unregistration process.\nLabel: Info"
+ ],
+ [
+  58,
+  "Error",
+  "Reason: The log entry indicates a failure in downloading a file, which could potentially disrupt the normal operation of the system or network connectivity.\nLabel: Error"
+ ],
+ [
+  59,
+  "Info",
+  "Reason: The log entry indicates the successful subscription of a trigger event using a script, providing details about the script name, trigger count, period, delay, and suppress parameters. This message is informative about the successful operation of the trigger event subscription process and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  60,
+  "Error",
+  "Reason: The log entry indicates a failure to register all callback functions for a specific instance in the RIP (Routing Information Protocol) process. This failure could potentially disrupt the proper functioning of the RIP process and lead to routing issues.\nLabel: Error"
+ ],
+ [
+  61,
+  "Info",
+  "Reason: The log entry indicates that the OSPF received a bad packet, which could potentially lead to communication errors or inconsistencies in the OSPF network. This type of error can disrupt the routing protocol operation and cause network instability.\nLabel: Error"
+ ],
+ [
+  62,
+  "Error",
+  "Reason: The log entry indicates that a BFD session failed to construct a control packet, which is a critical function for detecting link failures in network environments. The failure to construct a control packet could indicate a serious issue with the BFD session or network connectivity.\nLabel: Error"
+ ],
+ [
+  63,
+  "Error",
+  "Reason: The log entry indicates a failure to retrieve batch defect information in the context of OAM (Operations, Administration, and Maintenance). This failure could potentially impact the monitoring and detection of network issues, which are critical for maintaining network performance and reliability.\nLabel: Error"
+ ],
+ [
+  64,
+  "Info",
+  "Reason: The log entry indicates that a physical interface was added to a RIP instance. This message is informative about the configuration change related to RIP instances and does not indicate a serious problem that would impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  65,
+  "Info",
+  "Reason: The log entry indicates that a BFD session has been successfully created, providing details about the session configuration and parameters. This message is informative about the normal operation of the BFD protocol and does not indicate any serious problems or errors that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  66,
+  "Info",
+  "Reason: The log entry indicates an automatic record of health information, which is likely an informative message about the system's health status. This type of log does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  67,
+  "Info",
+  "Reason: The log entry indicates that the LSR packet received from a neighbor is too short, which could potentially indicate a problem with the transmission of data. However, this message is informative about the specific details of the received packet and does not directly indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  68,
+  "Info",
+  "Reason: The log entry indicates that the global MPLS TE capability was enabled, which is an informative message about a specific configuration change in the system. This change does not indicate a serious problem or error that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  69,
+  "Info",
+  "Reason: The log entry indicates a successful retrieval of the next MIB object using a script, providing details about the script name, current object, next object value, and the next object itself. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  70,
+  "Error",
+  "Reason: The log entry indicates that the number of routes in the routing table reached the maximum limit when a route was added to the URT smoothly. This situation can potentially lead to routing issues or resource allocation problems, impacting the proper functioning of the network.\nLabel: Error"
+ ],
+ [
+  71,
+  "Error",
+  "Reason: The log entry indicates that OSPF received an invalid grace LSA, which caused the TLV parsing period to fail. This could potentially lead to issues with the OSPF protocol operation and network stability.\nLabel: Error"
+ ],
+ [
+  72,
+  "Info",
+  "Reason: The log entry indicates that the number of AS-external LSAs in the LSDB of an OSPF process is approaching the configured maximum number. This could potentially indicate a problem with the OSPF routing protocol if the LSDB reaches its limit, leading to routing issues or network instability.\nLabel: Error"
+ ],
+ [
+  73,
+  "Info",
+  "Reason: The log entry indicates a user input confirmation for a BGP operation. This message is informative about the user interaction with the system and does not indicate any serious problems or errors that could affect the normal operation of the system. \nLabel: Info"
+ ],
+ [
+  74,
+  "Info",
+  "Reason: The log entry indicates a failure in registering an application with a keychain due to a specific reason. This failure could potentially disrupt the normal operation of the system, indicating a serious problem.\nLabel: Error"
+ ],
+ [
+  75,
+  "Info",
+  "Reason: The log entry indicates a request to get the maximum number of neighbors per process based on a specific value. This message is informative about the configuration or monitoring of OSPF (Open Shortest Path First) neighbors and does not indicate a serious problem that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  76,
+  "Info",
+  "Reason: The log entry indicates that IGMP discarded a received report due to reaching the limit of IGMP group memberships on a specific interface within a VPN instance. This could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  77,
+  "Info",
+  "Reason: The log entry describes the deletion of a neighbor from the pre-restart neighbor list in OSPF. This action is a normal part of OSPF operation and does not indicate any serious problems or errors that could impact the system's normal operation. It is an informative message about the OSPF neighbor management process.\nLabel: Info"
+ ],
+ [
+  78,
+  "Error",
+  "Reason: The log entry indicates a failure in configuring the tunnel ID for a protection tunnel, which could potentially lead to issues with the tunnel's functionality and overall network connectivity. This type of misconfiguration can impact the proper routing of traffic and cause disruptions in network operations.\nLabel: Error"
+ ],
+ [
+  79,
+  "Info",
+  "Reason: The log entry describes a situation where OSPF is flushing stale As-external-LSAs and NSSA LSAs, which is a routine maintenance task in the OSPF process. This message is informative about the internal operations of the system and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  80,
+  "Error",
+  "Reason: The log entry indicates that the number of public IPv6 prefixes has exceeded the maximum value, which could potentially lead to addressing conflicts or routing issues in the network. This situation may impact the proper functioning of the network but does not indicate a critical error that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  81,
+  "Info",
+  "Reason: The log entry indicates that the OSPF process has exited helper mode, which could potentially disrupt the normal operation of the OSPF protocol. This event signifies a change in the behavior of the OSPF process, which may lead to connectivity issues or routing inconsistencies. Therefore, the severity of this log is high, and it is likely to be labeled as Error.\n\nLabel: Error"
+ ],
+ [
+  82,
+  "Info",
+  "Reason: The log entry describes the end of a TFTP file transfer process, providing details such as IP address, local and remote filenames, return code, file size, transfer size, and transfer time. This message is informative about the completion of the file transfer operation and does not indicate any serious problems or errors that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info.\n\nLabel: Info"
+ ],
+ [
+  83,
+  "Error",
+  "Reason: The log entry indicates a situation where a duplicate remote CE ID is found when inserting RLB into a VPN. This could potentially lead to routing conflicts or misconfigurations in the network, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  84,
+  "Error",
+  "Reason: The log entry indicates a failure to trigger RSVP during Graceful Restart (GR), which is a critical operation for maintaining network stability and continuity of services. This failure could potentially lead to disruptions in traffic engineering and path setup, impacting the normal operation of the network.\nLabel: Error"
+ ],
+ [
+  85,
+  "Error",
+  "Reason: The log entry indicates that a Static LSP has entered a defect state, which could potentially impact the normal operation of the system. This could indicate a serious problem with the LSP functionality, leading to potential network disruptions.\nLabel: Error"
+ ],
+ [
+  86,
+  "Info",
+  "Reason: The log entry indicates a potential conflict with the remote OSPF router ID, which is crucial for the OSPF routing protocol to function properly. This conflict could lead to routing issues and disruptions in communication within the network, indicating a serious problem.\nLabel: Error"
+ ],
+ [
+  87,
+  "Error",
+  "Reason: The log entry indicates a failure in deleting a QoS profile, which could potentially disrupt the quality of service settings within the network. This failure could impact the normal operation of the system, indicating a serious problem.\nLabel: Error"
+ ],
+ [
+  88,
+  "Info",
+  "Reason: The log entry describes a situation where a keychain is successfully unregistered, which is an informative message about the keychain management process. It does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  89,
+  "Info",
+  "Reason: The log entry indicates that the number of IGMP group memberships in a VPN instance has exceeded the limit. This issue could potentially disrupt the normal operation of the system by impacting multicast communication within the VPN network.\nLabel: Error"
+ ],
+ [
+  90,
+  "Info",
+  "Reason: The log entry indicates a successful opening of the terminal using a script, providing details about the script name, event name, instance ID, and terminal ID. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  91,
+  "Error",
+  "Reason: The log entry indicates that the LSP sequence number has reached the maximum value in the ISIS protocol, which could potentially lead to routing issues or network instability.\nLabel: Error"
+ ],
+ [
+  92,
+  "Info",
+  "Reason: The log entry indicates a successful initialization of QoS (Quality of Service) configuration, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could impact the system's normal operation.\nLabel: Info"
+ ],
+ [
+  93,
+  "Info",
+  "Reason: The log entry describes a situation where ISIS is sending CSNP and flooding LSPs on Level-2 for a specific circuit when receiving RR during adjacency GR. This action is part of the normal operation of the ISIS protocol and does not indicate a serious problem that could impact the system.\nLabel: Info"
+ ],
+ [
+  94,
+  "Info",
+  "Reason: The log entry describes a situation where the processing of a plug-in event on a board did not finish, requiring the processing of the plug-in event of the card on the board to wait, and a timer is started. This indicates a delay in the normal operation of the system due to the plug-in event processing. It does not indicate a serious problem or error that would disrupt the system's operation.\nLabel: Info"
+ ],
+ [
+  95,
+  "Error",
+  "Reason: The log entry indicates a critical issue where the reference count for a specific interface was zero, which could potentially lead to communication errors or inconsistencies in the network. This type of issue can disrupt the normal operation of the system and cause network instability.\nLabel: Error"
+ ],
+ [
+  96,
+  "Info",
+  "Reason: The log entry indicates that the system is performing an In-Service Software Upgrade (ISSU) switchover on the control plane and forwarding plane. This process involves transitioning from one software version to another without disrupting the network operation. While this event is a significant operation, it is a planned and controlled process that is part of the normal maintenance of network devices. Therefore, it does not indicate a serious problem that could impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  97,
+  "Info",
+  "Reason: The log entry provides information about the current software version and patch version in a specific slot during startup, which is a common informative message during system initialization.\nLabel: Info"
+ ],
+ [
+  98,
+  "Info",
+  "Reason: The log entry indicates that the HWTACACS authentication server is forced up, which is an informative message about the status of the authentication server. This does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  99,
+  "Error",
+  "Reason: The log entry indicates a failure to add a classful node to the update list in the context of the RIP (Routing Information Protocol) process. This failure could potentially disrupt the routing information and cause network instability or connectivity issues.\nLabel: Error"
+ ],
+ [
+  100,
+  "Info",
+  "Reason: The log entry indicates that the LDP data smooth process has begun, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  101,
+  "Info",
+  "Reason: The log entry describes a situation where the RIPNG process has recovered from a suspension state due to the number of routes reaching below a threshold limit. This indicates a specific event related to the normal operation of the system and does not suggest a serious problem that could impact system functionality.\nLabel: Info"
+ ],
+ [
+  102,
+  "Error",
+  "Reason: The log entry indicates a discrepancy in the length of a received packet compared to the expected length when backing up session data, which could potentially indicate a problem with data transmission or storage.\nLabel: Error"
+ ],
+ [
+  103,
+  "Error",
+  "Reason: The log entry indicates a failure in deleting a file in the VFS (Virtual File System). This failure could potentially disrupt file operations and cause issues with file management on the system.\nLabel: Error"
+ ],
+ [
+  104,
+  "Error",
+  "Reason: The log entry indicates that a peer channel in the chassis standby slot has recovered, suggesting a temporary issue that has been resolved.\nLabel: Info"
+ ],
+ [
+  105,
+  "Info",
+  "Reason: The log entry indicates that a physical interface change message has been received in the OSPFv3 module, providing details such as interface name, type, index, flags, metric, MTU, bandwidth, and event. This message is informative about the changes in the physical interface configuration and does not directly indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  106,
+  "Error",
+  "Reason: The log entry indicates a failure in verifying the certificate of the IKE peer named [peer-name], which is crucial for establishing secure communication channels. This failure could potentially lead to security vulnerabilities and compromise the integrity of the network.\nLabel: Error"
+ ],
+ [
+  107,
+  "Error",
+  "Reason: The log entry indicates a fault resume related to the USB 5v power, suggesting a potential issue with the power supply. This could impact the normal operation of the system if not addressed promptly.\nLabel: Error"
+ ],
+ [
+  108,
+  "Error",
+  "Reason: The log entry describes a situation where a queue exception leads to non-forwarding in a specific slot, which could potentially disrupt the forwarding of network traffic and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  109,
+  "Error",
+  "Reason: The log entry indicates that the V33 voltage of the Power Sourcing Equipment (PSE) chip has been restored. This could potentially impact the power supply to connected devices and indicate a fault in the power distribution system.\nLabel: Error"
+ ],
+ [
+  110,
+  "Info",
+  "Reason: The log entry describes a board processing an event, which is a normal operation in the system and does not indicate any serious problems or errors that could affect the normal operation of the system. This message is informative about the event processing on the board.\nLabel: Info"
+ ],
+ [
+  111,
+  "Error",
+  "Reason: The log entry indicates a failed login attempt by a user, which could potentially be a security issue or indicate unauthorized access to the system. This type of event is typically considered a serious problem in network security.\nLabel: Error"
+ ],
+ [
+  112,
+  "Error",
+  "Reason: The log entry indicates that an invalid PIM protocol was running within a specific VPN instance. This could potentially disrupt the multicast communication within the network and cause connectivity issues, similar to the error-prone cases where issues with PIM protocol and VPN instances led to serious problems.\nLabel: Error"
+ ],
+ [
+  113,
+  "Info",
+  "Reason: The log entry indicates a keychain key becoming send active, which is a normal operation in the system and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  114,
+  "Error",
+  "Reason: The log entry indicates a failure in receiving a response message during the timeout period, leading to the MKA protocol status of the local interface becoming Down. This failure in communication could potentially disrupt the secure communication over the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  115,
+  "Info",
+  "Reason: The log entry indicates that RIP has completed a PAF (Protocol Address Family) comparison as part of an upgrade process. This message is informative about the completion of a specific task within the system, but it does not indicate a serious problem that would impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  116,
+  "Error",
+  "Reason: The log entry indicates that the MCU 8M clock has been restored, which is a normal operation indicating the resolution of a clock fault. This does not signify any serious problems or errors that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  117,
+  "Info",
+  "Reason: The log entry describes a situation where a USB failure occurred in a specific slot, but it has now resumed normal operation. This is an informative message about the system's USB handling process and does not indicate any serious problems or errors that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  118,
+  "Info",
+  "Reason: The log entry indicates a switch operation from L2 mode to L3 mode for a specific port. This operation is a common configuration change in network devices and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  119,
+  "Info",
+  "Reason: The log entry indicates that OSPF found a neighbor in a point-to-point link in the router LSA during the pre-restart phase. This situation may not directly indicate a serious problem that could affect the normal operation of the system, as it is more of an informative message about the network topology.\nLabel: Info"
+ ],
+ [
+  120,
+  "Info",
+  "Reason: The log entry describes the reception of a specific event related to RPR (Resilient Packet Ring) in the ISIS protocol. This message is informative about the event received but does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  121,
+  "Info",
+  "Reason: The log entry indicates the re-advertisement of a default Link State Advertisement (LSA) in the OSPF protocol. Re-advertising default LSAs can potentially impact the routing information in the network, leading to routing issues or network instability. This could be a serious problem that may disrupt the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  122,
+  "Info",
+  "Reason: The log entry indicates that OSPF is adding a neighbor to the pre-restart neighbor list, providing details such as the router ID, IP address, and counts of different types of helper neighbors. This message is informative about the OSPF neighbor management process and does not indicate any serious problems or errors that could impact the normal operation of the system. \nLabel: Info"
+ ],
+ [
+  123,
+  "Error",
+  "Reason: The log entry indicates a failure in processing a High Availability (HA) tunnel message, which could potentially lead to issues with tunnel communication and HA functionality. This failure could impact the normal operation of the system, making it a serious problem.\nLabel: Error"
+ ],
+ [
+  124,
+  "Info",
+  "Reason: The log entry indicates that OSPFv3 graceful restart is not enabled, which could potentially impact the normal operation of the OSPFv3 protocol and network connectivity.\nLabel: Error"
+ ],
+ [
+  125,
+  "Info",
+  "Reason: The log entry indicates a situation where the RSVP GR neighbor state changed from maybe-restarting to normal on the supporting node. This change in neighbor state does not indicate a serious problem that could impact the normal operation of the system, as it is a normal part of the RSVP protocol operation.\nLabel: Info"
+ ],
+ [
+  126,
+  "Error",
+  "Reason: The log entry indicates a failure in backing up the server public key, which could potentially lead to security vulnerabilities or authentication issues in the system.\nLabel: Error"
+ ],
+ [
+  127,
+  "Info",
+  "Reason: The log entry describes a change in the physical interface type in OSPF, providing details such as the interface name, interface index, previous physical interface type, and current physical interface type. This message is informative about the configuration changes in the physical interface setup, without indicating any serious problems or errors. It is a normal operation message that does not impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  128,
+  "Error",
+  "Reason: The log entry indicates a failure to execute a command on a slave board, which could potentially lead to operational issues or system instability. This failure suggests a critical problem affecting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  129,
+  "Info",
+  "Reason: The log entry describes an event received by OSPFv3, which is an informative message about the internal operations of the system. It does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  130,
+  "Error",
+  "Reason: The log entry indicates a failure in applying a policy to a specific entity, which could potentially lead to security vulnerabilities or unauthorized access if the policy is not applied correctly. This type of failure in policy application is critical for controlling access to resources and ensuring security within the network.\nLabel: Error"
+ ],
+ [
+  131,
+  "Error",
+  "Reason: The log entry indicates a problem with decoding the group address in a received PIM packet within a VPN instance. This issue could potentially disrupt the communication within the VPN network and cause connectivity problems, similar to the error-prone cases provided.\nLabel: Error"
+ ],
+ [
+  132,
+  "Error",
+  "Reason: The log entry indicates that the time of the file system P semaphore is too long, which could potentially indicate a performance issue or bottleneck in the system. This could impact the normal operation of the system and may require attention to optimize system performance.\nLabel: Error"
+ ],
+ [
+  133,
+  "Info",
+  "Reason: The log entry indicates the end of a process related to slot PLUG-IN event, without mentioning any specific issues or errors. This message is informative about the completion of a process and does not suggest any serious problems that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  134,
+  "Info",
+  "Reason: The log entry describes a situation where OSPFv3 received an event to install routes, which is an informative message about the normal operation of the system. It does not indicate a serious problem that could impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  135,
+  "Error",
+  "Reason: The log entry indicates a mismatch between the MAC address set in the static ARP table by the user and the actual MAC address. This discrepancy could potentially lead to network communication issues or security concerns, as the ARP table is used for mapping IP addresses to MAC addresses for proper packet routing. Therefore, this event signifies a problem that could impact network stability and security.\n\nLabel: Error"
+ ],
+ [
+  136,
+  "Info",
+  "Reason: The log entry describes a situation where a request for a local-telnet connection was received from a specific vty number, without indicating any serious problems or errors. This message is informative about the connection process within the system and does not suggest any critical issues that could impact the system's normal operation.\nLabel: Info"
+ ],
+ [
+  137,
+  "Info",
+  "Reason: The log entry describes receiving a NETCONF RPC request, providing details such as user name, source address, destination address, VPN name, session ID, length, fragment index, and the RPC request itself. This message is informative about the RPC request operation and does not indicate any serious problems or errors that could impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  138,
+  "Info",
+  "Reason: The log entry indicates that a communication fault in a specific component has been rectified, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could affect the system's functionality.\nLabel: Info"
+ ],
+ [
+  139,
+  "Info",
+  "Reason: The log entry indicates a change in the state of an OSPF neighbor, which could potentially impact the routing behavior in the network. This type of event is critical for network operators to monitor and troubleshoot as it can affect the overall network stability and connectivity.\nLabel: Error"
+ ],
+ [
+  140,
+  "Info",
+  "Reason: The log entry indicates the successful addition of a RIP neighbor on the interface, which is a normal operation in the RIP protocol and does not indicate any serious problems or errors that could impact the system.\nLabel: Info"
+ ],
+ [
+  141,
+  "Error",
+  "Reason: The log entry indicates an error in the OSPFv3 protocol where there is no link to the restarting router in the received LSA, causing a premature exit of the graceful restart process and a reset of the OSPFv3 process. This issue could potentially disrupt the normal operation of the OSPFv3 protocol and impact network connectivity.\nLabel: Error"
+ ],
+ [
+  142,
+  "Error",
+  "Reason: The log entry indicates that an LSP (Label Switched Path) does not exist, which could potentially lead to routing issues or communication problems in the network. This type of error can disrupt the normal operation of the RSVP protocol and cause network instability.\nLabel: Error"
+ ],
+ [
+  143,
+  "Info",
+  "Reason: The log entry describes a change in the role of a stack member, which is an informative message about the system's stack management. It does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  144,
+  "Error",
+  "Reason: The log entry indicates a critical failure in updating the signature database, which is essential for the proper functioning of the system. This failure could potentially lead to security vulnerabilities or operational issues. The message explicitly states that the update process has failed, highlighting a serious problem that needs immediate attention.\nLabel: Error"
+ ],
+ [
+  145,
+  "Error",
+  "Reason: The log entry indicates a failure to allocate a next hop index for multicast traffic, which could potentially lead to issues with routing multicast traffic and connectivity problems. This is a serious problem that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  146,
+  "Error",
+  "Reason: The log entry indicates a failure in creating a socket for OSPF to send grace LSAs before switchover. This failure could potentially disrupt the graceful switchover process and impact network operations.\nLabel: Error"
+ ],
+ [
+  147,
+  "Error",
+  "Reason: The log entry indicates a critical issue where the OSPF process is NULL, which could potentially lead to communication errors or inconsistencies in the OSPF network. This type of error can disrupt the routing protocol operation and cause network instability.\nLabel: Error"
+ ],
+ [
+  148,
+  "Info",
+  "Reason: The log entry describes a situation where the processing of a card pull-out event on the board was aborted, indicating a potential issue with the hardware or system event handling. This could potentially lead to system instability or downtime, similar to the multicore process exiting unexpectedly in the error-prone case. \nLabel: Error"
+ ],
+ [
+  149,
+  "Error",
+  "Reason: The log entry indicates an abnormality with the USB 5v power, which is a critical component for the proper functioning of the system. This issue can potentially lead to hardware failures or malfunctions, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  150,
+  "Error",
+  "Reason: The log entry indicates a situation where the address family did not match the MP_REACH NextHop in BGP, which could potentially lead to routing issues and connectivity problems.\nLabel: Error"
+ ],
+ [
+  151,
+  "Info",
+  "Reason: The log entry indicates a change in the status of a key in a keychain, with both send and receive statuses being active. This message is informative about the key status change and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  152,
+  "Error",
+  "Reason: The log entry indicates a situation where the number of reassembly IPv6 queues has reached the upper limit, which could potentially lead to packet loss or fragmentation issues in IPv6 communication. This could impact the normal operation of the system and cause network instability.\nLabel: Error"
+ ],
+ [
+  153,
+  "Error",
+  "Reason: The log entry indicates that the LSP sequence number is approaching the maximum value, which could potentially lead to issues with routing information exchange in the ISIS protocol. This situation may indicate a critical problem that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  154,
+  "Error",
+  "Reason: The log entry indicates that a specific item is inactive, which could potentially impact the normal operation of the system if this item is essential for network functionality. This could lead to performance issues or functionality gaps, making it appropriately labeled as an Error.\nLabel: Error"
+ ],
+ [
+  155,
+  "Error",
+  "Reason: The log entry indicates a change in the NTP synchronization state, which could potentially impact the time synchronization of network devices. This event signifies a critical aspect of network operation, as time synchronization is crucial for various network functions. Therefore, the severity of this log is high.\nLabel: Error"
+ ],
+ [
+  156,
+  "Info",
+  "Reason: The log entry indicates the current power status of a specific port in the Power over Ethernet (PoE) system. This message is informative about the power consumption of the port and does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  157,
+  "Info",
+  "Reason: The log entry describes the successful renewal of an IPv6 address, providing details about the pool name, client ID, IPv6 address, lease time, user type, and user MAC address. This message is informative and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  158,
+  "Error",
+  "Reason: The log entry indicates a failure to obtain a response in time during the transmission process, which could potentially lead to communication issues or disruptions in the network. This type of timeout error is critical as it may impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  159,
+  "Info",
+  "Reason: The log entry indicates that IGMP discarded a received report due to reaching the limit of IGMP group memberships in all VPN instances. This issue could potentially disrupt the communication within the VPN network and cause connectivity problems.\nLabel: Error"
+ ],
+ [
+  160,
+  "Info",
+  "Reason: The log entry indicates a successful upgrade of the AS (Application Server) with specific details such as AS Index, AS name, system software, and patch file. This message is informative about the successful upgrade process and does not indicate any serious problems or errors that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  161,
+  "Info",
+  "Reason: The log entry indicates a situation where a keychain does not have an active send key ID, which could potentially lead to authentication failures or security issues in the network. This is a critical issue that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  162,
+  "Error",
+  "Reason: The log entry indicates that the power supply in a specific slot and subcard is abnormal or has no current input. This message suggests a potential issue with the power supply unit, which could lead to system instability or failures. Therefore, it is likely to be a serious problem that affects the normal operation of the system.\n\nLabel: Error"
+ ],
+ [
+  163,
+  "Error",
+  "Reason: The log entry indicates that a GRPC user has logged out, which may not necessarily indicate a critical issue but rather a normal operation event. This type of log is more informative rather than indicating a serious problem that could disrupt network operations.\nLabel: Info"
+ ],
+ [
+  164,
+  "Info",
+  "Reason: The log entry describes a situation where the RIP process recovered from a suspension state due to the number of routes reaching a lower threshold. This indicates a normal operation of the system where the process resumes processing packets after recovering. It does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  165,
+  "Error",
+  "Reason: The log entry indicates a change in the virtual link index within a VPN instance, which is a normal operation message related to VPN configuration changes. It does not indicate any serious problems or errors that would impact the system's functionality.\nLabel: Info"
+ ],
+ [
+  166,
+  "Info",
+  "Reason: The log entry indicates a user confirming an operation in the context of VPNBASE. Confirming an operation typically signifies a normal and expected action by the user, rather than indicating a serious problem or error in the system.\nLabel: Info"
+ ],
+ [
+  167,
+  "Error",
+  "Reason: The log entry indicates a failure in upgrading the AS (Application Server). This failure could potentially disrupt the normal operation of the system, indicating a serious problem.\nLabel: Error"
+ ],
+ [
+  168,
+  "Error",
+  "Reason: The log entry indicates a failure in correlating events using a script, which could potentially impact the system's ability to analyze and respond to events effectively. This failure could lead to missed correlations and delays in incident response, affecting the overall operational efficiency of the system.\nLabel: Error"
+ ],
+ [
+  169,
+  "Info",
+  "Reason: The log entry indicates a situation where the point-to-point link had more than one neighbor while creating a Router-LSA in the OSPFv3 process. This could potentially lead to routing issues or inconsistencies in the network topology.\nLabel: Error"
+ ],
+ [
+  170,
+  "Error",
+  "Reason: The log entry indicates that the number of routes received from a BGP peer has exceeded the maximum allowed number of prefixes. This could potentially lead to routing instability or performance issues in the network.\nLabel: Error"
+ ],
+ [
+  171,
+  "Info",
+  "Reason: The log entry describes a situation where an OPEN message received from a BGP peer contains an unsupported capability code. This could potentially indicate a problem with the compatibility between the peers' capabilities, which may lead to issues in establishing or maintaining the BGP connection. \nLabel: Error"
+ ],
+ [
+  172,
+  "Error",
+  "Reason: The log entry indicates an alarm related to the MPLS label stack exceeding the device capabilities. This could potentially lead to issues with MPLS forwarding and impact the normal operation of the device.\nLabel: Error"
+ ],
+ [
+  173,
+  "Info",
+  "Reason: The log entry indicates that RSVP (Resource Reservation Protocol) was successfully disabled in the MPLS view. This message is informative about a specific action taken in the system, but it does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  174,
+  "Error",
+  "Reason: The log entry indicates a failure in adding a neighbor TLV in the TRILL protocol, which is crucial for establishing and maintaining neighbor relationships. This failure could potentially disrupt the communication and routing within the network, leading to serious problems.\nLabel: Error"
+ ],
+ [
+  175,
+  "Error",
+  "Reason: The log entry indicates a conflict in connections with the same VC ID and VC type, which could potentially lead to connectivity issues or disruptions in the network.\nLabel: Error"
+ ],
+ [
+  176,
+  "Info",
+  "Reason: The log entry indicates that the OSPF failed to restore an interface node because the interface was not found. This could potentially lead to routing issues or connectivity problems, similar to the error-prone case where the RM did not find the interface in OSPF logs. This is a serious problem that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  177,
+  "Error",
+  "Reason: The log entry indicates that an invalid BOOTP packet was received, which could potentially disrupt the DHCP operation and cause connectivity issues. This type of error is critical as it indicates a problem with the network communication protocol.\nLabel: Error"
+ ],
+ [
+  178,
+  "Error",
+  "Reason: The log entry indicates a discrepancy between the current session discriminator and the received discriminator in a BFD session. This inconsistency could potentially lead to issues with the detection of link failures and impact network stability.\nLabel: Error"
+ ],
+ [
+  179,
+  "Error",
+  "Reason: The log entry indicates a discrepancy between the version of the startup configuration and the startup system software, which could potentially lead to configuration errors or compatibility issues.\nLabel: Error"
+ ],
+ [
+  180,
+  "Error",
+  "Reason: The log entry indicates a situation where the system memory was insufficient when trying to write an IP message to the message queue. This could potentially lead to message loss or system instability, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  181,
+  "Info",
+  "Reason: The log entry indicates a failure in the 2-way check with a neighbor in the OSPF (Open Shortest Path First) process, leading to the termination of graceful restart (GR). This type of event can potentially disrupt the routing information and cause network instability or connectivity issues.\nLabel: Error"
+ ],
+ [
+  182,
+  "Info",
+  "Reason: The log entry describes a situation where ISIS is sending CSNP and flooding LSPs on Level-1 for a circuit when receiving RR during adjacency GR. This message is informative about the normal operation of ISIS during the adjacency graceful restart process and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  183,
+  "Error",
+  "Reason: The log entry indicates a failure in the authentication process of a peer Smart Link, which could potentially lead to connectivity issues or unauthorized access. This failure in authentication is a serious problem that could disrupt the normal operation of the network.\nLabel: Error"
+ ],
+ [
+  184,
+  "Error",
+  "Reason: The log entry indicates that invalid Network-LSA information was received from the IGP, which could potentially lead to incorrect routing information and network instability.\nLabel: Error"
+ ],
+ [
+  185,
+  "Error",
+  "Reason: The log entry describes a fast upgrade failure in the CSS module, indicating a failure in the upgrade process.\nLabel: Info"
+ ],
+ [
+  186,
+  "Info",
+  "Reason: The log entry indicates that the POST data of the request packet is too long, which could potentially cause issues with processing the request. This issue may impact the performance of the system but does not directly indicate a serious problem that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  187,
+  "Error",
+  "Reason: The log entry indicates a failure in the registration process of a device between a master board and a slave board. This failure could potentially disrupt the communication and coordination between the two boards, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  188,
+  "Error",
+  "Reason: The log entry indicates a failure to subscribe to a routing event using a script, which could potentially lead to missed routing updates and impact the network's routing functionality. This failure in subscribing to routing events is a critical issue that needs immediate attention to ensure proper network operation.\nLabel: Error"
+ ],
+ [
+  189,
+  "Error",
+  "Reason: The log entry indicates a loop in the path message, which can lead to network instability and potential routing issues. The conflict with the IP address [LoopAddress] suggests a serious problem in the network communication, which could disrupt the normal operation of the system. This reasoning process is similar to the error-prone case of RSVP/LOOP_RESV.\nLabel: Error"
+ ],
+ [
+  190,
+  "Info",
+  "Reason: The log entry indicates a confirmation operation in BGP where a user input \"No\" to reject the operation. This message is informative about the user interaction with the system and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  191,
+  "Info",
+  "Reason: The log entry describes the successful renewal of an IPv6 prefix, providing details such as the pool name, client ID, renewed prefix, lease time, user type, and user MAC address. This message is informative about the IPv6 prefix renewal process and does not indicate any serious problems or errors that could impact the normal operation of the system. It is a normal operation message that does not disrupt the system's functionality.\nLabel: Info"
+ ],
+ [
+  192,
+  "Error",
+  "Reason: The log entry indicates a failure in sending batch data in the RIPng (Routing Information Protocol Next Generation) process. This failure could potentially disrupt the routing information and cause network instability or connectivity issues.\nLabel: Error"
+ ],
+ [
+  193,
+  "Info",
+  "Reason: The log entry indicates that the IP packet received from a neighbor is too short, which could potentially indicate a problem with the transmission of data. However, this message is informative about the specific details of the received packet and does not directly indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  194,
+  "Info",
+  "Reason: The log entry indicates the current state of a Smart link group and the triggering event that caused the state change. This message is informative about the status of the Smart link group and the event that led to the state change, but it does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  195,
+  "Error",
+  "Reason: The log entry indicates a shortage of ACL (Access Control List) resources, which could potentially lead to security vulnerabilities or access control issues in the network. This kind of resource shortage can impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  196,
+  "Error",
+  "Reason: The log entry indicates a failure to initialize BFD (Bidirectional Forwarding Detection) for LDP (Label Distribution Protocol) LSP (Label Switched Path). This failure could potentially impact the network's ability to detect link failures quickly and efficiently, affecting network stability and connectivity.\nLabel: Error"
+ ],
+ [
+  197,
+  "Error",
+  "Reason: The log entry indicates that the temperature of a component is rising but then resumes to normal levels. This message is informative about the status of the temperature and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  198,
+  "Info",
+  "Reason: The log entry indicates a failure to obtain an IFNET (interface network) through an alias in the ISIS module. This message is informative about a specific failure in obtaining network interface information, but it does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  199,
+  "Info",
+  "Reason: The log entry describes a Smart Link group sending QuickSwitch information to a Broad device, indicating a normal operation or event in the network.\nLabel: Info"
+ ],
+ [
+  200,
+  "Error",
+  "Reason: The log entry indicates that an event of port notification is being ignored by IGMP Snooping due to an invalid task. This could potentially lead to disruptions in the proper functioning of IGMP Snooping, impacting the network's ability to manage multicast traffic efficiently.\nLabel: Error"
+ ],
+ [
+  201,
+  "Info",
+  "Reason: The log entry indicates a transition of a port from Layer 3 mode to Layer 2 mode, which is a normal operation in network device configuration. This message is informative about the change in port mode and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  202,
+  "Error",
+  "Reason: The log entry indicates a failure in allocating a user due to reaching the upper limit of users. This situation could potentially lead to denial of service for new users trying to access the system. It highlights a critical issue in user management that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  203,
+  "Error",
+  "Reason: The log entry indicates a failure in creating a process using a script, which is a critical operation for the system. This failure could potentially impact the normal operation of the system and cause disruptions. The log provides information about the script name, event name, and instance ID, highlighting the importance of the failed process creation. This log entry is similar to the error-prone cases where critical operations or configurations fail, leading to serious consequences.\nLabel: Error"
+ ],
+ [
+  204,
+  "Info",
+  "Reason: The log entry indicates that the rate of packets sent to the CPU has exceeded the QUEUE limit, which may impact the performance of the system. This is an informative message about the network traffic exceeding a specific threshold, but it does not indicate a serious problem or error that would disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  205,
+  "Info",
+  "Reason: The log entry indicates that the LSAck packet received from a neighbor is too short, which could potentially indicate a problem with the transmission of data. However, this message is informative about the specific details of the received packet and does not directly indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  206,
+  "Error",
+  "Reason: The log entry indicates a change in the status of a tunnel group to \"Down\", which could potentially impact the connectivity or routing within the network. This type of event may indicate a disruption in the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  207,
+  "Error",
+  "Reason: The log entry indicates a failure in sending an IPC message to the IO board, which could potentially disrupt communication with the IO board and impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  208,
+  "Info",
+  "Reason: The log entry provides information about the number of NSSA LSAs in the OSPFv3 process. It includes details such as the line number, process ID, area ID, and the count of NSSA LSAs. This message is informative about the OSPFv3 process and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  209,
+  "Error",
+  "Reason: The log entry indicates a situation where no idle index was available for a new IPv6-prefix node when a prefix list filter was created. This could potentially lead to issues with filtering and routing of IPv6 traffic, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  210,
+  "Error",
+  "Reason: The log entry indicates that RIP (Routing Information Protocol) cannot run on a specific interface due to an invalid MTU (Maximum Transmission Unit) value. This message is informative about the configuration issue related to the MTU setting on the interface, but it does not indicate a serious problem that would impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  211,
+  "Error",
+  "Reason: The log entry indicates a failure to obtain an environment variable using a script. This failure could potentially impact the functionality of the system, especially if the environment variable is crucial for the operation of certain processes or applications. The message highlights a problem that needs attention to ensure the proper functioning of the system.\nLabel: Error"
+ ],
+ [
+  212,
+  "Error",
+  "Reason: The log entry indicates an error during the aging process of an RSVP LSP, which could potentially disrupt the normal operation of the system and impact network connectivity.\nLabel: Error"
+ ],
+ [
+  213,
+  "Info",
+  "Reason: The log entry describes a GRPC RPC operation in the telemetry system, providing details such as RPC state, IP address, port, VPN name, channel ID, RPC information, parameters, result, reason, local IP address, and local port. This message is informative about the RPC operation in the telemetry system and does not indicate any serious problems or errors that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  214,
+  "Info",
+  "Reason: The log entry indicates a successful operation of obtaining a file from a parent server, which is an informative message about the normal operation of the system. It does not indicate any serious problems or errors that could affect the system's functionality.\nLabel: Info"
+ ],
+ [
+  215,
+  "Error",
+  "Reason: The log entry indicates a failed user login attempt, which could potentially be a security risk and disrupt the normal operation of the system. Unauthorized access or login failures can lead to data breaches or system vulnerabilities. This situation poses a serious threat to the network's security and stability, hence the severity of this log is high.\n\nLabel: Error"
+ ],
+ [
+  216,
+  "Error",
+  "Reason: The log entry indicates a failure in exiting interface level helper mode for OSPF due to neighbor information, which could potentially disrupt the normal operation of OSPF and impact network connectivity.\nLabel: Error"
+ ],
+ [
+  217,
+  "Error",
+  "Reason: The log entry describes a situation where an invalid sequence number was received during a backup process in the RIP (Routing Information Protocol) context. This type of event can potentially disrupt the backup process and cause network instability or connectivity issues, similar to the error-prone cases where routing issues or disruptions were identified as serious problems.\nLabel: Error"
+ ],
+ [
+  218,
+  "Info",
+  "Reason: The log entry indicates that IGMP discarded a received report due to reaching the limit of IGMP group memberships within a specific VPN instance. This could potentially disrupt the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  219,
+  "Error",
+  "Reason: The log entry indicates that a battery is invalid for some reason, which does not necessarily indicate a critical problem affecting the normal operation of the system. This message is informative about the status of a specific component in the system and does not imply a serious issue that could lead to system failure or instability.\nLabel: Info"
+ ],
+ [
+  220,
+  "Info",
+  "Reason: The log entry provides information about the ISSU rollback timer value, which is a critical parameter during an In-Service Software Upgrade (ISSU) process. The value of this timer can impact the success or failure of the upgrade process and potentially lead to service disruptions if not set correctly.\nLabel: Error"
+ ],
+ [
+  221,
+  "Info",
+  "Reason: The log entry describes the scenario where the querier received an IGMP Leave packet, indicating a normal operation of the system where a device is leaving a multicast group. This message is informative about the network activity and does not indicate a serious problem that could disrupt the system's operation.\nLabel: Info"
+ ],
+ [
+  222,
+  "Error",
+  "Reason: The log entry indicates that the ISIS module obtained incorrect information about the DS-TE mode from the Routing Manager (RM). This incorrect information could potentially lead to routing issues or misconfigurations within the network, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  223,
+  "Error",
+  "Reason: The log entry indicates that a BFD session failed to construct a control packet when updating parameters. This failure in constructing a control packet could potentially lead to issues in the communication and monitoring of network connectivity. BFD sessions are critical for detecting link failures quickly, and any failure in constructing control packets could impact the network's ability to detect and respond to failures effectively.\n\nLabel: Error"
+ ],
+ [
+  224,
+  "Error",
+  "Reason: The log entry indicates a failure in allocating a static label to a specific VPN instance, which could potentially disrupt the normal operation of the L3VPN service.\nLabel: Error"
+ ],
+ [
+  225,
+  "Info",
+  "Reason: The log entry indicates that the OSPF process is resetting all changed LSA in helper flags. This action is a normal operation within the OSPF protocol and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  226,
+  "Error",
+  "Reason: The log entry indicates a failure in adding an ACL for VM users, which could potentially lead to access control issues or security vulnerabilities within the VM service. This failure could impact the normal operation of the system, making it a serious problem.\nLabel: Error"
+ ],
+ [
+  227,
+  "Error",
+  "Reason: The log entry indicates a failure in allocating memory when creating a new destination port address mapping. This failure could potentially disrupt the NATPT functionality and cause connectivity issues.\nLabel: Error"
+ ],
+ [
+  228,
+  "Info",
+  "Reason: The log entry indicates that a port has been blocked due to detecting a loop in a specific VLAN. This situation could potentially disrupt network communication and indicates a serious problem affecting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  229,
+  "Info",
+  "Reason: The log entry indicates an alarm ceiling being reached on a specific interface, which could potentially indicate a serious problem affecting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  230,
+  "Info",
+  "Reason: The log entry indicates a successful login over HTTP, providing details such as the username, IP address, VPN name, and line name. This message is informative about the login process and does not indicate any serious problems or errors that could disrupt the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  231,
+  "Error",
+  "Reason: The log entry indicates a change in the root bridge for the MSTP (Multiple Spanning Tree Protocol) instance, which is a normal operation in the network. This message does not indicate any serious problems or errors that could affect the system's functionality.\nLabel: Info"
+ ],
+ [
+  232,
+  "Info",
+  "Reason: The log entry indicates that the RIP process has recovered from a suspension state due to the number of routes reaching below a threshold limit. This message is informative about the recovery process of the RIP process and does not indicate a serious problem that could impact the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  233,
+  "Error",
+  "Reason: The log entry indicates a failure to flush a Link State Advertisement (LSA) in the OSPF protocol. Failing to flush an LSA could potentially lead to inconsistencies in the routing information and disrupt the normal operation of the network.\nLabel: Error"
+ ],
+ [
+  234,
+  "Error",
+  "Reason: The log entry indicates that the CANbus node is absent, which is an informative message about the current state of the system rather than a serious problem affecting its functionality. This is similar to the error-prone case where the CANbus node resumed its normal state, which was labeled as Info.\nLabel: Info"
+ ],
+ [
+  235,
+  "Error",
+  "Reason: The log entry indicates the detection of a PW (Pseudowire) loop, which can disrupt the normal operation of the network and cause communication issues. This type of issue is critical as it can lead to network instability and potential service disruptions.\nLabel: Error"
+ ],
+ [
+  236,
+  "Error",
+  "Reason: The log entry indicates a problem with insufficient buffer for display within a VPN instance. This issue could potentially disrupt the display functionality within the VPN network and cause communication problems. Therefore, the severity of this log is high, and it should be labeled as an Error.\nLabel: Error"
+ ],
+ [
+  237,
+  "Info",
+  "Reason: The log entry indicates the receipt of a deferred Link State Advertisement (LSA) in the OSPF protocol. Deferred LSAs can indicate temporary delays in the routing information exchange process, which may not necessarily lead to immediate network instability or communication issues.\nLabel: Info"
+ ],
+ [
+  238,
+  "Error",
+  "Reason: The log entry indicates a failure in transferring data over FTPS, which could potentially lead to data loss or communication issues. This failure could impact the normal operation of the system and requires immediate attention to resolve the issue.\nLabel: Error"
+ ],
+ [
+  239,
+  "Info",
+  "Reason: The log entry indicates a problem with obtaining an interface from an RSVP message, which could potentially lead to issues with routing or connectivity. This is a serious problem that could impact the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  240,
+  "Error",
+  "Reason: The log entry indicates a failure to initialize command strings in the context of a keychain operation. This failure could potentially impact the normal operation of the system, as keychains are crucial for securing network devices and managing authentication credentials. Therefore, the severity of this log is high.\nLabel: Error"
+ ],
+ [
+  241,
+  "Info",
+  "Reason: The log entry describes a situation where a duplicate OPEN message was received from a BGP peer, and the Graceful Restart (GR) capability for this peer was detected. This indicates a specific event related to BGP communication and does not directly indicate a serious problem that could affect the normal operation of the system.\nLabel: Info"
+ ],
+ [
+  242,
+  "Error",
+  "Reason: The log entry indicates a failure to obtain the physical interface index by its name from the Routing Manager (RM). This failure could potentially lead to issues with routing or connectivity, impacting the normal operation of the system.\nLabel: Error"
+ ],
+ [
+  243,
+  "Info",
+  "Reason: The log entry describes the AMB receiving a notification from the SMB about an area reset, indicating a normal operation related to the activation or freeing of a specific area. This message is informative about the internal processes of the system and does not indicate a serious problem that could impact the normal operation of the system.\n\nLabel: Info"
+ ],
+ [
+  244,
+  "Info",
+  "Reason: The log entry indicates a failure in invoking the RM GetRouterID, which is a critical function for obtaining the router ID in OSPF. This failure could potentially lead to routing issues or disruptions in the network. The message explicitly states that the invocation has failed, highlighting a serious problem that needs immediate attention.\nLabel: Error"
+ ],
+ [
+  245,
+  "Info",
+  "Reason: The log entry describes a change in the PIM assert finite state machine within a specific VPN instance. This change could potentially impact the multicast communication within the network, indicating a serious problem that affects the normal operation of the system.\nLabel: Error"
+ ]
+]

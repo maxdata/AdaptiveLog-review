@@ -1,0 +1,1502 @@
+[
+ [
+  [
+   [
+    "LSPM/3/MPLSTEFRRSWITCH:OID [oid] Tunnel switches.(SessionTunnelId=[integer], LocalLspId=[integer], IngressLsrId=[integer], EgressLsrId=[integer], MplsTunnelAdminStatus=[integer], MplsTunnelOperStatus=[integer], BypassSessionTunnelId=[integer], BypassLocalLspId=[integer], BypassIngressLsrId=[integer], BypassEgressLsrId=[integer])",
+    "The number of 802.1x authentication users reached the upper limit."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not correspond to the information provided in the logs. The log message talks about OID Tunnel switches with specific parameters such as SessionTunnelId, LocalLspId, IngressLsrId, etc., while the description mentions the number of 802.1x authentication users reaching the upper limit. These two pieces of information are unrelated and do not align in terms of content, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "BGP/3/ROUTPRIX_EXCEED:Routes received from peer [neighbor-address] including the number of prefix [receive-prefix-number] exceeded the max number of prefix [max-prefix-number].\n(BgpAddressFamily=[STRING])",
+    "During the BFD session negotiation, the device receives a BFD packet with the MinRXInterval field of 0 from the peer and stops the BFD session negotiation."
+   ],
+   0
+  ],
+  "[BGP/3/ROUTPRIX_EXCEED:Routes received from peer [neighbor-address] including the number of prefix [receive-prefix-number] exceeded the max number of prefix [max-prefix-number]. (BgpAddressFamily=[STRING]), During the BFD session negotiation, the device receives a BFD packet with the MinRXInterval field of 0 from the peer and stops the BFD session negotiation.], Ground-Truth Label: False. Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates that routes received from a peer exceeded the maximum number of prefixes, while the description talks about a BFD session negotiation issue related to receiving a BFD packet with a specific field value. These two pieces of information are unrelated, leading to a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/3/OSPF_IF_RX_BAD_PACKET: An OSPF packet that is received on a non-virtual interface cannot be parsed. (RouterId=[RouterId], IfIpAddress=[IfIpAddress], AddressLessIf=[AddressLessIf], PacketSrc=[PacketSrc], PacketType=[PacketType], AreaId=[AreaId])",
+    "An OSPF packet that cannot be parsed was received from a non-virtual interface on the peer end. The possible cause is that the local end was attacked, or the local device was not connected with a non-Huawei device successfully."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention an OSPF packet that cannot be parsed when received on a non-virtual interface. The log specifies the details of the received packet and the issue with parsing it, while the description further explains that this could be due to an attack on the local end or a connectivity issue with a non-Huawei device. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "MGMD/3/hwMgmdHostStarGExceedClear:OID [oid] IGMP or MLD total (*, G) entries can be created because the number of IGMP or MLD total (*, G) entries on the host side fell below the limit. (hwMgmdNotificationAddressType=[integer], hwMgmdHostStarGTotalCount=[integer])",
+    "The total number of (*, G) entries of all instances fell below the maximum number allowed on the user-side IGMP/MLD device, so new (*, G) entries can be created."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the number of IGMP or MLD total (*, G) entries falling below the limit on the host side. The log specifies that new (*, G) entries can be created due to this limitation, while the description talks about the total number of (*, G) entries falling below the maximum allowed on the user-side IGMP/MLD device. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/RM_SYS_DISABLE:ISIS [process-id] was disabled. (DisableReason=[USHORT])",
+    "ISIS was in the Disable state."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention ISIS being disabled. The log specifies that ISIS with a specific process ID was disabled and provides a disable reason, while the description simply states that ISIS was in the Disable state. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "MRM/4/LOADIPC_UNDOMROUT:In VPN instance \"[vpn-instance-name]\", MRM failed to load the IPC message indicating that the undo multicast routing-enable command was processed. (FlCode=[STRING][ULONG])",
+    "The MRM module failed to load the IPC message indicating that theundo multicast routing-enablecommand was processed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the failure of the MRM module to load the IPC message related to processing the \"undo multicast routing-enable\" command. The content of the log and the description are consistent and coherent, indicating a match between the two."
+ ],
+ [
+  [
+   [
+    "RM/4/IPV4_PREFIX_THRESHOLD_EXCEED_RESM:OID [oid] The number of IPv4 prefixes falls below the threshold. (PrefixCount=[Integer], MaxValue=[Integer])",
+    "The number of IPv4 route prefixes fell below the clear alarm threshold."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the number of IPv4 prefixes falling below a certain threshold. The log specifies the OID and the actual count of prefixes, while the description talks about the clear alarm threshold being exceeded. These two pieces of information are related and coherent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SECE/4/ARP_GLOBLE_SPEEDLIMIT_ALARM:OID [oid] The globle arp packet speed exceed the speed-limit value configed [INTEGER].",
+    "The rate of ARP packets exceeds the alarm threshold."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the ARP packet speed exceeding the configured speed-limit value. The log specifies that the global ARP packet speed exceeds the speed-limit value configured, while the description talks about the rate of ARP packets exceeding the alarm threshold. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ALML/4/POWERSUPPLY_OFF:The power supply on [STRING] is off.",
+    "An error that affected ISSU occurred on a service module.\nThus, the system was to roll back."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ALML/4/POWERSUPPLY_OFF:The power supply on [STRING] is off.\", \"An error that affected ISSU occurred on a service module. Thus, the system was to roll back.\"]\nGround-Truth Label: False\nReason: The natural language description does not accurately reflect the content of the logs. The log message indicates that the power supply on a specific device is off, while the description talks about an error affecting ISSU on a service module leading to a system rollback. These two pieces of information are not related or coherent, indicating a mismatch between the log content and the natural language description. Hence, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "WLAN/4/AP_REACH_MAX_USERS:OID [oid] AP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+    "Failed to disable the [command] command in the [command-view] view."
+   ],
+   0
+  ],
+  "Error-prone case: [\"WLAN/4/AP_REACH_MAX_USERS:OID [oid] AP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER]), Failed to disable the [command] command in the [command-view] view.\"], \"Failed to disable the [command] command in the [command-view] view.\"], Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that the AP has reached the maximum number of stations, while the description talks about failing to disable a command in a specific view. There is no connection between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "PIM/6/GRP_ADDR_NOT_MCAST: In VPN instance [vpn-instance-name], because the group address [group-address]/[group-address-mask] is not a multicast address, the [message-type-name] message received from the interface [interface-name] was ignored.",
+    "A PIM interface changed from a DR to a non-DR."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description talks about a PIM interface changing from a DR to a non-DR, which is unrelated to the log message that mentions the group address not being a multicast address and the message being ignored. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "DHCP/0/DHCPV6_SERVER_DETECT: A NEW SERVER IS FOUND. (SERVER INFO: IP Address=[STRING], MAC Address=[STRING], Interface=[STRING])",
+    "The port in the VLAN enabled VBST entered the forwarding\nstate."
+   ],
+   0
+  ],
+  "Error-prone case: [\"DHCP/0/DHCPV6_SERVER_DETECT: A NEW SERVER IS FOUND. (SERVER INFO: IP Address=[STRING], MAC Address=[STRING], Interface=[STRING])\", \"The port in the VLAN enabled VBST entered the forwarding state.\"]\nGround-Truth Label: False\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates the discovery of a new DHCPv6 server with specific server information, while the natural language description talks about a port in a VLAN enabled VBST entering the forwarding state. There is no clear connection or relevance between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "HA/4/UPDATEPAF:The PAF file of the slave board was updated along with that of the master board and the slave board was restarted.",
+    "The PAF was updated on the slave board and the slave board was restarted."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the PAF file being updated on the slave board and the slave board being restarted. The log specifies that the PAF file of the slave board was updated along with that of the master board, and the slave board was restarted. The description reiterates this by stating that the PAF was updated on the slave board and the slave board was restarted, showing consistency and coherence between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "IFNET/4/LINKNO_STATE:The line protocol on the interface [interface-name] has entered the [state] state.",
+    "The link between two SVF-enabled devices failed."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not accurately reflect the content of the logs. The log message specifies that the line protocol on the interface has entered a certain state, while the description talks about a link failure between two SVF-enabled devices. These two pieces of information are not coherent or consistent, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/4/LARGE_LSP:OID [oid] The length of the PDU to be sent is greater than the MTU. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer], circIfIndex=[integer], lspSizeSupport=[integer], pduLspId=[opaque])",
+    "User login failed."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ISIS/4/LARGE_LSP:OID [oid] The length of the PDU to be sent is greater than the MTU. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer], circIfIndex=[integer], lspSizeSupport=[integer], pduLspId=[opaque])\", \"User login failed.\"], Ground-Truth Label: False.\nReason: The natural language description \"User login failed.\" is completely unrelated to the information conveyed in the logs. The log message specifically mentions a large PDU size issue related to ISIS protocol, while the description talks about a user login failure which has no connection to the log content. As there is no coherence or consistency between the log message and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "MGMD/3/GLBLIMIT:OID [oid] Membership report message is discarded because the total IGMP or MLD group membership limitation is exceeded in all instances. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], LimitCnt=[integer])",
+    "New members failed to join the IGMP or MLD group because the total number of IGMP or MLD entries in all instances reached the limit."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the limitation being exceeded in all instances for IGMP or MLD group membership. The log specifies that the OID membership report message is discarded due to exceeding the total IGMP or MLD group membership limitation, while the description talks about new members failing to join the group because the total number of entries reached the limit. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "PTP/4/hwPtpFrequencyLockFail_active: Current lock status of clock frequency synchronization failed. (hwPtpFreqLockStatus = [hwPtpFreqLockStatus])",
+    "The USB disk was pulled out."
+   ],
+   0
+  ],
+  "Error-prone case: [\"PTP/4/hwPtpFrequencyLockFail_active: Current lock status of clock frequency synchronization failed. (hwPtpFreqLockStatus = [hwPtpFreqLockStatus])\", \"The USB disk was pulled out.\"]\nGround-Truth Label: False\nReason: The natural language description \"The USB disk was pulled out\" is completely unrelated to the log message about clock frequency synchronization failure. There is no coherence or consistency between the log content and the description, indicating a mismatch and justifying the False label."
+ ],
+ [
+  [
+   [
+    "ACLE/4/METER_RULERESFULLRESUME:OID [OID] The meter resource usage is restored to be lower than [INTEGER]%. (Slot=[OCTET], Stage=[OCTET])",
+    "The meter resource usage decreases from 100% and keeps below 100% for a period."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the meter resource usage being restored to be lower than a certain percentage. The log specifies that the meter resource usage decreases from 100% and stays below 100% for a period, while the description talks about the meter resource usage being restored to be lower than a certain percentage. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "WLAN/4/ROAM_STA_NUM_EXCEED_THRESHOLD:OID [oid] AP roam user number exceed threshold notify. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+    "The AP generates the alarm when the number of roaming users exceeds the alarm threshold."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the scenario where the number of roaming users exceeds a threshold on an AP. The log specifies that the OID AP roam user number exceeds the threshold, while the description explains that the AP generates an alarm in such a situation. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "RUMNG/4/RUPORTOUTBWRATERESUME:OID [oid] Remote unit interface output flow bandwidth usage was restored to the trap threshold. (RemoteUnitEsn=[OCTET], InterfaceName=[OCTET], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER])",
+    "The clear alarm is generated when the outbound bandwidth utilization falls below the threshold, which is 80% within 1 minute."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the restoration of bandwidth usage to a trap threshold. The log specifies that the remote unit interface output flow bandwidth usage was restored to the trap threshold, while the description talks about generating a clear alarm when the outbound bandwidth utilization falls below the threshold. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SEP/5/SEP_TCNOTIFY_VPLS:Notify topochange to VPLS. (SegmentID=[ULONG])",
+    "The link-layer protocol of a GRE tunnel interface went\nDown."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a notification of a topological change to VPLS, while the description talks about the link-layer protocol of a GRE tunnel interface going down. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/2/isisImportRouteLimit_active: The number of routes imported to the IS-IS process reached or exceeded the maximum value. (SysInstance=[hwisisSysInstance], MaximumValue=[hwisisImportRouteMax])",
+    "Failed to add information about a neighbor into the\nDNDB."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ISIS/2/isisImportRouteLimit_active: The number of routes imported to the IS-IS process reached or exceeded the maximum value. (SysInstance=[hwisisSysInstance], MaximumValue=[hwisisImportRouteMax])\", \"Failed to add information about a neighbor into the DNDB.\"], Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message specifically mentions the import route limit being reached in the IS-IS process, while the description talks about failing to add information about a neighbor into the DNDB. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/2/isisRouteBeDeletedByPurgeInexact_active: IS-IS routes advertised by the local device were deleted by another device, and the possibly faulty device did not support IS-IS purge LSP source trace. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. Neither of the devices displayed in the display isis purge-source-trace analysis-report command output is the faulty device. (SysInstance=[isisSysInstance], HostName=[hwIsisHostName], HostIpAddress=[hwIsisHostIpAddress], SystemID=[isisPduLspId], SysLevel=[isisSysLevelIndex], PurgeLspNum=[hwIsisPurgeLspNum], AffectedNodeNum=[hwIsisAffectedNodeNum], TotalNodeNum=[hwIsisTotalNodeNum], RuledOutDeviceNum=[hwIsisRuledOutDeviceNum], Interval=[hwIsisInterval])",
+    "The IS-IS LSPs advertised by the local device were purged by a neighbor. The local device supports IS-IS purge LSP source tracing, but the neighbor does not. In this case, log in to the possibly faulty node and check whether it is purging LSPs. If it is purging LSPs, reset or isolate it. If the possibly faulty node is not purging LSPs, check other possibly faulty nodes. To check the analysis report output by IS-IS purge LSP source tracing, run the display isis purge-source-trace analysis-report command."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention IS-IS routes being deleted by another device, and the possibly faulty device not supporting IS-IS purge LSP source trace. The log specifies details such as SysInstance, HostName, HostIpAddress, SystemID, etc., while the description provides steps to troubleshoot the issue, including logging into the possibly faulty device and checking for LSP purging. The information in both the log and the description is coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/ALOC_MEM_PSIVIF_FAIL:ISIS [process-id] failed to allocate memory for creation of the node for passive interface list.",
+    "ISIS failed to allocate memory for creating nodes for the passive interface list."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention ISIS failing to allocate memory for creating nodes for the passive interface list. The log specifies the failure to allocate memory for the creation of the node for the passive interface list, while the description directly mentions ISIS failing to allocate memory for creating nodes for the passive interface list. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "RIP/2/DBOVERFLOW:OID [oid] The number of routes on RIP process reached the upper threshold, and thus the RIP process was suspended. (ProcTableIndex=[INTEGER], ProcessId=[INTEGER], DataBaseLimit=[GAUGE])",
+    "It is a trap indicating the restoration of the partial link bandwidth and is a matching trap of hwLacpPartialLinkLoss."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not correspond to the information conveyed in the logs. The log message indicates that the number of routes on the RIP process reached the upper threshold, leading to the suspension of the RIP process. On the other hand, the natural language description mentions the restoration of partial link bandwidth and refers to a matching trap of hwLacpPartialLinkLoss, which is unrelated to the RIP process suspension mentioned in the logs. As there is no coherence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "RUMNG/4/RUPORTOUTBWRATERESUME:OID [oid] Remote unit interface output flow bandwidth usage was restored to the trap threshold. (RemoteUnitEsn=[OCTET], InterfaceName=[OCTET], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER])",
+    "When deciding whether to run the command, the user needs to confirm."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates that the remote unit interface output flow bandwidth usage was restored to the trap threshold, while the description talks about the user needing to confirm when deciding whether to run a command. There is no clear connection between the log content and the natural language description, leading to the determination that the label is False."
+ ],
+ [
+  [
+   [
+    "LDP/2/SESSIONUP: OID [OID] The session went Up. (LdpId=[OPAQUE], LdpEntityIndex=[GAUGE], PeerLdpId=[OPAQUE], PeerLdpId=[OPAQUE], IfIndex=[INTEGER], SessionState=[INTEGER], DiscontinuityTime=[TIMETICK], UnknownMesTypeErrors=[COUNTER], UnknownTlvErrors=[COUNTER], DownReason=[INTEGER], IfName=[STRING])",
+    "The status of the LDP session was Up, and the LSPs maintained by the session were set up."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the LDP session going up and the status being Up. The logs provide detailed information about the session including LdpId, PeerLdpId, IfIndex, SessionState, etc., while the description summarizes the status of the LDP session as Up and mentions the establishment of LSPs. The information in both the log message and the description aligns, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/6/FIND_NBR_HELLO_P2P:OSPF [process-id] found that the pre-restart neighbor [neighbor-router-id] is in hello packet, on interface [interface-ip-address].",
+    "ISIS failed to allocate memory for self-LSPs."
+   ],
+   0
+  ],
+  "Error-prone case: [OSPF/6/FIND_NBR_HELLO_P2P:OSPF [process-id] found that the pre-restart neighbor [neighbor-router-id] is in hello packet, on interface [interface-ip-address]., ISIS failed to allocate memory for self-LSPs.], Ground-Truth Label: False.\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates that OSPF found a pre-restart neighbor in a hello packet on a point-to-point interface, while the natural language description talks about ISIS failing to allocate memory for self-LSPs. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "SNPG/6/PORTVLANCHNLBDWEXD:The bandwidth of multicast groups reached the upper limit. (ChannelName=[STRING], VlanId=[INTEGER], IfName=[STRING], ConfiguredValue=[INTEGER], CurrentMulticastGroup=[STRING])",
+    "PFC is disabled automatically when the deadlock count reaches the threshold."
+   ],
+   0
+  ],
+  "Error-prone case: [\"SNPG/6/PORTVLANCHNLBDWEXD:The bandwidth of multicast groups reached the upper limit. (ChannelName=[STRING], VlanId=[INTEGER], IfName=[STRING], ConfiguredValue=[INTEGER], CurrentMulticastGroup=[STRING]), PFC is disabled automatically when the deadlock count reaches the threshold.\"], Ground-Truth Label: False. Reason: The natural language description talks about PFC being disabled due to a deadlock count reaching a threshold, which is not mentioned in the log message about the bandwidth of multicast groups reaching the upper limit. The two pieces of information are unrelated, leading to a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LLDP/4/DISABLETRAP: OID [oid] Global LLDP is disabled.",
+    "Smart link authentication failed."
+   ],
+   0
+  ],
+  "Error-prone case: [\"LLDP/4/DISABLETRAP: OID [oid] Global LLDP is disabled.\", \"Smart link authentication failed.\"]\nGround-Truth Label: False.\nReason: The natural language description \"Smart link authentication failed\" does not correspond to the information provided in the logs, which mention that Global LLDP is disabled. There is no connection between the two pieces of information, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LSPM/4/HWMPLSTUNCHANGEBW:OID [oid] The bandwidth of the tunnel has changed. (SessionTunnelId=[integer1], LocalLspId=[integer2], IngressLsrId=[integer3], EgressLsrId=[integer4])",
+    "The trap message was sent when the bandwidth of the tunnel changed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a change in the bandwidth of the tunnel. The log specifies that the bandwidth of the tunnel has changed, while the description talks about sending a trap message when the bandwidth of the tunnel changes. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/4/6300_FPGA_FAULT:FPGA abnormal",
+    "The number of flow entry resources occupied by iPCA 2.0 on a device exceeds 90% of the total number of flow entry resources on the device."
+   ],
+   0
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention an FPGA abnormality related to the number of flow entry resources occupied by iPCA 2.0 exceeding 90% of the total resources on the device. The description provides additional context to the log message, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ENTITYEXTTRAP/2/CRCERRORRISING: OID [oid] Input packets are discarded for an error in physical layer detection. (SlotID=[STRING], UnitID=[INTEGER], PortID=[STRING], PeerSlotID=[STRING], ErrorPacketStatistics=[STRING], ErrorPacketThreshold=[STRING], MonitorInterval=[STRING])",
+    "Incoming packets are discarded due to errors during physical layer detection."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention incoming packets being discarded due to errors in physical layer detection. The log specifies that input packets are discarded for an error in physical layer detection, while the description talks about incoming packets being discarded due to errors during physical layer detection. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ACLE/3/POLICY_APPLY: Failed to apply the policy\nto [STRING]. (ErrorInformation=[STRING])",
+    "Failed to transfer the configuration data to the server when backing up the configuration file to the server."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ACLE/3/POLICY_APPLY: Failed to apply the policy to [STRING]. (ErrorInformation=[STRING])\", \"Failed to transfer the configuration data to the server when backing up the configuration file to the server.\"], Ground-Truth Label: False. Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a failure to apply a policy, while the description talks about transferring configuration data to the server during a backup process. These two pieces of information are not related or coherent, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "CLKMIB/4/CLOCKSOURCEFREQCHECKRESUME:OID [oid] The check of frequence normal notification. (hwClockSrcCfgChassisIndex=[integer], hwClockSrcCfgSourceTypeIndex=[integer], hwClockSrcCfgSourceIndex=[integer], hwClockChassisId=[integer], hwClockCurSourceName=[STRING], hwClockSrcCfgFreqCheckResult=[integer])",
+    "The alarm generated when the frequency offset detection functioned abnormally was cleared."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the clearing of an alarm related to abnormal frequency offset detection. The log specifies the OID and details of the frequency check resume, while the description talks about the alarm being cleared. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "NSADP/4/NS_ID_RPCFAIL: Failed to send message to\nslot [ULONG1]. (MessageType=[ULONG2], ErrorCode=[ULONG3])",
+    "mplsLdpEntityInitSessionThreshol was not zero and the sequence number of an Initialization message exceeded mplsLdpEntityInitSessionThreshold."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a failure to send a message to a specific slot with certain message type and error code, while the description talks about a threshold being exceeded for an Initialization message related to mplsLdpEntityInitSessionThreshold. There is a lack of coherence and consistency between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "LSPM/3/MPLS_TUNNEL_LOCK_END:OID [oid] The tunnel has not been locked.(SessionTunnelId=[INTEGER], LocalLspId=[integer], IngressLsrId=[integer], EgressLsrId=[integer], TunnelName=[octet], SignalingProtocol=[integer])",
+    "The request for locking a traffic in the working tunnel has been canceled."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the cancellation of a request for locking a traffic in the working tunnel. The log specifies that the tunnel has not been locked, while the description talks about the cancellation of the locking request. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "IFNET/6/REPEAT_NOTIFY:The Application module repeatedly\nnotified the fault. (InterfaceName=[STRING], State=[STRING])",
+    "ISIS received an unknown message."
+   ],
+   0
+  ],
+  "Error-prone case: [\"IFNET/6/REPEAT_NOTIFY:The Application module repeatedly notified the fault. (InterfaceName=[STRING], State=[STRING])\", \"ISIS received an unknown message.\"]\nGround-Truth Label: False\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates that the Application module repeatedly notified a fault related to an interface, while the natural language description talks about ISIS receiving an unknown message, which is unrelated to the fault notification mentioned in the logs. As there is no correspondence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "MGMD/3/hwMgmdTotalLimitThresholdExceedClear:OID [oid] IGMP or MLD total entries count in all instances fell below the lower threshold. (hwMgmdNotificationAddressType=[integer], hwMgmdTotalLimitCurrentCount=[integer], hwMgmdTotalLimitThreshold=[integer]%, hwMgmdTotalEntries=[integer])",
+    "Importing a local certificate failed."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"Importing a local certificate failed\" does not correspond to the content of the logs which mention OID [oid] IGMP or MLD total entries count falling below a threshold. There is no connection between the two pieces of information, indicating a mismatch between the log message and the description, leading to a ground-truth label of False."
+ ],
+ [
+  [
+   [
+    "MD/4/REG_ACL_F:In VPN instance \"[vpn-instance-name]\", registering ACL update callback functions failed.(FlCode=[STRING][ULONG])",
+    "The MD failed to register the ACL update callback function with the MRM."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to register ACL update callback functions in the context of a VPN instance. The log specifies that the registration failed, while the description elaborates on the failure by mentioning the MD's inability to register the callback function with the MRM. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/L1_WAIT_TMR_FAIL:ISIS [process-id] failed to stop the Level-1 wait timer.",
+    "The topology of ERPS ring changes."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ISIS/6/L1_WAIT_TMR_FAIL:ISIS [process-id] failed to stop the Level-1 wait timer.\", \"The topology of ERPS ring changes.\"]\nGround-Truth Label: False\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates that ISIS failed to stop the Level-1 wait timer, while the description talks about changes in the topology of an ERPS ring. These two pieces of information are unrelated and do not correspond to each other, leading to a determination of False for the label."
+ ],
+ [
+  [
+   [
+    "MRM/6/VRFLIST_LIMIT:In VPN instance [vpn-instance-name],\nthe number of VRFs delivered to the MFIB exceeded the upper limit.\nThe current number of VRFs thatare deliveredto MFIB is\n[CurrentNumber] and the upper limit is [UpperLimit]. [IgnoreNumber]\nlogs have been ignored.(FlCode=[STRING][ULONG])",
+    "OSPF cannot enter the helper mode because the LSA was\nchanged in the retransmission list of the restarting neighbor."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description talks about OSPF not being able to enter helper mode due to changes in the LSA retransmission list of a restarting neighbor, which is unrelated to the log message about VRF limit exceeding in a VPN instance. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "STACKMNG/1/hwStackMemberPortLoopAlarm_active: A loop occurred in the stack because error packets were generated on the device. (hwStackLocalIfName=[hwStackLocalIfName])",
+    "The area address TLV did not exist in the original LSP."
+   ],
+   0
+  ],
+  "Error-prone case: [\"STACKMNG/1/hwStackMemberPortLoopAlarm_active: A loop occurred in the stack because error packets were generated on the device. (hwStackLocalIfName=[hwStackLocalIfName])\", \"The area address TLV did not exist in the original LSP.\"]\nGround-Truth Label: False\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates a loop occurred in the stack due to error packets generated on the device, while the natural language description talks about the absence of the area address TLV in the original LSP. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "RMON/5/DEL_ETHSTATES:In the [EtherStates] table, a row with index [row-id] was invalidated by [owner-id].",
+    "The neighbor turned Down."
+   ],
+   0
+  ],
+  "[RMON/5/DEL_ETHSTATES:In the [EtherStates] table, a row with index [row-id] was invalidated by [owner-id]., The neighbor turned Down.], Ground-Truth Label: False. Reason: The natural language description \"The neighbor turned Down\" does not correspond to the information provided in the log message about a row being invalidated in the EtherStates table. The log message specifically mentions the invalidation of a row with an index by an owner, which is not related to a neighbor turning down as stated in the description. Therefore, there is a lack of coherence between the log content and the natural language description, leading to the label being determined as False."
+ ],
+ [
+  [
+   [
+    "UVM/6/COPY2OTHER: The file \"[STRING]\" is copied to other board. (Slot number=[ULONG], Result=[STRING])",
+    "A user goes offline."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"A user goes offline\" does not correspond to the log message \"The file is copied to other board.\" There is no connection between the action of copying a file to another board and a user going offline, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "NTP/4/GRADUAL_SET_TIME:Failed to set system time adjustment in the process of gradual adjustment.",
+    "Failed to set the system time during gradual adjustment."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to set the system time adjustment during a gradual adjustment process. The log specifies that the system time adjustment failed during gradual adjustment, while the description talks about the failure to set the system time during gradual adjustment. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "EFM/5/LINKEVENTCLEAR: The link event was cleared. (InterfaceName=[InterfaceName], EventTimeStamp=[EventTimeStamp], EventType=[EventType], Location=[Location], Window=[Window], Threshold=[Threshold], Errors=[Errors], ErrorRunningTotal=[ErrorRunningTotal], EventRunningTotal=[EventRunningTotal])",
+    "The event that the number of errored frames, errored frame seconds, or errored codes exceeded the threshold was cleared."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the clearing of a link event related to errored frames, errored frame seconds, or errored codes exceeding a threshold. The log specifies that the link event was cleared and provides details such as InterfaceName, EventTimeStamp, EventType, etc. The description further clarifies that the event related to exceeding the threshold for errored frames was cleared. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "MRM/3/hwIpMcastSGExceed:OID [oid] Multicast routing total (S, G) entries of all instances cannot be created because the limit is reached. (hwIpMcastSGTotalCount=[integer])",
+    "The MSTP MSTI received the BPDU with a TC flag."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that the Multicast routing total (S, G) entries limit is reached, while the description talks about the MSTP MSTI receiving a BPDU with a TC flag. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "MGMD/3/hwMgmdHostSGExceedClear:OID [oid] IGMP or MLD total (S, G) entries can be created because the number of IGMP or MLD total (S, G) entries on the host side fell below the limit. (hwMgmdNotificationAddressType=[integer], hwMgmdHostSGTotalCount=[integer])",
+    "The total number of (S, G) entries of all instances fell below the maximum number allowed on the user-side IGMP/MLD device, so new (S, G) entries can be created."
+   ],
+   1
+  ],
+  "The natural language description accurately explains the content of the logs. Both the log message and the description mention the number of IGMP or MLD total (S, G) entries falling below the limit on the host side, allowing for the creation of new entries. The log specifies the OID, hwMgmdNotificationAddressType, and hwMgmdHostSGTotalCount parameters related to this event, while the description elaborates on the reason for new entries being created due to the limit being reached. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/3/NETWORKHEARTBEATTRAP: OID [oid] Network heart beat.",
+    "The device periodically sends heartbeat packets to the NMS. The NMS considers the device present if it receives heartbeat packets from the device."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately explains the content of the log message. The log message mentions the OID for the network heart beat, indicating that the device periodically sends heartbeat packets to the NMS. The description further clarifies that the NMS considers the device present if it receives these heartbeat packets, which aligns with the information provided in the log message. The coherence between the log content and the natural language description supports the True label."
+ ],
+ [
+  [
+   [
+    "ISIS/6/REV_UNEXPCT_CSPF_TY:ISIS [process-id] received unknown CSPF event type.",
+    "ISIS received an unknown CSPF event type."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention ISIS receiving an unknown CSPF event type. The content of the log message aligns with the information provided in the description, indicating a match between the logs and the natural language description."
+ ],
+ [
+  [
+   [
+    "MPLS/3/VSI_ADD_CARACL: Failed to configure traffic\nsuppression because of insufficient resource. (SlotId=[STRING])",
+    "The number of current multicast groups in the channel on the Layer 2 interface exceeded the upper limit."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description mentions exceeding the upper limit of multicast groups on a Layer 2 interface, which is not directly related to the log message about failed traffic suppression due to insufficient resources. The lack of coherence between the log content and the description indicates a mismatch, leading to the determination of a False label."
+ ],
+ [
+  [
+   [
+    "OSPF/4/UPDATE_GR_PERIOD:GR period of OSPF [process-id]on interface [interface-ip-address] changed from [gr-period] to [update-gr-period].",
+    "The IS-IS neighbor went Down on the interface because the level of the neighbor changed."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a change in the GR period of OSPF on a specific interface, while the description talks about an IS-IS neighbor going down due to a change in neighbor level. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "POE/4/POEPORTRESUME: OID [oid] PoE port is recovered. (IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+    "BGP exited from the GR state."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"BGP exited from the GR state\" does not correspond to the information provided in the logs, which mention the recovery of a PoE port. The two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "Common mode:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]DEVICEMAC:[CHAR1];DEVICENAME:[STRING1];USER:[STRING2];MAC:[CHAR2];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING3];ZONE:[STRING4];DAYLIGHT:false;ERRCODE:[STRING5];RESULT:[STRING6];USERGROUP:[STRING7];AUTHENPLACE:[STRING8];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING9];INTERFACE:[STRING10];ACCESS TYPE:[STRING11];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];Unified mode:Wired user:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]DEVICEMAC:[CHAR1];DEVICENAME:[STRING1];USER:[STRING2];MAC:[CHAR2];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING3];ZONE:[STRING4];DAYLIGHT:false;ERRCODE:[STRING5];RESULT:[STRING6];USERGROUP:[STRING7];AUTHENPLACE:[STRING8];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING9];INTERFACE:[STRING10];ACCESS TYPE:[STRING11];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];Wireless user:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]ACMAC:[CHAR1];ACNAME:[STRING1];APMAC:[CHAR2];APNAME:[STRING2];SSID:[OCTET];RADIOID:[INTEGER];USER:[STRING3];MAC:[CHAR3];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING4];ZONE:[STRING5];DAYLIGHT:false;ERRCODE:[STRING6];RESULT:[STRING7];USERGROUP:[STRING8];AUTHENPLACE:[STRING9];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING10];INTERFACE:[STRING11];ACCESS TYPE:[STRING12];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];",
+    "Indicates that the period of a test exceeded the set threshold. The threshold could be set by the user. The threshold rtd could modify the threshold."
+   ],
+   0
+  ],
+  "Error-prone case: \nInput: [Common mode:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]DEVICEMAC:[CHAR1];DEVICENAME:[STRING1];USER:[STRING2];MAC:[CHAR2];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING3];ZONE:[STRING4];DAYLIGHT:false;ERRCODE:[STRING5];RESULT:[STRING6];USERGROUP:[STRING7];AUTHENPLACE:[STRING8];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING9];INTERFACE:[STRING10];ACCESS TYPE:[STRING11];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];Unified mode:Wired user:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]DEVICEMAC:[CHAR1];DEVICENAME:[STRING1];USER:[STRING2];MAC:[CHAR2];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING3];ZONE:[STRING4];DAYLIGHT:false;ERRCODE:[STRING5];RESULT:[STRING6];USERGROUP:[STRING7];AUTHENPLACE:[STRING8];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING9];INTERFACE:[STRING10];ACCESS TYPE:[STRING11];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];Wireless user:CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]ACMAC:[CHAR1];ACNAME:[STRING1];APMAC:[CHAR2];APNAME:[STRING2];SSID:[OCTET];RADIOID:[INTEGER];USER:[STRING3];MAC:[CHAR3];IPADDRESS:[IPADDRESS];IPV6ADDRESS:[IPV6ADDRESS];TIME:[STRING4];ZONE:[STRING5];DAYLIGHT:false;ERRCODE:[STRING6];RESULT:[STRING7];USERGROUP:[STRING8];AUTHENPLACE:[STRING9];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING10];INTERFACE:[STRING11];ACCESS TYPE:[STRING12];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];Portal TYPE:[STRING15];AUTHID=[AUTHID];, Indicates that the period of a test exceeded the set threshold. The threshold could be set by the user. The threshold rtd could modify the threshold.], Ground-Truth Label: False.\nReason: The natural language description provided does not correspond to the information conveyed in the logs. The logs contain detailed information about user offline results, device information, error codes, and other parameters related to user authentication and access. However, the natural language description talks about a test exceeding a set threshold, which is not mentioned in the logs. As there is no alignment between the log content and the description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "POE/4/POECHIPFAULT: PoE chip fault. (SlotID=[ULONG], ChipID=[ULONG])",
+    "The PoE chip is faulty."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention a PoE chip fault. The log specifies that it is a PoE chip fault with specific SlotID and ChipID, while the description simply states that the PoE chip is faulty. Despite the slight difference in detail, both pieces of information are coherent and consistent in conveying the same issue of a faulty PoE chip."
+ ],
+ [
+  [
+   [
+    "SECE/3/ARPS_DROP_PACKET_SRC_MAC: Invalid source\nmac address. (SourceMAC=[STRING], SourceIP=[STRING], SourceInterface=[STRING],\nDropTime=[STRING])",
+    "The source MAC address in the ARP packet is invalid."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention an invalid source MAC address related to ARP packets. The log specifies that there is an invalid source MAC address, while the description specifically mentions the source MAC address in the ARP packet. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "PKI/4/DEL_CA_ERR: Deleting CA certificate file ([file_name]) failed.",
+    "The VPN instance entered the PIM GR state."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The log message indicates a failure in deleting a CA certificate file, while the natural language description talks about the VPN instance entering the PIM GR state. These two pieces of information are unrelated and do not correspond to each other, leading to the determination that the label is False."
+ ],
+ [
+  [
+   [
+    "ALML/6/INDICATOR_RESUME: The indicator in slot [STRING] becomes normal.",
+    "The indicator status on the MPU becomes normal."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the indicator status becoming normal. The log specifies that the indicator in a specific slot becomes normal, while the description talks about the indicator status on the MPU becoming normal. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "USBLOAD/6/FILECOPY: The file is copied. (FileName=[STRING],\nResult=[STRING])",
+    "The file is copied during USB-based deployment."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the file being copied. The log specifies that the file is copied, while the description adds that the file is copied during USB-based deployment. The additional information in the description complements the log message, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LINE/5/VTYUSERLOGIN:OID [oid] A user login. (UserIndex=[INTEGER], UserName=[STRING], UserIP=[STRING], UserChannel=[STRING])",
+    "This object indicates notification information about user login."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a user login event. The log specifies the OID, UserIndex, UserName, UserIP, and UserChannel related to the user login, while the description explains that this object indicates notification information about user login. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "RIPNG/3/CREAT_SUPRESSTIM_F:Failed to create the suppress timer. (ProcessId=[ULONG], ErrorCode=[LONG])",
+    "Failed to create the suppress timer."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to create a suppress timer. The log specifies that the creation of the suppress timer failed with specific process ID and error code, while the description simply states that the suppress timer creation failed. Despite the slight difference in detail, the core issue of the failed creation of the suppress timer is consistent between the log and the description, indicating a match."
+ ],
+ [
+  [
+   [
+    "SRM/4/USBPOWFAULT: OID [oid] USB 5v Power is abnormal. (EntityPhysicalIndex=[INTEGER1], BaseTrapSeverity=[INTEGER2], BaseTrapProbableCause=[INTEGER3], BaseTrapEventType=[INTEGER4], EntPhysicalContainedIn=[INTEGER5], EntPhysicalName=[OCTET1], RelativeResource=[OCTET2], ReasonDescription=[OCTET3])",
+    "USB 5 V power supply was faulty."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention an abnormal USB 5v Power supply. The log specifies that the OID [oid] USB 5v Power is abnormal, while the description states that the USB 5 V power supply was faulty. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ALML/4/SELFULL:The SEL buffer of [STRING] is full.",
+    "The SEL log is full."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention that the SEL buffer is full. The log specifies that the SEL buffer of a certain entity is full, while the description simply states that the SEL log is full. Despite the slight difference in wording, both pieces of information convey the same concept of the SEL buffer being full, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "NETSTREAM/3/DEL_IPV6ENTRY_FAIL:Failed to age IPv6 entry.",
+    "Failed to age an IPv6 NetStream entry."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to age an IPv6 entry in NetStream. The log specifies that the IPv6 entry aging failed, while the description specifically mentions the failure to age an IPv6 NetStream entry. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "BFD/3/IPCALLOCFAIL:Failed to allocate IPC memory!",
+    "IPC memory allocation failed."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to allocate IPC memory. The log specifies that there was a failure to allocate IPC memory, while the description directly states that IPC memory allocation failed. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "MPLS/4/MPLSNONSUPPORT:OID [OID] The board does not support the MPLS function due to hardware limit, it will be reset. (Slot=[OCTET])",
+    "Due to hardware limitations, the device does not support MPLS, and will be restarted."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the device not supporting MPLS due to hardware limitations and the device being reset. The log specifies that the board does not support the MPLS function due to hardware limits and will be reset, while the description talks about the device not supporting MPLS and being restarted due to hardware limitations. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/4/NSSATRANCHG(OID)[1.3.6.1.2.1.14.16.2.17]: The status of the NSSA translator changes. (ProcessId=[process-id], RouterId=[router-id], AreaId=[area-id], NSSATranslatorState=[translator-state],InstanceName=[instance-name])",
+    "The translator role in the NSSA changed. A possible cause is that the status of the translator changed among Enabled, Elected, and Disabled."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the status change of the NSSA translator. The log specifies the details of the change including ProcessId, RouterId, AreaId, NSSATranslatorState, and InstanceName, while the description talks about the possible causes of the status change among Enabled, Elected, and Disabled. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "MSTP/4/PROEDGEDISABLE:OID [oid] When the port receives a BPDU packet, the edged-port attribute will be disabled. (ProcessID=[INTEGER], InstanceID=[INTEGER], PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER], PortID4=[INTEGER], PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER], PortName=[STRING])",
+    "The P2P Hello packet was null when restart information was processed."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates that the edged-port attribute will be disabled when the port receives a BPDU packet, while the description talks about a P2P Hello packet being null during restart information processing. These two pieces of information are unrelated, leading to an inconsistency between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ALML/4/ENT_PLUG_IN:[STRING] was plugged in.",
+    "The AP failed to be restarted."
+   ],
+   0
+  ],
+  "Error-prone case: [ALML/4/ENT_PLUG_IN:[STRING] was plugged in., The AP failed to be restarted.], Ground-Truth Label: False.\nReason: The natural language description \"The AP failed to be restarted\" does not correspond to the log message \"[STRING] was plugged in.\" There is no indication of any failure or restart in the log message, making the natural language description irrelevant to the log content. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "BFD/6/IORCV_EVNT:Slot began to process the event. (SlotNumber=[STRING], Event=[STRING])",
+    "The interface board started to process events on the interface board."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the slot processing events. The log specifies that the slot began to process the event, while the description talks about the interface board starting to process events on the interface board. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/6/NSR_AREARECV_DATA: The AMB notified SMB that area [ULONG]'s data is acceptable now. (InstanceId=[USHORT], ProcId=[USHORT])",
+    "The AMB notified the SMB that the area's data can be accepted."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the AMB notifying the SMB about the acceptability of area data. The log specifies that the AMB notified the SMB that area [ULONG]'s data is acceptable now, while the description talks about the AMB notifying the SMB that the area's data can be accepted. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SYSMIB/4/RELOAD_END:[OID] Reload operation completed",
+    "Indicates that system has restarted completely."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a reload operation completed, indicating that the system has restarted completely. The log specifies that the reload operation has been completed, while the description mentions that this indicates a complete system restart. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "QOS/6/QOS_APPLY_SUCCESS_ON_SLOT: QoS configuration is applied successfully.(Command = [Name], SlotIdStr = [SlotIdStr], Information = [Information])",
+    "The QoS configuration is successfully applied in this slot."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the successful application of QoS configuration. The log specifies that the QoS configuration is applied successfully, while the description confirms that the QoS configuration is successfully applied in the specific slot. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/MPLS_COST_GTER_MAX:TE cost received from MPLS was higher than the maximum value. (IsisProcessId=[USHORT], CostReceived=[ULONG], MaximumCost=[ULONG])",
+    "The TE cost received from MPLS was greater than the maximum value."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the TE cost received from MPLS being higher than the maximum value. The log specifies that the TE cost received from MPLS was higher than the maximum value, while the description reiterates this by stating that the TE cost received from MPLS was greater than the maximum value. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "CLKMIB/4/CLOCKSOURCEFREQCHECKRESUME:OID [oid] The check of frequence normal notification. (hwClockSrcCfgChassisIndex=[integer], hwClockSrcCfgSourceTypeIndex=[integer], hwClockSrcCfgSourceIndex=[integer], hwClockChassisId=[integer], hwClockCurSourceName=[STRING], hwClockSrcCfgFreqCheckResult=[integer])",
+    "The IPv6 address requested by the DHCPv6 client conflicted."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message talks about the check of frequency normal notification related to clock sources, while the natural language description mentions a conflict with an IPv6 address requested by a DHCPv6 client. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LDP/4/FAILEXITMUL:Cannot exit the UDP multicast\ngroup. (ErrorCode=[LONG])",
+    "An RU fails to be upgraded."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"An RU fails to be upgraded\" does not correspond to the log message \"Cannot exit the UDP multicast group.\" There is no clear connection between the two pieces of information, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LDP/2/SESSIONDOWN: OID [OID] The session went Down. (LdpId=[OPAQUE], LdpEntityIndex=[GAUGE], PeerLdpId=[OPAQUE], PeerLdpId=[OPAQUE], IfIndex=[INTEGER], SessionState=[INTEGER], DiscontinuityTime=[TIMETICK], UnknownMesTypeErrors=[COUNTER], UnknownTlvErrors=[COUNTER], DownReason=[INTEGER], IfName=[STRING])",
+    "The TRILL neighbor status changed."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"The TRILL neighbor status changed\" does not correspond to the information conveyed in the logs, which indicate a session going down in LDP with specific parameters such as LdpId, PeerLdpId, IfIndex, SessionState, etc. There is no mention of TRILL or neighbor status change in the log message, leading to a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LSPM/3/SEQ_MIS_RESMOOTH: Re-smoothing due to sequence number mismatching. ( CurrentSequenceNumber=[CurSeq], ReceivedSequenceNumber=[RecvSeq], PeerComponentCid=[PeerCompCID])",
+    "Data re-smoothing is performed due to sequence number inconsistency."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention re-smoothing due to sequence number mismatching. The log specifies the current sequence number, received sequence number, and peer component CID, while the description talks about data re-smoothing performed due to sequence number inconsistency. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "PKI/4/PKIGETCERTSUCCESSLDAP: OID [oid] get certificate successfully with LDAP. (hwLdapIP=[ldapip], hwLdapPort=[ldapport], hwCertAttribute=[certattribute], hwCertDN=[certdn], hwLdapVersion=[ldapversion], hwCertSaveName=[certsavename])",
+    "Obtaining the certificate through LDAP succeeds."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention obtaining a certificate successfully through LDAP. The log specifies the OID, LDAP IP, LDAP port, certificate attributes, DN, LDAP version, and certificate save name involved in the successful certificate retrieval process. The description simply states that obtaining the certificate through LDAP succeeds, which aligns with the information provided in the log message. The coherence and consistency between the log content and the natural language description indicate a match, justifying the True label."
+ ],
+ [
+  [
+   [
+    "VRRP6/4/vrrp6NonMaster: The VRRP status changed between backup and initialize. (ifIndex=[ifIndex], VrId=[VrId], MasterIpAddr=[MasterIpAddr], sysName=[sysName], ifName=[ifName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+    "The VRRP6 status changed between Backup and Initialize."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the VRRP status changing between backup and initialize. The log specifies the details such as ifIndex, VrId, MasterIpAddr, sysName, ifName, CurrentState, and ChangeReason, while the description succinctly summarizes the change in VRRP6 status. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPFV3/2/NBRCHANGE:OID [oid] The status of the non-virtual neighbor has changed. (IfIndex=[integer], InstanceId=[integer], NbrRouterId=[gauge], RouterId=[gauge], NbrState=[integer], IfName=[octet], ChgReason=[integer])",
+    "The status of the OSPFv3 neighbor changed. A possible cause is that the status of the interface where the neighbor resided changed or the contents of the received Hello packets changed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the status change of an OSPFv3 neighbor. The log specifies the details of the neighbor status change, including IfIndex, InstanceId, NbrRouterId, RouterId, NbrState, IfName, and ChgReason. The description further explains that the status change could be due to changes in the interface status or the contents of the received Hello packets, which aligns with the information provided in the log message. The coherence and consistency between the log content and the natural language description indicate a match, justifying the ground-truth label of True."
+ ],
+ [
+  [
+   [
+    "LINE/5/UNLOCK: The user unlocked the user-interface\n[user-interface] successfully. (UserName=[UserName], IPAddress=[IPAddress], VpnName=[VpnName], TriedTimes=[TriedTimes])",
+    "IS-IS failed to obtain an IPv6 routing entry from URM."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"IS-IS failed to obtain an IPv6 routing entry from URM\" does not correspond to the log message \"The user unlocked the user-interface successfully.\" There is no connection between the two pieces of information, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "L2VPN/2/hwPWVcDown_active: The status of the PWE3 VC turned DOWN. (VcId=[VcId], VcType=[VcType], PeerAddress=[PeerAddress], InterfaceIndex=[InterfaceIndex], VcInboundLabel=[VcInboundLabel], VcOutboundLabel=[VcOutboundLabel], SecondaryPw=[SecondaryPw], HWL2VpnStateChangeReason=[HWL2VpnStateChangeReason], SysUpTime=[SysUpTime], InterfaceName=[InterfaceName], SwitchVcId=[SwitchVcId], TunnelPolicyName=[TunnelPolicyName])",
+    "Indicates that a VC of the PWE3 goes Down."
+   ],
+   1
+  ],
+  "The natural language description accurately reflects the content of the logs. Both the log message and the description mention the status of the PWE3 VC turning DOWN. The log specifies the details of the VC including VcId, VcType, PeerAddress, etc., while the description simply states that a VC of the PWE3 goes Down. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SECE/4/OLC_DROP_PACKET: Some packets are dropped because cpu is overloaded on the board in slot [STRING]. (Protocol=[STRING], PassedPacketCount= [ULONG], DroppedPacketCount=[ULONG])",
+    "The CAPWAP tunnel between the authentication access and control devices is faulty.The CAPWAP tunnel between the authentication access and control devices is established successfully."
+   ],
+   0
+  ],
+  "Error-prone case: \nInput: [\"SECE/4/OLC_DROP_PACKET: Some packets are dropped because cpu is overloaded on the board in slot [STRING]. (Protocol=[STRING], PassedPacketCount= [ULONG], DroppedPacketCount=[ULONG])\", \"The CAPWAP tunnel between the authentication access and control devices is faulty.The CAPWAP tunnel between the authentication access and control devices is established successfully.\"]\nGround-Truth Label: False\nReason: The natural language description does not correspond to the information provided in the logs. The log message indicates that packets are dropped due to CPU overload on a specific board, while the description talks about the status of the CAPWAP tunnel between authentication access and control devices. There is no coherence or consistency between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "SECE/4/ICMP_GLOBAL_RATELIMIT: The rate of global\nICMP packets exceeded the limit. (Threshold=[ULONG] packets per second)",
+    "RM notified IS-IS of the status of the LDP session on an interface."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that the rate of global ICMP packets exceeded the limit, while the natural language description talks about notifying IS-IS of the status of the LDP session on an interface, which is unrelated to the ICMP packet rate limit mentioned in the logs. As there is no correspondence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "OSPFV3/6/NFSMCHG:Neighbor state changed from [neighbor-old] to [neighbor-new]. (Event=[STRING], RouterId=[STRING], Interface=[STRING], ProcessId=[ULONG])",
+    "The neighbor state changed from state 1 to state 2."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a neighbor state change with specific details such as the old and new states, event, router ID, interface, and process ID. The log specifies the exact parameters of the neighbor state change, while the description provides a concise summary of the event. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/3/TEMPRISINGRESUME:",
+    "The status of the tunnel group used by the service changed to Up."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a temperature rising resume event, while the natural language description talks about the status of the tunnel group changing to Up. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "NTP/4/NTP_LEAP_CHANGE: System leap changes from [leap1] to [leap2] after clock update.",
+    "The leap second of the system changed after the system clock is updated."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the system leap changing after a clock update. The log specifies the leap changing from leap1 to leap2 after a clock update, while the description talks about the leap second of the system changing after the system clock is updated. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "WLAN/4/SHARE_LICENSE_AGE_RESTORE: OID [oid] Shared licenses stop aging. (ACMAC=[OPAQUE], Number of Shared licenses=[INTEGER])",
+    "The shared license aging stops."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention shared licenses and aging. The log specifies that OID [oid] shared licenses stop aging, while the description talks about shared license aging stopping. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ND/4/hwSlotNDThresholdExceed_active: The number of ND entries exceeded the threshold of slot. (entPhysicalIndex=[entPhysicalIndex], Slotname=[slotname],Threshold=[Threshold], Number of dynamic ND entries=[DynEntries], Number of static ND entries=[StatEntries], Number of remote ND entries=[RemoteEntries]).",
+    "The number of ND entries on a board exceeded 80% of the alarm threshold."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the number of ND entries exceeding a threshold on a slot or board. The log specifies the details such as entPhysicalIndex, Slotname, Threshold, Number of dynamic ND entries, Number of static ND entries, and Number of remote ND entries, while the description simplifies it by stating that the number of ND entries exceeded 80% of the alarm threshold. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISSU/3/ABT_CHK_SAVEFILEFAIL:Failed to save configuration\nfiles in the ISSU check phase.",
+    "Failed to save temporary configuration files in the\nISSU check phase."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to save configuration files in the ISSU check phase. The log specifies that there was a failure to save configuration files, while the description elaborates on this by specifying that it was temporary configuration files in the ISSU check phase. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "KEYCHAIN/3/CORE_INIT_FLD:Failed to initialize the core.",
+    "Initialization of Core failed."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to initialize the core. The log specifies that the core initialization failed, while the description directly states that the initialization of the core failed. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "CONFIGURATION/4/GENERATE_CKP_NO_SPACE_BASE: The base checkpoint was not generated because the storage space was not enough.",
+    "The rollback point was not generated because the disk storage was insufficient."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention insufficient storage space. The log specifies that the base checkpoint was not generated due to lack of storage space, while the description talks about the rollback point not being generated because of insufficient disk storage. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "FEI/2/hwAutoDiagnoseAlarm_active: The AutoDiagnose system detects that the device is faulty. (Reason = [hwAutoDiagnoseReasonId], Description : [hwReasonDescription])",
+    "The AutoDiagnose system detects that the device is faulty."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the AutoDiagnose system detecting that the device is faulty. The log specifies the reason and description of the fault detected by the AutoDiagnose system, while the natural language description simply states that the system detects the device as faulty. The information in both the log and the description aligns in terms of detecting device faults, indicating a match between the two."
+ ],
+ [
+  [
+   [
+    "ISIS/6/SRM_MEM_ALLOC_FAIL:ISIS [process-id] failed to allocate memory for LspInfo SRM array.",
+    "The number of NAC users exceeds the upper limit on\nthe interface."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description talks about the number of NAC users exceeding the upper limit on the interface, which is unrelated to the ISIS process failing to allocate memory for LspInfo SRM array as mentioned in the logs. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "PDF/4/FRESHNORMALFAIL:Failed to refresh normal data area in the slave board.",
+    "Failed to update the common data area on the slave control board."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: Both the log message and the natural language description mention the failure to refresh/update data areas on the slave board/control board. The log specifies the failure to refresh normal data area in the slave board, while the description talks about the failure to update the common data area on the slave control board. These two pieces of information are related and coherent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/2/NBRCHG:OID [oid] The status of the non-virtual neighbor changes. (NbrIpAddress=[neighbor-ip-address], NbrAddressLessIndex=[neighbor-interface-index], ProcessId=[process-id], AreaId=[area-id], IfnetIndex=[interface-ifnet-index], LocalIfIpAddress=[local-ip-address], ProcessId=[process-id], RouterId=[router-id], NbrRtrId=[neighbor-router-id], NbrState=[neighbor-state], IfName=[interface-name], InstanceName=[instance-name], NbrChgReason=[NbrStateChangeReason])",
+    "The status of the OSPF neighbor changed. The possible cause was that the status of the interface of the neighbor changed or the contents of the received Hello packets changed."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the status change of OSPF neighbors. The log specifies the details of the neighbor status change, including neighbor IP address, interface index, process ID, area ID, and neighbor state change reason. The description further explains that the possible cause of the neighbor status change could be due to changes in the neighbor's interface status or the contents of the received Hello packets. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "WLAN/4/AP_OPTICAL_TEMPERATURE_TOO_HIGH:OID [oid] AP optical module temperature is too high notify. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+    "After server detection is enabled and the alarm action is configured, the device detects that the Portal server changes from Down to Up."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that the AP optical module temperature is too high, while the description talks about the device detecting a change in the Portal server status from Down to Up. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "CONFIGURATION/5/AUTO_UNLOCK: The current configuration is automatically unlocked for timeout. (Information of former user locked the configuration: UserName=[UserName], IpAddr=[IpAddr], VpnName=[VpnName])",
+    "Router IDs conflict in an intra-area."
+   ],
+   0
+  ],
+  "Error-prone case: [\"CONFIGURATION/5/AUTO_UNLOCK: The current configuration is automatically unlocked for timeout. (Information of former user locked the configuration: UserName=[UserName], IpAddr=[IpAddr], VpnName=[VpnName])\", \"Router IDs conflict in an intra-area.\"], Ground-Truth Label: False. Reason: The natural language description \"Router IDs conflict in an intra-area\" does not correspond to the log message which talks about the configuration being automatically unlocked due to timeout and provides information about the former user who locked the configuration. The two pieces of information are unrelated, leading to a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "NQA/4/PINGFAIL:OID [oid] Ping entry test failed. (Admin=[OCTET], Tag=[OCTET])",
+    "The configurations ofthe OSPF interfaces that set up the neighbor relationship were inconsistent. The possible cause was that the values of the Hello timer, dead timer, poll timer were not consistent on the two interfaces or the two interfaces were not in the same area."
+   ],
+   0
+  ],
+  "Reason: The natural language description provided does not match the information conveyed in the logs. The log message indicates a ping entry test failure with specific parameters like Admin and Tag, while the description talks about inconsistent OSPF interface configurations causing neighbor relationship setup issues. There is no direct correlation between the log content and the natural language description, leading to a determination of False label."
+ ],
+ [
+  [
+   [
+    "CFM/5/SAVECFG_YES:When being asked whether to save current configuration, the user chose Y.",
+    "The AP generates the alarm when the number of roaming users exceeds the alarm threshold."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description talks about the AP generating an alarm when the number of roaming users exceeds a threshold, which is unrelated to the log message about the user choosing to save the current configuration. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "SNPG/6/PORTBDWEXD:The bandwidth of multicast groups reached the upper limit. (IfName=[STRING], ConfiguredValue=[INTEGER], CurrentMulticastGroup=[STRING])",
+    "New Join messages were received after the bandwidth of multicast groups on an interface reached the upper limit."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the bandwidth of multicast groups reaching the upper limit on an interface. The log specifies that the bandwidth of multicast groups reached the upper limit, while the description talks about new join messages being received after reaching the upper limit. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "PKI/4/DEL_LOCAL_OK: Deleting local certificate file ([file_name]) succeeded.",
+    "Deleting a local certificate succeeded."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the successful deletion of a local certificate file. The log specifies that the deletion of the local certificate file succeeded, while the description confirms the successful deletion of a local certificate. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/ISIS_NOENABLE:ISIS [process-id] was not enabled.",
+    "The ISIS process is not enabled."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the ISIS process not being enabled. The log specifies that ISIS [process-id] was not enabled, while the description simply states that the ISIS process is not enabled. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/RM_INSTANCE_DEL:RM notified ISIS that instance [instance-id] was deleted.",
+    "The RM notified ISIS that the instance was deleted."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the deletion of an ISIS instance. The log specifies that the RM notified ISIS about the deletion of a specific instance, while the description simply states that the RM notified ISIS about the deletion of an instance. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/3/CPLD_FAULT: CPLD is fault. CAUTION: board\nwill be reset if three continuous faults occur.",
+    "The complex programmable logical device (CPLD) has\nfailed. The card will reset if the fault is detected consecutively\nthree times."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately explains the content of the logs. Both the log message and the description mention a CPLD fault, with the log warning about a board reset if three continuous faults occur, and the description elaborating on the CPLD failure and the consequence of consecutive faults triggering a reset. The information in both the log and the description align, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "FIB/1/RECOVEROVLDFRD: OID [oid] The interface board changes from the overload forwarding state to the normal state. (EntityPhysicalIndex=[INTEGER], HwBaseTrapSeverity=[INTEGER], HwBaseTrapProbableCause=[INTEGER], HwBaseTrapEventType=[INTEGER], HwFibOverloadModule=[INTEGER], entPhysicalName=[STRING])",
+    "The file is deleted during USB-based deployment."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"The file is deleted during USB-based deployment\" does not correspond to the information conveyed in the logs, which mention the interface board changing from the overload forwarding state to the normal state. The two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "CLI/5/CMDRECORD: Recorded command information. (Task=[Task], RemoteIp=[RemoteIp], VpnName=[VpnName], User=[User], AuthenticationMethod=\"[AuthenticationMethod]\", Command=\"[Command]\", LocalIp=[LocalIp].)",
+    "The GR period of the OSPF process changed."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"The GR period of the OSPF process changed\" does not correspond to the content of the log message \"Recorded command information.\" The log message indicates that command information was recorded with specific task, remote IP, VPN name, user, authentication method, command, and local IP details, which is unrelated to the change in the GR period of the OSPF process mentioned in the description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "ASMNG/3/DEL_SLOT_FAIL: Failed to delete slot on AS. (AS Name=[STRING], Slot ID=[INTEGER])",
+    "The slot on the AS failed to be deleted."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the failure to delete a slot on an AS. The log specifies that the deletion of the slot on the AS failed, while the description talks about the slot on the AS failing to be deleted. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "BFD/6/VRF_PROCDEL_SMOOTH:VRF began process deleting when data smoothed. (VrfName=[STRING], VrfNumber=[ULONG])",
+    "Failed to release the reserved labels."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"Failed to release the reserved labels\" does not correspond to the information conveyed in the logs about VRF process deletion when data is smoothed. The two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/ISIS_RCV_OWN_PURGED_LSP: ISIS [ProcessId] received an own purged LSP. (Level=[Level], PduLspId=[PduLspId], Interface=[Interface], NbrSystem=[NbrSystem], SrcSystem=[SrcSystem], SrcDynName=[SrcDynName], SrcNbrSystem=[SrcNbrSystem])",
+    "Importing a CA certificate succeeded."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ISIS/6/ISIS_RCV_OWN_PURGED_LSP: ISIS [ProcessId] received an own purged LSP. (Level=[Level], PduLspId=[PduLspId], Interface=[Interface], NbrSystem=[NbrSystem], SrcSystem=[SrcSystem], SrcDynName=[SrcDynName], SrcNbrSystem=[SrcNbrSystem])\", \"Importing a CA certificate succeeded.\"], Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that ISIS received its own purged LSP, while the natural language description talks about importing a CA certificate, which is unrelated to the ISIS log event. As there is no correspondence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "RRPP/4/SPECCHECKFAIL:The ISSU check failed because\nof the [reason].",
+    "The ISSU check on RRPP modules failed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the ISSU check failure related to RRPP modules. The log specifies that the ISSU check failed because of a specific reason, while the description directly mentions the ISSU check on RRPP modules failing. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SMLK/4/SMLK_LOG_FLUSH_ATTACK:Port [port name] was attacked by flush message.",
+    "A RIP neighbor is deleted from the interface."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"A RIP neighbor is deleted from the interface\" does not match the information conveyed in the logs \"Port [port name] was attacked by flush message.\" There is no coherence or consistency between the log message about a port being attacked and the description about a RIP neighbor being deleted, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "RIPNG/6/MEMSHORT_ENTER: RIPng received memory shortage notification.",
+    "Succeeded in obtaining the environment variable using a user script in the execution phase."
+   ],
+   0
+  ],
+  "Error-prone case: [\"RIPNG/6/MEMSHORT_ENTER: RIPng received memory shortage notification.\", \"Succeeded in obtaining the environment variable using a user script in the execution phase.\"], Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates that RIPng received a memory shortage notification, while the description talks about obtaining environment variables using a user script during the execution phase, which is unrelated to the memory shortage notification mentioned in the logs. As there is no coherence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "NATPT/3/ADDRMAP_MEMFAIL:Failed to allocate memory when creating new address mapping.",
+    "Status of default send key-id is changed to active in a keychain."
+   ],
+   0
+  ],
+  "Error-prone case: [\"NATPT/3/ADDRMAP_MEMFAIL:Failed to allocate memory when creating new address mapping.\", \"Status of default send key-id is changed to active in a keychain.\"], Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates a memory allocation failure when creating a new address mapping, while the description talks about the status of a default send key-id being changed to active in a keychain. These two pieces of information are unrelated and do not align, leading to a determination of False for the label."
+ ],
+ [
+  [
+   [
+    "SSH/4/SFTP_WORKDIR:The SFTP directory of the SSH user [user-name] does not exist. Use the command' ssh user {user-name} sftp-directory {workdir}' to reconfigure it.",
+    "An ACL failed to be delivered because of insufficient ACL resources."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description mentions an ACL failed to be delivered due to insufficient ACL resources, which does not correspond to the log message indicating the SFTP directory of the SSH user does not exist. The two pieces of information are unrelated, leading to the determination that the label is False."
+ ],
+ [
+  [
+   [
+    "RRPP/4/INSERT:Another type of board inserted, reconfigure RRPP please.",
+    "Reserve the log for the old log."
+   ],
+   0
+  ],
+  "Error-prone case: [\"RRPP/4/INSERT:Another type of board inserted, reconfigure RRPP please.\", \"Reserve the log for the old log.\"]\nGround-Truth Label: False\nReason: The natural language description does not accurately reflect the content of the logs. The log message indicates that another type of board was inserted and RRPP needs to be reconfigured, while the description simply mentions reserving the log for the old log, which is not related to the action required in the log message. As there is no correspondence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "L2IF/5/VCMP_MODIFY_VLAN_DESCRIPTION: The global\nVLAN description has been changed by VCMP. (ModifiedVlanList=[ModifiedVlanList])",
+    "The status of the interface changed."
+   ],
+   0
+  ],
+  "Reason: The natural language description mentions that the global VLAN description has been changed by VCMP, while the log message indicates that the VLAN description has been modified. Although both mention changes, the log specifically refers to VLAN description modifications by VCMP, whereas the description talks about the status of the interface changing, which is not directly related to the log content. As there is no direct correspondence between the log message and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "PIM/4/SRPKT_SADDR_ERR:In VPN instance \"[vpn-instance-name]\", the State Refresh packet received from the address [source-address] was discarded because the source address family [source-address-family] of this packet was invalid. (FlCode=[STRING][ULONG])",
+    "The State Refresh message received from the address was discarded because the source address family of this packet was invalid."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the discarding of a State Refresh packet due to an invalid source address family. The log specifies that the packet was discarded because the source address family was invalid, while the description mentions the same reason for discarding the State Refresh message. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/6/TRAP_RESTART_CHG:Notify the change in restart.\n(ProcessId=[USHORT], RouterId=[IPADDR], RestartStatus=[ULONG], RestartInterval=[ULONG],\nRestartExitReason=[ULONG])",
+    "OSPF notified that GR status changed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a change in restart status related to OSPF. The log specifies that OSPF notifies the change in restart status with specific parameters like ProcessId, RouterId, RestartStatus, RestartInterval, and RestartExitReason, while the description simply states that OSPF notified that GR status changed. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ADA_BFD/4/GETBOARDFAIL:Failed to get the processing\nboard of BFD. (Discriminator=[ULONG])",
+    "The main control board fails to obtain the BFD session."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention a failure to obtain the processing board of BFD. The log specifies that there was a failure to get the processing board of BFD, while the description talks about the main control board failing to obtain the BFD session. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/Error/I2C_FAULT_RESUME:[STRING] I2C is normal.",
+    "I2C recovered and worked properly."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the recovery of I2C functionality. The log specifies an I2C fault resume with the message \"I2C is normal,\" while the description confirms that the I2C recovered and worked properly. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "FEI_IPV4/2/hwNvo3VxlanNveMacConflict_active: MAC addresses of NVE interfaces on distributed VXLAN gateways conflict. (Conflicting MAC address = [hwVxlanNveMac], remote NVE IP address = [hwVxlanTnlPeerIpAddr])",
+    "The virtual license is about to expire."
+   ],
+   0
+  ],
+  "Error-prone case: [\"FEI_IPV4/2/hwNvo3VxlanNveMacConflict_active: MAC addresses of NVE interfaces on distributed VXLAN gateways conflict. (Conflicting MAC address = [hwVxlanNveMac], remote NVE IP address = [hwVxlanTnlPeerIpAddr])\", \"The virtual license is about to expire.\"]\nGround-Truth Label: False.\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates a conflict of MAC addresses on NVE interfaces in distributed VXLAN gateways, while the description talks about a virtual license about to expire. These two pieces of information are unrelated and do not correspond to each other, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/4/VIFBADRX:OID [oid] An OSPF packet that is received on a virtual interface cannot be parsed. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], PacketType=[packet-type], InstanceName=[instance-name])",
+    "An OSPF packet that cannot be parsed was received from a virtual-link interface. The possible cause was that the device was attacked or the interconnection between the Huawei device and non-Huawei device failed."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention an OSPF packet that cannot be parsed received on a virtual interface. The log specifies the details such as VirtIfAreaId, VirtIfNeighbor, ProcessId, RouterId, PacketType, and InstanceName, while the description talks about possible causes such as device attack or interconnection failure. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/6/LR_NOT_SET:LSDB resynchronization bit in neighbor's extended option TLV is off, quit GR or helper. (ProcessId=[USHORT], NeighborAddress=[IPADDR])",
+    "Failed to disable LLDP on an interface."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"Failed to disable LLDP on an interface\" does not correspond to the information conveyed in the logs, which mention the LSDB resynchronization bit in a neighbor's extended option TLV being off and quitting GR or helper due to that. The two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description, leading to a ground-truth label of False."
+ ],
+ [
+  [
+   [
+    "ND/4/ND_RCV_RATELIMIT: Packet speed exceeded the configured speed-limit value. (PacketType=[PktType], SuppressValue=[SupVal], CurrentValue=[CurVal], SuppressType=[SupType], InterfaceName=[IfName], WorkIfName=[WorkIfName], SourceMacAddress=[SrcMac], DestinationMacAddress=[DstMac], SourceAddress=[SrcIp], DestinationAddress=[DstIp], TargetAddress=[TgtIp], PE-VLAN=[PeVlan], CE-VLAN=[CeVlan])",
+    "The received rate of ND packets or ND miss messages exceeded the configured rate limit."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention that the packet speed exceeded the configured speed-limit value. The log provides detailed information about the packet type, suppress value, current value, interface names, and addresses involved in the event. The natural language description succinctly summarizes the event as the received rate of ND packets or ND miss messages exceeding the configured rate limit, which aligns with the information provided in the logs. This coherence and consistency indicate a match between the log content and the natural language description, justifying the ground-truth label of True."
+ ],
+ [
+  [
+   [
+    "POE/4/POENOTAVAILABLE: OID [oid] PoE function is not available. (ChassisID=[INTEGER], SlotID=[INTEGER], TrapProbableCause=[STRING])",
+    "The PoE function becomes unavailable completely."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the PoE function not being available. The log specifies that the OID PoE function is not available with specific details like ChassisID and SlotID, while the description talks about the PoE function becoming completely unavailable. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ISIS/6/STA_LV2_CSNPTMR_FAIL:ISIS [process-id] failed to start the Level-2 CSNP timer.",
+    "ISIS failed to start the Level-2 CSNP timer."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention ISIS failing to start the Level-2 CSNP timer. The log specifies the specific error message \"ISIS [process-id] failed to start the Level-2 CSNP timer,\" while the description succinctly states \"ISIS failed to start the Level-2 CSNP timer.\" These two pieces of information are consistent and coherent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/6/DFT_ROUTE_RM_ADD:Add the default route to RM. (ProcessId=[USHORT], RouteEntryCost=[ULONG], NexthopIpAddress=[IPADDR], ExitInterfaceIndex=[ULONG])",
+    "Default routes were added to RM."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention adding default routes to RM. The log specifies adding the default route to RM with specific parameters like ProcessId, RouteEntryCost, NexthopIpAddress, and ExitInterfaceIndex, while the description simply states that default routes were added to RM. Despite the slight difference in detail, the overall context and action described in both the log and the description are consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ALML/6/USBFAILURERESUME: USB overload in slot [STRING]\nresumes normal.",
+    "The USB port recovers from current overload."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the recovery of the USB port from overload. The log specifies that the USB overload in a specific slot resumes normal, while the description talks about the USB port recovering from the current overload. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "RIP/6/RIP_NBR_DEL: RIP neighbor is deleted from the interface. (ProcessId=[ProcessId], Interface=[Interface], Neighbor=[Neighbor], Reason=[Reason])",
+    "An interface was closed by the storm control action."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that a RIP neighbor is deleted from the interface, while the description talks about an interface being closed by the storm control action. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/1/ospfRouteLoopDetected_active: The local device has detected an OSPF routing loop. (LoopType=[LoopType], DetectProtocolAttr=[DetectProtocolAttr], RedistributeID1=[RedistributeID1], RedistributeID2=[RedistributeID2])",
+    "The device detects an OSPF routing loop."
+   ],
+   1
+  ],
+  "Ground-Truth Label: True. Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the detection of an OSPF routing loop. The log specifies that the local device has detected an OSPF routing loop, while the description simply states that the device detects an OSPF routing loop. These two pieces of information are consistent and coherent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "IPLPM/2/IPLPM_TRAP_GLOBAL_LOSSRATIO_EXCEED: OID [OID] The global packet loss ratio exceeded the upper threshold in five consecutive intervals. (PeriodHigh=[ULONG], PeriodLow=[ULONG], LossPkts=[COUNTER64], LossRatio=[LONG], PeriodNo=[COUNTER64])",
+    "The RRPP failed to set policy."
+   ],
+   0
+  ],
+  "Reason: The natural language description \"The RRPP failed to set policy\" does not correspond to the information conveyed in the logs, which indicate that the global packet loss ratio exceeded the upper threshold in five consecutive intervals. There is no mention of RRPP or policy setting in the log message, making the natural language description irrelevant to the log content. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "ALML/4/RTC:The battery\nvoltage of board [ULONG] is low.",
+    "The SSM level of output clock signals was below the lower limit."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ALML/4/RTC:The battery voltage of board [ULONG] is low.\", \"The SSM level of output clock signals was below the lower limit.\"], Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a low battery voltage of a board, while the description talks about the SSM level of output clock signals being below the lower limit. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "SRM/3/RDNORFLSHFAIL: Failed to read NOR flash memory.",
+    "A new message failed to be added to the message link in the multicast database (MCDB)."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a failure to read NOR flash memory, while the description talks about adding a new message to the multicast database. These two pieces of information are unrelated and do not correspond, leading to a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "OSPF/3/GR_SOCK_CREATE_FAIL:OSPF attempts to send grace LSAs before switchover, socket creation failed, Error code[error-value].",
+    "RIPng received the notification that system memory\nshortage was recovered."
+   ],
+   0
+  ],
+  "Error-prone case: [\"OSPF/3/GR_SOCK_CREATE_FAIL:OSPF attempts to send grace LSAs before switchover, socket creation failed, Error code[error-value].\", \"RIPng received the notification that system memory shortage was recovered.\"], Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a failure in creating a socket for sending grace LSAs before switchover in OSPF, while the natural language description talks about RIPng receiving a notification regarding system memory shortage recovery. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "ALML/6/NVRAMFAILURERESUME:Detected the NVRAM error\nresumed in slot [ULONG].",
+    "The protection group switched from the work tunnel to the protection tunnel."
+   ],
+   0
+  ],
+  "Error-prone case: [\"ALML/6/NVRAMFAILURERESUME:Detected the NVRAM error resumed in slot [ULONG].\", \"The protection group switched from the work tunnel to the protection tunnel.\"]\nGround-Truth Label: False\nReason: The natural language description does not match the information conveyed in the logs. The log message indicates the detection of an NVRAM error resumed in a specific slot, while the natural language description talks about a protection group switching between work and protection tunnels. There is no clear connection or relevance between the log content and the description, leading to a determination of False for the label."
+ ],
+ [
+  [
+   [
+    "OSPF/2/OSPF_3RD_ROUTE_BE_DEL_BY_PURGE_active: OSPF routes advertised by another device were deleted. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], TotalNodeNum=[hwOspfv2TotalNodeNum], Log in to the following devices to locate the faulty device: (1) HostName=[hwOspfv2PurgeHostName1], HostIpAddress=[hwOspfv2PurgeIpAddress1], RouterID=[hwOspfv2PurgeRouterId1] (2) HostName=[hwOspfv2PurgeHostName2], HostIpAddress=[hwOspfv2PurgeIpAddress2], RouterID=[hwOspfv2PurgeRouterId2] (3) HostName=[hwOspfv2PurgeHostName3], HostIpAddress=[hwOspfv2PurgeIpAddress3], RouterID=[hwOspfv2PurgeRouterId3])",
+    "The CSS enters the standby-no-MPU state."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description talks about the CSS entering the standby-no-MPU state, which is unrelated to the content of the logs that mention OSPF routes being deleted due to routes advertised by another device. There is no coherence or consistency between the log message and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "MPLS_LSPM/3/hwMplsResourceThresholdExceed_active: The number of used MPLS resources exceeded the threshold. (hwMplsResourceType=[MplsResourceType], hwMplsResourceCurrentCount=[ResourceCurrentCount], hwMplsResourceThreshold=[ResourceThreshold], hwMplsResourceTotalCount=[ResourceTotalCount])",
+    "The MEP ID carried in a CCM sent by the RMEP was not listed in the RMEP list of the MEP."
+   ],
+   0
+  ],
+  "Reason: The natural language description does not match the information conveyed in the logs. The log message indicates that the number of used MPLS resources exceeded the threshold, while the description talks about a MEP ID not listed in the RMEP list of the MEP. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description. Therefore, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "IFNET/1/IF_CHANGE_RESUME:OID [oid] When a multi-chassis restore a single-chassis device, the interface information is changed.",
+    "The multi-chassis device was changed back into the single-chassis device, and consequently the interface information was changed."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the change in interface information when transitioning from a multi-chassis device to a single-chassis device. The log specifies that the interface information is changed during the restoration process, while the description talks about the interface information being changed when the multi-chassis device is reverted back to a single-chassis device. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "PIM/3/hwPimSGThresholdExceed:OID [oid] PIM (S, G) entries of all instances count reached the upper threshold. (hwPimNotificationAddressType=[integer], hwPimSGCurrentCount=[integer], hwPimSGThreshold=[integer]%, hwPimSGTotalCount=[integer])",
+    "The proportion of global PIM (S, G) entries created to the maximum global PIM (S, G) entries allowed reached the upper alarm threshold."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the threshold being exceeded for PIM (S, G) entries. The log specifies that the count of PIM (S, G) entries reached the upper threshold, while the description talks about the proportion of global PIM (S, G) entries created reaching the upper alarm threshold. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "FEI/6/SDK_SER_EVENT_LOG: A soft error occurred on a forwarding chip. (Slot=[Slot], Chip=[Chip], Module=[Module], Type=[Type])",
+    "The number of ARP entries exceeds the upper threshold."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description does not match the information conveyed in the logs. The log message indicates a soft error occurred on a forwarding chip with specific details such as slot, chip, module, and type. On the other hand, the natural language description talks about the number of ARP entries exceeding the upper threshold, which is unrelated to the soft error on the forwarding chip mentioned in the logs. As there is no correspondence between the log content and the natural language description, the label is determined to be False."
+ ],
+ [
+  [
+   [
+    "OSPF/6/RTIMPT_CHG_HLPR:Route imported is changed, exit helper. (ProcessId=[USHORT], Destination address=[IPADDR], NetworkMask=[IPADDR])",
+    "A Kompella VC became Up."
+   ],
+   0
+  ],
+  "Ground-Truth Label: False. Reason: The natural language description \"A Kompella VC became Up\" does not correspond to the information conveyed in the logs, which mention a route imported being changed and exiting a helper. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch."
+ ],
+ [
+  [
+   [
+    "SRM/4/BATREMAINLOWRESUME: The spare battery power\nincreased to above [ULONG]% of total power.(SlotID=[ULONG], BatRem\nain=[ULONG]%).",
+    "The available power of the lithium battery restored\nto more than 20% of its total power.This log is available only on theS5700-28P-LI-BAT and S5700-28P-LI-24S-BAT."
+   ],
+   1
+  ],
+  "Reason: The natural language description accurately reflects the content of the logs. Both the log message and the description mention the spare battery power increasing to above a certain percentage of the total power. The log specifies the specific slot ID and battery remaining percentage, while the description talks about the available power of the lithium battery being restored to more than 20% of its total power. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description."
+ ],
+ [
+  [
+   [
+    "LLDP/4/BAD_PACKET:[ULONG] invalid packets were received\nafter latest notification. The last invalid packet came from interface\n[STRING].",
+    "TheULONGfield specifies the number of invalid\nLLDP packets received by a device. TheSTRINGfield indicates\nthe name of the interface from which the last invalid LLDP packet\nis received.When a device receives invalid LLDP packets for\nthe first time, it will print this log and set the counter of invalid\nLLDP packets to 1. Within the following 30 seconds:If the device receives invalid LLDP packets, the counter will\nincrease by one. This log will be printed again after 30 seconds.If the device does not receive invalid LLDP packets, it will not\nprint the log and clear the counter."
+   ],
+   1
+  ],
+  "Reason: The natural language description provides additional context and explanation for the log message. It explains the significance of the log message, stating that it indicates the number of invalid LLDP packets received by a device and the interface from which the last invalid packet was received. The description also clarifies the behavior of the device in response to receiving invalid LLDP packets, which aligns with the content of the log message. The information in both the log message and the description is coherent and related, supporting the True label."
+ ],
+ [
+  [
+   [
+    "STACKMNG/4/STACK_MEMPORT_LINK_DOWN: The stack member port's link state is down. (hwStackLocalIfName=[hwStackLocalIfName])",
+    "ISIS received an incorrect LSP packet on an interface from SNPA."
+   ],
+   0
+  ],
+  "Error-prone case: [\"STACKMNG/4/STACK_MEMPORT_LINK_DOWN: The stack member port's link state is down. (hwStackLocalIfName=[hwStackLocalIfName]), ISIS received an incorrect LSP packet on an interface from SNPA.\"], Ground-Truth Label: False. Reason: The natural language description mentions ISIS receiving an incorrect LSP packet, which is unrelated to the log message about the stack member port's link state being down. There is no coherence or consistency between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "NQA/4/RTDTHRESHOLD:OID [oid] NQA entry RTD over threshold. (OwnerIndex=[OCTET], TestName=[OCTET])",
+    "ISIS failed to obtain the TLV sequence number because\nthe TLV type was invalid."
+   ],
+   0
+  ],
+  "Error-prone case: [\"NQA/4/RTDTHRESHOLD:OID [oid] NQA entry RTD over threshold. (OwnerIndex=[OCTET], TestName=[OCTET])\", \"ISIS failed to obtain the TLV sequence number because the TLV type was invalid.\"], Ground-Truth Label: False. Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates an NQA entry RTD over threshold with specific parameters like OwnerIndex and TestName, while the description talks about ISIS failing to obtain TLV sequence number due to an invalid TLV type. There is no connection between the log content and the natural language description, leading to a False label."
+ ],
+ [
+  [
+   [
+    "RM/2/hwIpv4PrefixExceed_active: The number of IPv4 prefixes exceeded the maximum value. (PrefixCount=[PrefixCount], MaxValue=[MaxValue])",
+    "Due to hardware limitations, the device does not support MPLS, and will be restarted."
+   ],
+   0
+  ],
+  "Reason: The natural language description mentions hardware limitations and device restart due to lack of MPLS support, which is not related to the log message about the number of IPv4 prefixes exceeding the maximum value. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch and justifying the ground-truth label of False."
+ ],
+ [
+  [
+   [
+    "MGMD/3/hwmgmdgmptotallimitclear:OID [oid] The new report message can be processed because the total IGMP or MLD group memberships in all instances falls below the upper limit. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], LimitCnt=[integer])",
+    "The TE Auto tunnel Down alarm was cleared."
+   ],
+   0
+  ],
+  "Reason: The natural language description mentions the TE Auto tunnel Down alarm being cleared, which is unrelated to the content of the logs that discuss the total IGMP or MLD group memberships falling below the upper limit. There is no coherence or consistency between the log message and the description, indicating a mismatch and justifying the False label."
+ ]
+]

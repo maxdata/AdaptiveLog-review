@@ -1,0 +1,107 @@
+[
+ [
+  [
+   "ARP/[MASK]/ARP_DYNAMIC:The    maximum number of dynamic ARP entries for the device reached.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that the maximum number of dynamic ARP entries for the device has been reached, which could potentially lead to network connectivity issues or disruptions. This is a serious problem that can impact the normal operation of the system, making it appropriately labeled as an Error."
+ ],
+ [
+  [
+   "MACA/[MASK]/MACA_ENABLE_NOT_EFFECTIVE:MAC authentication is enabled but is not effective on interface   [STRING].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that MAC authentication is enabled on a specific interface, but it is not effective. This situation poses a security risk as unauthorized devices may be able to access the network. The ineffective MAC authentication could lead to potential security breaches or unauthorized access, making it a serious problem. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SCMD/[MASK]/SCM_ABNORMAL_REBOOT:Failed to restore process [STRING]. Rebooting [STRING].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a failure to restore a process, resulting in an abnormal reboot of the system. This situation represents a serious problem that could potentially disrupt the normal operation of the system. The abnormal reboot indicates a critical issue that needs immediate attention to prevent further system instability or data loss. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "IPFW/[MASK]/IPFW_BPA_NORESOURCE:Not   enough resources are available on [STRING] to enable BGP policy accounting   for interface [STRING].",
+   "Info"
+  ],
+  "Error-prone case: IPFW/[MASK]/IPFW_BPA_NORESOURCE:Not enough resources are available on [STRING] to enable BGP policy accounting for interface [STRING]., Ground-Truth Label: Info. Reason: The log entry indicates that there are not enough resources available to enable BGP policy accounting for a specific interface. This message is informative about the resource constraints on the system and does not indicate a serious problem that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "IFNET/[MASK]/INTERFACE_INSERTED:Interface [STRING] is inserted.",
+   "Info"
+  ],
+  "Error-prone case: IFNET/[MASK]/INTERFACE_INSERTED:Interface [STRING] is inserted., Ground-Truth Label: Info. Reason: The log entry simply states that an interface has been inserted, which is a normal operation in network device management. This message is informative and does not indicate any serious problems or errors that could impact the system's operation. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ],
+ [
+  [
+   "NAT/[MASK]/DSLITE_SYSLOG:All   port block resources ran out in address group [UINT 16].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that all port block resources have run out in a specific address group. This situation can lead to network connectivity issues and potentially disrupt the normal operation of the system. Running out of port block resources can prevent new connections from being established, impacting network communication. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "IFNET/[MASK]/IFNET_MAD:Multi-active devices detected, please fix it.",
+   "Error"
+  ],
+  "Reason: The log entry indicates the detection of multi-active devices, which can lead to network instability and potential conflicts. This is a serious problem that needs to be addressed to ensure the proper functioning of the network. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DLDP/[MASK]/DLDP_LINK_UNIDIRECTIONAL:DLDP detected a unidirectional link on interface [STRING]. [STRING].",
+   "Error"
+  ],
+  "Error-prone case: DLDP/[MASK]/DLDP_LINK_UNIDIRECTIONAL:DLDP detected a unidirectional link on interface [STRING]. [STRING]., Ground-Truth Label: Error. Reason: The log entry indicates that DLDP (Dynamic Link Detection Protocol) has detected a unidirectional link on a specific interface. A unidirectional link can cause communication issues and network instability, potentially leading to network outages or data loss. This is a serious problem that can impact the normal operation of the system, hence it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "DEV/[MASK]/ BOARD_RUNNING_FAULT_REBOOT:[STRING] is detected to be faulty, the device will immediately   restart [STRING] to recover from the fault.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a board running fault has been detected, leading to an immediate restart of the device to recover from the fault. This situation indicates a serious problem with the hardware or software of the device, which could potentially disrupt its normal operation. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SCM/[MASK]/SCM_ABORT_RESTORE:The process $1    can't be restored, abort it.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a process cannot be restored, and it needs to be aborted. This suggests a critical issue where the restoration process has failed, potentially leading to system instability or data loss. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "PCE/[MASK]/PCE_PCEP_SESSION_CHG:Session    ([STRING], [STRING]) is [STRING].",
+   "Error"
+  ],
+  "Reason: The log entry indicates a change in the PCEP session status, which is critical for the communication between Path Computation Elements (PCEs). Any change in the session status could potentially disrupt the path computation process and impact the network's routing decisions. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "VCF/[MASK]/VCF_AUTO_NO_USERDEF:Phase [STRING],   Device [STRING] found undefinedvariable[STRING]in command [STRING]   on line [INTEGER].",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a variable is undefined in a command on a specific line in the configuration of a VCF (Virtual Chassis Fabric) device. This issue could potentially lead to configuration errors or inconsistencies, impacting the normal operation of the device. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "LAGG/[MASK]/LAGG_INACTIVE_UPPER_LIMIT:Member   port [STRING] of aggregation group [STRING] changed to the inactive state,   because the number of active ports has reached the upper limit.",
+   "Error"
+  ],
+  "Reason: The log entry indicates that a member port of an aggregation group has changed to the inactive state due to reaching the upper limit of active ports. This situation can potentially impact the network's performance and availability, as it may lead to a loss of redundancy or load balancing capabilities. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "SCM/[MASK]/SCM_ABNORMAL_REBOOT:The    process $1 can't be restored. Reboot $2 now.",
+   "Error"
+  ],
+  "Reason: The log entry indicates an abnormal reboot of the system due to the process being unable to be restored. This situation suggests a serious problem with the system's stability or functionality, potentially leading to data loss or service disruption. Therefore, the severity of this log is high, and it is appropriately labeled as an Error."
+ ],
+ [
+  [
+   "ARP/[MASK]/ARP_DYNAMIC_SLOT:Pattern 1:The maximum number of dynamic ARP entries for slot [INT32] reached.Pattern 2:The maximum number of dynamic ARP entries for chassis [INT32]    slot [INT32] reached.",
+   "Info"
+  ],
+  "Reason: The log entry indicates that the maximum number of dynamic ARP entries for a specific slot or chassis has been reached. This is an informative message about the ARP table reaching its capacity, which does not indicate a serious problem or error that could impact the normal operation of the system. Therefore, the severity of this log is low, and it is appropriately labeled as Info."
+ ]
+]

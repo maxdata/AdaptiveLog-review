@@ -1,0 +1,806 @@
+[
+ [
+  0,
+  "Reason: The log message indicates that ISIS failed to build a run for a specific interface, with details about the interface name, operate code, and return value. The provided cause, stating \"Failed to obtain the interface,\" does not directly relate to the failure of building a run for the interface as mentioned in the log. There is no mention of failing to obtain the interface in the log message, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  1,
+  "Reason: The log message indicates that ISIS failed to build a run for a specific interface, providing details about the interface, operate code, and return value. The provided cause mentioning system memory usage falling below a specified threshold does not directly relate to the failure in building a run for the interface as mentioned in the log.\nLabel: 0"
+ ],
+ [
+  2,
+  "Reason: The log message indicates that ISIS failed to buildrun for a specific interface, providing details about the interface name, operate code, and return value. The provided cause mentioning the system recording user login information does not directly relate to the failure of building the run for the interface in ISIS. There is no mention of user login information in the log message, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  3,
+  "Reason: The log message indicates that ISIS failed to build a run for a specific interface, providing details about the interface, operate code, and return value. The provided cause mentions a shortage of NDB (Network Database) resources, which does not directly relate to the failure in building a run for the interface as mentioned in the log. There is no mention of NDB resources in the log message, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  4,
+  "Reason: The log message indicates that ISIS failed to build a run for a specific interface, with details about the operate code and return value. The provided cause mentions the edge port receiving BPDUs, which does not directly relate to the failure of building a run for the interface in ISIS.\nLabel: 0"
+ ],
+ [
+  5,
+  "Reason: The log message indicates a user offline result with specific details such as username, IP address, MAC address, and error code. The provided cause mentions a Portal user going offline, which aligns with the user offline result mentioned in the log.\nLabel: 100"
+ ],
+ [
+  6,
+  "Reason: The log message indicates a user offline result with specific details such as username, IP address, MAC address, and error code. There is no mention of the user choosing to continue the ISSU check in the log message.\nLabel: 0"
+ ],
+ [
+  7,
+  "Reason: The log message indicates a user offline result with specific details such as username, IP address, MAC address, and error code. There is no mention of a router ID change in the log message.\nLabel: 0"
+ ],
+ [
+  8,
+  "Reason: The log message indicates a user offline result with specific details such as username, IP address, MAC address, and error code. There is no mention of packet filter, logging functions, or firewall in the log message, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  9,
+  "Reason: The log message indicates a user offline result with specific details such as username, IP address, MAC address, and error code. The provided cause mentions that the fault triggering the alarm was rectified, which does not directly relate to the user offline result mentioned in the log.\nLabel: 0"
+ ],
+ [
+  10,
+  "Reason: The log message indicates that the tunnel protection group recovered from a defect state in MPLS network. The provided cause accurately describes the situation by stating that the tunnel protection group recovered from a fault, aligning with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  11,
+  "Reason: The log message indicates that a tunnel protection group recovered from a defect state in MPLS network. There is no mention of the transmission rate of TCP or UDP packets in the log message, and the provided cause does not accurately describe the situation mentioned in the log.\nLabel: 0"
+ ],
+ [
+  12,
+  "Reason: The log message indicates that a tunnel protection group recovered from a defect state in MPLS network. There is no mention of PIM entries or license file limits in the log message.\nLabel: 0"
+ ],
+ [
+  13,
+  "Reason: The log message indicates that a tunnel protection group recovered from a defect state in an MPLS network. There is no mention of IP addresses, AT commands, or dialup timeouts in the log message. The provided causes do not align with the details mentioned in the log, indicating low relevance.\n\nLabel: 0"
+ ],
+ [
+  14,
+  "Reason: The log message indicates that a tunnel protection group recovered from a defect state in MPLS network. The provided cause mentions that the fault triggering the alarm was rectified, which aligns with the situation described in the log.\nLabel: 100"
+ ],
+ [
+  15,
+  "Reason: The log message clearly indicates that the IS-IS neighbor went down due to a change in the DIS (Designated Intermediate System) on the interface, with specific details about the Hello packets and communication. The provided cause mentions the DIS of the broadcast network changing, which aligns with the reason for the neighbor going down as stated in the log message.\n\nLabel: 100"
+ ],
+ [
+  16,
+  "Reason: The log message clearly pertains to IS-IS protocol and describes a neighbor being down due to a change in the DIS. The provided cause mentions an issu switchover command and the successful switching of forwarding planes on the interface board, which is unrelated to the IS-IS log message. There is no mention of an issu switchover command or interface board forwarding planes in the log, indicating a lack of relevance between the log message and the provided cause.\n\nLabel: 0"
+ ],
+ [
+  17,
+  "Reason: The log message clearly pertains to IS-IS protocol and describes a neighbor being down due to a change in the DIS. The provided cause mentions MSTP (Multiple Spanning Tree Protocol) receiving a BPDU with the TC (Topology Change) flag, which is unrelated to the IS-IS log message. There is no mention of MSTP or TC flag in the log, indicating a lack of relevance between the log message and the provided cause.\nLabel: 0"
+ ],
+ [
+  18,
+  "Reason: The log message clearly pertains to IS-IS protocol and describes a neighbor being down due to a change in the DIS. The provided cause mentions a local access account being deleted, which is unrelated to the IS-IS log message. There is no mention of access accounts in the log, indicating a lack of relevance between the log message and the provided cause.\nLabel: 0"
+ ],
+ [
+  19,
+  "Reason: The log message clearly pertains to IS-IS protocol and describes a neighbor being down due to a change in the DIS. The provided cause mentions the PD restoring from an over-current state to normal, which is unrelated to the IS-IS log message. There is no mention of PD or over-current state in the log, indicating a lack of relevance between the log message and the provided cause.\nLabel: 0"
+ ],
+ [
+  20,
+  "Reason: The log message indicates that an AP update has been completed, providing details such as APMAC, APName, UpdateResult, UpdateTime, UpdateFileName, UpdateNextOper, UpdateStatus, and APID. The possible cause mentions the completion or failure of an AP upgrade, which aligns with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  21,
+  "Reason: The log message indicates that an AP update was completed in a WLAN environment, providing details such as APMAC, APName, UpdateResult, UpdateTime, UpdateFileName, UpdateNextOper, UpdateStatus, and APID. The provided cause mentions that the fault triggering the alarm was rectified, which does not directly relate to the completion of the AP update process.\nLabel: 0"
+ ],
+ [
+  22,
+  "Reason: The log message indicates that an AP update has been completed in a WLAN environment, providing details such as APMAC, APName, UpdateResult, UpdateTime, UpdateFileName, UpdateNextOper, UpdateStatus, and APID. The provided causes do not relate to AP updates or completion, but instead mention issues with the format of received LLDP packets and the use of invalid packets for malicious attacks. These causes are not relevant to the log message, resulting in a low score.\n\nLabel: 0"
+ ],
+ [
+  23,
+  "Reason: The log message indicates that an AP update has been completed, providing details such as APMAC, APName, UpdateResult, UpdateTime, UpdateFileName, UpdateNextOper, UpdateStatus, and APID. The provided cause mentions the standby device receiving a notification from the active device to add NHRP mapping entries, which does not directly relate to the completion of the AP update as mentioned in the log message.\n\nLabel: 0"
+ ],
+ [
+  24,
+  "Reason: The log message indicates that an AP update has been completed in a WLAN environment, providing details such as APMAC, APName, UpdateResult, UpdateTime, UpdateFileName, UpdateNextOper, UpdateStatus, and APID. The provided cause mentions a limitation related to the maximum number of AS_Paths supported and the length of the AS_Path attribute in received routes, which does not directly relate to the completion of the AP update mentioned in the log.\nLabel: 0"
+ ],
+ [
+  25,
+  "Reason: The log message indicates that an NQA (Network Quality Analyzer) entry test was completed, with details such as OwnerIndex and TestName provided. The possible cause mentions that the trap occurred in the NQA test and that the test succeeded.\nLabel: 100"
+ ],
+ [
+  26,
+  "Reason: The log message indicates that an NQA (Network Quality Analyzer) entry test was completed, with details such as OwnerIndex and TestName provided. The provided cause of \"The blacklist changed\" does not seem to be directly related to the completion of the NQA test, as there is no mention of a blacklist in the log message.\nLabel: 0"
+ ],
+ [
+  27,
+  "Reason: The log message indicates that an NQA (Network Quality Analyzer) entry test was completed with specific details such as OwnerIndex and TestName. The provided cause of the SnS (Support and Subscription) expiration of a cloud-based license sales item does not directly relate to the completion of the NQA test mentioned in the log.\nLabel: 0"
+ ],
+ [
+  28,
+  "Reason: The log message indicates that an NQA (Network Quality Analyzer) entry test was completed, with details such as OwnerIndex and TestName provided. The possible cause mentions IS-IS LSPs advertised by a third device no longer being purged, which does not directly relate to the completion of the NQA test.\nLabel: 0"
+ ],
+ [
+  29,
+  "Reason: The log message indicates that an NQA (Network Quality Analyzer) entry test was completed, with details such as OwnerIndex and TestName provided. The possible cause mentions an issue related to too many files, such as logs, being stored or generated on the device, which may have impacted the completion of the test.\nLabel: 70"
+ ],
+ [
+  30,
+  "Reason: The log message indicates that a certificate of a specific type was successfully updated through a controller, mentioning the realm name as well. The provided cause aligns with the details in the log message, indicating a successful update through the controller.\nLabel: 100"
+ ],
+ [
+  31,
+  "Reason: The log message indicates that updating a specific type of certificate through a controller was successful, with details about the certificate type and realm name. The provided cause about the far-end frame loss ratio falling below a signal degraded threshold does not align with the context of certificate updating mentioned in the log.\nLabel: 0"
+ ],
+ [
+  32,
+  "Reason: The log message indicates that updating a specific type of certificate through a controller was successful, with no mention of a heartbeat connection timing out between boards. The provided cause does not align with the details in the log message, making it irrelevant.\nLabel: 0"
+ ],
+ [
+  33,
+  "Reason: The log message indicates that updating a certificate through a controller was successful, with specific details about the certificate type and realm name. The provided cause about the MTU of the interface in a VPN instance and sending PIM Hello packets does not align with the operation described in the log message.\nLabel: 0"
+ ],
+ [
+  34,
+  "Reason: The log message indicates that updating a specific type of certificate through a controller was successful. The provided cause about an invalid IGMP Query packet or version mismatch does not align with the details in the log message and is not related to certificate updates.\nLabel: 0"
+ ],
+ [
+  35,
+  "Reason: The log message indicates that the SSH server key renegotiation has failed, providing details such as the session ID, failed reason, rekey reason, user address, local address, and VPN instance name. The provided causes mention issues related to the client, such as not supporting the requested encryption algorithm or not responding, which could potentially lead to the failure of the SSH server key renegotiation.\n\nLabel: 80"
+ ],
+ [
+  36,
+  "Reason: The log message indicates that SSH server key renegotiation failed, providing details such as session ID, failed reason, rekey reason, user address, local address, and VPN instance name. The provided cause, stating that the topology changed, does not align with the details mentioned in the log message, making it irrelevant.\nLabel: 0"
+ ],
+ [
+  37,
+  "Reason: The log message indicates that the SSH server key renegotiation failed, providing details such as the session ID, failed reason, rekey reason, user address, local address, and VPN instance name. The provided cause, stating that the interface corresponded to too many neighbors, does not directly relate to the SSH server key renegotiation failure mentioned in the log message.\n\nLabel: 0"
+ ],
+ [
+  38,
+  "Reason: The log message indicates that SSH server key renegotiation has failed, providing details such as session ID, failed reason, rekey reason, user address, local address, and VPN instance name. The provided cause mentions a MAC address frequently flapping in a VSI, which is unrelated to the SSH server key renegotiation failure described in the log.\nLabel: 0"
+ ],
+ [
+  39,
+  "Reason: The log message indicates that the SSH server key renegotiation has failed, providing details such as the session ID, failed reason, rekey reason, user address, local address, and VPN instance name. The provided cause, stating that the number of ACL rules in the current device drops to or falls below a specified threshold, does not directly relate to the SSH server key renegotiation failure mentioned in the log message. There is no mention of ACL rules or device specifications in the log, making the provided cause irrelevant.\n\nLabel: 0"
+ ],
+ [
+  40,
+  "Reason: The log message indicates that the user's password has expired in the AAA system. The provided cause mentions that the local user password expired, which aligns with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  41,
+  "Reason: The log message indicates that the user's password has expired in the AAA system, while the possible cause mentions a device releasing an IP address as a DHCP client, which is not directly related to a password expiration issue.\nLabel: 0"
+ ],
+ [
+  42,
+  "Reason: The log message indicates that the user's password has expired in the AAA system, with the specific mention of the username. The possible cause mentions a near-end frame loss ratio falling below a signal degraded threshold, which does not directly relate to the password expiration issue.\nLabel: 0"
+ ],
+ [
+  43,
+  "Reason: The log message indicates that the user's password has expired in the AAA system, which is a common occurrence in authentication systems. The provided cause mentions that the local user account expired, which aligns with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  44,
+  "Reason: The log message indicates that the user's password has expired in the AAA system. There is no mention of excessive routes being added in the log message, making the provided cause irrelevant to the password expiration issue.\nLabel: 0"
+ ],
+ [
+  45,
+  "Reason: The log message indicates that the CMS file type is being recorded, with specific details about the topmost type and inner type. The provided cause mentions the type of the CMS file, which aligns with the information in the log message.\nLabel: 100"
+ ],
+ [
+  46,
+  "Reason: The log message indicates that the CMS file type is being recorded, with specific details about the topmost_type and inner_type. The provided cause talks about the SSL component attempting to unload a non-existent certificate or encountering an exception, which is unrelated to the log message about recording CMS file types.\nLabel: 0"
+ ],
+ [
+  47,
+  "Reason: The log message indicates that the CMS file type is being recorded, with specific details about the topmost type and inner type. The provided cause mentions a MAC address frequently flapping in a BD or VLAN, which is unrelated to the recording of CMS file types.\nLabel: 0"
+ ],
+ [
+  48,
+  "Reason: The log message indicates that the CMS file type is being recorded, with specific details about the topmost_type and inner_type. The provided cause mentions a large number of packets being sent to the CPU due to the CPCAR value being too large, which is unrelated to the recording of CMS file types.\nLabel: 0"
+ ],
+ [
+  49,
+  "Reason: The log message indicates that the CMS file type is being recorded, with specific details about the topmost type and inner type. The provided cause talks about a network LSA event not containing any network LSA information, which is unrelated to the log message about recording CMS file types.\nLabel: 0"
+ ],
+ [
+  50,
+  "Reason: The log message indicates that BGP (Border Gateway Protocol) entered the Graceful Restart (GR) status. The provided cause accurately describes the situation by stating that BGP entered the GR status, aligning perfectly with the details in the log message.\nLabel: 100"
+ ],
+ [
+  51,
+  "Reason: The log message indicates that BGP (Border Gateway Protocol) entered the Graceful Restart (GR) status. The possible cause mentions the remote prefix SID being out of the local SRGB scope, which does not directly relate to BGP entering the GR status.\nLabel: 0"
+ ],
+ [
+  52,
+  "Reason: The log message indicates that BGP (Border Gateway Protocol) entered the Graceful Restart (GR) status. The provided cause mentions a certificate application packet being tampered with and the CA server rejecting access, which does not seem to be related to BGP entering the GR status.\nLabel: 0"
+ ],
+ [
+  53,
+  "Reason: The log message indicates that BGP (Border Gateway Protocol) entered the Graceful Restart (GR) status. The provided cause mentions users roaming between different Fat APs (Access Points) on a WLAN (Wireless Local Area Network) and facing connectivity issues. There is no mention of WLAN or user connectivity in the log message, indicating a lack of connection between the log and the possible cause.\n\nLabel: 0"
+ ],
+ [
+  54,
+  "Reason: The log message indicates that BGP (Border Gateway Protocol) entered the Graceful Restart (GR) status. The provided cause mentions the system automatically uploading bulk statistics files, which does not seem to be directly related to BGP entering the GR status.\nLabel: 0"
+ ],
+ [
+  55,
+  "Reason: The log message indicates that a memory card was plugged in and then plugged out. The provided cause mentions hot-swapping a storage device, which is not directly related to the specific actions of plugging in and out a memory card.\nLabel: 0"
+ ],
+ [
+  56,
+  "Reason: The log message indicates that a memory card was plugged in and then plugged out. There is also a mention of the LDP synchronization state changing. The provided cause does not directly relate to the memory card events mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  57,
+  "Reason: The log message indicates that a memory card was plugged in and then plugged out. The possible cause provided mentions that the fault triggering the alarm was rectified, which does not directly relate to the memory card events mentioned in the log. There is no specific mention of a fault or alarm in the log message, making the cause irrelevant to the situation described.\nLabel: 0"
+ ],
+ [
+  58,
+  "Reason: The log message indicates that a memory card was plugged in and then plugged out. The provided cause, \"No link is selected,\" does not accurately describe the situation mentioned in the log. There is no mention of any issue related to selecting a link in the log message. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  59,
+  "Reason: The log message indicates that a memory card was plugged in and then plugged out. There is no mention of any specific issue related to the memory card events or any inconsistency between local and remote TTSIs. The provided cause does not accurately describe the situation mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  60,
+  "Reason: The log message indicates that the user made a choice regarding activating the License file with a minor error. The possible cause mentions an error occurring in the license file, which seems to directly relate to the user's decision mentioned in the log.\nLabel: 100"
+ ],
+ [
+  61,
+  "Reason: The log message mentions a user decision regarding activating a License file with minor error, which seems unrelated to the cause provided about delivering messages to the interface card failing. There is no clear connection between the user decision and the failure in message delivery to the interface card.\nLabel: 0"
+ ],
+ [
+  62,
+  "Reason: The log message mentions a user decision regarding activating a License file with a minor error, which is unrelated to the provided cause about the number of imported routes reaching a configured threshold. There is no connection or relevance between the log message and the possible cause.\nLabel: 0"
+ ],
+ [
+  63,
+  "Reason: The log message mentions a user decision related to activating a License file with minor error, which is unrelated to the provided cause about the UDP port number being occupied during VXLAN deployment. There is no connection or relevance between the log message and the possible cause.\nLabel: 0"
+ ],
+ [
+  64,
+  "Reason: The log message mentions a user decision regarding activating a License file with minor error, which is unrelated to the provided cause about the number of out-of-order packets lost being lower than a threshold.\nLabel: 0"
+ ],
+ [
+  65,
+  "Reason: The log message indicates an issue with OSPFv3 where there is no link to the restarting router in the received LSA, leading to a premature exit from graceful restart and a reset of the OSPFv3 process. The provided cause mentions the absence of a link to the GR router in the new LSA, resulting in the premature exit of GR and the reset of the OSPFv3 protocol, aligning with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  66,
+  "Reason: The log message indicates an issue with OSPFv3 where there is no link to the restarting router in the received LSA, leading to a premature exit from graceful restart and a reset of the OSPFv3 process. The provided cause about importing a CA certificate in the PKI domain is unrelated and does not match the details mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  67,
+  "Reason: The log message indicates an issue with OSPFv3 where there is no link to the restarting router in the received LSA, leading to a premature exit from graceful restart and a reset of the OSPFv3 process. The provided cause about the state of the patch changing does not align with the details mentioned in the log message and is unrelated to OSPFv3 issues.\nLabel: 0"
+ ],
+ [
+  68,
+  "Reason: The log message indicates an issue with OSPFv3 where there is no link to the restarting router in the received LSA, leading to a premature exit from graceful restart and a reset of the OSPFv3 process. The provided cause about failing to set link control does not align with the details mentioned in the log message and is unrelated to the OSPFv3 error described.\nLabel: 0"
+ ],
+ [
+  69,
+  "Reason: The log message indicates an issue with OSPFv3 where there is no link to the restarting router in the received LSA, leading to a premature exit from graceful restart and a reset of the OSPFv3 process. The provided cause about the rate of ARP packets exceeding a threshold is unrelated and does not match the details mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  70,
+  "Reason: The log message indicates that a secure risk warning was cleared, suggesting that a potential security risk was resolved. The provided cause mentions the removal of a configuration that may trigger a security risk, which aligns with the action taken to clear the warning.\nLabel: 100"
+ ],
+ [
+  71,
+  "Reason: The log message indicates that a secure risk warning was cleared, with a specific OID mentioned. The provided cause mentions that the possible cause is displayed in the reason field in the log, which aligns with the context of the log message.\nLabel: 100"
+ ],
+ [
+  72,
+  "Reason: The log message indicates that a secure risk warning was cleared, suggesting that there was a previous security risk that has now been resolved. The provided cause mentions an invalid message sent by the peer or incorrect local device configuration, which could potentially lead to security risks. However, there is no direct indication in the log message that these specific issues were the cause of the secure risk warning being cleared.\nLabel: 0"
+ ],
+ [
+  73,
+  "Reason: The log message indicates that a secure risk warning was cleared, suggesting that a security issue was resolved. The provided cause mentions lost messages causing a mismatch of packet sequence numbers, which is unrelated to security warnings being cleared.\nLabel: 0"
+ ],
+ [
+  74,
+  "Reason: The log message indicates that a secure risk warning was cleared, but the provided cause mentions a failure in checking compatibility during the ISSU (In-Service Software Upgrade) check phase, which is not directly related to the secure risk warning being cleared. There is no indication in the log message that the compatibility check failure caused the secure risk warning to clear, resulting in a lack of relevance between the log and the provided cause.\nLabel: 0"
+ ],
+ [
+  75,
+  "Reason: The log message indicates that a local access account has been deleted, specific to AR6700 series and AR5700 series, with details about the operator name and user IP address. The provided cause mentions the deletion of a local access account, aligning with the action described in the log message.\nLabel: 100"
+ ],
+ [
+  76,
+  "Reason: The log message indicates that a local access account has been deleted, specific to AR6700 series and AR5700 series. The provided cause mentions the system being started, which is unrelated to the deletion of a local access account on the specified device series.\nLabel: 0"
+ ],
+ [
+  77,
+  "Reason: The log message indicates that a local access account has been deleted, specific to AR6700 series and AR5700 series. The provided cause of \"MSTP set the port status to Discarding\" does not directly relate to the deletion of a local access account or the specific device series mentioned in the log. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  78,
+  "Reason: The log message indicates that a local access account has been deleted, specific to AR6700 series and AR5700 series. The provided cause of \"The alarm was cleared\" does not directly relate to the deletion of a local access account or the specific device series mentioned in the log. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  79,
+  "Reason: The log message indicates that a local access account has been deleted, specific to AR6700 series and AR5700 series, with details about the operator name and user IP address. The provided cause mentions the distance from the local reference clock to the superior reference clock being unreachable, which is unrelated to the deletion of a local access account on the specified device series.\nLabel: 0"
+ ],
+ [
+  80,
+  "Reason: The log message indicates a change in the status of peer flapping suppression in IS-IS (Intermediate System to Intermediate System) protocol, providing details such as Proc, IfName, SuppressPreviousStatus, SuppressCurrentStatus, and Reason. The provided cause mentions IS-IS neighbor relationship flapping suppression starting or the interface exiting from suppression, which aligns with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  81,
+  "Reason: The log message indicates a change in the status of peer flapping suppression in ISIS (Intermediate System to Intermediate System) protocol, providing details such as Proc, IfName, SuppressPreviousStatus, SuppressCurrentStatus, and Reason. The provided cause about the CMP session certificate download being successful is unrelated to the details mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  82,
+  "Reason: The log message indicates a change in the status of peer flapping suppression in ISIS (Intermediate System to Intermediate System) protocol, providing details such as Proc, IfName, SuppressPreviousStatus, SuppressCurrentStatus, and Reason. The provided cause about users switching on the laser through NMS or a command line and clearing the alarm is unrelated to the details mentioned in the log message. There is no mention of lasers, alarms, or user actions in the log, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  83,
+  "Reason: The log message indicates a change in the status of peer flapping suppression in ISIS (Intermediate System to Intermediate System) with specific details such as Proc, IfName, SuppressPreviousStatus, SuppressCurrentStatus, and Reason. The provided cause about the license file failing is completely unrelated to the details mentioned in the log message. There is no mention of a license file in the log, making the provided cause irrelevant.\nLabel: 0"
+ ],
+ [
+  84,
+  "Reason: The log message indicates a change in the status of peer flapping suppression in ISIS (Intermediate System to Intermediate System) protocol, providing details such as Proc, IfName, SuppressPreviousStatus, SuppressCurrentStatus, and Reason. The provided cause about buffer application and exceeding the preset maximum value is unrelated to the details mentioned in the log message, making it irrelevant.\nLabel: 0"
+ ],
+ [
+  85,
+  "Reason: The log message indicates that a log file was deleted due to aging, with specific details about the log file and the reason for deletion. The provided causes mention issues related to the number of compressed files exceeding a threshold and the storage of log files being less than 30 MB, which are not directly related to the log message content.\nLabel: 0"
+ ],
+ [
+  86,
+  "Reason: The log message states that a log file was deleted due to aging, with specific details about the LogFileName. The provided cause of a traffic exception or network attack does not directly relate to the log message content, as there is no mention of such events in the log. This lack of connection between the log message and the possible cause indicates a low relevance score.\nLabel: 0"
+ ],
+ [
+  87,
+  "Reason: The log message mentions the deletion of a log file due to aging, with specific details about the log file and OID. The provided cause talks about the edge port receiving BPDUs in the MSTP process, which is not directly related to the log message content.\nLabel: 0"
+ ],
+ [
+  88,
+  "Reason: The log message mentions the deletion of a log file due to aging, with specific details such as the OID and LogFileName. The provided cause talks about redirection in traffic behavior, which does not directly relate to the log message about log file deletion.\nLabel: 0"
+ ],
+ [
+  89,
+  "Reason: The log message indicates that a log file was deleted due to aging, with specific details about the log file and the reason for deletion. The provided cause mentions discarded invalid ARP packets exceeding a threshold, which is not directly related to the log message about log file aging.\nLabel: 0"
+ ],
+ [
+  90,
+  "Reason: The log message indicates that the isisAdjacencyChange alarm was cleared, with details about the system instance, system level, interface instance, circuit, ifIndex, lspID, adjacency state, interface name, and hardware reasons for the adjacency change. The provided cause mentions the deletion of the interface instance, which aligns with the action of clearing the alarm related to the adjacency change. This cause directly relates to the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  91,
+  "Reason: The log message indicates that the isisAdjacencyChange alarm was cleared, with details about system instances, levels, interfaces, circuits, LSP IDs, adjacency states, interface names, and reasons for the adjacency change. The provided cause mentions the number of LDP LSPs falling below the upper limit, which is unrelated to the alarm being cleared in the log message.\nLabel: 0"
+ ],
+ [
+  92,
+  "Reason: The log message indicates that the isisAdjacencyChange alarm was cleared, with details about system instances, levels, interfaces, circuits, lspID, adjacency state, interface name, and reasons for the adjacency change. The provided cause mentions the possibility of loops on the current network, which could be a potential reason for the alarm being cleared.\nLabel: 80"
+ ],
+ [
+  93,
+  "Reason: The log message indicates that the isisAdjacencyChange alarm was cleared, providing details such as sysInstance, sysInstanceofLevel, sysLevel, sysInstanceofInterface, circuit, ifIndex, circuitIfIndex, lspID, adjState, ifName, hwIsisAdjChangeReason, and hwIsisAdjChangeSubReason. The provided cause mentions a change in the status of the SR Policy to Up, which is unrelated to the isisAdjacencyChange alarm being cleared.\nLabel: 0"
+ ],
+ [
+  94,
+  "Reason: The log message indicates that the isisAdjacencyChange alarm was cleared, providing details such as sysInstance, sysInstanceofLevel, sysLevel, sysInstanceofInterface, circuit, ifIndex, circuitIfIndex, lspID, adjState, ifName, hwIsisAdjChangeReason, and hwIsisAdjChangeSubReason. The provided cause mentions a user successfully logging in to an FTP server, which is unrelated to the alarm being cleared in the log message.\nLabel: 0"
+ ],
+ [
+  95,
+  "Reason: The log message indicates that a device with a specific identifier failed to reset successfully, providing a reason for the failure. The possible cause mentions that the interface card fails to be reset, which aligns with the failure to reset mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  96,
+  "Reason: The log message indicates that a device reset was unsuccessful, providing details about the reset reason. The possible cause mentions rectifying the fault that caused the alarm, which may or may not directly relate to the reset failure mentioned in the log.\nLabel: 50"
+ ],
+ [
+  97,
+  "Reason: The log message indicates that a device reset was unsuccessful, providing details about the reset reason. The possible cause mentions clearing an alarm for an OSPF routing loop detected by the device, which does not directly align with the device reset failure mentioned in the log. There is no clear correlation between the log message and the provided cause.\nLabel: 0"
+ ],
+ [
+  98,
+  "Reason: The log message indicates that a device reset failed and provides a reason for it. The provided cause mentions exceeding the maximum number of global PIM (*, G) entries allowed, which does not directly align with the device reset failure mentioned in the log.\nLabel: 0"
+ ],
+ [
+  99,
+  "Reason: The log message indicates that a device reset was unsuccessful, providing details about the reset reason. The possible cause mentions reaching the maximum number of networks supported by RIPng, which does not align with the device reset failure mentioned in the log.\nLabel: 0"
+ ],
+ [
+  100,
+  "Reason: The log message indicates a failure in obtaining the LSR ID from both RRO and CSPF during the processing of the Path message in RSVP (Resource Reservation Protocol). The provided cause mentions the same issue of failing to obtain the LSR ID from RRO and CSPF, aligning with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  101,
+  "Reason: The log message indicates a failure in obtaining the LSR ID from both RRO and CSPF in an RSVP (Resource Reservation Protocol) scenario. The provided cause mentions that there are no possible causes identified, which does not address the specific issue mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  102,
+  "Reason: The log message indicates a failure to obtain the LSR ID from both RRO and CSPF in an RSVP (Resource Reservation Protocol) scenario. The provided cause mentions an unexpected abort notification related to changes in the network's topology or configuration, which does not directly align with the specific failure mentioned in the log.\nLabel: 0"
+ ],
+ [
+  103,
+  "Reason: The log message indicates a failure in obtaining the LSR ID from both RRO and CSPF in an RSVP (Resource Reservation Protocol) scenario, with specific details such as IngressLsrId, SessionId, IngressAddress, and LspId. The provided cause mentions the successful destruction of a key pair, which is unrelated to the failure mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  104,
+  "Reason: The log message indicates a failure to obtain the LSR ID from both RRO and CSPF in an RSVP (Resource Reservation Protocol) scenario, with details such as IngressLsrId, SessionId, IngressAddress, and LspId. The provided cause mentions a change in the status of the Portal server, which is unrelated to the failure mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  105,
+  "Reason: The log message indicates that all member interfaces of a trunk have changed their link status to up, suggesting a recovery or restoration of connectivity. The provided cause accurately describes this situation by stating that all member interfaces of the trunk recovered and went up, matching the details mentioned in the log message. This direct relationship between the log and the possible cause results in a high relevance score.\n\nLabel: 100"
+ ],
+ [
+  106,
+  "Reason: The log message indicates that all member interfaces of a trunk have their link status changed to up, suggesting a successful recovery or initialization process. The provided cause about recording information regarding a terminal NTP server change is unrelated to the trunk interface status change mentioned in the log.\nLabel: 0"
+ ],
+ [
+  107,
+  "Reason: The log message indicates that all member interfaces of a trunk have their link status changed to up, suggesting a successful recovery or initialization process. The provided cause about a CA certificate file being updated does not seem to be related to the trunk interface status change.\nLabel: 0"
+ ],
+ [
+  108,
+  "Reason: The log message indicates that all member interfaces of a trunk have their link status changed to up, suggesting a successful operation. The provided cause mentions a failure in updating the certificate, which is unrelated to the successful status change of the trunk's member interfaces.\nLabel: 0"
+ ],
+ [
+  109,
+  "Reason: The log message indicates that all member interfaces of a trunk have their link status changed to up, suggesting a successful recovery or initialization process. The provided cause about a packet being destined to a Class E IP address is unrelated to the trunk interface status change mentioned in the log.\nLabel: 0"
+ ],
+ [
+  110,
+  "Reason: The log message indicates that a system rollback occurred, with details about the reason, version, and file name involved in the rollback process. The provided cause mentions a system rollback, aligning with the context of the log message.\nLabel: 100"
+ ],
+ [
+  111,
+  "Reason: The log message indicates that a system rollback occurred, with details about the reason, version, and file name involved. The provided cause of \"PW links formed a loop\" does not align with the context of a system rollback, as there is no mention of PW links or loops in the log message.\nLabel: 0"
+ ],
+ [
+  112,
+  "Reason: The log message indicates that a system rollback occurred, with details about the reason, version, and file name involved. The provided cause mentions a patch installation potentially causing a capability set to change, which does not directly relate to the system rollback described in the log message.\nLabel: 0"
+ ],
+ [
+  113,
+  "Reason: The log message indicates that a system rollback occurred, with details about the reason, version, and file name involved. The provided cause of \"The number of used resources has exceeded the upper threshold\" does not directly relate to the system rollback event described in the log message.\nLabel: 0"
+ ],
+ [
+  114,
+  "Reason: The log message indicates that a system rollback occurred, with details about the reason, version, and file name involved. The provided cause mentions the sufficiency of the CF card space, which does not directly relate to the system rollback event described in the log message.\nLabel: 0"
+ ],
+ [
+  115,
+  "Reason: The log message indicates that the WWAN (Wireless Wide Area Network) SIM card test detected continuous failures for a specific duration, leading to a modem reboot. The provided cause of \"The PIN code is faulty\" does not directly relate to the continuous failures detected during the SIM card test. There is no mention of a PIN code issue in the log message, making the provided cause irrelevant to the log content.\nLabel: 0"
+ ],
+ [
+  116,
+  "Reason: The log message indicates that the WWAN SIM card test detected continuous failures for a specific duration, leading to a modem reboot. The provided cause mentions a decrease in the number of external routes in the OSPF LSDB, which is unrelated to the SIM card test failure and modem reboot scenario described in the log message.\nLabel: 0"
+ ],
+ [
+  117,
+  "Reason: The log message indicates that the WWAN (Wireless Wide Area Network) SIM card test detected continuous failures for a specific duration, leading to the reboot of the modem. The provided cause of \"The target host was deleted\" does not directly relate to the SIM card test failures or modem reboot mentioned in the log. There is no mention of a target host deletion in the log message, making the provided cause irrelevant to the log content.\nLabel: 0"
+ ],
+ [
+  118,
+  "Reason: The log message indicates that the WWAN (Wireless Wide Area Network) SIM card test detected continuous failures for a specific duration, leading to a modem reboot. The provided cause of \"The mismatched PDU caused the IS-IS neighbor to become Down\" does not directly relate to the SIM card test failure and modem reboot mentioned in the log. There is no mention of IS-IS or PDU in the log message, making the provided cause irrelevant to the log content.\nLabel: 0"
+ ],
+ [
+  119,
+  "Reason: The log message indicates that the WWAN (Wireless Wide Area Network) sim card test detects continuous failures for a specific duration, leading to a modem reboot. The provided cause of \"The fan is faulty\" does not directly relate to sim card test failures or modem reboots mentioned in the log. There is no mention of a faulty fan in the log message, making the provided cause irrelevant to the log content.\nLabel: 0"
+ ],
+ [
+  120,
+  "Reason: The log message indicates that OSPFv3 has received an LSA with a greater Lsa-Age, providing details such as ProcessId, RouterId, AreaId, IfName, LsaId, and LsaAge. The possible cause mentions that the aging time of a received LSA is greater than 1800s, which aligns with the situation described in the log message.\nLabel: 100"
+ ],
+ [
+  121,
+  "Reason: The log message indicates that OSPFv3 received an LSA with a greater Lsa-Age, providing details about the process ID, router ID, area ID, interface name, LSA ID, and LSA age involved in the event. The provided cause, \"When HA status changed, the RM needed to notify the protocol to perform the corresponding operation,\" does not directly relate to the situation described in the log message. There is no mention of HA status changes or RM notifications in the log, making the provided cause irrelevant to the event described.\nLabel: 0"
+ ],
+ [
+  122,
+  "Reason: The log message indicates that OSPFv3 received an LSA with a greater Lsa-Age, providing details such as ProcessId, RouterId, AreaId, IfName, LsaId, and LsaAge. The provided cause, \"Failed to obtain the router ID,\" does not directly relate to the situation described in the log message. There is no mention of a failure to obtain the router ID in the log, making the cause irrelevant to the context.\nLabel: 0"
+ ],
+ [
+  123,
+  "Reason: The log message indicates that OSPFv3 received an LSA with a greater Lsa-Age, providing details such as ProcessId, RouterId, AreaId, IfName, LsaId, and LsaAge. The provided possible causes mention the shutdown command being run on the interface and an abnormality occurring on the interface, which could potentially lead to the reception of LSAs with greater ages.\nLabel: 80"
+ ],
+ [
+  124,
+  "Reason: The log message indicates that OSPFv3 received an LSA with a greater Lsa-Age, providing details about the process ID, router ID, area ID, interface name, LSA ID, and LSA Age involved in the event. The provided possible cause, \"The RP changed,\" does not directly relate to the situation described in the log message. There is no mention of an RP (Routing Protocol) change or any indication of such a change affecting the reception of LSAs with greater ages. Therefore, the provided cause is not relevant to the log message.\n\nLabel: 0"
+ ],
+ [
+  125,
+  "Reason: The log message indicates that NATPT is not enabled when attempting to disable it on the interface. The provided cause suggests that the interface was not enabled with NAT-PT, which aligns with the issue mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  126,
+  "Reason: The log message indicates that NATPT is not enabled when disabling NATPT on the interface. The provided cause suggests that the number of TX PAUSE frames reaches the alarm threshold within a specified period, which is unrelated to the issue of NATPT not being enabled.\nLabel: 0"
+ ],
+ [
+  127,
+  "Reason: The log message indicates that NATPT is not enabled when disabling NATPT on the interface. The provided cause suggests that a user has run a slave switchover to trigger an active/standby switchover, which is unrelated to the issue of NATPT not being enabled.\nLabel: 0"
+ ],
+ [
+  128,
+  "Reason: The log message indicates that NATPT is not enabled when disabling NATPT on the interface. The provided cause mentions a scenario where a PIM-SM-enabled interface receives a PIM message with a group address that is not a multicast address, which is unrelated to the issue of NATPT not being enabled.\nLabel: 0"
+ ],
+ [
+  129,
+  "Reason: The log message indicates that NATPT is not enabled when disabling NATPT on the interface. The provided cause mentions a change in LACPDUs sent by the remote end, which is unrelated to the issue of NATPT not being enabled. \nLabel: 0"
+ ],
+ [
+  130,
+  "Reason: The log message indicates that a time log event occurred, with a specific string provided. The possible cause mentions the setting of daylight saving time, which could be a common event related to time logs.\nLabel: 90"
+ ],
+ [
+  131,
+  "Reason: The log message indicates a time-related event with a string parameter. The provided cause mentions a DHCPv6 client successfully obtaining an IPv6 address, which is not directly related to the time event mentioned in the log.\nLabel: 0"
+ ],
+ [
+  132,
+  "Reason: The log message indicates a time-related event where a string is logged. The provided cause mentions authentication success when the NMS (Network Management System) attempted to log in to a device again, which does not directly relate to the time log event mentioned in the log.\nLabel: 0"
+ ],
+ [
+  133,
+  "Reason: The log message indicates a time-related event or log entry with a specific string value. The provided possible cause mentions issues related to the hard pipe configuration on an interface exceeding port bandwidth or port shaping, which may lead to time-related issues or logs.\nLabel: 50"
+ ],
+ [
+  134,
+  "Reason: The log message indicates a time-related event or log entry, possibly involving a timestamp or time-related information. The provided cause mentions loading the CRL (Certificate Revocation List) file, which may be a common operation or task related to time synchronization or security protocols.\nLabel: 70"
+ ],
+ [
+  135,
+  "Reason: The log message indicates that the OSPF backup module received a specific event (ISSU_SMOOTH_ACROSS) from the ISSU management module. The provided cause mentions that the message recording the ISSU_SMOOTH_ACROSS event was received during the ISSU backup, which aligns with the information in the log message.\nLabel: 100"
+ ],
+ [
+  136,
+  "Reason: The log message indicates that the OSPF backup module received a specific event from the ISSU management module related to smooth operation across modules. The provided cause mentions exceeding the maximum number of retry attempts to automatically load a card, which does not align with the smooth operation event mentioned in the log.\nLabel: 0"
+ ],
+ [
+  137,
+  "Reason: The log message indicates that the OSPF backup module received a specific event from the ISSU management module related to smooth operation across the ISSU process. The provided possible cause of \"LCP negotiate success\" does not align with the information in the log message, as there is no mention of LCP negotiation or success in the context of ISSU smooth operation. Therefore, the provided cause is not relevant to the log message, resulting in a low score.\n\nLabel: 0"
+ ],
+ [
+  138,
+  "Reason: The log message indicates that the OSPF backup module received a specific event from the ISSU management module. The provided possible cause mentions the number of frames lost on the MEP exceeding a threshold, which does not directly align with the event mentioned in the log message.\nLabel: 0"
+ ],
+ [
+  139,
+  "Reason: The log message indicates that the OSPF backup module received a specific event from the ISSU management module. The provided cause of \"The static BFD function was not enabled on the interface\" does not align with the information in the log message, as there is no mention of the BFD function in the log. Therefore, the provided cause is not relevant to the log message, resulting in a low score.\nLabel: 0"
+ ],
+ [
+  140,
+  "Reason: The log message indicates that the LTE signal has become normal on a specific interface with details about the SIM ID and RSRP value, supported only on AR6700 series and AR8100 series. The provided cause mentions the RSRP of the LTE network becoming normal, which directly aligns with the event described in the log message.\nLabel: 100"
+ ],
+ [
+  141,
+  "Reason: The log message indicates that the LTE signal has become normal on a specific interface with details about the SIM ID and RSRP value, supported only on AR6700 series and AR8100 series. The provided cause mentions cleaning up storage space, which is unrelated to the LTE signal normalization described in the log message. There is no mention of storage space in the log message, making the provided cause irrelevant.\n\nLabel: 0"
+ ],
+ [
+  142,
+  "Reason: The log message indicates that the LTE signal has become normal on a specific interface with details about the SIM ID and RSRP value, supported only on AR6700 series and AR8100 series. The provided cause mentions configuring an interface as a 1000 M optical interface, which does not directly relate to the LTE signal normalization described in the log message.\nLabel: 0"
+ ],
+ [
+  143,
+  "Reason: The log message indicates that the LTE signal has become normal on a specific interface with details about the SIM ID and RSRP value, limited to AR6700 series and AR8100 series. The provided cause mentions a user entering a command that failed to be committed, which does not directly relate to the LTE signal normalization described in the log message.\nLabel: 0"
+ ],
+ [
+  144,
+  "Reason: The log message indicates that the LTE signal has become normal on a specific interface with details about the SIM ID and RSRP value, supported only on AR6700 series and AR8100 series. The provided cause mentions a router status change to master, which is not related to the LTE signal normalization described in the log message. There is no mention of router status changes in the log message, making the provided cause irrelevant.\n\nLabel: 0"
+ ],
+ [
+  145,
+  "Reason: The log message clearly states that the IS-IS neighbor was down due to repeated P2P neighbors being found on the interface, with specific details about the Hello packets and communication. The provided cause about two same P2P neighbors being found and causing the IS-IS neighbor to go down aligns with the details mentioned in the log message.\n\nLabel: 100"
+ ],
+ [
+  146,
+  "Reason: The log message indicates that an ISIS neighbor went down due to repeated P2P neighbors being found on the interface, with specific details about the Hello packets and communication. The provided cause mentions configuration misuse, software, or hardware problems causing forwarding plane drop service packets, which does not directly relate to the issue of repeated P2P neighbors causing the peer to go down. There is no mention of service packet drops in the log message, indicating a lack of relevance between the log message and the provided cause.\n\nLabel: 0"
+ ],
+ [
+  147,
+  "Reason: The log message clearly states that the ISIS neighbor was down due to repeated P2P neighbors being found on the interface, with specific details about the Hello packets and communication. The provided cause about the digital signature of the package being successfully verified is not mentioned in the log and does not relate to the issue of repeated P2P neighbors causing the peer to go down. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  148,
+  "Reason: The log message clearly states that the ISIS neighbor was down due to repeated P2P neighbors being found on the interface, with specific details about the Hello packets and communication. The provided cause about the user deleting all sessions and the system asking whether to continue is not mentioned in the log and does not relate to the issue of repeated P2P neighbors causing the peer to go down. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  149,
+  "Reason: The log message clearly states that the ISIS neighbor was down due to repeated P2P neighbors being found on the interface, with specific details about the Hello packets and communication. The provided cause about an incorrect parameter, socket error, and interrupted system call is not mentioned in the log and does not relate to the issue of repeated P2P neighbors causing the peer to go down. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  150,
+  "Reason: The log message indicates that an alarm type on a specific interface has aged. The provided cause mentions that the alarm was aged, which aligns with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  151,
+  "Reason: The log message indicates that an alarm type on a specific interface has aged. The provided cause of \"Possible Causes Received BIER route\" does not align with the details mentioned in the log message, as it does not relate to alarm aging on a specific interface. This cause is not relevant to the log message, resulting in a low score.\nLabel: 0"
+ ],
+ [
+  152,
+  "Reason: The log message indicates that an alarm type aged on a specific interface. The provided cause mentions the number of ASE LSAs generated in relation to OSPF process and importing external routes, which is not directly related to alarm aging on a specific interface.\nLabel: 0"
+ ],
+ [
+  153,
+  "Reason: The log message indicates that an alarm type on a specific interface has aged. The provided cause of \"A session with the peer was started\" does not relate to alarm aging or interface alarms, making it irrelevant.\nLabel: 0"
+ ],
+ [
+  154,
+  "Reason: The log message indicates that an alarm type on a specific interface has aged. The provided cause mentions line signals being locked for testing, which does not directly relate to alarm aging on the interface. This cause does not align with the details mentioned in the log message, making it irrelevant.\nLabel: 0"
+ ],
+ [
+  155,
+  "Reason: The log message indicates that there was a power supply failure on a specific entity, with details such as Index, EntityPhysicalIndex, PhysicalName, and EntityTrapFaultID provided. The possible causes provided mention scenarios where the device's power cable was removed or a power module was faulty, both of which could lead to a power supply failure.\nLabel: 100"
+ ],
+ [
+  156,
+  "Reason: The log message indicates that there was a power supply failure for a specific entity, with details such as Index, EntityPhysicalIndex, PhysicalName, and EntityTrapFaultID provided. The provided cause of a user entering interactive commands is not related to the power supply failure mentioned in the log. There is no indication that user commands caused the power supply failure. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  157,
+  "Reason: The log message indicates that there was a power supply failure for a specific entity, with details such as Index, EntityPhysicalIndex, PhysicalName, and EntityTrapFaultID provided. The provided cause mentions an issue related to access permission and account validity, which is not directly related to the power supply failure mentioned in the log.\nLabel: 0"
+ ],
+ [
+  158,
+  "Reason: The log message indicates that there was a power supply failure for a specific entity, with details such as Index, EntityPhysicalIndex, PhysicalName, and EntityTrapFaultID provided. The provided cause mentions a GR (Graceful Restart) request being received by the helper during a GR operation on the restarter, which does not directly relate to the power supply failure mentioned in the log.\nLabel: 0"
+ ],
+ [
+  159,
+  "Reason: The log message indicates that there was a power supply failure for a specific entity, with details such as Index, EntityPhysicalIndex, PhysicalName, and EntityTrapFaultID provided. The provided cause of obtaining a certificate through LDAP succeeding is not related to the power supply failure mentioned in the log. There is no mention of LDAP or any indication that obtaining a certificate caused the power supply failure. Therefore, the provided cause is not relevant to the log message.\n\nLabel: 0"
+ ],
+ [
+  160,
+  "Reason: The log message indicates a user decision regarding setting the LPU in a specific slot to common-reboot mode, while the possible cause mentions setting the ISSU mode of an ISSU-supportive interface to common restart mode. Both involve user decisions related to rebooting or restarting modes, but the specific actions and contexts differ.\nLabel: 20"
+ ],
+ [
+  161,
+  "Reason: The log message indicates a user decision regarding setting the LPU in a specific slot to common-reboot mode, while the provided cause mentions certain messages being lost, which seems unrelated to the user action described in the log.\nLabel: 0"
+ ],
+ [
+  162,
+  "Reason: The log message indicates a user decision regarding setting the LPU in a specific slot to common-reboot mode, while the possible cause mentions a change in neighbor status, which seems unrelated to the user action described in the log.\nLabel: 0"
+ ],
+ [
+  163,
+  "Reason: The log message indicates a user decision regarding setting the LPU in a specific slot to common-reboot mode. The provided cause mentions exceeding the specifications of the forwarding engine resources due to the number of forward tokens on the board. These two events are not directly related as the cause does not address the user decision mentioned in the log.\nLabel: 0"
+ ],
+ [
+  164,
+  "Reason: The log message indicates a user decision regarding setting the LPU in a specific slot to common-reboot mode, which is related to an In-Service Software Upgrade (ISSU) scenario. The provided cause mentions the completion of an AMB switchover after running the issu switchover command, which seems unrelated to the user decision mentioned in the log.\nLabel: 0"
+ ],
+ [
+  165,
+  "Reason: The log message indicates that the AMB received acknowledgment from the SMB and then notified RM that the batch backup was complete in the OSPF context. The provided cause should accurately describe this situation to be relevant.\nLabel: 100"
+ ],
+ [
+  166,
+  "Reason: The log message indicates that the AMB received acknowledgment from the SMB and then notified RM that batch backup was complete in OSPF. The provided cause mentions an issue related to the source address of the (S, G) entry being unreachable, which does not align with the content of the log message.\nLabel: 0"
+ ],
+ [
+  167,
+  "Reason: The log message indicates that the AMB received acknowledgment from the SMB and then notified RM that the batch backup was complete in OSPF. The provided cause mentions DHCP reply packets being discarded on an untrusted interface, which does not align with the content of the log message related to batch backup completion.\nLabel: 0"
+ ],
+ [
+  168,
+  "Reason: The log message indicates that the AMB received acknowledgment from the SMB and then notified RM that batch backup was complete in OSPF. The provided cause of \"BFD detected the Down state of a TE LSP\" does not align with the information in the log message, as there is no mention of BFD or TE LSP in the context of batch backup completion. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  169,
+  "Reason: The log message indicates that the AMB received acknowledgment from the SMB and then notified RM that the batch backup was complete in OSPF. The possible cause mentions an error occurring in the active board backup or the backup failing, which does not align with the successful completion of the batch backup mentioned in the log.\nLabel: 0"
+ ],
+ [
+  170,
+  "Reason: The log message indicates that the user chose a specific option when enabling ETU. The provided cause accurately describes the user's decision-making process regarding enabling ETU, aligning with the details mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  171,
+  "Reason: The log message indicates that the user chose a specific option when enabling ETU, but there was a failure in searching the tunnel binding tree for the node.\nLabel: 0"
+ ],
+ [
+  172,
+  "Reason: The log message indicates that the user chose a specific option when enabling ETU, but there was a failure in informing the slave board about the end of batch backup. The provided cause mentions a failure in communication with the slave board, which aligns with the issue mentioned in the log message.\nLabel: 90"
+ ],
+ [
+  173,
+  "Reason: The log message mentions the user choosing an option when enabling ETU, while the possible cause talks about IS-IS neighbor relationship flapping suppression or interface exiting from suppression. There is no direct correlation between the cause and the details in the log message.\nLabel: 0"
+ ],
+ [
+  174,
+  "Reason: The log message indicates that the user chose a specific option when enabling ETU, but it does not mention any fault or alarm triggering event. The provided cause mentions rectifying a fault triggering the alarm, which is not directly related to the user's action of choosing an option for enabling ETU.\nLabel: 0"
+ ],
+ [
+  175,
+  "Reason: The log message clearly states that the communication channel has resumed, indicating a successful recovery from a previous error. The provided cause directly matches this situation by mentioning that the communication channel has resumed, aligning with the details in the log message.\nLabel: 100"
+ ],
+ [
+  176,
+  "Reason: The log message indicates that the communication channel has resumed, providing details about the hardware entity involved and the trap fault ID. The provided cause mentions the number of BGP routes exceeding the maximum allowed, which is unrelated to the communication channel resuming.\nLabel: 0"
+ ],
+ [
+  177,
+  "Reason: The log message indicates that the communication channel has resumed, providing details about the entities involved in the communication. The provided cause mentions the restoration of configuration synchronization between local and peer devices, which seems unrelated to the communication channel being restored.\nLabel: 0"
+ ],
+ [
+  178,
+  "Reason: The log message indicates that the communication channel has resumed, providing details about the hardware entity involved and the type of communication error that occurred. The provided cause mentions an abnormal CONFD process, which does not directly relate to the communication channel being restored.\nLabel: 0"
+ ],
+ [
+  179,
+  "Reason: The log message indicates that the communication channel has resumed, providing details about the hardware entity involved and the reason for the communication error. The provided cause does not address the communication channel resuming and instead refers to an explanation of a parameter reason, which is not directly related to the log message.\nLabel: 0"
+ ],
+ [
+  180,
+  "Reason: The log message indicates that a local certificate will expire in a certain number of days. The provided cause mentions that the local certificate in the memory was to expire, which directly relates to the expiration event described in the log.\nLabel: 100"
+ ],
+ [
+  181,
+  "Reason: The log message indicates that a local certificate will expire in a certain number of days. The provided cause mentions sending request commands in incorrect order, which is unrelated to the expiration of the certificate.\nLabel: 0"
+ ],
+ [
+  182,
+  "Reason: The log message indicates that a local certificate will expire in a certain number of days. The provided cause mentions the management user of the device going online or offline, which is unrelated to the expiration of the local certificate.\nLabel: 0"
+ ],
+ [
+  183,
+  "Reason: The log message indicates that a local certificate will expire in a certain number of days. The provided cause mentions a decrease in the number of external routes in the OSPF LSDB, which is unrelated to the certificate expiration event described in the log.\nLabel: 0"
+ ],
+ [
+  184,
+  "Reason: The log message indicates that a local certificate will expire in a certain number of days. The provided cause mentions a possible issue related to MAC address usage, which seems unrelated to the expiration of the certificate.\nLabel: 0"
+ ],
+ [
+  185,
+  "Reason: The log message indicates that an NHRP hub is down, providing details such as protocol address, nbma address, and interface index. The provided possible cause mentions changes in tunnel interface status, IPSec tunnel status, and APN status, which may be related to the NHRP hub being down.\nLabel: 80"
+ ],
+ [
+  186,
+  "Reason: The log message indicates that an NHRP hub is down, providing details such as protocol address, nbma address, and interface index. The possible cause mentions a Level-2 T2 timer timeout during IS-IS GR, which does not directly relate to the NHRP hub being down.\nLabel: 0"
+ ],
+ [
+  187,
+  "Reason: The log message indicates that an NHRP hub is down, providing details such as protocol address, nbma address, and interface index. The provided cause mentions a faulty PoE chip or IIC channel affecting CPU access to the PoE chip, which does not directly relate to the NHRP hub being down.\nLabel: 0"
+ ],
+ [
+  188,
+  "Reason: The log message indicates that an NHRP hub is down, providing details such as protocol address, nbma address, and interface index. The possible cause mentions all tunnels in the APS protection group being up, which does not directly relate to the NHRP hub being down.\nLabel: 0"
+ ],
+ [
+  189,
+  "Reason: The log message indicates that an NHRP hub is down, providing details such as protocol address, nbma address, and interface index. The provided cause mentions the maximum output power of the PoE power supply being insufficient, which does not directly relate to the NHRP hub being down.\nLabel: 0"
+ ],
+ [
+  190,
+  "Reason: The log message indicates that a command failed to be committed, with specific details about the command and the result. The provided cause mentions a user entering a command that failed to be committed, which directly relates to the error mentioned in the log message.\nLabel: 100"
+ ],
+ [
+  191,
+  "Reason: The log message indicates that a command failed to commit, with specific details about the failed command and result. The provided cause of \"Route change events were subscribed, and routes changed\" does not address or relate to the error mentioned in the log message. There is no mention of route changes or subscriptions in the log message, indicating a lack of relevance.\nLabel: 0"
+ ],
+ [
+  192,
+  "Reason: The log message indicates that there was a failure to commit a command, with specific details about the command and result. The provided cause mentions a conflict between the IP address assigned to the DHCP client and the IP address of another network device, which does not directly address or relate to the failure in committing the command.\nLabel: 0"
+ ],
+ [
+  193,
+  "Reason: The log message indicates that there was a failure in committing a command, with specific details about the command and result. The provided cause of \"A user did not need the DSA key and deleted it\" does not address or relate to the error mentioned in the log message. The cause introduces an unrelated action regarding deleting a DSA key, which is not mentioned in the log message. Therefore, the provided cause is not relevant to the log message.\nLabel: 0"
+ ],
+ [
+  194,
+  "Reason: The log message indicates that there was a failure in committing a command, with specific details about the failed command and result. The provided cause of \"The file system is recovered or formatted\" does not address or relate to the error mentioned in the log message, as it does not mention any connection to the command failure.\nLabel: 0"
+ ],
+ [
+  195,
+  "Reason: The log message indicates that the SIM PIN is disabled on a specific interface and SIMID, mentioning that this log is supported only on AR6700 series and AR8100 series. The possible cause states that the SIM PIN function is disabled successfully, which aligns with the action described in the log message.\nLabel: 100"
+ ],
+ [
+  196,
+  "Reason: The log message indicates that the SIM PIN is disabled on a specific interface and SIMID, mentioning that this log is supported only on AR6700 series and AR8100 series. The possible cause provided talks about the number of ACL groups in the current device dropping below a specified threshold, which does not directly relate to the SIM PIN being disabled on the mentioned device series.\nLabel: 0"
+ ],
+ [
+  197,
+  "Reason: The log message indicates that the SIM PIN is disabled on a specific interface and SIMID, with support limited to AR6700 series and AR8100 series. The provided cause mentions exceeding the maximum number of allowed users in the binding tables, which may or may not be related to the SIM PIN being disabled.\nLabel: 0"
+ ],
+ [
+  198,
+  "Reason: The log message indicates that the SIM PIN is disabled on a specific interface and SIMID, mentioning that it is supported only on AR6700 series and AR8100 series. The provided cause talks about OAM receiving less than five detection packets with TTSIs for three consecutive periods, which does not directly relate to the SIM PIN being disabled on the mentioned series.\nLabel: 0"
+ ],
+ [
+  199,
+  "Reason: The log message indicates that the SIM PIN is disabled on a specific interface and SIMID, mentioning that this log is supported only on AR6700 series and AR8100 series. The possible cause provided about a faulty board or device does not directly relate to the SIM PIN being disabled on the specified series of devices.\nLabel: 0"
+ ],
+ [
+  200,
+  "Reason: The log message indicates that the protocol rate is being recovered by dynamic cpcar, with details about the packet type and dynamic rate. The provided cause mentions that the CPU usage is lower than the threshold, which does not directly relate to the protocol rate recovery process mentioned in the log.\nLabel: 0"
+ ]
+]

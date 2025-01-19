@@ -1,0 +1,502 @@
+[
+ [
+  101,
+  "0",
+  "Reason: The log message indicates that an invalid message was received, while the natural language description mentions the software detecting an invalid packet. There is a discrepancy between the log content and the description, as the log message specifies a message and the description refers to a packet. This lack of coherence may lead to an incorrect prediction.\nLabel: False"
+ ],
+ [
+  102,
+  "1",
+  "Reason: Both the log message and the natural language description mention the netbooting of software for key revocation. The log specifies that the system was netbooted using software for key revocation, while the description recommends booting the system using software on a local device for the key revocation process. The information in both the log and the description is coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  103,
+  "0",
+  "Reason: The log message indicates a failure with error code 0x%x in the label distribution protocol LDP, specifically mentioning a requested action that is not implemented by the subsystem. The natural language description reiterates this by stating that an LDP peer has requested an action not currently implemented. Both the log message and description are coherent and provide consistent information about the error in the label distribution protocol.\nLabel: True"
+ ],
+ [
+  104,
+  "0",
+  "Reason: The natural language description mentions SXP receiving a binding forwarding request, which is not directly related to the log message about a CFR tunnel becoming unresolved and being removed from its belonging tunnel. The description does not accurately reflect the content of the logs, leading to a mismatch and resulting in a False label.\nLabel: False"
+ ],
+ [
+  105,
+  "0",
+  "Reason: The log message indicates a failure to commit a record in CLUE, specifically mentioning the removal of a device from the AN domain due to a potential issue with the domain certificate. The natural language description aligns with the log message by explaining the possible reasons for the commit failure, such as a NULL or invalid domain certificate. This coherence between the log content and the description suggests a relevant relationship.\nLabel: True"
+ ],
+ [
+  106,
+  "0",
+  "Reason: The log message indicates a failure in configuring a virtual WAN for SSL VPN, while the natural language description mentions an internal software error in the AAA server group subsystem. These two pieces of information are not directly related, indicating a lack of coherence between the log content and the description.\nLabel: False"
+ ],
+ [
+  107,
+  "0",
+  "Reason: The log message indicates that diagnostics are bypassed for a specific component, with a mention of an environment data refresh timer. The natural language description simply states that diagnostics are bypassed without providing any additional context or information related to the log message. This lack of correspondence or explanation between the log content and the description may indicate a false label.\nLabel: False"
+ ],
+ [
+  108,
+  "0",
+  "Reason: The log message indicates that a specific method has no registry, while the natural language description talks about clearing MPLS TE Link Management counters. These two pieces of information are unrelated and do not accurately reflect each other. \nLabel: False"
+ ],
+ [
+  109,
+  "1",
+  "Reason: The log message indicates that the Interface Controller is in a LICENSE ERR state for a specific interface, while the natural language description mentions the Interface Controller entering the LICENSE ERR state. Both pieces of information are related to the state of the Interface Controller and are coherent and consistent.\nLabel: True"
+ ],
+ [
+  110,
+  "0",
+  "Reason: The log message indicates a programming error related to parsing a license-related CLI, while the natural language description mentions an attempt to parse a license-related CLI that failed. Both the log content and the description are closely related to programming errors and CLI parsing failures, showing coherence between the two.\nLabel: True"
+ ],
+ [
+  111,
+  "0",
+  "Reason: The log message indicates that SNASW was stopped and existing connections have been closed, while the natural language description talks about a timeout while waiting on a specified event. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  112,
+  "0",
+  "Reason: The log message indicates that there is no free event structure available for a DSP message, potentially leading to memory corruption. The natural language description talks about an internal buffer being exceeded, which could result in corrupting other memory. Both the log message and the description mention potential memory corruption due to resource limitations. This coherence and consistency between the log content and the natural language description support the relevance of the logs.\nLabel: True"
+ ],
+ [
+  113,
+  "1",
+  "Reason: The log message specifically mentions \"Loss of Lock\" alarm event with placeholders for specific details, while the natural language description simply states \"Loss of Lock\". This is similar to Error-prone case 1 where the core information about the alarm event is consistent between the log and the description despite some differences in wording.\nLabel: True"
+ ],
+ [
+  114,
+  "0",
+  "Reason: The log message indicates that the CNS Event Agent is not available and an error is reported, while the natural language description mentions a failure in building a TDL message for address range configuration. These two pieces of information are not directly related, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  115,
+  "0",
+  "Reason: The log message indicates that the system is no longer receiving R-APS messages for an Ethernet ring instance, while the natural language description talks about an internal software error in the ATM core redundancy subsystem. These two pieces of information are unrelated and do not provide coherence or consistency between the log content and the description.\nLabel: False"
+ ],
+ [
+  116,
+  "0",
+  "Reason: The log message indicates that the system is waiting for completed auto-negotiation in a specific GE pair primary port, while the natural language description talks about the need for memory optimization in a software component within the router. These two pieces of information are not directly related, indicating a mismatch between the log content and the description.\nLabel: False"
+ ],
+ [
+  117,
+  "1",
+  "Reason: The log message indicates that CHOPIN is not ready for download, while the natural language description mentions an error on the communication path between DRIVER and CHOPIN. These two pieces of information are related to the readiness of CHOPIN for download, indicating a potential match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  118,
+  "0",
+  "Reason: The log message indicates a problem with building a voice interface due to the unavailability of a signaling data block, potentially caused by a memory issue in IOSD. The natural language description mentions the inability to get a message from the queue, which is unrelated to the log content. As there is no coherence between the log message and the natural language description, the label is determined to be False.\n\nLabel: False"
+ ],
+ [
+  119,
+  "1",
+  "Reason: The log message indicates a transceiver loss of light, specifically mentioning a cable cut or removal. The natural language description talks about the transceiver having a cable cut or removed, which aligns with the content of the log message. Both pieces of information are coherent and related to the issue of transceiver loss of light due to cable issues.\nLabel: True"
+ ],
+ [
+  120,
+  "0",
+  "Reason: The log message indicates a synchronization event related to the Flow scale limit being reached on a line card when a new flow tries to learn. The natural language description mentions a specific code being generated in this scenario. Both pieces of information are coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  121,
+  "1",
+  "Reason: The log message indicates an invalid operation related to IPv6 ACLs, while the natural language description mentions an unexpected condition due to the operation performed. These two pieces of information are related to the operation being invalid, but the description does not provide specific details about the operation or the reason for its invalidity, leading to potential ambiguity.\nLabel: False"
+ ],
+ [
+  122,
+  "0",
+  "Reason: The log message indicates that an ICMP Type 3 Code 4 is being ignored due to a specific condition related to the next hop MTU and spare pair short detect error. The natural language description talks about a power-related issue with spare pair supply. These two pieces of information are unrelated and do not correspond to each other, leading to a determination of False for the label.\nLabel: False"
+ ],
+ [
+  123,
+  "1",
+  "Reason: The log message indicates an authentication failure related to ISIS packets not passing the authentication check. The natural language description mentions ISIS packets (IIH, CSNP, PSNP, or LSP) failing authentication checks. Both the log message and the description are coherent in discussing authentication failure and ISIS packets, indicating a potential match between the log content and the natural language description.\n\nLabel: True"
+ ],
+ [
+  124,
+  "1",
+  "Reason: The log message indicates a failure to load a specific package, which is crucial for the configuration of certain features. The natural language description further explains that the packaged configuration for the specified package will be unavailable as a result of this failure. Both the log and the description are coherent in mentioning the impact of the failure on the availability of packaged configuration. This coherence suggests a relevant match between the log content and the description.\nLabel: True"
+ ],
+ [
+  125,
+  "0",
+  "Reason: The log message mentions a failure to compute the best path for a network due to the ACL having too many entries, while the natural language description talks about GDOI honoring only the first 100 ACL entries specified. There is coherence and consistency between the log content and the description, indicating a match.\nLabel: True"
+ ],
+ [
+  126,
+  "1",
+  "Reason: The log message indicates an unexpected error related to SSLVPN route inject/remove message processing, while the natural language description mentions an unexpected condition occurring during the processing of SSLVPN route inject/remove message. Both the log message and the description are coherent and consistent in discussing the unexpected condition in SSLVPN message processing.\nLabel: True"
+ ],
+ [
+  127,
+  "1",
+  "Reason: The log message indicates a specific error related to the unavailability of raw message structures for signaling messages. The natural language description further explains that this situation occurred when there were no rawmsg structures left in the system pools to handle voice or signaling events. Both the log message and the description are coherent in mentioning the depletion of resources for handling signaling messages, supporting the ground-truth label of True.\nLabel: True"
+ ],
+ [
+  128,
+  "0",
+  "Reason: The log message indicates a failure in initializing a proxy with an IPC registration return code, mentioning the occurrence of an error during the processing of a data descriptor due to a software error. The description provides additional details about the data descriptors used for encoding an interface index and the potential synchronization issue between Active and Standby units. There is a clear connection between the log content and the natural language description, indicating relevance.\nLabel: True"
+ ],
+ [
+  129,
+  "0",
+  "Reason: The log message indicates a failure in initializing the database, specifically mentioning the FASTHELLO STATUS being changed to UP with more detailed status. The natural language description does not accurately reflect the content of the log message, as it does not mention the database initialization failure or the change in FASTHELLO STATUS. This lack of correspondence between the log content and the natural language description is similar to the error-prone cases where there is a mismatch between the log content and the description.\nLabel: False"
+ ],
+ [
+  130,
+  "1",
+  "Reason: The log message indicates that a configured codec is not supported with the DSP image, leading to codec negotiation failure. The natural language description further explains the consequence of this configuration mismatch. This is similar to error-prone cases where the description accurately reflects the content of the logs by providing additional context or consequences of the error.\nLabel: True"
+ ],
+ [
+  131,
+  "0",
+  "Reason: The log message \"BSTUN-3-BADPASSIVEOPEN:passive open from %i%d -> %d failed\" indicates a passive open failure with specific placeholders for variables. The natural language description \"The command 'hw-module slot <shelf>/<slot> reload' was entered. This is a confirmation that the command is being processed.\" does not correspond to the log message content, as it talks about entering a specific command for reloading hardware modules. There is a lack of coherence between the log content and the description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  132,
+  "0",
+  "Reason: The log message indicates a failure in adding to a registry with an unexpected value returned from the underlying DTLS library. The natural language description does not provide any relevant information about the registry addition failure or the DTLS library issue.\nLabel: False"
+ ],
+ [
+  133,
+  "0",
+  "Reason: The log message indicates an internal critical failure, while the natural language description mentions a failure related to incorrect functional parameters. These two pieces of information are not directly related, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  134,
+  "0",
+  "Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a high interrupt related to Raptor SEM, while the description talks about sending a startup config file to the Standby CPU, which is unrelated to the log content.\nLabel: False"
+ ],
+ [
+  135,
+  "1",
+  "Reason: The log message \"ICE-6-MSG_INF:%s\" indicates an informational message with a placeholder, while the natural language description simply states \"Program information.\" There is a lack of specific correspondence between the log content and the description, potentially leading to a False label.\nLabel: False"
+ ],
+ [
+  136,
+  "0",
+  "Reason: The log message indicates an IPC send response error in the context of Ethernet service, specifically mentioning a connection drop and lack of previous connection. The natural language description provides additional information related to the log message, explaining that the error triggers when a connection drops and there is no previous connection. This coherence and consistency between the log content and the description suggest relevance.\nLabel: True"
+ ],
+ [
+  137,
+  "0",
+  "Reason: The log message indicates a failure in the Auth Manager SPI server with a specific SPI error code, while the natural language description mentions the possibility of an intermittent or permanent hardware failure. These two pieces of information are related but do not provide a clear connection between the SPI error and the hardware failure mentioned in the description.\nLabel: False"
+ ],
+ [
+  138,
+  "0",
+  "Reason: The log message indicates a failure in downloading a peer policy due to a CRC checking process failure, which suggests a corrupt FPD image bundle or package file. The natural language description accurately reflects the content of the logs by mentioning the failure in downloading the peer policy and indicating a corrupt FPD image bundle or package file as the cause.\nLabel: True"
+ ],
+ [
+  139,
+  "0",
+  "Reason: The log message mentions an unexpected situation in the transmit ISR of a serial interface, while the natural language description talks about the OIR facility detecting the insertion of a PEM from a specific slot. These two pieces of information are not directly related or coherent, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  140,
+  "0",
+  "Reason: The log message indicates a peer failure with specific placeholders, while the natural language description simply states that an Ethernet interface is malfunctioning without providing any additional context or details related to the peer failure mentioned in the log.\nLabel: False"
+ ],
+ [
+  141,
+  "1",
+  "Reason: The log message indicates an error related to IDBINDEX_SYNC during an ISSU process, while the natural language description mentions an error occurring in the interface index sync ISSU client. Both the log message and the description refer to errors in the context of ISSU, indicating a potential match between the content of the logs and the natural language description.\n\nLabel: True"
+ ],
+ [
+  142,
+  "0",
+  "Reason: The log message mentions converting a route pair to connect, while the natural language description talks about tracing a CPP access. These two pieces of information do not align in terms of the event described, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  143,
+  "1",
+  "Reason: The log message indicates that setting the config-register to 0x0 will prevent feature boards from booting when the router shelf is rebooted, and that the Dial-shelf Controller cannot be booted manually. The natural language description further explains the consequences of setting the config-register to 0x0 and the inability to manually boot the Dial-shelf Controller. Both pieces of information are related to booting issues and configuration settings, indicating a match between the log content and the natural language description.\n\nLabel: True"
+ ],
+ [
+  144,
+  "0",
+  "Reason: The log message indicates that a user was unlocked by a specific entity, while also mentioning the addition of a command into the CLI with a node of unknown type. The natural language description talks about IOS receiving a message to add a command into the CLI, which aligns with the log message. However, there is no mention of the user being unlocked in the description, indicating a lack of correspondence between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  145,
+  "0",
+  "Reason: The log message indicates an error expiring a semi-static RP-mapping entry, specifically mentioning a processor error condition while downloading microcode. The natural language description provides additional details about the error condition, including the status cmd/data, the last byte of microcode loaded, and the position in the file. The description adds context and clarifies the error condition mentioned in the log message, showing coherence and relevance.\nLabel: True"
+ ],
+ [
+  146,
+  "0",
+  "Reason: The log message indicates a failure to retrieve %s, while the natural language description mentions a license contract violation. There is a lack of coherence between the log content and the description, as the description does not provide any context or explanation related to the log message. This discrepancy may lead to a false determination of relevance.\nLabel: False"
+ ],
+ [
+  147,
+  "0",
+  "Reason: The log message indicates a failure in the initialization of the BFD Offload feature in QFP, resulting in one or more pending unexpected interrupts. The natural language description should accurately reflect this specific issue mentioned in the logs.\nLabel: True"
+ ],
+ [
+  148,
+  "1",
+  "Reason: The log message indicates an invalid framed IP address received from AAA, resulting in the user configuration not being sent. The natural language description mentions a warning about an invalid framed IP address received from AAA and highlights the issue with the AAA server configuration. Both the log message and the description focus on the same issue of incorrect IP address handling and AAA server configuration problems.\nLabel: True"
+ ],
+ [
+  149,
+  "1",
+  "Reason: The log message indicates an error in reading from a whitelist file for ANRA dev id and domain id, resulting in continuing without any whitelist devices. The natural language description also mentions encountering a file error when reading from the whitelist file and advises checking the file name and its contents. Both the log message and the description are related to file errors in the context of whitelist files.\nLabel: True"
+ ],
+ [
+  150,
+  "1",
+  "Reason: The log message indicates an unsupported address type for a global address in a portlist allocation request. The description mentions a limit related to FMANRP NAT. There is a lack of coherence between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  151,
+  "0",
+  "Reason: The log message indicates an ISIS MFI API error related to clearing encapsulation data for an EFP, while the natural language description talks about an error occurring during this process. The key features include mentioning ISIS MFI API error and encapsulation data for an EFP. \nLabel: True"
+ ],
+ [
+  152,
+  "1",
+  "Reason: The log message mentions failing over from a specific authentication method for a client on an interface, while the natural language description summarizes the event as failing over from the current authentication method. Both the log and description refer to the same action of failing over authentication methods, indicating coherence and consistency.\nLabel: True"
+ ],
+ [
+  153,
+  "1",
+  "Reason: The log message \"DIAG-6-DIAG_OK:%s: Passed %s\" indicates that a diagnostic test has passed without detecting any errors on the card. The natural language description \"The diagnostic tests did not detect any error on the card\" accurately reflects the content of the log message by stating that no errors were found during the diagnostic tests.\nLabel: True"
+ ],
+ [
+  154,
+  "1",
+  "Reason: The natural language description accurately reflects the content of the log message by mentioning the failure in binding a template at a specific index. Both the log message and the description are coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  155,
+  "1",
+  "Reason: The log message indicates that a fan tray has been inserted into a specific slot, while the natural language description mentions the detection of the insertion of a PEM from another slot. Both messages refer to hardware components being inserted or detected in different slots, which may or may not be related events depending on the system architecture.\nLabel: False"
+ ],
+ [
+  156,
+  "0",
+  "Reason: The log message indicates a failure in removing a specific VC on an ATM interface due to a certain cause, while the natural language description mentions a socket receive error from the DFP Manager. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  157,
+  "1",
+  "Reason: The log message indicates a successful auto configuration download for a device with a specific UDI, and the config file was successfully downloaded to the running config. The natural language description also mentions the success of the auto config download process. Both the log message and the description are coherent in indicating a successful configuration download process.\nLabel: True"
+ ],
+ [
+  158,
+  "0",
+  "Reason: The log message indicates a lost connection to a host due to a rejection of GM registration on a secondaryKS. The natural language description mentions the specific reason for the rejection, which is the secondaryKS not receiving the KGS seed and rekey-epoch from the primaryKS yet. There is coherence and consistency between the log content and the description.\nLabel: True"
+ ],
+ [
+  159,
+  "1",
+  "Reason: The log message mentions a late collision error related to a specific unit, indicating a potential hardware issue with an Ethernet transceiver. The natural language description provides possible causes for late collision errors, such as a malfunctioning transceiver, Ethernet overload, or a long Ethernet cable. These two pieces of information are coherent and consistent, suggesting a match between the log content and the description.\nLabel: True"
+ ],
+ [
+  160,
+  "0",
+  "Reason: The log message indicates a low memory alert for a specific CPP with a percentage depleted, while the description talks about a trap variable not being added to the queue. These two pieces of information are unrelated and do not correspond, leading to a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  161,
+  "1",
+  "Reason: The log message discusses the average throughput rate exceeding a certain percentage of licensed bandwidth during a specific time period, along with details about sampling periods and resource recovery. The natural language description mentions a QFP resource recovering from a critical level, which is not directly related to the content of the log message. There is a lack of coherence and consistency between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  162,
+  "1",
+  "Reason: The log message indicates that a method with a specific registry is missing, while the natural language description mentions an internal error. This lack of specificity in the description may not accurately reflect the content of the logs, similar to error-prone case 4 where the description did not accurately match the log content.\nLabel: False"
+ ],
+ [
+  163,
+  "0",
+  "Reason: The log message indicates a specific error related to unable to allocate memory for RAS request table entries, while the natural language description talks about encountering a server type that is unknown or cannot be handled, possibly due to server misconfiguration. There is a lack of coherence and consistency between the log content and the description.\nLabel: False"
+ ],
+ [
+  164,
+  "1",
+  "Reason: The log message indicates that a device with a specific udi is allowed by ANRA in its domain, which aligns with the concept of device authorization in a network. The natural language description further explains that the autonomic network registration authority has authorized the device to enter its network, providing additional context to the log message.\nLabel: True"
+ ],
+ [
+  165,
+  "0",
+  "Reason: The log message indicates a configuration request for an invalid SCC via a specific interface, while the description talks about the 'virtual' port adaptor type derived from the mainboard type not being supported. These two pieces of information are not directly related, indicating a discrepancy between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  166,
+  "1",
+  "Reason: The log message indicates an error related to the Tx Indication FIFO being full, specifically mentioning the source as TX FPGA. The natural language description also mentions the Tx Indication FIFO being full, providing additional context about the source of the error. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  167,
+  "0",
+  "Reason: The log message \"BITS_CLK-3-GEN_FRM_STATE_UP:BITS Controller is Up.\" indicates that the BITS Controller is up and running, while the natural language description talks about a high-voltage condition detected by the environmental monitor, which is not mentioned in the log message. There is a lack of correspondence between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  168,
+  "0",
+  "Reason: The log message indicates a successful completion of configuration, while the natural language description talks about a high-temperature condition detected by the environmental monitor. These two events are unrelated and do not align in terms of the events described.\nLabel: False"
+ ],
+ [
+  169,
+  "1",
+  "Reason: The log message indicates a failure in WebVPN Context configuration due to an unexpected condition, while the natural language description explains that an unexpected condition has occurred during WebVPN Context configuration causing failure. Both the log message and the description are coherent and consistent in describing the issue with WebVPN Context configuration.\nLabel: True"
+ ],
+ [
+  170,
+  "1",
+  "Reason: The log message indicates that an accounting record was dropped due to a failed send to a server, while the description elaborates on the possible causes such as server operational issues or NAS misconfiguration. Both the log and description mention the failure to send an accounting record to a server.\nLabel: True"
+ ],
+ [
+  171,
+  "0",
+  "Reason: The log message \"Error starting up HA switchover Policy refresh process.\" indicates a failure in starting the HA switchover policy refresh process, while the natural language description talks about an issue with the userid used to connect to a remote database server. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  172,
+  "0",
+  "Reason: The log message indicates a failure in transforming the FEC ISSU client, specifically mentioning an error. The natural language description provides possible scenarios for when this alarm appears, indicating different conditions based on whether it is for a standby processor with a different software image or for the active processor. These two pieces of information are coherent and related, showing a match between the log content and the description.\nLabel: True"
+ ],
+ [
+  173,
+  "0",
+  "Reason: The log message specifically mentions a failure to find the content of a field type in the EEPROM with a certain data size, indicating a potential need for an update. The natural language description, on the other hand, simply states that an internal error has occurred without providing any context related to the EEPROM issue mentioned in the logs. This lack of correspondence between the log content and the description indicates a mismatch.\nLabel: False"
+ ],
+ [
+  174,
+  "0",
+  "Reason: The log message indicates an error related to MAC accounting in the FIB, specifically mentioning an error in the ACL regarding the number of ports. The natural language description mentions an error in the ACL related to the number of ports, which aligns with the information provided in the log message. Both the log content and the description are coherent and consistent, indicating a match between the two.\nLabel: True"
+ ],
+ [
+  175,
+  "0",
+  "Reason: The log message mentions a failed CTR command on an interface, while the natural language description talks about an unrecoverable software error occurring during the merging of configured port acl features. There is a lack of correspondence between the log content and the description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  176,
+  "0",
+  "Reason: The log message indicates a FIB dependency dump error, while the natural language description mentions SXP receiving conflicting sgt values from different SXP peers for the same IP prefix. These two pieces of information are not directly related, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  177,
+  "1",
+  "Reason: The log message indicates a probe configuration error in a specific module, while the natural language description simply mentions that health probe configuration failed. There is a lack of coherence between the log content and the description.\nLabel: False"
+ ],
+ [
+  178,
+  "0",
+  "Reason: The log message indicates a session request response mismatch for a specific transaction ID and session, mentioning an internal error during communication with the Session Manager. The natural language description talks about the potential consequences of this internal error, such as affecting the display of device classification results in the show command. There is coherence between the log content and the description, as both refer to the internal error and its impact on communication with the Session Manager.\nLabel: True"
+ ],
+ [
+  179,
+  "0",
+  "Reason: The log message indicates a failure to connect a voice-port to a dsp_channel, while the natural language description talks about the requirement for connectivity with modems supporting V.92 modem standards to handle Modem-on-Hold attribute. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  180,
+  "1",
+  "Reason: The log message indicates that key functions are missing from the database handle or that the key function is a NULL Pointer. The natural language description reiterates this by stating that the message indicates the absence of key functions in the database handle or a NULL Pointer key function. Both the log message and the description are coherent in conveying the same information about the missing key functions in the database handle.\nLabel: True"
+ ],
+ [
+  181,
+  "0",
+  "Reason: The log message indicates that a route to a specific destination has gone bad, mentioning a common MFIB internal error. The natural language description does not accurately reflect the content of the logs, as it simply states a common MFIB internal error without mentioning the specific issue with the route. This lack of correspondence between the log content and the description indicates a mismatch.\nLabel: False"
+ ],
+ [
+  182,
+  "0",
+  "Reason: The log message mentions a mismatch in duplex and speed configuration, while also indicating unexpected packet types encountered during ACL logging. The natural language description does not provide any relevant information related to these specific issues mentioned in the log message, indicating a lack of correspondence between the two.\nLabel: False"
+ ],
+ [
+  183,
+  "1",
+  "Reason: The log message specifies an Unknown IP Protocol event triggered by specific conditions related to the protocol field in an IP datagram. The description mentions the detection of unusual protocol types that should be investigated, aligning with the concept of an Unknown IP Protocol event. Both the log message and the description are related to network protocol anomalies and match in terms of the detected event scenario, indicating a match between the log content and the natural language description.\n\nLabel: True"
+ ],
+ [
+  184,
+  "0",
+  "Reason: The log message indicates that a client on a specific interface received a Dying Gasp indication from its remote peer, specifying the failure reason and action taken. The natural language description mentions an error occurring during an NVGEN command, which does not directly relate to the content of the log message about the Dying Gasp indication.\nLabel: False"
+ ],
+ [
+  185,
+  "0",
+  "Reason: The log message mentions a CLSI unexpected ActivateSapCnf header, while the natural language description talks about a general error indicating an incorrect action. There is a lack of correspondence between the log content and the description, leading to a potential mismatch.\nLabel: False"
+ ],
+ [
+  186,
+  "1",
+  "Reason: The log message indicates a failure in initializing the Bridge-domain MAC Security back-end subsystem, while the natural language description mentions an internal software error. Both the log message and the description are related to a failure in the initialization process, but the specific details differ between the two. \nLabel: False"
+ ],
+ [
+  187,
+  "1",
+  "Reason: The log message indicates an internal error related to a method list, while the natural language description mentions an internal software error. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  188,
+  "0",
+  "Reason: The log message indicates an error related to FTPSE with a message error, while the natural language description mentions an internal error in DMB. These two pieces of information do not directly correspond, indicating a mismatch between the log content and the description.\nLabel: False"
+ ],
+ [
+  189,
+  "0",
+  "Reason: The log message indicates a failure in binding expansion due to exceeding the maximum allowed value, while the natural language description talks about inconsistency in propagated binding in the network and a failure in initializing the APF HA subsystem. These two pieces of information are unrelated, leading to a mismatch between the log content and the description.\nLabel: False"
+ ],
+ [
+  190,
+  "1",
+  "Reason: The log message indicates a failure in DBLIB initialization for a specific component, while the natural language description mentions the failure in the initialization of the database library. Both pieces of information refer to initialization failures, but they focus on different aspects of the system.\nLabel: True"
+ ],
+ [
+  191,
+  "0",
+  "Reason: The log message indicates a failure in session creation due to Full Virtual-Access Interfaces not being supported, while the natural language description provides guidance on checking Virtual-Template and RADIUS features. There is a lack of coherence between the log content and the description, as the description does not directly address the issue mentioned in the log message. This discrepancy indicates a mismatch between the two pieces of information.\nLabel: False"
+ ],
+ [
+  192,
+  "0",
+  "Reason: The log message specifies an internal error occurring in a particular slot related to a temporary unavailability of a resource. The natural language description does not provide any additional context or information related to the log message, similar to error-prone case 1 where the description simply repeats part of the log message without adding any meaningful interpretation. \nLabel: False"
+ ],
+ [
+  193,
+  "1",
+  "Reason: The log message indicates an interface error related to serial_reset, specifying an error code and interface. The natural language description simply states that a software error occurred without providing any specific details or context related to the serial_reset operation. This lack of coherence between the log content and the description may indicate a mismatch.\nLabel: False"
+ ],
+ [
+  194,
+  "0",
+  "Reason: The log message indicates an error related to writing to the Raptor ESI CONTROL REG, while the natural language description talks about a system memory RAM issue affecting TCP connections. There is a mismatch between the log content and the description, as they are not directly related.\nLabel: False"
+ ],
+ [
+  195,
+  "1",
+  "Reason: The log message indicates a CCB record failure related to a High Availability System status or condition, which is similar to the error-prone case 1 where the log and description both mention a CCB playback failure in the context of a High Availability System. The natural language description further clarifies the critical nature of the error message. This coherence and consistency suggest a match between the log content and the description.\nLabel: True"
+ ],
+ [
+  196,
+  "1",
+  "Reason: The log message indicates an error related to reading from the Raptor ESI PIC STATUS REG, while the natural language description mentions the inability to communicate with the Raptor Device driver. This coherence and consistency between the log content and the description suggest a match.\nLabel: True"
+ ],
+ [
+  197,
+  "0",
+  "Reason: The log message indicates a bad SSP header in processing SSP, with specific details provided (%s = 0x%x). The natural language description mentions an unexpected condition due to an operation performed. There is a discrepancy between the log content and the description, as the log focuses on a specific error related to SSP header, while the description is more general and does not directly relate to the log message.\nLabel: False"
+ ],
+ [
+  198,
+  "0",
+  "Reason: The log message indicates an access to a CPP address with specific details like block/offest and bytes, along with a message definition explanation. The natural language description mentions an unexpected condition due to the absence of a sampler-map structure, which does not directly relate to the details provided in the log message. There is a lack of coherence between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  199,
+  "1",
+  "Reason: The log message indicates the start of a CPP process with placeholders for specific values, while the natural language description simply states that a CPP is being started. This coherence between the log content and the description suggests a match.\nLabel: True"
+ ],
+ [
+  200,
+  "0",
+  "Reason: The log message indicates a command rejection due to the interface already being part of a channel with a different protocol enabled, while the natural language description mentions an error condition signaled by the GigabitEthernet controller. There is a lack of coherence between the log content and the description.\nLabel: False"
+ ]
+]

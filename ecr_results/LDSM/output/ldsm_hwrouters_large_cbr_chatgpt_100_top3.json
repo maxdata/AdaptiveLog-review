@@ -1,0 +1,507 @@
+[
+ [
+  0,
+  "1",
+  "Reason: The log message indicates that an IP address renewal operation was successful, providing details such as PoolName, ClientId, IpAddress, LeaseTime, and UserType. The natural language description also mentions the successful renewal of an IP address by a client. Both the log and the description are coherent in terms of the event being described.\nLabel: True"
+ ],
+ [
+  1,
+  "1",
+  "Reason: The log message indicates a routing item change in the RM module with specific details about detectorId, network, mask, type, protocol, nexthop, interface, preference, and cost. The natural language description mentions that routes changed in the RM module and this object is used for OPS to collect log information rather than recording logs, which does not directly relate to the routing item change mentioned in the logs.\nLabel: False"
+ ],
+ [
+  2,
+  "0",
+  "Reason: The first log message discusses the failure of the tunnel function due to the tunnel not supporting the existing outbound interface, while the second natural language description talks about an issue with the OSPF process entering helper mode. These two pieces of information are unrelated and do not align in terms of content.\nLabel: False"
+ ],
+ [
+  3,
+  "1",
+  "Reason: The log message \"In the VPN instance, the received MLD Query packet is ignored because the MLD version of the packet is different from that configured on the interface\" provides specific details about the event, including InstanceName, IfName, IfAddr, SrcAddr, RcvVersion, and IfVersion. The natural language description also mentions that the version of MLD configured on the interface was different from that of the received MLD Query packet, which aligns with the information in the log message.\n\nLabel: True"
+ ],
+ [
+  4,
+  "1",
+  "Reason: The log message mentions that there are files on the storage that are corrupted, while the natural language description talks about files on the storage device being damaged. Both descriptions refer to file corruption or damage on the storage device, indicating coherence between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  5,
+  "1",
+  "Reason: The log message mentions the current license value being default for the GTL OID, along with the reason and mainboard name. The natural language description explains that the system used the default configuration of the GTL license when a license file became invalid. Both pieces of information are related to the default value of the GTL license and the handling of invalid license files.\nLabel: True"
+ ],
+ [
+  6,
+  "1",
+  "Reason: The log message indicates a failure in starting the autoload task for a specific slot with the filetype specified. The natural language description summarizes this by mentioning that an LPU fails to start automatic loading. Both the log message and the description are related to the failure of starting an automatic loading task, indicating coherence between the two.\nLabel: True"
+ ],
+ [
+  7,
+  "1",
+  "Reason: The log message \"Failed to allocate memory when creating new address mapping\" and the natural language description \"Memory allocation failed when a new address mapping table was generated\" both refer to a memory allocation failure during the creation of a new address mapping. The key terms such as \"memory allocation\", \"creating new address mapping\", and \"failed\" are consistent between the log and the description, indicating a match in content.\nLabel: True"
+ ],
+ [
+  8,
+  "1",
+  "Reason: The log message indicates a successful import of a whitelist file, specifying the file name that was imported. The natural language description succinctly summarizes this by stating that the certificate whitelist was imported successfully. Both the log message and the description align in terms of the successful import operation and the specific outcome. Therefore, the label is determined to be True.\nLabel: True"
+ ],
+ [
+  9,
+  "1",
+  "Reason: The log message indicates that the resource of the table on the chip is not enough, specifying the type of the resource. The natural language description talks about inadequate resources when applying for a next-hop entry. These two pieces of information are related to resource limitations but focus on different aspects of resource allocation.\nLabel: False"
+ ],
+ [
+  10,
+  "1",
+  "Reason: The log message indicates that the optical module is invalid, while the natural language description mentions that the optical module was faulty. Both the log and description refer to the same issue with the optical module.\nLabel: True"
+ ],
+ [
+  11,
+  "1",
+  "Reason: The log message indicates that there was a failure in invoking the RM IM with specific details such as FID, LN, and ReturnValue. The natural language description simply states that there was a failure in invoking the RM IM without providing any additional context or details. This lack of coherence between the log content and the description may indicate a mismatch.\nLabel: False"
+ ],
+ [
+  12,
+  "0",
+  "Reason: The natural language description \"Failed to delete a local certificate file.\" does not correspond to the content of the log message \"Allocate index [IDXName] to Component [CompName] unsuccessful.\" There is no mention of deleting a certificate file in the log message, indicating a lack of coherence between the two pieces of information.\nLabel: False"
+ ],
+ [
+  13,
+  "1",
+  "Reason: The log message mentions the verification and aging of data records between components, while the natural language description simply states that data ages after reconciliation. There is a lack of coherence between the log content and the description, as the description does not provide specific details about the verification process or the components involved.\nLabel: False"
+ ],
+ [
+  14,
+  "0",
+  "Reason: The log message indicates that the number of neighbors on a specific interface has reached the maximum value, while the natural language description talks about the alarm for MAC address authentication users being cleared. These two pieces of information are not directly related, indicating a mismatch between the log content and the description.\nLabel: False"
+ ],
+ [
+  15,
+  "0",
+  "Reason: The log message indicates a URPF slot chip error with a specific slot ID, while the natural language description talks about OSPF interface failure to join a multicast group. These two pieces of information are not related or coherent, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  16,
+  "1",
+  "Reason: The log message indicates a successful upgrade with specific details such as Device, system software, and patch. The natural language description simply states that the upgrade was successful without providing any specific details. This lack of alignment between the log content and the description may indicate a mismatch.\nLabel: False"
+ ],
+ [
+  17,
+  "0",
+  "Reason: The log message indicates that MAC address learning has reached the limit, while the natural language description talks about the number of Layer 2 multicast QinQ stacking/mapping users reaching the threshold on a board. These two pieces of information seem unrelated and do not provide a coherent explanation or context. \nLabel: False"
+ ],
+ [
+  18,
+  "1",
+  "Reason: The log message indicates that an error-down fault has been recovered, providing details such as Ifindex, Ifname, Cause, and RecoverType. The natural language description simply states that the error-down fault has been recovered without specifying any additional details. Both the log and the description are coherent in mentioning the recovery of an error-down fault.\nLabel: True"
+ ],
+ [
+  19,
+  "0",
+  "Reason: The natural language description \"An old performance file was deleted because of the disk space insufficiency.\" does not correspond to the content of the log message \"The ACL rule in the policy is not completely delivered.\" There is no mention of deleting files due to disk space insufficiency in the log message, indicating a lack of coherence between the two pieces of information.\nLabel: False"
+ ],
+ [
+  20,
+  "0",
+  "Reason: The log message indicates the successful release of an IPv6 address with specific details such as PoolName, ClientId, Ipv6Address, UserType, and UserMac, while the natural language description talks about the MAC address being unbound from the IP address, which is related to the release of the IPv6 address mentioned in the logs. Both the log content and the description are coherent and consistent.\nLabel: True"
+ ],
+ [
+  21,
+  "0",
+  "Reason: The first log message provides detailed information about an ISIS neighbor being down due to the silent setting on an interface, including the last time a Hello packet was received, the maximum interval for sending Hello packets, the number of Hello packets sent and received, and the type of Hello packet. The second log message, on the other hand, mentions the number of B1 error codes exceeding the alarm threshold in the SDH segment overhead. These two pieces of information are unrelated and do not correspond to each other.\n\nLabel: False"
+ ],
+ [
+  22,
+  "0",
+  "Reason: The log message indicates a memory allocation error, while the natural language description talks about failing to close a PDF file. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  23,
+  "1",
+  "Reason: The log message indicates that a CA certificate will be valid in a certain number of days, while the description mentions that a CA certificate file did not take effect yet. Both the log and the description refer to the status of a CA certificate, indicating a potential match between the two.\nLabel: True"
+ ],
+ [
+  24,
+  "1",
+  "Reason: The log message indicates that the chassis was removed, triggering an alarm. The natural language description also mentions the removal of the chassis, aligning with the content of the log. Both the log and the description refer to the same event of chassis removal and alarm generation.\nLabel: True"
+ ],
+ [
+  25,
+  "1",
+  "Reason: The log message indicates that the number of session resources exceeds the threshold, while the natural language description mentions the number of current sessions reaching or exceeding 90% of the maximum number. There is a discrepancy in the level of detail provided in the log message and the description.\nLabel: False"
+ ],
+ [
+  26,
+  "1",
+  "Reason: The log message indicates that an invalid message was received from the peer with specific details such as PacketType, Peer, SourceInterface, VpnInstance, and Reason. The natural language description simply states that a device received an error message from its peer. These two pieces of information are coherent and consistent, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  27,
+  "1",
+  "Reason: The log message mentions an OSPF interface entering the waiting state and provides the process ID, interface name, and the count of interfaces in the waiting state. The natural language description simply states that the interface entered the Waiting state and records the number of interfaces in that state. Both the log and description are coherent and consistent in discussing the interface state transition.\nLabel: True"
+ ],
+ [
+  28,
+  "0",
+  "Reason: The natural language description \"Failed to delete certificate whitelist files.\" does not provide any relevant information or context related to the log message \"It could not delete the all node from the Radix tree.\" There is a lack of coherence or consistency between the log content and the natural language description, indicating a mismatch and justifying the False label.\nLabel: False"
+ ],
+ [
+  29,
+  "1",
+  "Reason: The log message indicates that a packet matched an exception IPS signature, providing detailed information such as SyslogId, VSys, Policy, SrcIp, DstIp, SrcPort, DstPort, SrcZone, DstZone, User, Protocol, Application, Profile, SignName, SignId, EventNum, Target, Severity, Os, Category, Reference, and Action. The natural language description further explains that an exception signature is matched during IPS detection, emphasizing the significance of this event in the context of intrusion prevention. Both the log message and the description are coherent and consistent in conveying the detection of an exception IPS signature.\n\nLabel: True"
+ ],
+ [
+  30,
+  "1",
+  "Reason: The log message indicates that an NMSPingTrap was sent successfully, while the natural language description mentions that a test trap was sent successfully. Both messages refer to successful trap transmissions, indicating a potential match between the log content and the description.\nLabel: True"
+ ],
+ [
+  31,
+  "1",
+  "Reason: The log message provides details about a new event occurrence including the start time, duration, instance type, instance ID, instance name, measure ID, and measure name. The natural language description simply mentions \"CSES event information.\" Despite the lack of specific details in the description, the core event of a new event happening is consistent between the log and the description.\nLabel: True"
+ ],
+ [
+  32,
+  "0",
+  "Reason: The log message indicates a user-defined error in the OPS system, specifying the content of the error and the user and session involved. The natural language description mentions the successful saving of a script variable to the context during the execution phase. These two pieces of information are related as they both involve operations within the OPS system, albeit in different contexts.\nLabel: True"
+ ],
+ [
+  33,
+  "1",
+  "Reason: The log message indicates that the voltage monitor for a specific slot has resumed, while the natural language description mentions the recovery of the voltage sensor on the MonitorBus from a fault. Both pieces of information seem to be related to voltage monitoring and recovery from faults.\nLabel: True"
+ ],
+ [
+  34,
+  "1",
+  "Reason: The log message mentions a warning about the virtual router tracking EFM on an absent interface, leading to the automatic deletion of the bound configuration. The natural language description explains that this warning occurs when configuring VRRP track EFM session or link BFD, and VRRP is configured to an absent EFM session. Both the log and description discuss the consequences of this configuration mismatch.\nLabel: True"
+ ],
+ [
+  35,
+  "0",
+  "Reason: The log message indicates the ISSU working status of EFM, while the natural language description talks about LDP system-level GR processing starting after LDP GR was enabled. These two pieces of information seem unrelated and do not correspond.\nLabel: False"
+ ],
+ [
+  36,
+  "0",
+  "Reason: The log message indicates a PIN verification process with specific details about the interface name, username, and IP address, while the description talks about the board being reset, which is unrelated to the PIN verification process mentioned in the logs. As there is no coherence between the log content and the natural language description, the label is determined to be False.\n\nLabel: False"
+ ],
+ [
+  37,
+  "0",
+  "Reason: The log message mentions OSPF quitting stub router state by undoing stub, while the natural language description talks about MQC initialization being successful. There is no coherence or consistency between the log content and the natural language description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  38,
+  "0",
+  "Reason: The log message indicates a smooth event happening between OSPF components with specific parameters, while the natural language description talks about a large number of LSPs being deleted from a board causing it to restart. There is no direct correlation between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  39,
+  "0",
+  "Reason: The natural language description does not correspond to the information provided in the logs. The log message indicates a preparation failure in the ISSU switch phase, while the description talks about the failure to upload a statistics file and subsequent actions taken by the device. These two pieces of information are unrelated and do not align in terms of context.\nLabel: False"
+ ],
+ [
+  40,
+  "1",
+  "Reason: The log message indicates a failure to operate a patch, providing details such as the patch error index, slot index, package index, error code, and package name. The natural language description simply states that patches failed to operate. Both the log and the description mention the failure to operate patches, although the log provides more specific details. Despite this difference in detail, the core event of patch operation failure is consistent between the log and the description.\nLabel: True"
+ ],
+ [
+  41,
+  "0",
+  "Reason: The log message indicates a notification about the maximum number of stations reached in an AP, while the description talks about the firewall forwarding flow table exceeding a threshold and the system suppressing logs to prevent multiple log generation. There is a clear mismatch between the log content and the natural language description, leading to the determination of a False label.\nLabel: False"
+ ],
+ [
+  42,
+  "1",
+  "Reason: The log message indicates that the OSPFv3 graceful restart feature is not enabled, while the natural language description simply states that the GR function was not enabled. Both messages refer to the same concept of graceful restart, but the log provides more specific information about it not being enabled in the OSPFv3 process.\nLabel: True"
+ ],
+ [
+  43,
+  "1",
+  "Reason: The log message mentions notifying CSPF of a TE-Class change event, while the natural language description talks about CSPF being notified when TE-Class changed. Both the log and the description are related to CSPF and TE-Class changes, indicating a match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  44,
+  "0",
+  "Reason: The log message indicates a system reboot event, while the natural language description mentions a user logging out of the device. These two events are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  45,
+  "1",
+  "Reason: The log message indicates that a user left during a file transfer session, providing details such as UserName, IpAddress, VpnInstanceName, and Reason. The natural language description mentions that the user failed to transfer files through FTP, which aligns with the event of the user leaving during a file transfer session. Both the log message and the description refer to the same user action related to FTP file transfer.\nLabel: True"
+ ],
+ [
+  46,
+  "1",
+  "Reason: The log message indicates that a BDI alarm was received by the tunnel, while the natural language description mentions a BDI alarm generated about an MPLS tunnel. Both the log and the description are related to BDI alarms in the context of MPLS tunnels, showing coherence in the information provided.\n\nLabel: True"
+ ],
+ [
+  47,
+  "0",
+  "Reason: The log message indicates the teardown of an IPSec tunnel with specific details about policy name, IfIndex, SeqNum, RuleNum, SrcIP, DstIP, CpuID, OfflineReason, and State, while the natural language description talks about the non-existence of an LSP, which is unrelated to the IPSec tunnel teardown mentioned in the logs. As there is no coherence between the log content and the natural language description, the label is determined to be False.\n\nLabel: False"
+ ],
+ [
+  48,
+  "0",
+  "Reason: The log message indicates that the RSVP Hello neighbor is resumed, while the natural language description talks about OAM on the egress detecting that the LSP was unavailable. These two pieces of information are unrelated and do not match, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  49,
+  "1",
+  "Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a PAF LCS inconsistency where the available value exceeded the maximum value, while the description talks about the actual value exceeding the maximum value defined in the PAF license file. These two pieces of information are not related or coherent, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  50,
+  "1",
+  "Reason: The log message indicates the clearing of a quiet max user alarm on a port, with details such as UserType, IfName, Threshold, UserNum, Lower Threshold, and Upper Threshold. The natural language description explains that the alarm indicating the maximum number of users in a quiet state on the interface was cleared. Both the log and description focus on the alarm being cleared after reaching a certain threshold of users in a quiet state on the interface.\nLabel: True"
+ ],
+ [
+  51,
+  "0",
+  "Reason: The log message indicates that the number of TCP or UDP sessions toward the IP address is normal, while the natural language description talks about receiving the first incorrect LSA within a specific time frame and the suppression measures for packet error types. These two pieces of information are unrelated and do not correspond to each other.\nLabel: False"
+ ],
+ [
+  52,
+  "0",
+  "Reason: The log message mentions the total loss of link bandwidth with specific parameters such as TrunkIndex, TrunkIfIndex, TrunkId, TrunkName, and ReasonCode, while the natural language description talks about a far-end fault being rectified by TP OAM. There is a lack of coherence and consistency between the log message and the description, indicating a mismatch between the two pieces of information.\nLabel: False"
+ ],
+ [
+  53,
+  "0",
+  "Reason: The log message mentions an optical module being invalid and working abnormally, while the natural language description talks about the optical module being removed. There is a lack of coherence and consistency between the log content and the description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  54,
+  "1",
+  "Reason: The log message mentions that the current socket did not exist and provides details such as TaskName, Socket, and ProtocolName. The natural language description simply states that the current socket was inexistent, which aligns with the information in the log message.\nLabel: True"
+ ],
+ [
+  55,
+  "0",
+  "Reason: The log message indicates the completion of the RDB configuration restoration process, including details such as the time taken, result, and the number of failed nodes. The natural language description, on the other hand, talks about the user needing to confirm an active/standby switchover, which is unrelated to the RDB restoration process. These two pieces of information do not align in terms of content and context.\nLabel: False"
+ ],
+ [
+  56,
+  "0",
+  "Reason: The first log message mentions the blocking of AC interfaces due to MAC-Flapping association, while the second log message talks about the OSPF process exiting from GR after a back link check failure. These two pieces of information are unrelated and do not share any common context or content.\nLabel: False"
+ ],
+ [
+  57,
+  "1",
+  "Reason: The log message mentions flooding TE resource information for a TE-Class change event, while the natural language description simply states that TE resources were flooded when TE-Class changed. Both the log message and the description are related to TE resources and TE-Class changes, indicating a potential match between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  58,
+  "0",
+  "Reason: The natural language description does not accurately reflect the content of the logs. The log message indicates a password expiration for a specific user, while the description talks about an authorization entry aging out and containing a session ID. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  59,
+  "1",
+  "Reason: The log message indicates that the Global LLDP is enabled, while the description mentions that a notification is sent to the NMS when LLDP is enabled globally. Both pieces of information are related to the enabling of LLDP, indicating coherence between the log content and the natural language description.\nLabel: True"
+ ],
+ [
+  60,
+  "1",
+  "Reason: The logs mention LSPM notifying HA about the completion of a batch backup, which is consistent with the natural language description provided. Both the log message and the description refer to the same event of the batch backup being finished and HA being notified about it.\nLabel: True"
+ ],
+ [
+  61,
+  "1",
+  "Reason: The log message indicates the detection of a new DHCP server with specific server information such as IP Address, MAC Address, and Interface. The natural language description succinctly summarizes this by stating that a new DHCP server was discovered, aligning with the content of the logs.\nLabel: True"
+ ],
+ [
+  62,
+  "0",
+  "Reason: The log message mentions the resumption of a misorder packet alarm in PWE3, providing details such as OID, IfIndex, VcId, VcType, PeerAddress, and InterfaceName. The natural language description, on the other hand, talks about receiving an LSP with specific characteristics related to IS-IS. There is a lack of coherence and consistency between the log content and the description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  63,
+  "0",
+  "Reason: The log message indicates the deletion of an IPSec policy with specific parameters such as SeqNum, PolicyName, and VsysName. On the other hand, the natural language description talks about information logged regarding an attack packet, which is unrelated to the IPSec policy deletion mentioned in the logs. As there is no correspondence between the log content and the natural language description, the label is determined to be False.\nLabel: False"
+ ],
+ [
+  64,
+  "1",
+  "Reason: The log message indicates that an NQA jitter test has been completed with various parameters such as OwnerIndex, TestName, RTT values, PacketOutOfSequences, Errors, etc. The natural language description mentions that the test has succeeded. The description does not provide additional context or details about the test results, but it aligns with the completion of the test as indicated in the log message.\n\nLabel: True"
+ ],
+ [
+  65,
+  "1",
+  "Reason: The log message indicates that a specific security zone has a normal number of sessions for a particular protocol, and the number of connections entering the zone is within the allowed range. The natural language description succinctly summarizes this by mentioning the restoration of the number of connections to the allowed range.\nLabel: True"
+ ],
+ [
+  66,
+  "1",
+  "Reason: The log message indicates that a slot failed to autoload, while the natural language description mentions that an LPU fails to be automatically loaded. Both the log and description refer to a failure in the automatic loading process, indicating a potential match between the two.\nLabel: True"
+ ],
+ [
+  67,
+  "0",
+  "Reason: The natural language description \"The working mode of the system clock changed\" does not correspond to the log message \"When deciding whether to delete [configuration] configuration, the user chose YES.\" There is no connection between the user's decision regarding deleting a configuration and the change in the system clock's working mode, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  68,
+  "1",
+  "Reason: The log message and the natural language description both mention the enabling of L2TP, indicating a direct correlation between the two pieces of information. This coherence suggests that the description accurately reflects the content of the logs.\nLabel: True"
+ ],
+ [
+  69,
+  "1",
+  "Reason: The log message indicates that an AP is committed over, with specific details such as APMAC, APName, and APID. The natural language description simply states that the AP configuration was committed. Both the log and the description refer to the AP configuration being finalized or completed in some way, indicating a potential match.\nLabel: True"
+ ],
+ [
+  70,
+  "0",
+  "Reason: The log message mentions a decision-making process regarding switching the active main board to the standby main board in a specific slot, while the natural language description states that the communication with the RADIUS accounting server is resumed. There is no direct connection between the decision-making process mentioned in the log and the resumption of communication with the RADIUS accounting server.\nLabel: False"
+ ],
+ [
+  71,
+  "1",
+  "Reason: The log message indicates that LSPM was notified of a TE-Class change event, while the natural language description elaborates on the specific scenario of Label Switched Path Management being notified when TE-Class changes. Both the log and the description are coherent and consistent in terms of the event being notified to LSPM, indicating a match between the two.\nLabel: True"
+ ],
+ [
+  72,
+  "0",
+  "Reason: The first log message indicates an abnormality in data synchronization, while the natural language description talks about a faulty link between service interfaces causing the standby device to not receive VRRP advertisement packets. These two pieces of information are unrelated and do not align in terms of the issue being described.\nLabel: False"
+ ],
+ [
+  73,
+  "0",
+  "Reason: The natural language description \"The storm control function in a specified BD or VLAN fails to be delivered because the resource pool is fully occupied.\" does not match the information conveyed in the log message \"OSPF [process-id] finished flooding of AS-external LSAs.\" There is no coherence or consistency between the log content and the natural language description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  74,
+  "1",
+  "Reason: The log message mentions a power supply resume with specific indexes, physical names, and trap fault ID, indicating a recovery from a power failure. The natural language description talks about the device recovering from a power supply failure, which aligns with the information provided in the log message.\nLabel: True"
+ ],
+ [
+  75,
+  "0",
+  "Reason: The first log message indicates a DNS query timeout with specific query information, server address, host name, VPN name, and timeout duration. The second natural language description talks about the user entering two different passwords. There is no correlation between the DNS query timeout event and the user password entry event mentioned in the logs and description.\nLabel: False"
+ ],
+ [
+  76,
+  "1",
+  "Reason: The log message indicates that a board exited from the master state, mentioning specific parameters such as EntityPhysicalIndex, EntPhysicalIndex, and EntityType. The natural language description further explains that the master/slave board switchover was performed, which aligns with the concept of a board leaving the master state.\nLabel: True"
+ ],
+ [
+  77,
+  "0",
+  "Reason: The log message mentions the result of user information authentication, while the natural language description talks about the successful destruction of the DSA host key. These two pieces of information are unrelated and do not provide any coherence or consistency between the log message and the description.\nLabel: False"
+ ],
+ [
+  78,
+  "0",
+  "Reason: The log message indicates that the number of access users has reached the upper limit on the device, while the natural language description talks about the total number of SR Policy resources exceeding the maximum allowed. These two pieces of information are unrelated and do not correspond to each other, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  79,
+  "1",
+  "Reason: The log message indicates that the OSPF backup process received a specific event from the RM with a parameter SlaveHsbState. The natural language description summarizes this event as OSPF receiving a backup event from the RM. Both the log message and the description are related to OSPF events and mention the RM, indicating coherence and consistency.\nLabel: True"
+ ],
+ [
+  80,
+  "0",
+  "Reason: The log message mentions the user choosing whether to execute a command, while the natural language description talks about deleting link members. There is a disconnect between the action described in the log and the action mentioned in the description, indicating a lack of relevance.\nLabel: False"
+ ],
+ [
+  81,
+  "1",
+  "Reason: The log message mentions an AP cold boot with specific details such as AP MAC, AP TYPE, AP Sys Name, AP SysTime, AP Alarm name, and APID. The natural language description simply states that the AP is cold started and reconnects to the AC after being disconnected due to power-off. Despite the slight difference in wording, the core information about the AP undergoing a cold boot and reconnecting successfully is consistent between the log and the description, indicating a match.\nLabel: True"
+ ],
+ [
+  82,
+  "0",
+  "Reason: The log message indicates a successful backup of the cached URL category, while the natural language description mentions the expiration of a CA certificate, which are unrelated events. The content of the logs and the description do not align in terms of the actions taken or the events described.\nLabel: False"
+ ],
+ [
+  83,
+  "1",
+  "Reason: The log message indicates a VRRP authentication failure, specifically mentioning the authentication source and error type. The natural language description further explains that the authentication mode or key of the received VRRP packets was inconsistent with that on the local device, which aligns with the information provided in the log. Both pieces of information are related to VRRP authentication failure, indicating a match between the log content and the description.\nLabel: True"
+ ],
+ [
+  84,
+  "1",
+  "Reason: The log message indicates that the NR signal becomes weak on specific series (AR6700 and AR8100), providing details such as interface name, SIM-id, and RSRP value. The natural language description further explains that the RSRP of the 5G network becomes weak, which aligns with the information in the log message.\nLabel: True"
+ ],
+ [
+  85,
+  "0",
+  "Reason: The natural language description \"A STA fails to go online for an unknown reason.\" does not provide any relevant information or context related to the log message \"Failed to join the multicast group.\" There is no coherence or consistency between the log content and the natural language description, indicating a mismatch and justifying the False label.\n\nLabel: False"
+ ],
+ [
+  86,
+  "1",
+  "Reason: The log message mentions OSPF quitting stub router state by undoing stub, while the natural language description talks about the local device leaving the Stub state. Both pieces of information seem to be related to OSPF and the state of the router, indicating potential relevance.\nLabel: True"
+ ],
+ [
+  87,
+  "0",
+  "Reason: The log message indicates a user login error with specific user and IP address information, while the natural language description talks about the SFTP server recording the log when receiving an SSH protocol request from the client. These two pieces of information are related to user login errors but focus on different aspects of the event.\nLabel: False"
+ ],
+ [
+  88,
+  "1",
+  "Reason: The log message indicates the reception of an RPC request with specific details such as user name, source address, destination address, VPN name, session ID, length, fragment index, and RPC request. The natural language description simply states that an RPC request packet was received, which aligns with the content of the logs.\nLabel: True"
+ ],
+ [
+  89,
+  "0",
+  "Reason: The log message indicates a successful deletion of an OCSP certificate file, while the natural language description talks about recording configuration restoration information. These two pieces of information are not coherent or consistent, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  90,
+  "1",
+  "Reason: The log message indicates a failure to obtain a certificate using LDAP and provides specific parameters such as hwLdapIP, hwLdapPort, hwCertAttribute, hwCertDN, hwLdapVersion, and hwCertSaveName. The natural language description also mentions the failure to obtain a certificate using LDAP, aligning with the content of the log message.\nLabel: True"
+ ],
+ [
+  91,
+  "1",
+  "Reason: The log message mentions ISIS T1 timer expiration on a specific interface during ISIS GR, while the natural language description talks about stopping the Level-2 T1 timer on an interface during IS-IS GR. Both messages involve ISIS and timer events, but they refer to different levels and actions.\nLabel: False"
+ ],
+ [
+  92,
+  "0",
+  "Reason: The log message mentions an optical module exception with specific parameters such as portName, reason, and value. The natural language description, on the other hand, talks about the abnormal exit of the OSPF process from the GR helper status, which is unrelated to the optical module exception mentioned in the logs.\nLabel: False"
+ ],
+ [
+  93,
+  "1",
+  "Reason: The log message indicates that the OSPFv3 external route addition was unsuccessful due to reaching the maximum limit, while the description mentions that the maximum number of configurable external routes was reached. Both the log and the description refer to the same event of exceeding the maximum limit for external routes in OSPFv3. The coherence and consistency between the log content and the natural language description suggest a match.\nLabel: True"
+ ],
+ [
+  94,
+  "0",
+  "Reason: The log message indicates a rising SDH B2 error related to hardware interface monitoring, while the natural language description talks about the number of dynamic BGP peer sessions exceeding the maximum limit. These two pieces of information are unrelated, indicating a mismatch between the log content and the natural language description.\nLabel: False"
+ ],
+ [
+  95,
+  "1",
+  "Reason: The log message indicates the generation of an LSA in OSPF, specifying details such as Router ID, LSDB Area ID, LSDB Type, LSDB LSID, and LSDB Router ID. The natural language description explains that a new LSA is generated due to specific events such as interface status changes, OSPF neighbor status changes, or device role changes. These two pieces of information are related and coherent, indicating a match between the log content and the description.\n\nLabel: True"
+ ],
+ [
+  96,
+  "0",
+  "Reason: The natural language description \"OAM detected a client signal failure.\" does not correspond to the content of the log message \"Network service rejected.\" There is no mention of OAM or client signal failure in the log message, indicating a lack of coherence between the two pieces of information.\nLabel: False"
+ ],
+ [
+  97,
+  "0",
+  "Reason: The log message discusses a neighbor exiting from the restart helper state in OSPF, providing details such as Router ID, Neighbor IP Address, Neighbor Router ID, Restart Helper Status, Restart Helper Age, Exit Reason, and Area ID. The natural language description, on the other hand, talks about resetting an IKE SA, which is unrelated to the OSPF neighbor state change mentioned in the logs.\n\nLabel: False"
+ ],
+ [
+  98,
+  "0",
+  "Reason: The log message indicates that the file collection is incomplete during the collection period, mentioning specific parameters such as FileIndex and FileName. The natural language description, on the other hand, talks about failing to verify the configuration with the remote device, which is unrelated to the incomplete file collection mentioned in the logs. There is a lack of coherence between the log content and the description.\nLabel: False"
+ ],
+ [
+  99,
+  "0",
+  "Reason: The log message \"New IPSec connection can not be established due to system memory shortage\" clearly indicates an issue with system memory shortage affecting the establishment of a new IPSec connection. On the other hand, the natural language description \"Failed to add the specified interface to the list of NAT-PT interfaces\" talks about a different issue related to adding interfaces to a list. There is a lack of coherence and consistency between the log content and the natural language description, indicating a mismatch.\nLabel: False"
+ ],
+ [
+  100,
+  "0",
+  "Reason: The first log mentions that TWAMP does not support services on the bound interface, specifically referencing the SessionId. The second description talks about the server failing to allocate an IP address to a remote branch from different sources. These two pieces of information do not seem to be related as they address different issues.\nLabel: False"
+ ]
+]
