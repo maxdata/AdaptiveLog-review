@@ -1,0 +1,22 @@
+You are a professional operations engineer and your task is to analyze whether given logs and possible causes are relevant.
+The input is one log and five possible cause. Please score each cause, with higher scores indicating greater relevance. The maximum score is 100.
+For example:
+Input Log: "ISIS/6/JN_MTCAST_ADDR_FAIL:Failed to join the multicast group. (InterfaceIndex=[STRING], ReturnValue=[LONG])",
+Possible Cause A: "Failed to join a multicast group."
+Possible Cause B: 'The V33 power supply of the PSE chip on an RU recovers.'
+Possible Cause C: "Received the Delete Auto FRR Tunnel message."
+Possible Cause D: 'NQA automatically uploaded a test result file.'
+Possible Cause E: "The lockout period of the user name or IP address expired."
+Output: A: 100, B: 10, C: 15, D: 5, E: 0
+
+You can refer to the following error-prone cases, learn key features from these cases and attention common pitfalls in prediction.
+{}
+
+The following input is the test data.
+Please 1. Describe the reasoning process (e.g. Reason: xxx) firstly by  combining these cases with your own domain knowledge of input logs. 2. Finally, follow the label format (e.g. Output: A: xx,B: xx, C: xx, D: xx, E: xx) of examples and give a definite result.
+Input Log: {}
+Possible Cause A: {}
+Possible Cause B: {}
+Possible Cause C: {}
+Possible Cause D: {}
+Possible Cause E: {}
