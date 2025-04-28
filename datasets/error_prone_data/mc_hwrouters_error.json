@@ -1,0 +1,194 @@
+[
+ [
+  "RM",
+  "VSTM",
+  "RIPNG",
+  "MGMD",
+  "MSTP",
+  "SECLOG",
+  "RSVP",
+  "PORT",
+  "OSPF",
+  "PKI"
+ ],
+ [
+  [
+   "[MASK]/3/NOTIFY_ISIS_MSG:RM notified ISIS of the status [ldp-session] of the LDP session on the [interface-name]."
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/6/RIPNG_INVALID_MTU: RIPng could not run on interface [Interface] with the MTU as [MTU]."
+  ],
+  2
+ ],
+ [
+  [
+   "[MASK]/3/REACH_LIC_LIMIT:The number of CR-LSPs reached the upper limit of Paf/License."
+  ],
+  6
+ ],
+ [
+  [
+   "[MASK]/3/REACH_PSB_MAXNUM:Reached the maximum of PSBs. (MaxNumber=[ULONG])"
+  ],
+  6
+ ],
+ [
+  [
+   "[MASK]/2/hwMstpProRootShake_active: The root bridge role flapped. (ProcessID=[ProcessID], InstanceID=[InstanceID])"
+  ],
+  4
+ ],
+ [
+  [
+   "[MASK]/6/RIPNG_ADD_RTE_FAILED: Because of unsuccessful validation, routes not added to database. (Destination=[DestinationIP], Interface=[Interface], ProcessId=[ProcessID])."
+  ],
+  2
+ ],
+ [
+  [
+   "[MASK]/6/CONFIRM_Y:The operation of [STRING]: A userinput \"Yes\" to confirm the operation."
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/6/ISSU_COMP: RIPng finished PAF comparison.The upgrade type is [upgradetype]."
+  ],
+  2
+ ],
+ [
+  [
+   "[MASK]/3/ADDHOSTRT_TBL_LMT:The number of routes in URTreached the maximum when a direct route was added to URT. (DestinationAddress=[STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/6/FREEZE_RECOVER:The number of routes reached the lower threshold, and thus RIPng process [process-id] recovered from the suspension state and resumed processing packets."
+  ],
+  2
+ ],
+ [
+  [
+   "[MASK]/6/HANDLE_ADD_IPMSG:RM IM received the event of adding an IP address. (IpAddress=[string], Mask=[string], Interface=[string])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/3/hwMgmdHostSGThresholdExceed:OID [oid] IGMP orMLD total (S, G) entries on the host side of all instances count reachedthe upper threshold. (hwMgmdNotificationAddressType=[integer], hwMgmdHostSGCurrentCount=[integer],hwMgmdHostSGThreshold=[integer]%,hwMgmdHostSGTotalCount=[integer])"
+  ],
+  3
+ ],
+ [
+  [
+   "[MASK]/4/EEM_ROUTEINFO_CHG: The routing item changed. (detectorId=[DetectorId], network=[Network], mask=[Mask], type=[Type], protocol=[Protocol], nexthop=[Nexthop], interface=[Interface], preference=[Perf], cost=[Cost])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/3/RECONSTRUCT_LSP_FAIL:Cannotreconstruct RSVP states for LSP. (EgressAddress=[STRING], SessionId=[USHORT], IngressAddress=[STRING], LspId=[USHORT])"
+  ],
+  6
+ ],
+ [
+  [
+   "[MASK]/4/BLS_DEL:The IP address was removed from blacklist. (IpAddress=[STRING])"
+  ],
+  5
+ ],
+ [
+  [
+   "[MASK]/3/GLBLIMIT:OID [oid] Membership report messageis discarded because the total IGMP or MLD group membership limitationis exceeded in all instances. (GroupAddressType=[integer], SrcAddr=[binary],GrpAddr=[binary], LimitCnt=[integer])"
+  ],
+  3
+ ],
+ [
+  [
+   "[MASK]/3/hwMgmdHostStarGThresholdExceedClear:OID [oid]IGMP or MLD total (*, G) entries on the host side of all instancescount fell below the lower threshold. (hwMgmdNotificationAddressType=[integer],hwMgmdHostStarGCurrentCount=[integer], hwMgmdHostStarGThreshold=[integer]%,hwMgmdHostStarGTotalCount=[integer])"
+  ],
+  3
+ ],
+ [
+  [
+   "[MASK]/6/HANDLE_ADDED_IPMSG:RM IM processed the event of adding an IP address successfully. (IpAddress=[string], Mask=[string], Interface=[string])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/4/BPDU_PROTECTION:This edged-port [port-name]that enabled BPDU-Protection will be shutdown, because it receivedBPDU packet!"
+  ],
+  4
+ ],
+ [
+  [
+   "[MASK]/3/hwmgmdgmpgloballimitclear:OID[oid] The new report message can be processed because the number ofIGMP or MLD group memberships in this instance falls below the upperlimit. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary],LimitCnt=[integer], InstanceName=[string])"
+  ],
+  3
+ ],
+ [
+  [
+   "[MASK]/6/HANDLE_DEL_IPMSG:RM IM received the event of deleting an IP address. (IpAddress=[string], Mask=[string], Interface=[string])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/3/MEMORY_ALLOC_FAILED:Failed to allocate memory, please pay attention to the log of system!"
+  ],
+  5
+ ],
+ [
+  [
+   "[MASK]/4/BIND_CLEAR:MAC address binding table was cleared."
+  ],
+  5
+ ],
+ [
+  [
+   "[MASK]/2/hwIfMonitorBadBytesErrorRising_clear: The bytes of error packets fall below the upper threshold. (hwIfMonitorIndex=[hwIfMonitorIndex], hwIfMonitorBadBytesErrorStatistics=[hwIfMonitorBadBytesErrorStatistics], hwIfMonitorBadBytesErrorThreshold=[hwIfMonitorBadBytesErrorThreshold], hwIfMonitorBadBytesErrorInterval=[hwIfMonitorBadBytesErrorInterval], hwIfMonitorName=[hwIfMonitorName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs."
+  ],
+  7
+ ],
+ [
+  [
+   "[MASK]/2/hwMstpProRootLost_active: The bridge loses the position of root bridge. (ProcessID=[ProcessID], InstanceID=[InstanceID], ProInstRootType=[ProInstRootType])"
+  ],
+  4
+ ],
+ [
+  [
+   "[MASK]/3/MAX_LOGIF_REACH_F:The number of RIPng configurable logical interfaces reached the maximum value. (ProcessId=[ULONG])"
+  ],
+  2
+ ],
+ [
+  [
+   "[MASK]/2/RM_NHM_RESTRAIN_CLEAR:OID [oid] Cyclic iterationsuppression was removed. (Type=[Integer], key=[Integer])"
+  ],
+  0
+ ],
+ [
+  [
+   "[MASK]/3/hwmgmdgmptotallimitclear:OID[oid] The new report message can be processed because the total IGMPor MLD group memberships in all instances falls below the upper limit.(GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], LimitCnt=[integer])"
+  ],
+  3
+ ],
+ [
+  [
+   "[MASK]/2/hwPKIDBUnavailable_active: The PKI database is unavailable. (Reason=[hwPKIDBFailDesp])"
+  ],
+  9
+ ],
+ [
+  [
+   "[MASK]/6/BACKUP_LENGTH_ERR:The data length was unidentifiable in the restoration process. (Type=[STRING], Length=[USHORT])"
+  ],
+  8
+ ]
+]
