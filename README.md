@@ -104,6 +104,17 @@ Note, for software logs downstream tasks, we collect datasets from [LogHub](http
 
 
 
+## Additional Documentation
+
+For deeper design and operations details, see the docs below:
+
+- Architecture and workflow: `docs/ARCHITECTURE.md`
+- Small model (SentenceTransformer) usage: `docs/SLM.md`
+- LLM integration and Error‑prone Case Retrieval (ECR): `docs/LLM_ECR.md`
+- Uncertainty routing with MC‑Dropout: `docs/UNCERTAINTY_ROUTING.md`
+- Prompt and token minification strategies: `docs/PROMPT_MINIFICATION.md`
+- Cost, latency, and accuracy trade‑offs: `docs/TRADEOFFS.md`
+
 ## License
 MIT License
 
